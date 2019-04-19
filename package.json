@@ -1,0 +1,24 @@
+{
+  "name": "www.ginvoicing.com",
+  "version": "1.0.0",
+  "description": "www.ginvoicing on jekyll",
+  "main": "index.js",
+  "dependencies": {
+    "cssshrink": "0.0.5",
+    "semantic-ui": "^2.2.13"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@labs.izap.in:tarunjangra/www.ginvoicing.com.git"
+  },
+  "keywords": [
+    "jekyll",
+    "blog"
+  ],
+  "author": "Tarun Jangra",
+  "license": "ISC",
+  "devDependencies": {}
+}

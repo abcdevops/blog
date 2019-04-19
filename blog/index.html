@@ -1,0 +1,133 @@
+---
+layout: index
+title: Official Blog
+date: 2017-10-10 10:30:33 +0530
+id: blog
+permalink: /blog/index.html
+description: |
+ GST means Goods and Services Tax which is an indirect tax introduced in India on 1 July 2017. Keep reading our latest blog posts.
+keywords:
+- GInvoicing
+- GST Ready Invoicing Solution
+- GST Billing software
+- Blog
+- GST Benefits
+- GST Advantages
+- GST Disadvantages
+---
+
+<section class="blog-banner">
+        <div class="ui container">
+        <div class="blog-title">
+            <h1><i class="comments outline icon"></i>Blog</h1>
+        </div>
+        </div>
+    </section>
+
+    <section class="blog-list">
+        <div class=" ui container">
+            <div class="featured-header-main">
+            <h2>Recent Stories</h2>
+            </div>
+
+            <div class="ui grid ">
+                <div class="stackable mobile three column row">
+                    {% for post in paginator.posts %}
+                <div class="column blog-list-box">
+                    {% if post.og_image %}
+                    <a href="{{ post.url }}"></a>
+                    <img src="{{ post.og_image }}">
+                    <div class="top-title">
+                        <a href="{{ post.url }}#disqus_thread">0 comments</a>
+                    </div>
+                    <div class="blog-heading">
+
+                        <h2>{{ post.title }}</h2>
+                    </div>
+                    <div class="bottom-description">{{ post.content | count_words }} words
+                        {% capture time %}{{ post.content | reading_time }}{% endcapture %}
+                        {% if time == '1' %}
+                        a minute
+                        {% else %}
+                        {% case time %}
+                        {% when '2' %}
+                        two
+                        {% when '3' %}
+                        three
+                        {% when '4' %}
+                        four
+                        {% when '5' %}
+                        five
+                        {% else %}
+                        {{ time }}
+                        {% endcase %}
+                        minutes
+                        {% endif %}
+                        to read
+                    </div>
+                    {% endif %}
+                </div>
+                    {% endfor %}
+                </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="top-stories">
+            <div class="ui container">
+                <div class="ui grid ">
+                    <div class="featured-header-main">
+                        <h2>Featured Stories</h2>
+                    </div>
+                    <div class="stackable mobile three column row">
+                        {% assign posts = paginator.posts  %}
+                        {% for post in posts %}
+                        {% if post.top_story %}
+
+                        <div class="column blog-list-box">
+                            {% if post.og_image %}
+                            <a href="{{ post.url }}"></a>
+                            <img src="{{ post.og_image }}">
+                            <div class="top-title">
+                                <a href="{{ post.url }}#disqus_thread">
+                                <i class="comments outline icon"></i>
+                                comments</a>
+                            </div>
+                            <div class="blog-heading">
+                                <h2>{{ post.title }}</h2>
+                            </div>
+                            <div class="bottom-description"> {{ post.content | count_words }} words
+                                {% capture time %}{{ post.content | reading_time }}{% endcapture %}
+                                {% if time == '1' %}
+                                a minute
+                                {% else %}
+                                {% case time %}
+                                {% when '2' %}
+                                two
+                                {% when '3' %}
+                                three
+                                {% when '4' %}
+                                four
+                                {% when '5' %}
+                                five
+                                {% else %}
+                                {{ time }}
+                                {% endcase %}
+                                minutes
+                                {% endif %}
+                                to read
+                            </div>
+                            {% endif %}
+                        </div>
+                        {% endif %}
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
+    </section>
+<script id="dsq-count-scr" src="//www-ginvoicing-com.disqus.com/count.js" async="async"></script>

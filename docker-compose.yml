@@ -1,0 +1,22 @@
+version: '3.3'
+networks:
+    givpcbr:
+        driver: bridge
+        ipam:
+          driver: default
+          config:
+          - subnet: 10.6.0.0/24
+services:
+    giwww:
+        image: tarunjangra/gi-www:latest
+        environment: 
+            - JEKYLL_ENV=production
+        container_name: gi-www
+        ports:
+            - 80:80
+        entrypoint : "/usr/sbin/nginx -g \"daemon off;\""
+        volumes:
+            - ./:/home/jekyll/www
+        networks:
+            givpcbr:
+                ipv4_address: 10.6.0.2
