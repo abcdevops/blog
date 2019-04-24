@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Invoice Management
+title: Amazon Cloud Front
 date: 2017-06-14 11:30:45
 top_story: true
 tags: 
@@ -8,7 +8,7 @@ tags:
  - templates
  - GST Formatted
 class: blogs_inner
-og_image: /images/invoice-og.jpg
+og_image: /images/fourth.jpg
 main_image: /images/invoice-main.png
 description: |
   GI provides various templates that you can use.This includes templates for quotes, invoices, emails. Templates allows you to portray information in a sleek and presentable manner.

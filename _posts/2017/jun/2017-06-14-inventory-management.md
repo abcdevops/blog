@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Inventory Management"
+title: "Amazon Storage Gateway"
 date: 2017-06-14 10:30:33
 top_story: true
 class: blogs_inner
@@ -10,7 +10,7 @@ tags:
  - sale
  - reports
  - blog
-og_image: /images/inventory-og.jpg
+og_image: /images/fifth.jpg
 main_image: /images/inventory-main.png
 description: |
   On analyzing and understanding the needs of entrepreneurs, our customers and the ever changing market, we came to know that one of the core foundations of developing a business is proper inventory management.

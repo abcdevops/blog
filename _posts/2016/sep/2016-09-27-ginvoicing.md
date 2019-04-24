@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "GInvoicing: Making invoicing easy and fun"
+title: "Amazon DynamoDB"
 date: 2016-09-27 10:30:33
 class: blogs_inner
 tags: 
  - GInvoicing
  - blog
  - GST
-og_image: /images/ginvoicing-og.jpg
+og_image: /images/sixth.jpg
 main_image: /images/ginvoicing-main.jpg
 top_story: true
 description: |
