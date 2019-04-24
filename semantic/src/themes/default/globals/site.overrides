@@ -22,13 +22,7 @@ footer{
 footer .gst-help-desk large{
  font-size:25px;
 }
-.inner-canvas li, .categories-side li, .aside-fx li{
-        padding-left:20px!important;
-}
-.inner-canvas li::before, .categories-side li::before, .aside-fx li::before {
-        content:"\f111"!important;
-        font-size:7px;
-}
+
 /*media rule on tab and desktop */
 @media(min-width:991px){
         .top-bar-menu .ui.grid .sign-up-set{
