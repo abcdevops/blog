@@ -1,7 +1,7 @@
 {
-  "name": "www.ginvoicing.com",
+  "name": "www.abcdevops.com",
   "version": "1.0.0",
-  "description": "www.ginvoicing on jekyll",
+  "description": "www.abcdevops on jekyll",
   "main": "index.js",
   "dependencies": {
     "cssshrink": "0.0.5",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@labs.izap.in:tarunjangra/www.ginvoicing.com.git"
+    "url": "git@labs.izap.in:tarunjangra/www.abcdevops.com.git"
   },
   "keywords": [
     "jekyll",

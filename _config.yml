@@ -1,11 +1,11 @@
-name: ginvoicing.com
-url: https://www.ginvoicing.com
-title: "GInvoicing: GST Ready invoicing solution"
+name: abcdevops.com
+url: https://www.abcdevops.com
+title: "abcdevops: GST Ready invoicing solution"
 author:
-  name: "GInvoicing"
-  email: support@ginvoicing.com
-description: "GInvoicing: GST Ready invoicing solution"
-copyright: "(c) GInvoicing, 2016"
+  name: "abcdevops"
+  email: support@abcdevops.com
+description: "abcdevops: GST Ready invoicing solution"
+copyright: "(c) abcdevops, 2016"
 encoding: utf-8
 timezone: Asia/Calcutta
 markdown: kramdown
@@ -56,7 +56,7 @@ related:
 
 # jekyll-feed
 feed:
-  title: GInvoicing.com
+  title: abcdevops.com
   subtitle: Business, TAX, GST Blog
   path: rss.xml
 

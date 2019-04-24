@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
-  <ShortName>GInvoicing</ShortName>
-  <Description>search ginvoicing.com</Description>
+  <ShortName>abcdevops</ShortName>
+  <Description>search abcdevops.com</Description>
   <Tags>Invoicing Billing Software Cloud Online</Tags>
   <Contact>me@tarunjangra.com</Contact>
-  <Url type="application/atom+xml" template="https://www.ginvoicing.com/?q={searchTerms}&amp;format=atom"/>
-  <Url type="application/rss+xml" template="https://www.ginvoicing.com/?q={searchTerms}&amp;format=rss"/>
-  <Url type="text/html" template="https://www.ginvoicing.com/?q={searchTerms}"/>
-  <LongName>GInvoicing: GST Billing Software</LongName>
-  <Image height="128" width="128" type="image/png">https://www.ginvoicing.com/favicon.ico</Image>
-  <Developer>GInvoicing Dev Team</Developer>
-  <Attribution>Copyright 2017, GInvoicing, All Rights Reserved</Attribution>
+  <Url type="application/atom+xml" template="https://www.abcdevops.com/?q={searchTerms}&amp;format=atom"/>
+  <Url type="application/rss+xml" template="https://www.abcdevops.com/?q={searchTerms}&amp;format=rss"/>
+  <Url type="text/html" template="https://www.abcdevops.com/?q={searchTerms}"/>
+  <LongName>abcdevops: GST Billing Software</LongName>
+  <Image height="128" width="128" type="image/png">https://www.abcdevops.com/favicon.ico</Image>
+  <Developer>abcdevops Dev Team</Developer>
+  <Attribution>Copyright 2017, abcdevops, All Rights Reserved</Attribution>
   <Query role="example" searchTerms="java"/>
   <SyndicationRight>open</SyndicationRight>
   <AdultContent>false</AdultContent>
