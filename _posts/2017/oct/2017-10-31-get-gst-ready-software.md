@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Get GST-Ready Software Now
+title: Amazon Lambda
 date: 2017-10-31 01:39:14
 tags: 
  - GST
  - GST Ready
  - GST Tax
 class: blogs_inner
-og_image: /images/gst-ready-software.png
+og_image: /images/second.png
 main_image: /images/gst-ready-software2.png
 description: |
   we at GInvoicing management are dedicated to help you with you.

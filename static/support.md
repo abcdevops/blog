@@ -10,15 +10,15 @@ description: |
 ---
 ### Do I need to install any software on my server or desktop?
 {: .question}
-No. Ginvoicing is a web-based electronic billing product accessible anywhere in the world where you have an Internet connection and standard web browser.
+No. abcdevops is a web-based electronic billing product accessible anywhere in the world where you have an Internet connection and standard web browser.
 
 ### Do I need my own SSL certificate?
 {: .question}
-No, we supply the SSL 256-Bit Encryption through www.ginvoicing.com. Which is highly secure to protect your data.
+No, we supply the SSL 256-Bit Encryption through www.abcdevops.com. Which is highly secure to protect your data.
 
 ### I'm looking to switch. Can I import my stuff?
 {: .question}
-Yes, you can import customers and Invoices in GInvoicing system from a standard CSV (comma separated values) file. You can see format of CSV files by Signing In GInvoicing.
+Yes, you can import customers and Invoices in abcdevops system from a standard CSV (comma separated values) file. You can see format of CSV files by Signing In abcdevops.
 
 ### Is my data safe and secure?
 {: .question}
@@ -26,7 +26,7 @@ Yes. The security and up-time of your store is our #1 priority. We are PCI compl
 
 ### How do my clients receive their invoices?
 {: .question}
-You can send your invoices as a PDF, an HTML email, a text email with a link to the invoice on GInvoicing's secure server. You can also print hard copy of invoice which is not recommended. That's why we call it Green Invoicing.
+You can send your invoices as a PDF, an HTML email, a text email with a link to the invoice on abcdevops's secure server. You can also print hard copy of invoice which is not recommended. That's why we call it Green Invoicing.
 
 ### Do you have mobile application?
 {: .question}

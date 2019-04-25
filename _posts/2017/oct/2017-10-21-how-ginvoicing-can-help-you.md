@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Learn How GInvoicing Can Help You
+title: Amazon S3
 date: 2017-10-21 01:39:14
 tags: 
  - GST
  - GInvoicing
  - GST India
 class: blogs_inner
-og_image: /images/how-gi-help-you.png
+og_image: /images/third.jpg
 main_image: /images/how-gi-help-you2.png
 description: |
   we at GInvoicing management are dedicated to help you with you.
