@@ -4,9 +4,6 @@ title: Amazon Cloud Front
 date: 2017-06-14 11:30:45
 top_story: true
 tags: 
- - invoice
- - templates
- - GST Formatted
 class: blogs_inner
 og_image: /images/fourth.jpg
 main_image: /images/invoice-main.png

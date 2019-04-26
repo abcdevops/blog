@@ -1,5 +1,6 @@
 @import "https://fonts.googleapis.com/css?family=Open+Sans:300,400,600";
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700');
+/*layout css*/
 main > header{background:linear-gradient(to bottom, rgb(224, 224, 224) 0%,rgb(255, 255, 255) 44%); position: relative;}
 main > header .ui.inverted.menu{background:transparent;font-family:'Open Sans',sans-serif}
 main > header .ui.inverted.menu > .item > img{min-width:269px}
@@ -56,7 +57,7 @@ footer a:hover,footer i:hover{color:#f08422}
 .blog-title-detail h1 small{display:block}
 .blog-list-box{position:relative;position:relative;overflow:hidden}
 .blog-list-box img{width:100%;max-width:100%;min-height:100%;max-height:330px;width:auto;min-width:100%}
-.blog-list-box .top-title{position:absolute;right:0;transition:.3s all;top:0;background-color:#333333;width:92%;left:0;padding:10px 0;margin:auto;text-align:right;font-size:18px;color:#fff;height:13%;padding-right:20px}
+.blog-list-box .top-title{position:absolute;right:0;transition:.3s all;top:0;background-color:#333333;width:91%;left:0;padding:10px 0;margin:auto;text-align:right;font-size:18px;color:#fff;height:13%;padding-right:20px}
 .blog-heading{position:absolute;width:calc(100% - 32px);top:0;bottom:0;margin:auto;text-align:left;display:flex;padding-left:25px;justify-content:center;flex-direction:column;height:30%;background-color:rgba(255,255,255,0.75)}
 .bottom-description{position:absolute;bottom:31px;transition:.3s all;padding:7px 20px;background-color:#333333;color:#fff}
 .blog-heading h2{border-left:6px solid #333333;transition:.3s all;text-align:left;text-transform:uppercase;color:#000;padding:10px 0 10px 20px;text-align:left; font-size: 1.4rem;}
@@ -74,7 +75,7 @@ footer a:hover,footer i:hover{color:#f08422}
 .top-stories .blog-list-box::before{content:"";width:calc(100% - 32px);height:100%;box-shadow:0 0 36px rgba(0,0,0,0.51);display:block;position:absolute;top:0;z-index:0}
 .top-stories + div .featured-header-main{margin-top:100px}
 .blog-list label:hover{cursor:pointer}
-.blog-list-box a{width:93%;height:100%;cursor:pointer;position:absolute;z-index:11111;display:block}
+.blog-list-box a{width:93%;height:100%;cursor:pointer;position:absolute;top:5px;z-index:2;display:block}
 .blog-detial-statusbar{background-color:#f08422;color:#fff;padding:30px 0 23px;font-size:15px;font-family:'Open Sans',sans-serif}
 .blog-detial-statusbar a{color:#fff}
 .blog-detial-statusbar span{font-size:20px}
@@ -154,16 +155,8 @@ footer a:hover,footer i:hover{color:#f08422}
 .sign-up-set a:first-child{background-color:#FF5722;padding:2px 5px;text-transform:uppercase}
 .banner-txt > div h1,.banner-txt > div h2{line-height:60px}
 .banner-txt > div h2{margin:0;font-size:26px;text-transform:uppercase;box-shadow:0 3px #ff5722;color:#000}
-/* .invoicing_made{margin-top:30px}
-.invoicing_made h3{font-size:22px;font-weight:600;color:#ff5722}
-.invoicing_made p{font-size:22px;color:#000} */
 .banner-txt{padding-top:50px!important}
-.buttons-try a{display:inline-block;color:#000;box-shadow:0 -4px #0003 inset;padding:18px 51px;background-color:#E2E2E2;font-size:17px; margin-right:10px;}
-.buttons-try{margin-top:30px}
-.buttons-try a:first-child{background-color:#d9534f;color:#fff;padding:18px 65px;margin-right:10px}
 .laptop-img img{padding-top:35px}
-.buttons-try a:hover{background-color:rgb(0,0,0);color:#fff}
-.buttons-try a:first-child :hover{background-color:rgb(255,87,34)}
 .menu-responsive{margin-top:5px!important;justify-content:flex-end;}
 .inner-child-features{display:inline-block}
 .inner-child-features ul{display:none;position:absolute;text-align:left;background-color:#f08422;z-index:11111;padding:20px 0;box-shadow:0 0 0 4px #12bc6e inset}
@@ -268,7 +261,6 @@ body{background-color:#e77b19}
 .heavy-h4{color:#fff;line-height:25px;margin:0}
 .foot-top{background:#212121}
 .sec-certification{padding:40px 5px}
-.sec-technologies{padding:20px 10px 10px;background:#292929}
 .main-foot{background:#363636;padding:20px}
 .text-white{color:#fff}
 .opcity-effect{opacity:.5}
@@ -286,7 +278,7 @@ body{background-color:#e77b19}
 .m-bt{margin-bottom:50px}
 .grey{opacity:.5}
 .s-bt{margin-bottom:15px}
-.sec-quick-contect{background:#363636;float:left;width:100%}
+.sec-quick-contect{background:#363636;float:left;width:100%;text-align: center;padding: 50px 0}
 .headsec{font-weight:300;font-size:30px;font-family:'Open Sans',sans-serif;border-bottom:1px solid;margin-bottom:20px}
 .sm-pad{padding:0 20px}
 .benefits{background:#753800;border:15px solid #fff;padding:20px}
@@ -318,41 +310,7 @@ body{background-color:#e77b19}
 .hovercontent p{margin-bottom:5px;font-size:12px;color:#fff}
 .hover-img img{border-bottom:dotted 1px #8a8a8a;cursor:help;border-radius:3px;margin-bottom:10px}
 .hover-img:hover .hovercontent{display:block}
-/* foundatyion css */
-.sec-quick-contect{background:#363636}
-header img.ui.image.logo {max-width: 210px;margin-left: 20px;}
-#how iframe {border-top: 10px solid #363636;border-radius: 20px;background-color: #fff;}
-.headsec{font-weight:300;font-size:30px;font-family:'Open Sans',sans-serif;border-bottom:1px solid;margin-bottom:20px;float:left;width:100%}
-.text-center{text-align:center}
-.button{display:inline-block;text-align:center;line-height:1;cursor:pointer;-webkit-appearance:none;transition:background-color .25s ease-out,color .25s ease-out;vertical-align:middle;border:1px solid transparent;border-radius:0;padding:.85em 1em;margin:0 0 1rem 0;font-size:.9rem;background-color:#2199e8;color:#fefefe}
-.m-bt{margin-bottom:50px}
-.sec-technologies{padding:20px 10px 10px!important;background:#292929}
-.headsec{font-weight:300;font-size:30px;font-family:'Open Sans',sans-serif;border-bottom:1px solid;margin-bottom:20px}
-.s-bt{margin-bottom:15px}.grey{opacity:.5}img{max-width:100%;height:auto;-ms-interpolation-mode:bicubic;display:inline-block;vertical-align:middle}
-.font-tinny{font-size:14px}
-footer .degree{display:inline-block;max-width:370px;padding-left:10px}
-footer .certificate{display:inline-block;vertical-align:top}
-footer .certificate a+img{padding-left:5px}
-.font-tinny{font-size:14px}
-.text-white{color:#fff}
-.no-margin-bt{margin-bottom:0}
-.top-bar{padding:.5rem}
-.m-0{margin:0!important}
-footer .col1{padding:40px 0!important}
-.p-0{padding:0!important}
-.bg-img{background-image:url(../images/header-bg.jpg);background-repeat:repeat-x;background-color:#fff;background-position:center}
-#where iframe{float:left;width:100%;border:0;border-radius:0}
-.copyright .social-icons{position:absolute;right:0;top:0}
-.copyright .ui.container{position:relative}
-.copyright .social-icons a{font-size:24px;color:#a7a7a7}#why{background-color:#fff}
-#what .technical li{padding:0}
-#what .technical li::before{display:none}
-h1 {font-size: 1.5rem; }
-h2{font-size:1.25rem}
-h3{font-size:1.1875rem}
-h4{font-size:1.125rem}
-h5{font-size:1.0625rem}
-h6{font-size:1rem}
+
 @media screen and (min-width: 40em) {
     h1{font-size:3rem}
     h2{font-size:2.5rem}
@@ -381,12 +339,10 @@ h6{font-size:1rem}
     .share {right:0; left: inherit; top:190px;}
     footer .degree { max-width: 260px;}
     .hiring img {max-width: 90px;}
-    .sec-technologies{height: 469px!important;}
 }
 @media(max-width:990px) {
     #home .logo {margin-left: 10px; max-width: 170px;}
     .logo-rs{padding-top: 25px!important;}
-    .sec-technologies {height: 859px !important;}
     .hiring img {max-width: 110px;}
     .top-bar-menu a,.help-desk a span{display:inline-block;width:auto}
     .mobile-menu i{color:#e77b19;font-size:21px}
@@ -419,9 +375,18 @@ h6{font-size:1rem}
     .disqus{width:80%}
 }
 @media(max-width:767px) {
-    .expanded .heavy-font{font-size:30px!important; line-height: 30px}
+    .expanded .heavy-font{font-size:30px!important; line-height: 30px; margin-bottom: 5px;}
     .expanded.pad-md{padding:15px}
-    .sec-technologies{height:300px!important}
+    .sec-technologies{background: transparent;
+        position: static;
+        padding-bottom: 0px!important;
+        top: 146px;}
+    .sec-technologies .ui.grid{
+        margin-top: -1rem!important;
+        margin-bottom: -1rem!important;
+        margin-left: -1rem!important;
+        margin-right: -1rem!important;
+    }    
     header.bg-img{background-image:none;padding:0 0 40px;background-color:#fff}
     main > header .ui.menu .item{padding:1em 0 0!important;line-height:35px}
     .menu-responsive{margin-top:20px!important;display:none!important}
@@ -430,7 +395,7 @@ h6{font-size:1rem}
     footer .m-bt{padding-right:0!important}
     .slick{font-size:40px}
     .contactback{height:200px!important}
-    .formsec{padding:10px}
+    .formsec{padding:10px 0}
     .ui.grid > .row{padding:0}
     .ssec{border-right:none}
     .technical span{padding:5px 10px}
