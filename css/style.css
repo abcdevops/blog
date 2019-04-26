@@ -226,7 +226,7 @@ nav.share span{position:absolute;top:-7px;right:0px;margin:auto; background-colo
 .lib p,.lib li{font-family:lib;font-size:20px;font-weight:400;line-height:32px}
 .title-canvas a.link{display:none}
 .post-detail{list-style:none;padding-left:0}
-/* .post-detail li{display:inline;font-size:16px;color:gray} */
+.post-detail li{display:inline;font-size:16px;color:gray}
 .inner-content-page a{color:#2e2e2e;}
 .subline {    display: flex; margin: 0;   padding-left: 0;}
 .subline time {    margin-top: 0;    padding-left: 0;}
