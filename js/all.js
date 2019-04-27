@@ -42,21 +42,21 @@ if (typeof($) != 'undefined') {
                 $('.share .twitter').css('border', border);
             }
         });
-      $.ajax({
-        dataType: 'jsonp',
-        async: true,
-        timeout: timeout,
-        url: 'https://graph.facebook.com/?callback=?&ids=' + eurl,
-        success: function(json) {
-          var count = json[url].share.share_count;
-          if (count > 0) {
-            $('.count-facebook').html(number(count)).fadeIn();
-          }
-        },
-        error: function() {
-          $('.share .icon-facebook').css('border', border);
-        }
-      });
+      // $.ajax({
+      //   dataType: 'jsonp',
+      //   async: true,
+      //   timeout: timeout,
+      //   url: 'https://graph.facebook.com/?callback=?&ids=' + eurl,
+      //   success: function(json) {
+      //     var count = json[url].share.share_count;
+      //     if (count > 0) {
+      //       $('.count-facebook').html(number(count)).fadeIn();
+      //     }
+      //   },
+      //   error: function() {
+      //     $('.share .icon-facebook').css('border', border);
+      //   }
+      // });
       $.ajax({
         dataType: 'json',
         async: true,

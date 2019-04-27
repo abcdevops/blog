@@ -37,14 +37,6 @@ header img.ui.image.logo {max-width: 210px;margin-left: 20px;}
     position: relative;
     overflow: hidden;
 }
-.address-right-cont-us {
-    padding: 4px 30px;
-    background-color: #fff;
-    -webkit-box-shadow: 0 1px 4px 0 rgba(0,0,0,0.37);
-    box-shadow: 0 1px 4px 0 rgba(0,0,0,0.37);
-    border-top: 7px solid #e77b19;
-    border-radius: 5px;
-}
 .contact-row {
     border-bottom: 1px solid #878787;
     padding: 11px 0;
@@ -72,7 +64,7 @@ header img.ui.image.logo {max-width: 210px;margin-left: 20px;}
     background-color: #fff;
     -webkit-box-shadow: 0 1px 4px 0 rgba(0,0,0,0.37);
     box-shadow: 0 1px 4px 0 rgba(0,0,0,0.37);
-    border-top: 7px solid #e77b19;
+    border-top: 7px solid rgb(255, 152, 0);
     border-radius: 5px;
 }
 .contact-row {

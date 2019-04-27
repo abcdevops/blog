@@ -1,20 +1,15 @@
 ---
-layout: simple1 
-date: 2017-10-10 10:30:33 +0530
+layout: static1
+title: Contact Us
+icon: phone
+date: 
 id: where
 permalink: where.html
-main_image: /images/what-img.png
+main_image: /images/back2.jpg
 description: |
-
+ Check out the table below of our plans and pricing, if you still have any query regarding to this, please go ahead contact us by call or email.
 ---
 
-<div class="ui middle aligned four column centered grid">
-    <div class="row contactback" style="height: 360px; margin-top:16px;">
-        <div class="sixteen wide column">
-          <h1 class="slick text-center">Contact Us</h1>  
-        </div>
-    </div>
-</div>
 <div class="formsec">
     <div class="ui container grid m-0">
         <div class="eight wide computer sixteen wide mobile column">
