@@ -17,13 +17,12 @@ keywords:
 ---
 
 <section class="blog-banner">
-        <div class="ui container">
-        <div class="blog-title">
-            <h1><i class="comments outline icon"></i>Blog</h1>
-        </div>
-        </div>
-    </section>
-
+    <div class="ui container">
+    <div class="blog-title">
+        <h1><i class="comments outline icon"></i>Blog</h1>
+    </div>
+    </div>
+</section>
     <section class="blog-list">
         <div class=" ui container">
             <div class="featured-header-main">
@@ -44,18 +43,34 @@ keywords:
 
                         <h2>{{ post.title }}</h2>
                     </div>
-                    <div class="bottom-description">Read More
+                    <div class="bottom-description">{{ post.content | count_words }} words
+                        {% capture time %}{{ post.content | reading_time }}{% endcapture %}
+                        {% if time == '1' %}
+                        a minute
+                        {% else %}
+                        {% case time %}
+                        {% when '2' %}
+                        two
+                        {% when '3' %}
+                        three
+                        {% when '4' %}
+                        four
+                        {% when '5' %}
+                        five
+                        {% else %}
+                        {{ time }}
+                        {% endcase %}
+                        minutes
+                        {% endif %}
+                        to read
                     </div>
                     {% endif %}
                 </div>
                     {% endfor %}
                 </div>
                 </div>
-
             </div>
         </div>
-
-
         <div class="top-stories">
             <div class="ui container">
                 <div class="ui grid ">
@@ -79,7 +94,26 @@ keywords:
                             <div class="blog-heading">
                                 <h2>{{ post.title }}</h2>
                             </div>
-                            <div class="bottom-description"> Read More
+                            <div class="bottom-description"> {{ post.content | count_words }} words
+                                {% capture time %}{{ post.content | reading_time }}{% endcapture %}
+                                {% if time == '1' %}
+                                a minute
+                                {% else %}
+                                {% case time %}
+                                {% when '2' %}
+                                two
+                                {% when '3' %}
+                                three
+                                {% when '4' %}
+                                four
+                                {% when '5' %}
+                                five
+                                {% else %}
+                                {{ time }}
+                                {% endcase %}
+                                minutes
+                                {% endif %}
+                                to read
                             </div>
                             {% endif %}
                         </div>

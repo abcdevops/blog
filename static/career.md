@@ -18,8 +18,8 @@ We Are Hiring
 </div>
 <div class="formsec">
     <div class="ui centered grid ">
-        <div class="six wide computer sixteen wide mobile column">
-            <iframe src="https://docs.google.com/a/izap.in/forms/d/1DwTL7uvJCWeNUk1OP6jzZU_Duoyj6xwksVIsDTZS0k0/viewform?embedded=true" style="width:100%;" marginheight="0" marginwidth="0" height="820" frameborder="0" style="width:100%; background-color:#fff;">Loading...</iframe>
+        <div class="ten wide computer sixteen wide mobile column center aligned">
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe4UWC7cqpvylV56j4U-_slXyJuzjoYRCm2viR8U6r2XC5vNw/viewform?embedded=true" height="1095" frameborder="0" marginheight="0" marginwidth="0" style="width:100%; max-width:700px;">Loading...</iframe>
         </div>
     </div>
 </div>
