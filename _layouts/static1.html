@@ -1,0 +1,24 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<html lang="en-US" xml:lang="en-US" itemscope="" itemtype="http://schema.org/WebPage">
+{% include head.html %}
+<body  {% if page.id %} id="{{page.id}}" {% endif %} {% if page.class %} class="{{page.class}}" {% endif %}>
+<main>
+  {% include header.html %}
+  <section class="blog-banner">
+    <p class="bb-img">{{page.main_image}}</p>
+    <div class="ui container">
+      <div class="blog-title">
+        <h1> <i class="{{page.icon}} small icon"></i>{{page.title}}</h1>
+      </div>
+    </div>
+  </section>
+
+  {{ content }}
+  {% include footer.html %}
+</main>
+
+</body>
+</html>
