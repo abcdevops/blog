@@ -4,7 +4,7 @@
 main > header{background:linear-gradient(to bottom, rgb(224, 224, 224) 0%,rgb(255, 255, 255) 44%); position: relative;}
 main > header .ui.inverted.menu{background:transparent;}
 main > header .ui.inverted.menu > .item > img{min-width:269px}
-main > header .ui.menu .item{font-family:HelveticaNeue-CondensedBold,HelveticaNeue-CondensedBold;color: #f08422!important;line-height: 55px;font-weight: bolder;background-image: url(../images/menu-devider.jpg) !important; background-repeat: no-repeat!important;background-position: right center !important;font-size: 25px;padding: 0 1.5em !important;}
+main > header .ui.menu .item{font-family:HelveticaNeue-CondensedBold,HelveticaNeue-CondensedBold;color: #f08422!important;line-height: 55px;background-image: url(../images/menu-devider.jpg) !important; background-repeat: no-repeat!important;background-position: right center !important;font-size: 25px;padding: 0 1.5em !important;}
 header .bg-img{background-image:url(../images/header-bg.jpg);background-repeat:repeat-x;background-color:#fff}
 .border-bottom{border-bottom:1px solid #c3c3c3}
 h1,h2,h3,h4,h5,h6{font-family:"Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;font-weight:400;font-style:normal;color:inherit;text-rendering:optimizeLegibility;margin-top:0;margin-bottom:.5rem;line-height:1.4}
@@ -341,14 +341,13 @@ body{background-color:#e77b19}
 }
 @media(max-width:1199px) {
     .tabular.menu .item{flex:auto!important}
-    main > header .ui.menu .item{font-size:14px}
+    /* main > header .ui.menu .item{font-size:14px} */
     .share {right:0; left: inherit; top:190px;}
     footer .degree { max-width: 260px;}
     .hiring img {max-width: 90px;}
 }
 @media(max-width:990px) {
     #home .logo {margin-left: 10px; max-width: 200px;}
-    .logo-rs{padding-top: 25px!important;}
     .hiring img {max-width: 110px;}
     .top-bar-menu a,.help-desk a span{display:inline-block;width:auto}
     .mobile-menu i{color:#e77b19;font-size:21px}
@@ -356,7 +355,7 @@ body{background-color:#e77b19}
     .menu-responsive.m-show{display:block!important}
     .blog-title h1,.blog-title-detail h1{font-size:30px}
     .banner-txt > div h2{font-size:22px}
-    .blog-list-box .top-title{padding:2px 0 0}
+    .blog-list-box .top-title{padding:2px 0 0}  
     .blog-title h1,.blog-title-detail h1{font-size:55px}
     .blog-title,.blog-title-detail{padding:53px 0 0}
     .blog-list .ui.container{width:90%!important}
@@ -380,7 +379,12 @@ body{background-color:#e77b19}
     nav.share span{top:-13px;right:5px;z-index:11111}
     .disqus{width:80%}
 }
+@media(min-width:768px) and (max-width:850px) {
+    .hiring img {max-width: 80px;}
+}
 @media(max-width:767px) {
+    .logo-rs{padding-top: 25px!important;}
+    main > header .ui.menu .item{background-image:none!important; font-size: 16px;}
     footer div.m-bt:nth-child(4){margin-bottom:0!important}
     .expanded .heavy-font{font-size:30px!important;line-height:30px;margin-bottom:5px}
     .expanded.pad-md{padding:15px}
