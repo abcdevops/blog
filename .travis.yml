@@ -20,9 +20,9 @@ addons:
       - build-essential
       - graphviz
       - gnuplot
-      - s3cmd
       - fontforge
       - liblapack-dev
+      - openjdk-6-jre
 before_install:
 - set -e
 - git config --global user.email "tarun@izap.in"
