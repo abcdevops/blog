@@ -37,9 +37,12 @@ install:
 - travis_retry sudo _travis/install_tidy.sh
 - travis_retry gem install jekyll-watch -v 2.0.0
 - travis_retry bundle install
+- travis_retry gem install fontcustom -v 1.3.8
+- travis_retry bundle exec fontcustom --version
+- travis_retry gem install jgd -v 1.11
+- gnuplot --version
 script:
 - set -e
-- bundle exec fontcustom --version
-- bundle exec rake
 - export JEKYLL_ENV=production
+- bundle exec rake
 - bundle exec jgd -b master -u https://tarunjangra:$PASSWORD@github.com/abcdevops/abcdevops.github.io.git
