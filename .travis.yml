@@ -22,7 +22,7 @@ addons:
       - gnuplot
       - fontforge
       - liblapack-dev
-      - openjdk-6-jre
+      - default-jre
 before_install:
 - set -e
 - git config --global user.email "tarun@izap.in"
