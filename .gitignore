@@ -17,3 +17,5 @@ woff-code-latest.zip
 bin/
 _gnuplot/
 /nbproject
+deploy_key
+deploy_key.pub
