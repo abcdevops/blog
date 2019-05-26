@@ -1,46 +1,45 @@
 dist: trusty
 language: ruby
 rvm:
-  - 2.2.7
+- 2.2.7
 sudo: required
 branches:
   only:
   - master
 cache:
   directories:
-    - node_modules
-    - vendor/bundle
+  - node_modules
+  - vendor/bundle
 env:
   global:
-    secure: 
+    secure: LHP+GpwvpCNxYtWDzEH7UNoV6BkjH10rzdgzCzpqW9N4TdIPe/giV7KS0X9uerSqeAFrVgfODfnP+HSsfZWAbAV+h0CPYcEe45l5KXSU2d/DSpIS4jkp48fq5vh8hP8/ysbO8+rIw7dI6iMbrUwtijGLo90cjRX/2cNxO3LqLklkYkS/wCbdNSzX7DdTTdxI+wkr/aYu1SVmttdMo8Ti2Rwr3xjLGHLSFC7m9v3dfBbIOQbmc/2Bnqec1o5OfG6WaZofIsbO+MSdOeAGjmVzo35Wtm+062nkAvJvg1I0SUsNNfU8NNMrdPPeWuYHvjqa6P0mzaxnltkiyUbOEI7S9QPrJzCZwuvpOZitjYvITs0cLg6z4zshdEv817hyS6ZRp/hM8p06OUb5l2lGiOYvTV52uO8rnXlP3J83HP1clec9KKeEYnUAZI+xfPkUbymJKSZid3cQiz5Iyfrm+Zj/o2SY5yqA2nBmAcYLjhRjlfyz6QoVADVy5PNKOK6/UmOWdhldiF7E1GeKF2Sc7U4FgM0cYJiyl3Ei53ccDzboou9YNCCVc0Ih3Q1h8UgkVBkDxT+aogIT6uIdQ30Nx+NsmfIpjRpYONWqGCRieQGI4in1rjlxNwqxzOetaFCOUG9YYNA7LFzhVw5oRJifWon7O5ptRlUqHbhY8lxDewE1G7s=
 addons:
   apt:
     packages:
-      - aspell
-      - aspell-en
-      - build-essential
-      - graphviz
-      - gnuplot
-      - fontforge
-      - liblapack-dev
-      - libxml2-utils
+    - aspell
+    - aspell-en
+    - build-essential
+    - graphviz
+    - gnuplot
+    - fontforge
+    - liblapack-dev
+    - libxml2-utils
 before_install:
 - set -e
 - git config --global user.email "tarun@izap.in"
 - git config --global user.name "tarunjangra"
 install:
-  - set -e
-  - travis_retry sudo _travis/install_cmake.sh
-  - travis_retry npm install cssshrink@0.0.5
-  - travis_retry sudo _travis/install_plantuml.sh
-  - travis_retry sudo _travis/install_sfnt2woff.sh
-  - travis_retry sudo _travis/install_tidy.sh
-  - travis_retry gem install jekyll-watch -v 2.0.0
-  - travis_retry bundle install
+- set -e
+- travis_retry sudo _travis/install_cmake.sh
+- travis_retry npm install cssshrink@0.0.5
+- travis_retry sudo _travis/install_plantuml.sh
+- travis_retry sudo _travis/install_sfnt2woff.sh
+- travis_retry sudo _travis/install_tidy.sh
+- travis_retry gem install jekyll-watch -v 2.0.0
+- travis_retry bundle install
 script:
-  - set -e
-  - bundle exec fontcustom --version
-  - bundle exec rake
-  - export JEKYLL_ENV=production
-  - bundle exec jgd -b master -u https://tarunjangra:$PASSWORD@github.com/abcdevops/abcdevops.github.io.git
-  
+- set -e
+- bundle exec fontcustom --version
+- bundle exec rake
+- export JEKYLL_ENV=production
+- bundle exec jgd -b master -u https://tarunjangra:$PASSWORD@github.com/abcdevops/abcdevops.github.io.git
