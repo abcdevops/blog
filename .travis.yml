@@ -1,3 +1,4 @@
+dist: trusty
 language: ruby
 rvm:
   - 2.2.7
@@ -20,9 +21,9 @@ addons:
       - build-essential
       - graphviz
       - gnuplot
-      - s3cmd
       - fontforge
       - liblapack-dev
+      - libxml2-utils
 before_install:
 - set -e
 - git config --global user.email "tarun@izap.in"
@@ -32,7 +33,7 @@ before_install:
 - chmod 600 ~/.ssh/id_rsa
 install:
   - set -e
-  - travis_retry sudo _travis/install_cmake.sh; sudo apt-get install -y libxml2-utils
+  - travis_retry sudo _travis/install_cmake.sh
   - travis_retry npm install cssshrink@0.0.5
   - travis_retry sudo _travis/install_plantuml.sh
   - travis_retry sudo _travis/install_sfnt2woff.sh
