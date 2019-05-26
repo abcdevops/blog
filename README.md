@@ -1,5 +1,4 @@
-<img src="https://s3-ap-southeast-1.amazonaws.com/cdn.ginvoicing.com/images/favicon.png" width="32px" height="32px" />
-
+[![Build Status](https://travis-ci.org/abcdevops/abcdevops.github.io.svg?branch=master)](https://travis-ci.org/abcdevops/abcdevops.github.io)
 
 how to work with new jekyll
 -------
@@ -16,10 +15,10 @@ how to work with new jekyll
 ```
 
 
-This is GInvoicing.com: [www.ginvoicing.com](https://www.ginvoicing.com)
+ABCDevOps: [www.abcdevops.com](https://www.abcdevops.com)
 ## License
 
-Copyright (c) 2018 Technofox LLC.
+Copyright (c) 2018 ABCDevOps.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the 'Software'), to deal
