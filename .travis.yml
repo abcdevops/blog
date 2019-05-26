@@ -42,4 +42,5 @@ script:
   - bundle exec fontcustom --version
   - bundle exec rake
   - export JEKYLL_ENV=production
-  - bundle exec jgd -b master -u https://tarunjangra:$PASSWORD@github.com:abcdevops/abcdevops.github.io.git
+  - bundle exec jgd -b master -u https://tarunjangra:$PASSWORD@github.com/abcdevops/abcdevops.github.io.git
+  
