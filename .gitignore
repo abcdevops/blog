@@ -3,6 +3,7 @@
 _site/
 .sass-cache/
 uml/
+Gemfile.lock
 _temp/
 _newsletters/send.sh
 gnuplot/
@@ -14,6 +15,3 @@ cmake-3.5.1.tar.gz
 ubuntu-xenial-16.04-cloudimg-console.log
 woff-code-latest.zip
 bin/
-/nbproject
-deploy_key
-deploy_key.pub

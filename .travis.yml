@@ -28,6 +28,7 @@ before_install:
 - set -e
 - git config --global user.email "tarun@izap.in"
 - git config --global user.name "tarunjangra"
+- gem install bundler
 install:
   - set -e
   - travis_retry sudo _travis/install_cmake.sh
@@ -40,7 +41,6 @@ install:
 script:
   - set -e
   - bundle exec fontcustom --version
-  - bundle exec gnuplot --version
   - bundle exec rake
   - export JEKYLL_ENV=production
   - bundle exec jgd -b master -u https://tarunjangra:$PASSWORD@github.com:abcdevops/abcdevops.github.io.git
