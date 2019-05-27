@@ -27,7 +27,7 @@ description: |
                     <h5 style="margin-bottom: 0;">Tarun Jangra 
                     <a href="https://twitter.com/jangratarun" target="_blank"><i class="ui icon small twitter"></i></a><a href="https://www.linkedin.com/in/tarunjangra" target="_blank"><i class="ui icon small linkedin"></i></a></h5>
                                     <a href="mailto:tarun.jangra@abcdevops.com" class="no-margin-bt" style="color: #000;"><i class="envelope outline icon"></i>tarun.jangra@abcdevops.com</a>
-                                    <p> <i class="mobile alternate icon"></i>+1 (415) 629-6106<br> <i class="mobile alternate icon"></i>+1 (510) 315-0730</p>
+                                    <p> <i class="mobile alternate icon"></i>+1 (415) 629-6106<br></p>
                 </div>
                 <div class="contact-row">
                      <h5 style="margin-bottom: 0;">Rudy Rupak &nbsp;&nbsp;<a href="https://twitter.com/rudyrupak" target="_blank"><i class="ui icon small twitter"></i></a> <a href="https://www.linkedin.com/in/rudyrupak" target="_blank"><i class="ui icon small linkedin"></i></a></h5>
@@ -40,7 +40,7 @@ description: |
                                     <p> <i class="mobile alternate icon"></i>+1 (510) 315-0730</p>
                 </div>
                   <div class="sixteen wide computer column sixteen wide mobile columns">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3301.6006153651456!2d-118.64585688453185!3d34.156558619672516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c29e6954a9d5e1%3A0x40d64cb3bdae3844!2s23679+Calabasas+Rd+%23150%2C+Calabasas%2C+CA+91302%2C+USA!5e0!3m2!1sen!2sin!4v1458558944284" style="width: 100%; height: 350px;" frameborder="0"></iframe>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3301.6006153651456!2d-118.64585688453185!3d34.156558619672516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c29e6954a9d5e1%3A0x40d64cb3bdae3844!2s23679+Calabasas+Rd+%23150%2C+Calabasas%2C+CA+91302%2C+USA!5e0!3m2!1sen!2sin!4v1458558944284" style="width: 100%; height: 375px;" frameborder="0"></iframe>
                         </div>
             </div>
         </div>
