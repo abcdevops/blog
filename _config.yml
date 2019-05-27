@@ -1,11 +1,11 @@
 name: abcdevops.com
 url: https://www.abcdevops.com
-title: "abcdevops: GST Ready invoicing solution"
+title: "abcdevops: re:inventing DevOps"
 author:
-  name: "abcdevops"
-  email: support@abcdevops.com
+  name: "Tarun Jangra"
+  email: tarun.jangra@hotmail.com
 description: "abcdevops: GST Ready invoicing solution"
-copyright: "(c) abcdevops, 2016"
+copyright: "(c) abcdevops, 2019"
 encoding: utf-8
 timezone: Asia/Calcutta
 markdown: kramdown
