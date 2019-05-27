@@ -49,4 +49,4 @@ script:
 - set -e
 - export JEKYLL_ENV=production
 - bundle exec rake
-- jgd -u git@github.com:abcdevops/abcdevops.github.io.git
+- jgd -u git@github.com:abcdevops/abcdevops.github.io.git —-bundle
