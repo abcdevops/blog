@@ -38,7 +38,7 @@ install:
 - travis_retry gem install jekyll-watch -v 2.0.0
 - travis_retry gem install fontcustom -v 1.3.8
 - travis_retry gem install jgd -v 1.11
-- travis_retry bundle install
+- travis_retry bundle install --path vendor/bundle
 - fontcustom --version
 - gnuplot --version
 script:
