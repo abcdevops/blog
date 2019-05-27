@@ -112,6 +112,9 @@ footer a:hover,footer i:hover{color:#f08422}
 #how .formsec{
     padding-top: 60px;
 }
+.address-right-cont-us .sixteen.wide.column{
+    margin: -1px -30px;
+}
 .round-set span{position:absolute;color:#000!important}
 .round-center-main{width:210px;height:210px;position:absolute;left:0;right:0;top:-90px;bottom:0;margin:auto;text-align:center;display:flex;flex-direction:column;justify-content:center;border-radius:50%;background-color:#f0f0f0;padding:0 20px;box-shadow:8px 7px 10px #efefef,0 0 0 3px #fff inset;text-transform:uppercase}
 .round-center-main::before{content:"";width:100%;height:100%;position:absolute;display:block;left:0;right:0;margin:auto;top:0;bottom:0;transition:.6s transform;background-size:cover;transform:scale(0);z-index:-11111}
@@ -435,6 +438,14 @@ body{background-color:#e77b19}
     .featured_style h3{font-size:20px}
     .banner-txt > div h2{font-size:22px}
     .blog-title h1,.blog-title-detail h1{font-size:20px;text-transform:capitalize;line-height:20px}
+    .address-right-cont-us{
+        padding: 4px 10px;
+        word-wrap: break-word;
+        word-break: break-all;
+    }
+    .address-right-cont-us .sixteen.wide.column{
+        margin: -1px -10px;
+    }
 }
 @media(max-width:359px) {
     header.bg-img{padding:0 0 40px}
