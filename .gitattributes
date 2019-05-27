@@ -4,8 +4,8 @@
 *.woff binary
 *.woff2 binary
 *.ttf binary
+*.jar binary
 *.eot binary
 *.pdf binary
 *.gif binary
 favicon.ico binary
-

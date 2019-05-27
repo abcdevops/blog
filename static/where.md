@@ -6,7 +6,7 @@ date:
 id: where
 permalink: where.html
 main_image: /images/back2.jpg
-description: |
+description: | Love to hear from you. Send us an email or fill the form.
  
 ---
 
@@ -27,7 +27,7 @@ description: |
                     <h5 style="margin-bottom: 0;">Tarun Jangra 
                     <a href="https://twitter.com/jangratarun" target="_blank"><i class="ui icon small twitter"></i></a><a href="https://www.linkedin.com/in/tarunjangra" target="_blank"><i class="ui icon small linkedin"></i></a></h5>
                                     <a href="mailto:tarun.jangra@abcdevops.com" class="no-margin-bt" style="color: #000;"><i class="envelope outline icon"></i>tarun.jangra@abcdevops.com</a>
-                                    <p> <i class="mobile alternate icon"></i>+1 (415) 629-6106<br> <i class="mobile alternate icon"></i>+1 (510) 315-0730</p>
+                                    <p> <i class="mobile alternate icon"></i>+1 (415) 629-6106<br></p>
                 </div>
                 <div class="contact-row">
                      <h5 style="margin-bottom: 0;">Rudy Rupak &nbsp;&nbsp;<a href="https://twitter.com/rudyrupak" target="_blank"><i class="ui icon small twitter"></i></a> <a href="https://www.linkedin.com/in/rudyrupak" target="_blank"><i class="ui icon small linkedin"></i></a></h5>
