@@ -49,4 +49,5 @@ script:
 - set -e
 - export JEKYLL_ENV=production
 - bundle exec rake
+- gem install rake -v 12.3.2
 - bundle exec jgd -u git@github.com:abcdevops/abcdevops.github.io.git --bundle
