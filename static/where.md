@@ -7,7 +7,7 @@ id: where
 permalink: where.html
 main_image: /images/back2.jpg
 description: |
- Check out the table below of our plans and pricing, if you still have any query regarding to this, please go ahead contact us by call or email.
+ 
 ---
 
 <div class="formsec">
