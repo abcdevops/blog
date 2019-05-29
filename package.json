@@ -20,5 +20,7 @@
   ],
   "author": "Tarun Jangra",
   "license": "ISC",
-  "devDependencies": {}
+  "devDependencies": {
+    "gulp-uglify": "^3.0.2"
+  }
 }
