@@ -21,6 +21,6 @@ Amazon Simple Workflow :-
 
 SWF vs SQS
 ---
-  1. Amazon SWF presents a task-oriented API, whereas Amazon SQS offers a message-oriented API.
-  2. Amazon SWF ensure that a task is assigned only once and is never duplicated. With Amazon SQS, you need to handle duplicated message is processed only once.
-  3. Amazon SWF keeps track of all the tasks and events in an application. With Amazon SQS, you need to implement your own application-level tracking, especially if your application uses multiple queues.
+1. Amazon SWF presents a task-oriented API, whereas Amazon SQS offers a message-oriented API.
+2. Amazon SWF ensure that a task is assigned only once and is never duplicated. With Amazon SQS, you need to handle duplicated message is processed only once.
+3. Amazon SWF keeps track of all the tasks and events in an application. With Amazon SQS, you need to implement your own application-level tracking, especially if your application uses multiple queues.

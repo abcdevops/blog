@@ -43,6 +43,7 @@ EC2 Status Checks
 ---
   1. ##### System Status Checks:-
   Checks the underlying physical host. So just remember that system equal to physical host. So your physical host is going to either be your rack mounting servers or blade inside your blade chassis is the actually physically host that is hosting your virtual machine. System status check is always going to check the host that the virtual machine is sitting on.
+  
   <span>Loss of network connectivity.</span> 
   <span>Loss of system power.</span>
   <span> Software issues on the physical host.</span>
@@ -52,12 +53,13 @@ EC2 Status Checks
 
   2. ##### Instance Status Checks :-
   It checks virtual machine itself.
-    <span>Failed system status checks</span>
-    <span>Misconfigured networking or startup configuration</span>
-    <span>Exhausted memory</span>
-    <span>Corrupted file system</span>
-    <span>Incompatible kernel</span>
-    <span>Best way to trouble shoot is by rebooting the instance or by making modifications in your operating system.</span>
+
+  <span>Failed system status checks</span>
+  <span>Misconfigured networking or startup configuration</span>
+  <span>Exhausted memory</span>
+  <span>Corrupted file system</span>
+  <span>Incompatible kernel</span>
+  <span>Best way to trouble shoot is by rebooting the instance or by making modifications in your operating system.</span>
 
 ## How Long are CloudWatch Metrics Stored ?
   By Default CloudWatch Metrics stored for 2 Weeks. You can retrieve data that is longer than 2 weeks using the GetMetricStatistics API or by using third party tools offered by AWS partners.

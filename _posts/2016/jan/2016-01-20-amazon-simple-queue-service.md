@@ -43,6 +43,6 @@ SQS Pricing
 ---
 
 1. First 1 million Amazon SQS Requests per month are free.
-2. $0.50 per 1 million Amazon SQS Requests per month thereafter ($0.00000050 per SQS Request).`
+2. $0.50 per 1 million Amazon SQS Requests per month thereafter ($0.00000050 per SQS Request).
 3. A single request can have from 1 to 10 messages, up to a maximum total payload of 256KB.
 4. Each 64KB ‘chunk’ of payload is billed as 1 request. For example, a single API call with a 256KB payload will be billed as four requests.

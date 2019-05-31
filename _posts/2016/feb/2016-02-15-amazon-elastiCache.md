@@ -27,10 +27,10 @@ ElastiCache Use Two Different Engines
 
 1. ##### Memcached
 
-    <span>A widely adopted memory object caching system. ElastiCache is protocol complaint with Memcached, so popular tools that you use today with existing Memcached environments will work seamlessly with the service.
-    </span>
+<span>A widely adopted memory object caching system. ElastiCache is protocol complaint with Memcached, so popular tools that you use today with existing Memcached environments will work seamlessly with the service.
+</span>
 
 2. ##### Redis
 
-    <span>A popular open-source in-memory key-value store that supports data structures such as sorted sets and lists. ElastiCache supports Master/Slave replication and Multi-AZ which can be used to achieve cross AZ redundancy.
-    </span>    
+<span>A popular open-source in-memory key-value store that supports data structures such as sorted sets and lists. ElastiCache supports Master/Slave replication and Multi-AZ which can be used to achieve cross AZ redundancy.
+</span>    

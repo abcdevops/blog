@@ -19,21 +19,21 @@ Databases Introduction :-
 So we just with brief introduction on the different types of databases so we got Relational databases.
 
 1. ##### Relational Databases (OLTP) :- 
-     Online Transaction Processing these are the databases that used to using day in day.
+Online Transaction Processing these are the databases that used to using day in day.
 
-     <span>RDS :-  Amazon have a service code RDS which stands for Relational Database Services. In this consist of 5 different relational databases including (MYSQL, SQL Server, POSTgresql, Oracle, and Aurora)</span>
+<span>RDS :-  Amazon have a service code RDS which stands for Relational Database Services. In this consist of 5 different relational databases including (MYSQL, SQL Server, POSTgresql, Oracle, and Aurora)</span>
     
 
 2. ##### Non-Relational Databases (NOSQL) :-     
-    These aggressively new to the industry having sort of come out around 2004 also and Amazon service for this is :
-     <span>Dynamodb :-  Most famous Non-relational database would be something like Mongodb are you could look at cloud end Couchdb. Dynamodb is slightly different to these databases do not compare with Mongodb.</span>
+These aggressively new to the industry having sort of come out around 2004 also and Amazon service for this is :
+
+<span>Dynamodb :-  Most famous Non-relational database would be something like Mongodb are you could look at cloud end Couchdb. Dynamodb is slightly different to these databases do not compare with Mongodb.</span>
     
 
 3. ##### Data Warehousing Databases (OLAP) :-
-
-    Online Analytical Processing and these over the use to be relational structure both from a logical perspective and it infrastructure perspective has not changed and these really there are types of databases these known as Data Warehousing Databases. Amazon offers for this product code:
+Online Analytical Processing and these over the use to be relational structure both from a logical perspective and it infrastructure perspective has not changed and these really there are types of databases these known as Data Warehousing Databases. Amazon offers for this product code:
     
-    <span>RedShift</span>
+<span>RedShift</span>
 
 Compare The Fundamentals
 ---

@@ -23,8 +23,8 @@ DynamoDB Configuration
 1. It’s always going to be stored on SSD storage. So there is no magnetic storage you going to get very good and very high IOPS from it.
 2. It is Spread Across 3 different geographically distinct data centers. So if you write a database you write a record to a particular a AZ that is going to be replicated across to your other two AZ and in terms of that replication you can choose between two options;
     
-    <span>Eventual Consistent Reads</span>
-    <span>Strongly Consistent Reads</span>
+<span>Eventual Consistent Reads</span>
+<span>Strongly Consistent Reads</span>
 
 ## Difference Between Eventual Consistent Reads and Strongly Consistent Reads
 
@@ -40,8 +40,8 @@ Pricing
 ---
 1. Provisioned Throughput Capacity
     
-    <span>Write Throughput $0.0065 per hour for every 10 units.</span>
-    <span>Read Throughput $0.0065 per hour for every 50 units.</span>
+<span>Write Throughput $0.0065 per hour for every 10 units.</span>
+<span>Read Throughput $0.0065 per hour for every 50 units.</span>
 
 2. Storage costs of $0.25Gb per month.
 

@@ -23,8 +23,8 @@ Configuration of Redshift
 1. You start with the Single Node which is 160Gb.
 2. Then you can scale to Multi-Nodes
 
-    <span>Leader Node (manages client connections and receives queries).</span>
-    <span>Compute Node (store data and perform queries and computations). So with Redshift you can have up to 128 Compute Nodes but you can just start with the single node which combines the leader node and compute node into one row but you can then scale out.</span>
+<span>Leader Node (manages client connections and receives queries).</span>
+<span>Compute Node (store data and perform queries and computations). So with Redshift you can have up to 128 Compute Nodes but you can just start with the single node which combines the leader node and compute node into one row but you can then scale out.</span>
 
 10 Times Faster
 ---
@@ -48,9 +48,9 @@ Security
 1. Encrypted in transit using SSL
 2. Encrypted at rest using AES-256 encryption
 
-    <span>By default RedShift takes care of keys management.</span>
-    <span>Manage your own keys through Hardware Security Models.</span>
-    <span>AWS Key Management Service.</span>
+<span>By default RedShift takes care of keys management.</span>
+<span>Manage your own keys through Hardware Security Models.</span>
+<span>AWS Key Management Service.</span>
 
 Availability
 ---

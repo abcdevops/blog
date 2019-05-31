@@ -29,8 +29,9 @@ What Can I Do with a Virtual Private Cloud
  3. You can configure route tables between subnets.
  4. Create internet gateways and attach them to subnets (or not) if you have an internet gateway and you attach it to a subnet that subnet is publicly accessible by the internet. you can then have other subnets they do not have internet gateway attach to them. That means those subnets do not have internet access you cannot get to the any resources within that directly via that subnet you have go in via different subnets.
  5. You also get much better security control over your AWS resources you actually get two level security
-    <span>Instance security groups</span>
-    <span>Subnet network access control lists (ACLS)</span>
+
+<span>Instance security groups</span>
+<span>Subnet network access control lists (ACLS)</span>
 
 Default VPC vs Custom VPC
 ---
@@ -60,8 +61,9 @@ VPC Restrictions
 VPC Creation Summary
 ---
   1. We created a custom VPC.
-      <span>Defined our IP Address Range so we did that using our CIDR 10.0.0.0/16 that was our IP address range.</span>
-      <span>By default this created a Network ACL & Route</span>
+      
+<span>Defined our IP Address Range so we did that using our CIDR 10.0.0.0/16 that was our IP address range.</span>
+<span>By default this created a Network ACL & Route</span>
   2. Created a Custom route table.
   3. Created 3 Subnets 10.0.1.0/24, 10.0.2.0/24 and 10.0.3.0/24 .
   4. We then created an Internet Gateway.

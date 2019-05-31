@@ -32,12 +32,13 @@ CloudFront Distribution Types
 ---
 1. ##### Web Distribution – 
   Typically used for websites
+  
+  <span>Speed up distribution of static and dynamic content, for example, .html, .css, .php, and graphics files.</span>
+  <span>Distribute media files using HTTP or HTTPS.</span>
+  <span>Add, update, or delete objects, and submit data from web forms.</span>
+  <span>Use live streaming to stream an event in real time.</span>
+  <span>You store your files in an origin — either an Amazon S3 bucket or a web server. After you create the distribution, you can add more origins to the distribution.</span>  
 
-    <span>Speed up distribution of static and dynamic content, for example, .html, .css, .php, and graphics files.</span>
-    <span>Distribute media files using HTTP or HTTPS.</span>
-    <span>Add, update, or delete objects, and submit data from web forms.</span>
-    <span>Use live streaming to stream an event in real time.</span>
-    <span>You store your files in an origin — either an Amazon S3 bucket or a web server. After you create the distribution, you can add more origins to the distribution.</span>  
 2. ##### RTMP – 
   RTMP distribution to speed up distribution of your streaming media files using Adobe Flash Media Servers RTMP protocol. An RTMP distribution allows an end user to begin playing a media file before the file has finished downloading from a CloudFront edge location. Note the following:
 

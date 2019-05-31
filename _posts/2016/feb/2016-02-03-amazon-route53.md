@@ -57,13 +57,14 @@ Some common DNS types include:
 
  1. ##### SOA Records :-
     A start of authority (SOA) record is information stored in a DNS zone about that zone. A DNS zone is the part of a domain for which an individual DNS server is responsible (i.e the bit that you store A records, Cnames etc). Each Zone contains a single SOA record.The SOA record stores information about;
-    <span>The name of the server that supplied the data for the zone.</span>
-    <span>The administrator of the zone.</span>
-    <span>The current version of the data file.</span>
-    <span>The number of seconds a secondary name server should wait before checking for updates.</span>
-    <span>The number of seconds a secondary name server should wait before retrying  a failed zone transfer.</span>
-    <span>The maximum number of seconds that a secondary name server can use data before it must either be refreshed or expire.</span>
-    <span>The default number of seconds for the time-to-live file on resource records.</span>
+
+<span>The name of the server that supplied the data for the zone.</span>
+<span>The administrator of the zone.</span>
+<span>The current version of the data file.</span>
+<span>The number of seconds a secondary name server should wait before checking for updates.</span>
+<span>The number of seconds a secondary name server should wait before retrying  a failed zone transfer.</span>
+<span>The maximum number of seconds that a secondary name server can use data before it must either be refreshed or expire.</span>
+<span>The default number of seconds for the time-to-live file on resource records.</span>
 
 2. ##### NS Records :-
     NS stands for Name Server records and are used by Top Level Domain servers to direct traffic to the Content DNS server which contains the authoritative DNS records.
@@ -82,19 +83,19 @@ Some common DNS types include:
 
 Route 53 Routing Policy
 ---
-  1. ##### Simple :-
-      This is the default routing policy when you create a new record set. This is most commonly used when you have a single resources that performs a given function for your domain, for example, one web server that serves content for the http://example.com website. In this example Route53 will respond to DNS queries that are only in the record set (i.e there is no intelligence built in to this response).
+1. ##### Simple :-
+    This is the default routing policy when you create a new record set. This is most commonly used when you have a single resources that performs a given function for your domain, for example, one web server that serves content for the http://example.com website. In this example Route53 will respond to DNS queries that are only in the record set (i.e there is no intelligence built in to this response).
 
-  2. ##### Weighted :-
-      Lets you split your traffic based on different weights assigned. For example you can set 10% of your traffic to go to US-EAST-1 and 90% to go to EU-WEST-1 so you can use weighted based routing.
+2. ##### Weighted :-
+    Lets you split your traffic based on different weights assigned. For example you can set 10% of your traffic to go to US-EAST-1 and 90% to go to EU-WEST-1 so you can use weighted based routing.
 
-  3. ##### Latency :-
-      Latency based routing allows you to route your traffic based on the lowest network latency for your end user (ie which region will give them the fastest response time). To use latency-based routing you create a latency resource record set for the Amazon EC2 (or ELB) resource in each region that hosts your website. When Amazon Route53 receives a query for your site, it selects the latency  resource record set for the region  that gives the user the lowest latency. Route 53 then responds with the value associated with that resources record set.
+3. ##### Latency :-
+    Latency based routing allows you to route your traffic based on the lowest network latency for your end user (ie which region will give them the fastest response time). To use latency-based routing you create a latency resource record set for the Amazon EC2 (or ELB) resource in each region that hosts your website. When Amazon Route53 receives a query for your site, it selects the latency  resource record set for the region  that gives the user the lowest latency. Route 53 then responds with the value associated with that resources record set.
 
-  4. ##### Failover :-
-      Failover routing policies are used when you want to create an active/passive setup. For example you may want your primary site to be in US-West-1 and your secondary DR Site in US-East-1. Route53 will monitor the health of your primary site using a health check. A health check monitors the health of your endpoints.
+4. ##### Failover :-
+    Failover routing policies are used when you want to create an active/passive setup. For example you may want your primary site to be in US-West-1 and your secondary DR Site in US-East-1. Route53 will monitor the health of your primary site using a health check. A health check monitors the health of your endpoints.
 
-  5. ##### Geolocation :- 
-      Geolocation routing lets you choose where your traffic will be sent based on the geographic location of your users (ie the location from which DNS queries originate). For example, you might want all queries from Europe to be routed to a fleet of EC2 instances that are specifically configured for your European customers. These servers may have the local language of your European customers and all prices are displayed in Euros.                        
+5. ##### Geolocation :- 
+    Geolocation routing lets you choose where your traffic will be sent based on the geographic location of your users (ie the location from which DNS queries originate). For example, you might want all queries from Europe to be routed to a fleet of EC2 instances that are specifically configured for your European customers. These servers may have the local language of your European customers and all prices are displayed in Euros.                        
 
 
