@@ -3,7 +3,6 @@ layout: post
 title: ABCDevOps - Amazon RDS
 date: 2016-02-20
 og_image: /images/posts/amazon-RDS.jpg
-main_image: /images/ginvoicing-main.jpg
 top_story: true
 description: |
   

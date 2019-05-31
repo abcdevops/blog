@@ -3,7 +3,6 @@ layout: post
 title: ABCDevOps - Amazon DynamoDB
 date: 2016-02-17
 og_image: /images/posts/amazon-dynamoDB.jpg
-main_image: /images/ginvoicing-main.jpg
 top_story: true
 description: |
   

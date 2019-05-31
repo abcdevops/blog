@@ -3,7 +3,6 @@ layout: post
 title: ABCDevOps - Amazon Storage Gateway
 date: 2016-02-22
 og_image: /images/posts/amazon-storage-gateway.jpg
-main_image: /images/ginvoicing-main.jpg
 top_story: true
 description: |
   

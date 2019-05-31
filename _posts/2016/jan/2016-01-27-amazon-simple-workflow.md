@@ -3,7 +3,6 @@ layout: post
 title: ABCDevOps - Amazon Simple Workflow
 date: 2016-01-27
 og_image: /images/posts/amazon-simple-workflow.jpg
-main_image: /images/ginvoicing-main.jpg
 top_story: true
 description: |
   

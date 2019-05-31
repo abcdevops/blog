@@ -3,7 +3,6 @@ layout: post
 title: ABCDevOps - Amazon OpsWorks
 date: 2016-01-29
 og_image: /images/posts/amazon-opsworks.jpg
-main_image: /images/ginvoicing-main.jpg
 top_story: true
 description: |
   

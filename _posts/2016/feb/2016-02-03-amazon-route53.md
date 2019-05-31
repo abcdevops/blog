@@ -3,7 +3,6 @@ layout: post
 title: ABCDevOps - Amazon Route53
 date: 2016-02-03
 og_image: /images/posts/amazon-route-53.jpg
-main_image: /images/ginvoicing-main.jpg
 top_story: true
 description: |
   

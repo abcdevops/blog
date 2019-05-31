@@ -3,7 +3,6 @@ layout: post
 title: ABCDevOps - Amazon Simple Notification Service
 date: 2016-01-22
 og_image: /images/posts/amazon-simple-notification-service.jpg
-main_image: /images/ginvoicing-main.jpg
 top_story: true
 description: |
   

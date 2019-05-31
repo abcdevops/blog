@@ -3,7 +3,6 @@ layout: post
 title: ABCDevOps - Amazon Direct Connect
 date: 2016-02-06
 og_image: /images/posts/amazon-direct-connect.jpg
-main_image: /images/ginvoicing-main.jpg
 top_story: true
 description: |
   

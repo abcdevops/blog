@@ -3,7 +3,6 @@ layout: post
 title: ABCDevOps - Amazon CloudFormation
 date: 2016-01-25
 og_image: /images/posts/amazon-cloudformation.jpg
-main_image: /images/ginvoicing-main.jpg
 top_story: true
 description: |
   

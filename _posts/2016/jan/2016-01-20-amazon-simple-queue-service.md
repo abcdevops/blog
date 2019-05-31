@@ -3,7 +3,6 @@ layout: post
 title: ABCDevOps - Amazon Simple Queue Service 
 date: 2016-01-20
 og_image: /images/posts/amazon-simple-queue-service.jpg
-main_image: /images/ginvoicing-main.jpg
 top_story: true
 description: |
   What is amazon's simple queue service and what type of applications it can be applied on?
@@ -16,7 +15,6 @@ tags:
 ---
 
 Amazon SQS is a web service that gives you access to a message queue that can be used to store messages while waiting for a computer to process them.
-<!--more-->
 
 So we have an example of a web application may be you upload an image file to this web application and then what that application will do is load the SQS that a user has uploaded it an image file and that job needs to be executed on its stored that message on the SQS system.
 

@@ -3,7 +3,6 @@ layout: post
 title: ABCDevOps - Amazon ElastiCache
 date: 2016-02-15
 og_image: /images/posts/amazon-elasticache.jpg
-main_image: /images/ginvoicing-main.jpg
 top_story: true
 description: |
   

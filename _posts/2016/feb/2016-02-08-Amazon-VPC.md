@@ -3,7 +3,6 @@ layout: post
 title: ABCDevOps - Amazon VPC
 date: 2016-02-08
 og_image: /images/posts/amazon-VPC.jpg
-main_image: /images/ginvoicing-main.jpg
 top_story: true
 description: |
   

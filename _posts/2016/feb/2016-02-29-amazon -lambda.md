@@ -3,7 +3,6 @@ layout: post
 title: ABCDevOps - Amazon Lambda
 date: 2016-02-29
 og_image: /images/posts/amazon-lambda.jpg
-main_image: /images/ginvoicing-main.jpg
 top_story: true
 description: |
   

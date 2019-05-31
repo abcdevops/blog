@@ -3,7 +3,6 @@ layout: post
 title: ABCDevOps - Amazon Redshift
 date: 2016-02-13
 og_image: /images/posts/amazon-redshift.jpg
-main_image: /images/ginvoicing-main.jpg
 top_story: true
 description: |
   

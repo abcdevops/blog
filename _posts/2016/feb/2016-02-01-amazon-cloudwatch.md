@@ -3,7 +3,6 @@ layout: post
 title: ABCDevOps -Amazon CloudWatch
 date: 2016-02-01
 og_image: /images/posts/amazon-cloudwatch.jpg
-main_image: /images/ginvoicing-main.jpg
 top_story: true
 description: |
   

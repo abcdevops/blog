@@ -3,7 +3,6 @@ layout: post
 title: ABCDevOps - Amazon Cloud Front
 date: 2016-02-24
 og_image: /images/posts/amazon-cloud-front.jpg
-main_image: /images/ginvoicing-main.jpg
 top_story: true
 description: |
   
