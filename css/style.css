@@ -4,9 +4,8 @@
 main > header{background:linear-gradient(to bottom, rgb(224, 224, 224) 0%,rgb(255, 255, 255) 44%); position: relative; box-shadow: 2px 0px 5px #888;}
 main > header .ui.inverted.menu{background:transparent;}
 main > header .ui.inverted.menu > .item > img{min-width:269px}
-/* main > header .ui.menu .item{font-family:HelveticaNeue-CondensedBold,HelveticaNeue-CondensedBold;color: #f08422!important;line-height: 55px;background-image: url(../images/menu-devider.jpg) !important; background-repeat: no-repeat!important;background-position: right center !important;font-size: 25px;padding: 0 1.5em !important;} */
-main > header .ui.menu .item {
-    /* font-family: HelveticaNeue-CondensedBold,HelveticaNeue-CondensedBold; */
+main > header .ui.menu .item{font-family:HelveticaNeue-CondensedBold,HelveticaNeue-CondensedBold;color: #f08422!important;line-height: 55px;background-image: url(../images/menu-devider.jpg) !important; background-repeat: no-repeat!important;background-position: right center !important;font-size: 25px;padding: 0 1.5em !important;}
+/* main > header .ui.menu .item {
     color: #f08422!important;
     line-height: 55px;
     background-image: url(../images/menu-devider.jpg) !important;
@@ -17,7 +16,7 @@ main > header .ui.menu .item {
     text-transform: capitalize!important;
     font-weight: 600;
     
-}
+} */
 header .bg-img{background-image:url(../images/header-bg.jpg);background-repeat:repeat-x;background-color:#fff}
 .border-bottom{border-bottom:1px solid #c3c3c3}
 h1,h2,h3,h4,h5,h6{font-family:"Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;font-weight:400;font-style:normal;color:inherit;text-rendering:optimizeLegibility;margin-top:0;margin-bottom:.5rem;line-height:1.4}
