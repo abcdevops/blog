@@ -38,7 +38,7 @@ description: We are Hiring
                     </div>
                     <div class="middle-text">
                             <h4>
-                                Javascript Developer
+                                Node JS/Javascript Developer
                             </h4>
                             <span>
                                 Experience: 0-1 year
@@ -48,7 +48,7 @@ description: We are Hiring
                         <a href="#career-form" class="button">Apply Now</a>
                     </div>
                 </div>
-                 <div class="box">
+                <div class="box">
                     <div class="img-box">
                         <a href="#">
                             <img src="images/business-developer-hiring.png" width="96" height="96" alt="" class="avatar avatar-96 wp-user-avatar wp-user-avatar-96 photo avatar-default">
@@ -57,6 +57,42 @@ description: We are Hiring
                     <div class="middle-text">
                             <h4>
                                 Business Developer
+                            </h4>
+                            <span>
+                                Experience: 0-1 year
+                            </span>
+                    </div>
+                    <div class="right-button">
+                        <a href="#career-form" class="button">Apply Now</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="img-box">
+                        <a href="#">
+                            <img src="images/devops-engineer-hiring.png" width="96" height="96" alt="" class="avatar avatar-96 wp-user-avatar wp-user-avatar-96 photo avatar-default">
+                        </a>
+                    </div>
+                    <div class="middle-text">
+                            <h4>
+                                DevOps Engineer
+                            </h4>
+                            <span>
+                                Experience: 0-1 year
+                            </span>
+                    </div>
+                    <div class="right-button">
+                        <a href="#career-form" class="button">Apply Now</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="img-box">
+                        <a href="#">
+                            <img src="images/frontend-hiring.png" width="96" height="96" alt="" class="avatar avatar-96 wp-user-avatar wp-user-avatar-96 photo avatar-default">
+                        </a>
+                    </div>
+                    <div class="middle-text">
+                            <h4>
+                                Front-End Developer
                             </h4>
                             <span>
                                 Experience: 0-1 year
