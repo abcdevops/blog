@@ -11,4 +11,13 @@ jQuery(document).ready(function($) {
 
     }
     banner_inner_load();
+
+    // for career page
+    jQuery("a[href^='#career-form']").click(function(e) {
+        e.preventDefault();
+        var position = jQuery(jQuery(this).attr("href")).offset().top;
+        jQuery("body, html").animate({
+            scrollTop: position
+        } /* speed */ );
+    });
 });

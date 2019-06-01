@@ -18,7 +18,8 @@ description: |
         <div class="eight wide computer sixteen wide mobile column">
             <div class="address-right-cont-us" style="float:left; width:100%;">
                 <div class="contact-row">
-                    <h3 style="margin-bottom: 20px;">ABCDevOps</h3>
+                    <!-- <h3 style="margin-bottom: 20px;">ABCDevOps</h3> -->
+                    <img class="ui image logo" src="/images/logo-abc-home.png" alt="abcdevops" style="max-width: 200px; margin-bottom: 10px;">
                     <p class="no-margin-bt"><i class="map marker alternate icon"></i>23679 Calabasas Rd #150, Calabasas, 91302<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  California, United States</p><br>
                                     <a href="mailto:market@abcdevops.com" class="no-margin-bt" style="color: #000;"><i class="envelope outline icon"></i>marketing@abcdevops.com</a>
                 </div>                

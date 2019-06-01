@@ -1,10 +1,23 @@
 @import "https://fonts.googleapis.com/css?family=Open+Sans:300,400,600";
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700');
 /*layout css*/
-main > header{background:linear-gradient(to bottom, rgb(224, 224, 224) 0%,rgb(255, 255, 255) 44%); position: relative;}
+main > header{background:linear-gradient(to bottom, rgb(224, 224, 224) 0%,rgb(255, 255, 255) 44%); position: relative; box-shadow: 2px 0px 5px #888;}
 main > header .ui.inverted.menu{background:transparent;}
 main > header .ui.inverted.menu > .item > img{min-width:269px}
-main > header .ui.menu .item{font-family:HelveticaNeue-CondensedBold,HelveticaNeue-CondensedBold;color: #f08422!important;line-height: 55px;background-image: url(../images/menu-devider.jpg) !important; background-repeat: no-repeat!important;background-position: right center !important;font-size: 25px;padding: 0 1.5em !important;}
+/* main > header .ui.menu .item{font-family:HelveticaNeue-CondensedBold,HelveticaNeue-CondensedBold;color: #f08422!important;line-height: 55px;background-image: url(../images/menu-devider.jpg) !important; background-repeat: no-repeat!important;background-position: right center !important;font-size: 25px;padding: 0 1.5em !important;} */
+main > header .ui.menu .item {
+    /* font-family: HelveticaNeue-CondensedBold,HelveticaNeue-CondensedBold; */
+    color: #f08422!important;
+    line-height: 55px;
+    background-image: url(../images/menu-devider.jpg) !important;
+    background-repeat: no-repeat!important;
+    background-position: right center !important;
+    font-size: 18px;
+    padding: 0 1.2em !important;
+    text-transform: capitalize!important;
+    font-weight: 600;
+    
+}
 header .bg-img{background-image:url(../images/header-bg.jpg);background-repeat:repeat-x;background-color:#fff}
 .border-bottom{border-bottom:1px solid #c3c3c3}
 h1,h2,h3,h4,h5,h6{font-family:"Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;font-weight:400;font-style:normal;color:inherit;text-rendering:optimizeLegibility;margin-top:0;margin-bottom:.5rem;line-height:1.4}
@@ -57,7 +70,7 @@ footer a:hover,footer i:hover{color:#f08422}
 .blog-title-detail h1 small{display:block}
 .blog-list-box{position:relative;position:relative;overflow:hidden}
 .blog-list-box img{width:100%;max-width:100%;min-height:100%;max-height:330px;width:auto;min-width:100%}
-.blog-list-box .top-title{position:absolute;right:0;transition:.3s all;top:0;background-color:#333333;width:91%;left:0;padding:10px 0;margin:auto;text-align:right;font-size:18px;color:#fff;height:13%;padding-right:20px}
+.blog-list-box .top-title{position:absolute;right:0;transition:.3s all;top:0;background-color:#333333;width:calc(100% - 32px);left:0;padding:10px 0;margin:0 16px;text-align:right;font-size:18px;color:#fff;height:13%;padding-right:20px}
 .blog-heading{position:absolute;width:calc(100% - 32px);top:0;bottom:0;margin:auto;text-align:left;display:flex;padding-left:25px;justify-content:center;flex-direction:column;height:30%;background-color:rgba(255,255,255,0.75)}
 .bottom-description{position:absolute;bottom:31px;transition:.3s all;padding:7px 20px;background-color:#333333;color:#fff}
 .blog-heading h2{border-left:6px solid #333333;transition:.3s all;text-align:left;text-transform:uppercase;color:#000;padding:10px 0 10px 20px;text-align:left; font-size: 1.4rem;}
@@ -70,6 +83,58 @@ footer a:hover,footer i:hover{color:#f08422}
 .top-stories{background:url(../images/pettern-orange.jpeg)repeat;padding-top:90px;margin-bottom:50px}
 .featured-header-main{text-align:right;margin-bottom:30px;width:100%}
 .featured-header-main h2{text-transform:uppercase;font-weight:400;font-family:'Open Sans',sans-serif;font-size:32px;padding-right:20px;color:#000;border-right:6px solid #f08422}
+.who-we .featured-header-main{
+    text-align: left;
+}
+.who-we{
+    background-color: #fff;
+}
+.who-we .circle {
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+    border-radius: 100%;
+    overflow: hidden;
+    margin-top: 30px;
+}
+.career_list .box{
+    margin-bottom: 18px;
+    display: flex;
+    border: 1px solid #e9ebec;
+    padding: 20px 18px;
+    box-sizing: border-box;
+    -webkit-transition: all .9s ease-out;
+    -moz-transition: all .9s ease-out;
+    transition: all .9s ease-out;
+    background-color: #fff;
+    align-items: center;
+}
+.career_list .box:hover{
+    border: 1px solid #f8edf0;
+    box-shadow: 2px 2px 25px 0 rgba(255,51,102,.07);
+    -webkit-transition: all .15s ease-out;
+    -moz-transition: all .15s ease-out;
+    transition: all .15s ease-out;
+}
+.career_list{
+ background-color: #f7f7f7;
+}
+/* .career_list .img-box{
+    width: 17%;
+} */
+.career_list .right-button{
+    /* position: relative;
+    display: table-cell;
+    height: 100%;
+    vertical-align: middle;
+    width: 22%; */
+}
+.career_list .middle-text{
+    flex: 1;
+    padding: 0 20px;
+}
+
+.who-we .featured-header-main h2{padding-left:20px;color:#fff; border-left:6px solid #db7010; border-right:0;}
 .top-stories .featured-header-main h2{border-color:#fff;color:#fff}
 .blog-list .blog-list-box{overflow:inherit}
 .top-stories .blog-list-box::before{content:"";width:calc(100% - 32px);height:100%;box-shadow:0 0 36px rgba(0,0,0,0.51);display:block;position:absolute;top:0;z-index:0}
@@ -321,7 +386,7 @@ body{background-color:#e77b19}
 .technical{list-style:none}
 .technical span{color:#e87b19;background:#fff;width:30px;height:30px;border-radius:50%;padding:10px 15px}
 .technical li{margin-bottom:30px}
-.ssec{padding:20px;border-right:1px solid #743700}
+.ssec{padding:20px;border-right:1px solid #272727}
 .bg-dark{background:#363636}
 .formsec{padding:50px 50px 20px 50px}
 #career .formsec{padding-bottom:0}
@@ -376,6 +441,27 @@ body{background-color:#e77b19}
     .hiring img {max-width: 90px;}
 }
 @media(max-width:990px) {
+    main > header .ui.menu .item{background-image:none!important; font-size: 16px;}
+    .ui.stackable.menu .item {
+        width: 100%!important;
+    }
+    .sixteen.wide.column.menu-list{
+        float: left;
+        width: 100%!important;
+    }
+    header.bg-img {
+        background-image: none;
+        background-color: #fff;
+    }
+    .menu-responsive {
+        margin: 0px 0 15px 0!important;
+        display: none!important;
+    }
+    header img.ui.image.logo {
+        margin-left: 60px;
+    }
+    main > header .ui.menu .item{padding:1em 0 0!important;line-height:35px}
+    .mobile-menu{display:inline-block;position:absolute;left:20px;cursor:pointer!important;z-index:22222;top:-33px}
     #home .logo {margin-left: 10px; max-width: 200px;}
     .hiring img {max-width: 110px;}
     .top-bar-menu a,.help-desk a span{display:inline-block;width:auto}
@@ -412,8 +498,13 @@ body{background-color:#e77b19}
     .hiring img {max-width: 80px;}
 }
 @media(max-width:767px) {
+    .who-we .circle {
+        height: 270px;
+        width: 270px;
+    }
+
     .logo-rs{padding-top: 25px!important;}
-    main > header .ui.menu .item{background-image:none!important; font-size: 16px;}
+
     footer div.m-bt:nth-child(4){margin-bottom:0!important}
     .expanded .heavy-font{font-size:30px!important;line-height:30px;margin-bottom:5px}
     .expanded.pad-md{padding:15px}
@@ -422,9 +513,9 @@ body{background-color:#e77b19}
     header img.ui.image.logo{margin-left:60px}
     .featured-header-main h2{font-size:26px}
     header.bg-img{background-image:none;background-color:#fff}
-    main > header .ui.menu .item{padding:1em 0 0!important;line-height:35px}
+
     .menu-responsive{margin:0px 0 15px 0!important;display:none!important}
-    .mobile-menu{display:inline-block;position:absolute;left:20px;cursor:pointer!important;z-index:22222;top:-33px}
+
     .hiringback{height:200px!important;margin-top:0!important}
     footer .m-bt{padding-right:0!important}
     .slick{font-size:40px}
@@ -459,6 +550,9 @@ body{background-color:#e77b19}
     .blog-list .ui.container{width:auto!important}
     footer{padding:30px 0!important}
     .sec-technologies img{max-width: 40px}
+    .button{
+        padding: 10px 25px;
+    }
 }
 @media(max-width:490px) {
     .featured_style h3{font-size:20px}
@@ -472,11 +566,22 @@ body{background-color:#e77b19}
     .address-right-cont-us .sixteen.wide.column{
         margin: -1px -10px;
     }
+    .career_list .box{
+        display: block;
+        text-align: center;
+    }
+    .career_list .middle-text {
+        padding: 20px 0px;
+    }
 }
 @media(max-width:359px) {
-    header.bg-img{padding:0 0 40px}
-    header img.ui.image.logo{margin-left:20px}
-    .menu-responsive{margin:20px 0 0!important}
-    .mobile-menu{top:10px}
+    /* header.bg-img{padding:0 0 40px} */
+    /* header img.ui.image.logo{margin-left:20px} */
+    /* .menu-responsive{margin:20px 0 0!important} */
+    /* .mobile-menu{top:10px} */
     .blog-banner{margin-top:0}
+    .blog-list-box a{
+        top: 5px;
+    }
 }
+
