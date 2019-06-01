@@ -1,5 +1,5 @@
 ---
-layout: simple
+layout: simple1
 date: 2017-10-10 10:30:33 +0530
 id: who
 permalink: who.html
@@ -7,44 +7,45 @@ main_image: /images/what-img.png
 description: |
 
 ---
- <div class="ui grid text-white m-0">
-            <h1 class="vheavy p-0">Who are we &amp; What we do?</h1>
-            <div class="three column row  stackable">
-                <div class="column text-center ssec">
-                    <img src="../images/we-are-img1.png"><h4>DevOps Automation</h4>
-                    <p>Automate your entire application environment by treating your infrastructure as code. Through configuration management tools such as Chef and 
-                        Windows PowerShell® Desired State Configuration (DSC), we automate the deployment and scaling of your application environments.</p>
-                </div>
-                <div class="column text-center ssec">
-                    <img src="../images/we-are-img2.png"><h4>Implement Log Management</h4>
-                    <p>(LM) comprises an approach to dealing with large volumes of computer-generated log messages (also known as audit records, audit trails, event-logs, etc.). LM covers: log collection. centralized aggregation. long-term retention.</p>
-                </div>
-                <div class="column text-center ssec">
-                    <img src="../images/we-are-img3.png"><h4>Implement repository changes using Gitflow workflow</h4>
-                    <p>The Gitflow Workflow defines a strict branching model designed around the project release. While somewhat more complicated than the Feature Branch Workflow, this provides a robust framework for managing larger projects.</p>
-                </div>
-            </div>
-            <div class="three column row  stackable">
-                <div class="column text-center ssec">
-                    <img src="../images/we-are-img4.png"><h4>Implement deployment process</h4>
-                    <p>The term application deployment refers to the process of making an application or module available for processing client requests in a WebLogic Server domain.</p>
-                </div>
-                <div class="column text-center ssec">
-                    <img src="../images/we-are-img5.png"><h4>Remote Monitoring</h4>
-                    <p>Monitoring is an enterprise-grade solution that helps keep your applications up and running fast—all of the time.</p>
-                </div>
-                <div class="column text-center ssec">
-                    <img src="../images/we-are-img7.png"><h4>Server/Deployment Automation</h4>
-                    <p>We expected that automation would make deployments faster, and of course it did – computers are good at making things faster. Automation can lead to shorter iteration and feedback cycles, by reducing the risk and effort involved in deploying software to production.</p>
-                </div>
-            </div>
-            <div class="three column row  stackable">
-                <div class="column text-center ssec"><img src="../images/we-are-img6.png"><h4>Implement Log Management</h4>
-                    <p>(LM) comprises an approach to dealing with large volumes of computer-generated log messages (also known as audit records, audit trails, event-logs, etc.). LM covers: log collection. centralized aggregation. long-term retention.</p>
-                </div>
-                <div class="column text-center ssec end">
-                    <img src="../images/we-are-img5.png"><h4>Implement Infrastructure Monitoring and Alerting on the critical production infrastructure</h4>
-                    <p>The practices and disciplines of supporting the IT systems/applications which are currently being used by the end users. A production support person/team is responsible for receiving incidents and requests from end-users, analyzing these and either responding to the end user with a solution or escalating it to the other IT teams. These teams may include developers, system engineers and database administrators.</p>
-                </div>
+<div class="inner-content-page" style="background-clor:#FAFAFA;">
+    <div class="ui container">
+        <div class="ui grid">
+            <div class="sixteen wide column">
+                <h1 class="text-white vheavy p-0">About us</h1>
+                <p class="text-white">We  contribute to the DevOps community by sharing with people the best practices and mentoring them to achieve better results.</p>
+                <p class="text-white">We have experience with a broad range of tools for cloud infrastructures such as Amazon AWS and Google Compute Engine; </p>
+                <p class="text-white">Databases We Use: MongoDB, Cassandra, MySQL and PostgreSQL, </p>
+                <p class="text-white">Deployment Tools we use:  AWS CodeDeploy, Amazon Opsworks, Jenkins, GitLab CI, Capistrano </p>
+                <p class="text-white">Configuration Management Tools: Chef</p>
+                <p class="text-white">From building all the way from small improvements to monitoring and adding visibility to infrastructure at the micro level, We contribute to the DevOps community by sharing with people the best practices and mentoring them to achieve better results.</p>
             </div>
         </div>
+    </div>
+</div>
+<section class="who-we inner-content-page">
+  <div class=" ui container">
+     <div class="featured-header-main">
+        <h2 style="color:#000;">Get To Know Us</h2>
+        <div class="ui grid">
+           <div class="two column row stackable">
+              <div class="column text-center">
+                    <div class="circle">
+                        <img src="images/tarun-jangra.png" class="ui image" alt="image">
+                    </div>
+                    <h3>Tarun Jangra</h3>
+                    <h5>(Solutions Architect - Associate)</h5>
+                    <p>The AWS Certified Developer – Associate validates technical expertise in developing and maintaining applications on the AWS platform.</p>
+              </div>
+              <div class="column text-center">
+                    <div class="circle">
+                        <img src="images/puneet-sethi.png" class="ui image" alt="image">
+                    </div>
+                    <h3>Puneet Sethi</h3>
+                    <h5>(redhat - Certified Engineer)</h5>
+                    <p>Hands-on, successful Software Engineer with 9+ years of verifiable success leading teams in delivering appropriate technology solutions for desktop and mobile products.  Comprehensive knowledge of platform development, enterprise architecture, agile methodologies, cloud services, and web-based applications. </p>
+              </div>
+           </div>
+        </div>
+     </div>
+  </div>
+</section>
