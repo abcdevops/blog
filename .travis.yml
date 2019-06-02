@@ -36,7 +36,16 @@ before_install:
 install:
 - set -e
 - bundle
+- travis_retry sudo _travis/install_cmake.sh
+- travis_retry npm install cssshrink@0.0.5
+- travis_retry sudo _travis/install_plantuml.sh
+- travis_retry sudo _travis/install_sfnt2woff.sh
+- travis_retry sudo _travis/install_tidy.sh
+- travis_retry gem install jekyll-watch -v 2.0.0
+- travis_retry bundle exec fontcustom --version
+- gnuplot --version
 script:
 - set -e
 - export JEKYLL_ENV=production
+- bundle exec rake
 - bundle exec jgd -u git@github.com:abcdevops/blog.git
