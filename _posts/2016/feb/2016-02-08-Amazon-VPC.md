@@ -3,6 +3,7 @@ layout: post
 title: Amazon Virtual Private Cloud
 date: 2016-02-08
 og_image: /images/posts/amazon-VPC.jpg
+top_story: true
 description: |
   Create your infrastructure more secure and more isolated from public cloud.
 tags:

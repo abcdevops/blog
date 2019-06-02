@@ -4,7 +4,7 @@ title: Contact Us
 icon: phone
 date: 
 id: where
-permalink: where.html
+permalink: where
 main_image: /images/back2.jpg
 description: | 
     Love to hear from you. Send us an email or fill the form.

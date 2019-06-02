@@ -17,7 +17,7 @@ redcarpet:
     - autolink
     - tables
     - with_toc_data
-permalink: blog/:year/:month/:day/:title.html
+permalink: blog/:year/:month/:day/:title
 paginate: 10
 paginate_path: "/blog/page:num"
 excerpt_separator: <!--more-->

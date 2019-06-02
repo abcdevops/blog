@@ -2,7 +2,7 @@
 layout: simple1
 date: 2017-10-10 10:30:33 +0530
 id: what
-permalink: what.html
+permalink: what
 main_image: /images/what-img.png
 description: |
 

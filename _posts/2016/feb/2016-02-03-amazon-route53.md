@@ -6,7 +6,8 @@ og_image: /images/posts/amazon-route-53.jpg
 description: |
   Amazon Route53, A complete DNS control Which allows you to failover between multiple regions.
 tags:
-- sqs
+- route53
+- DNS
 - amazon
 - aws
 - service

@@ -4,7 +4,7 @@ date: 2017-10-10 10:30:33 +0530
 icon: file outline
 title: We Are Hiring
 id: career
-permalink: career.html
+permalink: career
 main_image: /images/back.jpg
 description: We are Hiring
 ---
