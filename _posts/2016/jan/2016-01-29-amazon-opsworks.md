@@ -1,13 +1,14 @@
 ---
 layout: post
-title: ABCDevOps - Amazon OpsWorks
+title: AWS OpsWorks – Configuration Management - Amazon Web Services
 date: 2016-01-29
 og_image: /images/posts/amazon-opsworks.jpg
-top_story: true
 description: |
-  
+  AWS OpsWorks is a configuration management service that provides managed instances of Chef and Puppet. Chef and Puppet are automation platforms help to provision your application requirements.
 tags:
-- sqs
+- OpsWorks
+- Chef
+- Puppet
 - amazon
 - aws
 - service

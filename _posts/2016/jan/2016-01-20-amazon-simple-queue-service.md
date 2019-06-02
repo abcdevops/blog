@@ -1,11 +1,10 @@
 ---
 layout: post
-title: ABCDevOps - Amazon Simple Queue Service 
+title: Amazon Simple Queue Service - message queue service
 date: 2016-01-20
 og_image: /images/posts/amazon-simple-queue-service.jpg
-top_story: true
 description: |
-  What is amazon's simple queue service and what type of applications it can be applied on?
+  Amazon Simple Queue Service (SQS) is a fully managed message queuing service that enables you to decouple and scale microservices, distributed systems, and serverless applications.
 tags:
 - sqs
 - amazon

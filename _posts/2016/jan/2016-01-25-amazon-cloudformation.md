@@ -1,13 +1,15 @@
 ---
 layout: post
-title: ABCDevOps - Amazon CloudFormation
+title: AWS CloudFormation - Infrastructure as Code &amp; AWS Resource Provisioning
 date: 2016-01-25
 og_image: /images/posts/amazon-cloudformation.jpg
 top_story: true
 description: |
-  
+  AWS CloudFormation provides a common language for you to describe and provision all the infrastructure resources in your cloud environment. 
 tags:
-- sqs
+- CloudFormation
+- automation
+- stack
 - amazon
 - aws
 - service

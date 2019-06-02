@@ -1,20 +1,19 @@
 ---
 layout: post
-title: ABCDevOps - Amazon ElastiCache
+title: Amazon ElastiCache - Inmemory data store and caching
 date: 2016-02-15
 og_image: /images/posts/amazon-elasticache.jpg
-top_story: true
 description: |
-  
+  Amazon ElastiCache is a fully managed in-memory data store and cache service by Amazon Web Services.
 tags:
-- sqs
+- ElastiCache
 - amazon
 - aws
 - service
 - pricing
 ---
 
-## ElastiCache :- 
+## ElastiCache
 
 ElastiCache is a web service that makes it easy to deploy, operate, and scale an in-memory cache in the cloud. The service improves the performance  of web applications by allowing you to retrieve information from fast, managed, in-memory caches, instead of relying entirely on slower disk-based database. ElastiCache supports two open-source in-memory caching engines:
 

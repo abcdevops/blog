@@ -1,12 +1,13 @@
 ---
 layout: post
-title: ABCDevOps - Amazon Lambda
+title: Amazon Lambda - Serverless technology
 date: 2016-02-29
 og_image: /images/posts/amazon-lambda.jpg
-top_story: true
-description:
+description: |
+  AWS Lambda is an event-driven, serverless computing platform provided by Amazon as a part of the Amazon Web Services.
 tags:
-- sqs
+- serverless
+- lambda
 - amazon
 - aws
 - service

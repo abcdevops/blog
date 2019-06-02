@@ -1,11 +1,10 @@
 ---
 layout: post
-title: ABCDevOps - Amazon Storage Gateway
+title: Amazon Storage Gateway - Better storage solution.
 date: 2016-02-22
 og_image: /images/posts/amazon-storage-gateway.jpg
-top_story: true
 description: |
-  
+  The AWS Storage Gateway service enables hybrid storage between on-premises environments and the AWS Cloud. 
 tags:
 - sqs
 - amazon

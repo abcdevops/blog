@@ -1,13 +1,14 @@
 ---
 layout: post
-title: ABCDevOps - Amazon Cloud Front
+title: Amazon Cloud Front - serve static assets from the closest place.
 date: 2016-02-24
 og_image: /images/posts/amazon-cloud-front.jpg
 top_story: true
 description: |
-  
+  Amazon CloudFront is a content delivery network offered by Amazon Web Services. Content delivery networks provide a globally-distributed network of proxy servers which cache content, such as web videos or other bulky media, more locally to consumers, thus improving access speed for downloading the content. 
 tags:
-- sqs
+- CloudFront
+- CDN
 - amazon
 - aws
 - service

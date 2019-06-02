@@ -1,11 +1,10 @@
 ---
 layout: post
-title: ABCDevOps - Amazon Route53
+title: Amazon Route53, Powerfull controll on DNS.
 date: 2016-02-03
 og_image: /images/posts/amazon-route-53.jpg
-top_story: true
 description: |
-  
+  Amazon Route53, A complete DNS control Which allows you to failover between multiple regions.
 tags:
 - sqs
 - amazon

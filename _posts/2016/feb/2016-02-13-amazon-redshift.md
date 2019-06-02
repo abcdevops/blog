@@ -1,13 +1,12 @@
 ---
 layout: post
-title: ABCDevOps - Amazon Redshift
+title: Amazon Redshift, Big data solution
 date: 2016-02-13
 og_image: /images/posts/amazon-redshift.jpg
-top_story: true
 description: |
-  
+  Amazon Redshift is an Internet hosting service and data warehouse product which forms part of the larger cloud-computing platform Amazon Web Services. 
 tags:
-- sqs
+- redshift
 - amazon
 - aws
 - service

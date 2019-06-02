@@ -1,13 +1,14 @@
 ---
 layout: post
-title: ABCDevOps -Amazon CloudWatch
+title: Amazon CloudWatch, A monitoring tool.
 date: 2016-02-01
 og_image: /images/posts/amazon-cloudwatch.jpg
 top_story: true
 description: |
-  
+  AWS CloudWatch helps you to monitor you application from end to end. You can monitor infrastructure and take decisions early.
 tags:
-- sqs
+- CloudWatch
+- monitoring
 - amazon
 - aws
 - service

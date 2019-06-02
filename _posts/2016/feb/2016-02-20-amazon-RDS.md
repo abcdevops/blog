@@ -1,21 +1,24 @@
 ---
 layout: post
-title: ABCDevOps - Amazon RDS
+title: Amazon RDS - Relational database service
 date: 2016-02-20
 og_image: /images/posts/amazon-RDS.jpg
-top_story: true
 description: |
-  
+  Amazon Relational Database Service is a distributed relational database service by Amazon Web Services. It is a web service running "in the cloud" designed to simplify the setup, operation, and scaling of a relational database for use in applications.
 tags:
-- sqs
+- RDS
+- oracle
+- mysql
+- PostgreSQL
 - amazon
 - aws
 - service
 - pricing
 ---
 
-Databases Introduction :- 
+Databases Introduction
 ---
+
 So we just with brief introduction on the different types of databases so we got Relational databases.
 
 1. ##### Relational Databases (OLTP) :- 
@@ -65,5 +68,3 @@ NoSql quite a little bit different to relational databases so there is different
 ## Data Warehousing :-
 
 This is often used by number of different software products business intelligence. Tools like Cognos, Jaspersoft, SQL Server Reporting Services, Oracle Hyperion, SAP NetWeaver.
-
-    
