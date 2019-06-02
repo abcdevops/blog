@@ -1,0 +1,1059 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.1.6">Jekyll</generator><link href="https://www.abcdevops.com/rss.xml" rel="self" type="application/atom+xml" /><link href="https://www.abcdevops.com/" rel="alternate" type="text/html" /><updated>2019-06-03T02:44:41+05:30</updated><id>https://www.abcdevops.com/</id><title>abcdevops: re:inventing DevOps</title><subtitle>abcdevops: GST Ready invoicing solution</subtitle><author><name>Tarun Jangra</name><email>tarun.jangra@hotmail.com</email></author><entry><title>Amazon EC2 - Elastic Cloud Computing</title><link href="https://www.abcdevops.com/blog/2016/03/02/amazon-EC2.html" rel="alternate" type="text/html" title="Amazon EC2 - Elastic Cloud Computing" /><published>2016-03-02T00:00:00+05:30</published><updated>2016-03-02T00:00:00+05:30</updated><id>https://www.abcdevops.com/blog/2016/03/02/amazon-EC2</id><content type="html" xml:base="https://www.abcdevops.com/blog/2016/03/02/amazon-EC2.html">&lt;p&gt;Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides re-sizable compute capacity in the cloud. Amazon EC2 reduces the time required to obtain and boot new server instances to minutes, allowing you to quickly scale capacity, both up and down, as your computing requirements change.&lt;/p&gt;
+
+&lt;p&gt;We are working from last 10 years in IT I remember time where if we needed a new Active Directory Server or a new SQL Server we have to go to HP or go to DELL order new servers we then had to get deliver to our data centers we had to get racked we had to do the networking setup them the internet accessible etc and you know your provisioning time should be anywhere from 5 to 10 business days. Then i started public cloud and was really exciting to see the capabilities of cloud in step having of 5 to 10 days lead time you would reduce to literally just couple of minutes you can have that server up and running so that’s really how cloud computing change the IT industry in the last 5 to 10 years so Amazon EC2 changes the economics of computing by allowing you to pay only for capacity that you actually use. Amazon EC2 provides developers the tools to build failure resilient applications and isolate themselves from common failure scenarios. So we just look at the first section the advantage of the cloud computing is utility based model you can pay only by the hour. If you want to spin up the development environment and just test on it and then terminate you only pay for 1 or 2 hours the environment is live the old model way you would buy the server hardware you would be stuck with it.&lt;/p&gt;
+
+&lt;h2 id=&quot;elastic-compute-cloud-pricing-options&quot;&gt;Elastic Compute Cloud Pricing Options&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;h5 id=&quot;free-tier-&quot;&gt;Free Tier –&lt;/h5&gt;
+    &lt;p&gt;you get 735 hours free on certain micro instances.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h5 id=&quot;on-demand-&quot;&gt;On Demand –&lt;/h5&gt;
+    &lt;p&gt;Which allow you to pay a fixed rate by the hour with no commitment.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h5 id=&quot;reserved-&quot;&gt;Reserved –&lt;/h5&gt;
+    &lt;p&gt;Which provide you with a capacity reservation, and offer a significant discount on the hourly charge for an instance. Then you have 1 Year or 3 Year Terms so reserved just saying i need 10 servers of this size and i am willing to pay either up-front contractual willing to commit for 1 to 3 years and if you do use reserved instances then you get massive discounts compared with on demand.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h5 id=&quot;spot-&quot;&gt;Spot –&lt;/h5&gt;
+    &lt;p&gt;This is enable you to bid whatever price you want to pay for instance capacity, providing for even greater savings if your applications have flexible start and end times.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;elastic-compute-cloud-on-demand-vs-reserved-vs-spot&quot;&gt;Elastic Compute Cloud On Demand vs Reserved vs Spot&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;h5 id=&quot;on-demand-instances&quot;&gt;On Demand Instances&lt;/h5&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;span&gt;Users that want the low cost and flexibility of Amazon EC2 without any up-front payment or long-term commitment.&lt;/span&gt;
+&lt;span&gt;Applications with short term, spike, or unpredictable workloads that cannot be interrupted.&lt;/span&gt;
+&lt;span&gt;Applications being developed or tested on Amazon EC2 for the first time.&lt;/span&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;h5 id=&quot;reserved-instances&quot;&gt;Reserved Instances&lt;/h5&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;span&gt;Applications with steady state or predictable usage so reserved might be your 3 or 4 web servers that you always want to turned on and then your on demand instances might be is the part of an auto scaling event.&lt;/span&gt;
+&lt;span&gt;Applications that require reserved capacity.&lt;/span&gt;
+&lt;span&gt;Users able to make upfront payment to reduce their total computing costs even further.&lt;/span&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;h5 id=&quot;spot-instances&quot;&gt;Spot Instances&lt;/h5&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;span&gt;  Applications that have flexible start and end times.&lt;/span&gt;
+&lt;span&gt;Applications that are only feasible at very low compute prices.&lt;/span&gt;
+&lt;span&gt;Users with urgent computing needs for large amounts  of additional capacity.&lt;/span&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;elastic-compute-cloud-on-demand-instances&quot;&gt;Elastic Compute Cloud On Demand Instances&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;General Purpose Instances&lt;/li&gt;
+  &lt;li&gt;Compute Optimized Instances
+ &lt;span&gt;Compute Intensive Applications&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;Memory Optimized Instances
+  &lt;span&gt;Database &amp;amp; Memory Caching Applications&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;GPU Instances Instances
+  &lt;span&gt;High Performance Parallel Computing (eg Hadoop)&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;Storage Optimized Instances
+  &lt;span&gt;Data warehousing and Parallel Computing&lt;/span&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;local-instance-storage-vs-elastic-block-storage&quot;&gt;Local Instance Storage vs Elastic Block Storage&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Local Instance Storage&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;span&gt;Data stored on a local instance store will persist only as long as that instance is alive. So you terminate that Instances you loose all the data on that virtual hardware.&lt;/span&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Elastic Block Storage Backed Storage&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;span&gt;Data that is stored on an Amazon Elastic Block Storage volume will persist independently of the life of the instance.&lt;/span&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;storage-backed-by-elastic-block-storage&quot;&gt;Storage backed by Elastic Block Storage&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;Provisioned IOPS Solid State Drive&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;span&gt;Designed for I/O intensive applications such as large relational or No-SQL databases.&lt;/span&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;General purpose Solid State Drive&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;span&gt;Designed for 99.999% availability.&lt;/span&gt;
+&lt;span&gt;Ratio of 3 IOPS per GB, offer single digit millisecond latency, and also have the ability to burst up to 3000 IOPS for short periods.&lt;/span&gt;&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;h5 id=&quot;magnetic&quot;&gt;Magnetic&lt;/h5&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;span&gt;Lowest cost per gigabyte of all Elastic Block Storage volume types. Magnetic volumes are ideal for workloads where data is accessed infrequently, and applications where the lowest storage cost is important.&lt;/span&gt;&lt;/p&gt;</content><author><name>Tarun Jangra</name><email>tarun.jangra@hotmail.com</email></author><category term="ec2" /><category term="amazon" /><category term="aws" /><category term="service" /><category term="pricing" /><summary>Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides re-sizable compute capacity in the cloud. Amazon EC2 reduces the time required to obtain and boot new server instances to minutes, allowing you to quickly scale capacity, both up and down, as your computing requirements change.
+
+We are working from last 10 years in IT I remember time where if we needed a new Active Directory Server or a new SQL Server we have to go to HP or go to DELL order new servers we then had to get deliver to our data centers we had to get racked we had to do the networking setup them the internet accessible etc and you know your provisioning time should be anywhere from 5 to 10 business days. Then i started public cloud and was really exciting to see the capabilities of cloud in step having of 5 to 10 days lead time you would reduce to literally just couple of minutes you can have that server up and running so that’s really how cloud computing change the IT industry in the last 5 to 10 years so Amazon EC2 changes the economics of computing by allowing you to pay only for capacity that you actually use. Amazon EC2 provides developers the tools to build failure resilient applications and isolate themselves from common failure scenarios. So we just look at the first section the advantage of the cloud computing is utility based model you can pay only by the hour. If you want to spin up the development environment and just test on it and then terminate you only pay for 1 or 2 hours the environment is live the old model way you would buy the server hardware you would be stuck with it.
+
+Elastic Compute Cloud Pricing Options
+
+
+  
+    Free Tier –
+    you get 735 hours free on certain micro instances.
+  
+  
+    On Demand –
+    Which allow you to pay a fixed rate by the hour with no commitment.
+  
+  
+    Reserved –
+    Which provide you with a capacity reservation, and offer a significant discount on the hourly charge for an instance. Then you have 1 Year or 3 Year Terms so reserved just saying i need 10 servers of this size and i am willing to pay either up-front contractual willing to commit for 1 to 3 years and if you do use reserved instances then you get massive discounts compared with on demand.
+  
+  
+    Spot –
+    This is enable you to bid whatever price you want to pay for instance capacity, providing for even greater savings if your applications have flexible start and end times.
+  
+
+
+Elastic Compute Cloud On Demand vs Reserved vs Spot
+
+
+  
+    On Demand Instances
+  
+
+
+Users that want the low cost and flexibility of Amazon EC2 without any up-front payment or long-term commitment.
+Applications with short term, spike, or unpredictable workloads that cannot be interrupted.
+Applications being developed or tested on Amazon EC2 for the first time.
+
+
+  
+    Reserved Instances
+  
+
+
+Applications with steady state or predictable usage so reserved might be your 3 or 4 web servers that you always want to turned on and then your on demand instances might be is the part of an auto scaling event.
+Applications that require reserved capacity.
+Users able to make upfront payment to reduce their total computing costs even further.
+
+
+  
+    Spot Instances
+  
+
+
+  Applications that have flexible start and end times.
+Applications that are only feasible at very low compute prices.
+Users with urgent computing needs for large amounts  of additional capacity.
+
+Elastic Compute Cloud On Demand Instances
+
+
+  General Purpose Instances
+  Compute Optimized Instances
+ Compute Intensive Applications
+  Memory Optimized Instances
+  Database &amp;amp; Memory Caching Applications
+  GPU Instances Instances
+  High Performance Parallel Computing (eg Hadoop)
+  Storage Optimized Instances
+  Data warehousing and Parallel Computing
+
+
+Local Instance Storage vs Elastic Block Storage
+
+
+  Local Instance Storage
+
+
+Data stored on a local instance store will persist only as long as that instance is alive. So you terminate that Instances you loose all the data on that virtual hardware.
+
+
+  Elastic Block Storage Backed Storage
+
+
+Data that is stored on an Amazon Elastic Block Storage volume will persist independently of the life of the instance.
+
+Storage backed by Elastic Block Storage
+
+  Provisioned IOPS Solid State Drive
+
+
+Designed for I/O intensive applications such as large relational or No-SQL databases.
+
+
+  General purpose Solid State Drive
+
+
+Designed for 99.999% availability.
+Ratio of 3 IOPS per GB, offer single digit millisecond latency, and also have the ability to burst up to 3000 IOPS for short periods.
+
+  
+    Magnetic
+  
+
+
+Lowest cost per gigabyte of all Elastic Block Storage volume types. Magnetic volumes are ideal for workloads where data is accessed infrequently, and applications where the lowest storage cost is important.</summary></entry><entry><title>Amazon Lambda - Serverless technology</title><link href="https://www.abcdevops.com/blog/2016/02/29/amazon-lambda.html" rel="alternate" type="text/html" title="Amazon Lambda - Serverless technology" /><published>2016-02-29T00:00:00+05:30</published><updated>2016-02-29T00:00:00+05:30</updated><id>https://www.abcdevops.com/blog/2016/02/29/amazon-lambda</id><content type="html" xml:base="https://www.abcdevops.com/blog/2016/02/29/amazon-lambda.html">&lt;h2 id=&quot;what-is-lambda&quot;&gt;What is Lambda?&lt;/h2&gt;
+
+&lt;p&gt;AWS Lambda is a compute service that runs your code in response to events and automatically manages the underlying compute resources. So you don’t have to worry about server infrastructure all you have to worry about is code and you can design your code respond automatically to events.&lt;/p&gt;
+
+&lt;p&gt;AWS Lambda can automatically run code in response to modifications to objects in Amazon S3 buckets, messages arriving in Amazon Kinesis streams, or table updates in Amazon DynamoDb.&lt;/p&gt;
+
+&lt;p&gt;Lambda runs your code on high-availability compute infrastructure and performs all the administration of the compute resources, including server and operating system maintenance, capacity provisioning and automatic scaling, code and security patch deployment, and code monitoring and logging.&lt;/p&gt;
+
+&lt;p&gt;All you need to do is supply the code.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-events-trigger-lambda&quot;&gt;What Events Trigger Lambda?&lt;/h2&gt;
+
+&lt;p&gt;You can use AWS Lambda to respond to table updates in Amazon DynamoDB, modifications to objects in Amazon S3 buckets, messages arriving in an Amazon Kinesis stream, AWS API calls logs created by AWS Cloud Trail, and custom events from mobile applications, web applications, or other web services.&lt;/p&gt;
+
+&lt;h2 id=&quot;lambda-pricing&quot;&gt;Lambda Pricing&lt;/h2&gt;
+
+&lt;p&gt;So pricing is broken down into two bits Requests based and Duration based. So if we start with requests you get first 1 million requests are free to the Lambda service and then you are paying $0.20 per 1 million requests thereafter.&lt;/p&gt;
+
+&lt;p&gt;Duration is calculated from the time your code begins executing until it returns or otherwise terminates, and it’s rounded up to the nearest 100ms. The price depends on the amount of memory you allocate to your function. You are charged $0.00001667 for every GB-second used.&lt;/p&gt;
+
+&lt;p&gt;In terms of your free tier&lt;/p&gt;
+
+&lt;p&gt;1M free requests per month and 400,000 GB-seconds of compute time per month. The memory size you choose for your Lambda functions determines how long they can run in the free tier. The Lambda free tier does not automatically expire at the end of your 12 month AWS Free Tier term, but is available in both existing and new AWS customers indefinitely.&lt;/p&gt;</content><author><name>Tarun Jangra</name><email>tarun.jangra@hotmail.com</email></author><category term="serverless" /><category term="lambda" /><category term="amazon" /><category term="aws" /><category term="service" /><category term="pricing" /><summary>What is Lambda?
+
+AWS Lambda is a compute service that runs your code in response to events and automatically manages the underlying compute resources. So you don’t have to worry about server infrastructure all you have to worry about is code and you can design your code respond automatically to events.
+
+AWS Lambda can automatically run code in response to modifications to objects in Amazon S3 buckets, messages arriving in Amazon Kinesis streams, or table updates in Amazon DynamoDb.
+
+Lambda runs your code on high-availability compute infrastructure and performs all the administration of the compute resources, including server and operating system maintenance, capacity provisioning and automatic scaling, code and security patch deployment, and code monitoring and logging.
+
+All you need to do is supply the code.
+
+What Events Trigger Lambda?
+
+You can use AWS Lambda to respond to table updates in Amazon DynamoDB, modifications to objects in Amazon S3 buckets, messages arriving in an Amazon Kinesis stream, AWS API calls logs created by AWS Cloud Trail, and custom events from mobile applications, web applications, or other web services.
+
+Lambda Pricing
+
+So pricing is broken down into two bits Requests based and Duration based. So if we start with requests you get first 1 million requests are free to the Lambda service and then you are paying $0.20 per 1 million requests thereafter.
+
+Duration is calculated from the time your code begins executing until it returns or otherwise terminates, and it’s rounded up to the nearest 100ms. The price depends on the amount of memory you allocate to your function. You are charged $0.00001667 for every GB-second used.
+
+In terms of your free tier
+
+1M free requests per month and 400,000 GB-seconds of compute time per month. The memory size you choose for your Lambda functions determines how long they can run in the free tier. The Lambda free tier does not automatically expire at the end of your 12 month AWS Free Tier term, but is available in both existing and new AWS customers indefinitely.</summary></entry><entry><title>Amazon S3 - Simple storage service</title><link href="https://www.abcdevops.com/blog/2016/02/27/amazon-S3.html" rel="alternate" type="text/html" title="Amazon S3 - Simple storage service" /><published>2016-02-27T00:00:00+05:30</published><updated>2016-02-27T00:00:00+05:30</updated><id>https://www.abcdevops.com/blog/2016/02/27/amazon-S3</id><content type="html" xml:base="https://www.abcdevops.com/blog/2016/02/27/amazon-S3.html">&lt;h2 id=&quot;simple-storage-service-s3&quot;&gt;Simple Storage Service (S3):&lt;/h2&gt;
+
+&lt;p&gt;S3 provides developers and IT teams with secure, durable, highly-scalable object storage. Amazon S3 is easy to use, with a simple web services interfaces to store and retrieve any amount of data from anywhere on the web.&lt;/p&gt;
+
+&lt;h2 id=&quot;s3-essentials&quot;&gt;S3 Essentials&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;S3 is Object based i.e. allows you to upload files and stored file on the platform.&lt;/li&gt;
+  &lt;li&gt;Files can be from 1 Byte to 5Tb in size.&lt;/li&gt;
+  &lt;li&gt;There is unlimited storage.&lt;/li&gt;
+  &lt;li&gt;Files are stored in Buckets. (Buckets like directory any windows and linux file system).&lt;/li&gt;
+  &lt;li&gt;Buckets have a unique namespace for each given region (eg if i want to create a bucket izapcloudguru in the eu-west-1 region that namespace with then be reserved so somebody else with using another amazon account could not go in and create a izapcloudguru bucket. https://s3-eu-west-1.amazonaws.com/bucketname/)&lt;/li&gt;
+  &lt;li&gt;Amazon guarantees 99.99% availability for the S3 platform. S3 buckets essentially spread across availability zone. So if availability zone goes down you don’t have to worry your S3 bucket is stored in the other availability zone and amazon do this automatically on a region bases you don’t have to worry about configuring this.&lt;/li&gt;
+  &lt;li&gt;Amazon also guarantees 99.999999999% durability for S3 information. Durability is simply if you think of storing of file on a disk set i.e Raid 1 and you lose one of the disk because in Raid 1 configuration which mirror all your information is stored across two disks so you can loss of 1 disk now the way amazon structure S3 is that if you stored 10000 files the guarantee those 10000 files stay there with the 99.999999999% durability.&lt;/li&gt;
+  &lt;li&gt;S3 can have metadata (key value pairs) on each storage (eg file).&lt;/li&gt;
+  &lt;li&gt;S3 allows you to do Lifecycle Management.&lt;/li&gt;
+  &lt;li&gt;Versioning&lt;/li&gt;
+  &lt;li&gt;Encryption (S3 also allows you to do encrypt your buckets. You can store your files encrypted at rest.)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;s3-storage-types&quot;&gt;S3 Storage Types&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Standard S3 storage which gives you 99.99% availability, and the 99.999999999% durability&lt;/li&gt;
+  &lt;li&gt;Reduced Redundancy storage – Still has 99.99% availability and your buckets replicated across different availability zones automatically but they use different disk sets the only give you 99.99% durability over a given year. So it’s little bit cheaper to use reduced redundancy storage but you only stored files on that not important if you lose them.&lt;/li&gt;
+  &lt;li&gt;Only use Reduced Redundancy Storage for replaceable data. For example if you have 10,000 files, you could expect to lose 100 files over 1 year as opposed to 0.00001 file with standard S3 durability.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;s3-versioning&quot;&gt;S3 Versioning&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Stores all versions of an object (including all writes and even if you delete an object)&lt;/li&gt;
+  &lt;li&gt;Great backup tool.&lt;/li&gt;
+  &lt;li&gt;Once enabled, Versioning cannot be disabled, only suspended that’s quite important to know.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;s3-lifecycle-management&quot;&gt;S3 Lifecycle Management&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Lifecycle Management can be used in conjunction with versioning.&lt;/li&gt;
+  &lt;li&gt;Lifecycle Management can be applied to current versions and previous versions.&lt;/li&gt;
+  &lt;li&gt;Following actions are allowed in conjunction with or without versioning;&lt;/li&gt;
+  &lt;li&gt;Archive Only&lt;/li&gt;
+  &lt;li&gt;Permanently Delete Only&lt;/li&gt;
+  &lt;li&gt;Archive and then permanently delete.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;s3-encryption&quot;&gt;S3 Encryption&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;You can upload/download your data to S3 via SSL Encrypted Endpoints and S3 can automatically encrypt your data at rest. S3 gives you the choice of managing your keys through AWS key Management Service (AWS Key Management Service), having Amazon S3 manage them for you, or providing your own keys.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;s3-security&quot;&gt;S3 Security&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;All buckets are private by default.&lt;/li&gt;
+  &lt;li&gt;Allows Access Control Lists (an individual user, can only have access to 1 bucket and only have read only access).&lt;/li&gt;
+  &lt;li&gt;Integrates with IAM (using roles for example allows EC2 users to have access S3 buckets by roles).&lt;/li&gt;
+  &lt;li&gt;All endpoints are encrypted by SSL.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;s3-functionality&quot;&gt;S3 Functionality&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Static Websites can be hosted on S3. No need for web servers, you can just upload a static .html to an S3 bucket and take advantage of AWS S3’s durability and High Availability.&lt;/li&gt;
+  &lt;li&gt;S3 also Integrates with Cloud Front which is amazon content delivering network.&lt;/li&gt;
+  &lt;li&gt;Multipart uploads, allows you to upload parts of a file concurrently.&lt;/li&gt;
+  &lt;li&gt;Suggested for files a 100Mb over. It is required for any file over 5Gbs.&lt;/li&gt;
+  &lt;li&gt;Allows us to resume a stopped file upload.&lt;/li&gt;
+  &lt;li&gt;S3 is spread across multiple availability zones and i guarantee you have Eventual Consistency you just have to remember the sometimes you might upload a file to an S3 bucket and then you go to try and access that file programmatically because you  trying to do that so fast it might not replicated across other availability zones. So just important to remember that all AZ’s will eventually be consistent. Put/Write/Delete requests will eventually be consistent across AZ’s.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;s3-use-cases&quot;&gt;S3 Use Cases&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;File Shares for networks&lt;/li&gt;
+  &lt;li&gt;Backup/Archiving&lt;/li&gt;
+  &lt;li&gt;Origin for CloudFront CDN’s&lt;/li&gt;
+  &lt;li&gt;Hosting Static Files&lt;/li&gt;
+  &lt;li&gt;Hosting Static Websites&lt;/li&gt;
+&lt;/ol&gt;</content><author><name>Tarun Jangra</name><email>tarun.jangra@hotmail.com</email></author><category term="s3" /><category term="storage" /><category term="amazon" /><category term="aws" /><category term="service" /><category term="pricing" /><summary>Simple Storage Service (S3):
+
+S3 provides developers and IT teams with secure, durable, highly-scalable object storage. Amazon S3 is easy to use, with a simple web services interfaces to store and retrieve any amount of data from anywhere on the web.
+
+S3 Essentials
+
+
+  S3 is Object based i.e. allows you to upload files and stored file on the platform.
+  Files can be from 1 Byte to 5Tb in size.
+  There is unlimited storage.
+  Files are stored in Buckets. (Buckets like directory any windows and linux file system).
+  Buckets have a unique namespace for each given region (eg if i want to create a bucket izapcloudguru in the eu-west-1 region that namespace with then be reserved so somebody else with using another amazon account could not go in and create a izapcloudguru bucket. https://s3-eu-west-1.amazonaws.com/bucketname/)
+  Amazon guarantees 99.99% availability for the S3 platform. S3 buckets essentially spread across availability zone. So if availability zone goes down you don’t have to worry your S3 bucket is stored in the other availability zone and amazon do this automatically on a region bases you don’t have to worry about configuring this.
+  Amazon also guarantees 99.999999999% durability for S3 information. Durability is simply if you think of storing of file on a disk set i.e Raid 1 and you lose one of the disk because in Raid 1 configuration which mirror all your information is stored across two disks so you can loss of 1 disk now the way amazon structure S3 is that if you stored 10000 files the guarantee those 10000 files stay there with the 99.999999999% durability.
+  S3 can have metadata (key value pairs) on each storage (eg file).
+  S3 allows you to do Lifecycle Management.
+  Versioning
+  Encryption (S3 also allows you to do encrypt your buckets. You can store your files encrypted at rest.)
+
+
+S3 Storage Types
+
+
+  Standard S3 storage which gives you 99.99% availability, and the 99.999999999% durability
+  Reduced Redundancy storage – Still has 99.99% availability and your buckets replicated across different availability zones automatically but they use different disk sets the only give you 99.99% durability over a given year. So it’s little bit cheaper to use reduced redundancy storage but you only stored files on that not important if you lose them.
+  Only use Reduced Redundancy Storage for replaceable data. For example if you have 10,000 files, you could expect to lose 100 files over 1 year as opposed to 0.00001 file with standard S3 durability.
+
+
+S3 Versioning
+
+
+  Stores all versions of an object (including all writes and even if you delete an object)
+  Great backup tool.
+  Once enabled, Versioning cannot be disabled, only suspended that’s quite important to know.
+
+
+S3 Lifecycle Management
+
+
+  Lifecycle Management can be used in conjunction with versioning.
+  Lifecycle Management can be applied to current versions and previous versions.
+  Following actions are allowed in conjunction with or without versioning;
+  Archive Only
+  Permanently Delete Only
+  Archive and then permanently delete.
+
+
+S3 Encryption
+
+
+  You can upload/download your data to S3 via SSL Encrypted Endpoints and S3 can automatically encrypt your data at rest. S3 gives you the choice of managing your keys through AWS key Management Service (AWS Key Management Service), having Amazon S3 manage them for you, or providing your own keys.
+
+
+S3 Security
+
+
+  All buckets are private by default.
+  Allows Access Control Lists (an individual user, can only have access to 1 bucket and only have read only access).
+  Integrates with IAM (using roles for example allows EC2 users to have access S3 buckets by roles).
+  All endpoints are encrypted by SSL.
+
+
+S3 Functionality
+
+
+  Static Websites can be hosted on S3. No need for web servers, you can just upload a static .html to an S3 bucket and take advantage of AWS S3’s durability and High Availability.
+  S3 also Integrates with Cloud Front which is amazon content delivering network.
+  Multipart uploads, allows you to upload parts of a file concurrently.
+  Suggested for files a 100Mb over. It is required for any file over 5Gbs.
+  Allows us to resume a stopped file upload.
+  S3 is spread across multiple availability zones and i guarantee you have Eventual Consistency you just have to remember the sometimes you might upload a file to an S3 bucket and then you go to try and access that file programmatically because you  trying to do that so fast it might not replicated across other availability zones. So just important to remember that all AZ’s will eventually be consistent. Put/Write/Delete requests will eventually be consistent across AZ’s.
+
+
+S3 Use Cases
+
+
+  File Shares for networks
+  Backup/Archiving
+  Origin for CloudFront CDN’s
+  Hosting Static Files
+  Hosting Static Websites</summary></entry><entry><title>Amazon Cloud Front - serve static assets from the closest place.</title><link href="https://www.abcdevops.com/blog/2016/02/24/amazon-cloud-front.html" rel="alternate" type="text/html" title="Amazon Cloud Front - serve static assets from the closest place." /><published>2016-02-24T00:00:00+05:30</published><updated>2016-02-24T00:00:00+05:30</updated><id>https://www.abcdevops.com/blog/2016/02/24/amazon-cloud-front</id><content type="html" xml:base="https://www.abcdevops.com/blog/2016/02/24/amazon-cloud-front.html">&lt;h2 id=&quot;cdn-&quot;&gt;CDN:-&lt;/h2&gt;
+
+&lt;p&gt;A Content Delivery Network (CDN) is a system of distributed servers (network) that deliver web pages and other web content to a user based on the geographic locations of the user, the origin of the webpage and a content delivery server. Now, let’s look at a practical example if i am in Australia let say i am in Perth for example and i want access the server in New York that server has image files on it in order get those image files the actual image files have to be served across the Atlantic then across the Indian ocean in order to reach Perth and every 200Kms equals to approximately 1 millisecond length of time latency so it’s take me a little bit of time for those files to physically arrived for New York to Perth a even operating a speed of light it’s gonna be a longer time than a files viewing those files directly from a server in Perth so our Content Distribution Network does its every time a user in Perth tries to access those files in New York CDN cache those files add a server in Perth for the length of time. Now a new user goes to access the same files they can just get it from Perth server they don’t have to go halfway around the world to pull down the same files. Those files will be cached depending on the settings but you set was called it time to live (TTL) and that’s measured in seconds you can set on your CDN you can set TTL on your files to say how long you are going to cache them. So that a really high overview what CDN is and CloudFront is Amazon CDN.&lt;/p&gt;
+
+&lt;p&gt;Amazon CloudFront can be used to deliver your entire website, including dynamic, static, streaming, and interactive content using a global network of edge locations. Requests for your content are automatically routed to the nearest edge location, so the content is delivered with the best possible performance.&lt;/p&gt;
+
+&lt;p&gt;Amazon CloudFront is optimized to work with other Amazon Web Services, like Amazon Simple Storage Service (Amazon S3), Amazon Elastic Compute Cloud (Amazon EC2), Amazon Elastic Load Balancing, and Amazon Route 53. Amazon CloudFront also works seamlessly with any non-AWS origin server, which stores the original, definitive versions of your files.&lt;/p&gt;
+
+&lt;h2 id=&quot;cloudfront-terminology&quot;&gt;CloudFront Terminology&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;h5 id=&quot;origin-&quot;&gt;Origin –&lt;/h5&gt;
+    &lt;p&gt;This is the origin of all the files that the CDN will distributed. This can be either an S3 Bucket, an EC2 Instance, an Elastic Load Balancer or Route53.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h5 id=&quot;distribution-&quot;&gt;Distribution –&lt;/h5&gt;
+    &lt;p&gt;This is the name given the CDN which consists of a collection of Edge Locations. You can have 1 distribution with multiple origins and good example of this would be where buy to trying to serve a dynamic website and may be your image files or stored flat static files that be stored in an s3 bucket. You also running a PHP application it does not refresh to often and you want to cache the output of those PHP files you can create a separate origin server which should be an EC2 instance for example and then any PHP files would come from your EC2 instance image file comes from your S3 buckets. You can also have multiple S3 buckets with different files types perhaps you have an S3 buckets for your pdf files we have a separate S3 buckets for application users will download. So you can have 1 distribution will multiple origins.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;cloudfront-distribution-types&quot;&gt;CloudFront Distribution Types&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;h5 id=&quot;web-distribution-&quot;&gt;Web Distribution –&lt;/h5&gt;
+    &lt;p&gt;Typically used for websites&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;span&gt;Speed up distribution of static and dynamic content, for example, .html, .css, .php, and graphics files.&lt;/span&gt;
+  &lt;span&gt;Distribute media files using HTTP or HTTPS.&lt;/span&gt;
+  &lt;span&gt;Add, update, or delete objects, and submit data from web forms.&lt;/span&gt;
+  &lt;span&gt;Use live streaming to stream an event in real time.&lt;/span&gt;
+  &lt;span&gt;You store your files in an origin — either an Amazon S3 bucket or a web server. After you create the distribution, you can add more origins to the distribution.&lt;/span&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;h5 id=&quot;rtmp-&quot;&gt;RTMP –&lt;/h5&gt;
+    &lt;p&gt;RTMP distribution to speed up distribution of your streaming media files using Adobe Flash Media Servers RTMP protocol. An RTMP distribution allows an end user to begin playing a media file before the file has finished downloading from a CloudFront edge location. Note the following:&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;span&gt;To create an RTMP distribution, you must store the media files in an Amazon S3 bucket.&lt;/span&gt;
+  &lt;span&gt;To use CloudFront live streaming, create a web distribution.&lt;/span&gt;&lt;/p&gt;</content><author><name>Tarun Jangra</name><email>tarun.jangra@hotmail.com</email></author><category term="CloudFront" /><category term="CDN" /><category term="amazon" /><category term="aws" /><category term="service" /><category term="pricing" /><summary>CDN:-
+
+A Content Delivery Network (CDN) is a system of distributed servers (network) that deliver web pages and other web content to a user based on the geographic locations of the user, the origin of the webpage and a content delivery server. Now, let’s look at a practical example if i am in Australia let say i am in Perth for example and i want access the server in New York that server has image files on it in order get those image files the actual image files have to be served across the Atlantic then across the Indian ocean in order to reach Perth and every 200Kms equals to approximately 1 millisecond length of time latency so it’s take me a little bit of time for those files to physically arrived for New York to Perth a even operating a speed of light it’s gonna be a longer time than a files viewing those files directly from a server in Perth so our Content Distribution Network does its every time a user in Perth tries to access those files in New York CDN cache those files add a server in Perth for the length of time. Now a new user goes to access the same files they can just get it from Perth server they don’t have to go halfway around the world to pull down the same files. Those files will be cached depending on the settings but you set was called it time to live (TTL) and that’s measured in seconds you can set on your CDN you can set TTL on your files to say how long you are going to cache them. So that a really high overview what CDN is and CloudFront is Amazon CDN.
+
+Amazon CloudFront can be used to deliver your entire website, including dynamic, static, streaming, and interactive content using a global network of edge locations. Requests for your content are automatically routed to the nearest edge location, so the content is delivered with the best possible performance.
+
+Amazon CloudFront is optimized to work with other Amazon Web Services, like Amazon Simple Storage Service (Amazon S3), Amazon Elastic Compute Cloud (Amazon EC2), Amazon Elastic Load Balancing, and Amazon Route 53. Amazon CloudFront also works seamlessly with any non-AWS origin server, which stores the original, definitive versions of your files.
+
+CloudFront Terminology
+
+  
+    Origin –
+    This is the origin of all the files that the CDN will distributed. This can be either an S3 Bucket, an EC2 Instance, an Elastic Load Balancer or Route53.
+  
+  
+    Distribution –
+    This is the name given the CDN which consists of a collection of Edge Locations. You can have 1 distribution with multiple origins and good example of this would be where buy to trying to serve a dynamic website and may be your image files or stored flat static files that be stored in an s3 bucket. You also running a PHP application it does not refresh to often and you want to cache the output of those PHP files you can create a separate origin server which should be an EC2 instance for example and then any PHP files would come from your EC2 instance image file comes from your S3 buckets. You can also have multiple S3 buckets with different files types perhaps you have an S3 buckets for your pdf files we have a separate S3 buckets for application users will download. So you can have 1 distribution will multiple origins.
+  
+
+
+CloudFront Distribution Types
+
+  
+    Web Distribution –
+    Typically used for websites
+  
+
+
+Speed up distribution of static and dynamic content, for example, .html, .css, .php, and graphics files.
+  Distribute media files using HTTP or HTTPS.
+  Add, update, or delete objects, and submit data from web forms.
+  Use live streaming to stream an event in real time.
+  You store your files in an origin — either an Amazon S3 bucket or a web server. After you create the distribution, you can add more origins to the distribution.
+
+
+  
+    RTMP –
+    RTMP distribution to speed up distribution of your streaming media files using Adobe Flash Media Servers RTMP protocol. An RTMP distribution allows an end user to begin playing a media file before the file has finished downloading from a CloudFront edge location. Note the following:
+  
+
+
+To create an RTMP distribution, you must store the media files in an Amazon S3 bucket.
+  To use CloudFront live streaming, create a web distribution.</summary></entry><entry><title>Amazon Storage Gateway - Better storage solution.</title><link href="https://www.abcdevops.com/blog/2016/02/22/amazon-storage-gateway.html" rel="alternate" type="text/html" title="Amazon Storage Gateway - Better storage solution." /><published>2016-02-22T00:00:00+05:30</published><updated>2016-02-22T00:00:00+05:30</updated><id>https://www.abcdevops.com/blog/2016/02/22/amazon-storage-gateway</id><content type="html" xml:base="https://www.abcdevops.com/blog/2016/02/22/amazon-storage-gateway.html">&lt;h2 id=&quot;storage-gateway&quot;&gt;Storage Gateway&lt;/h2&gt;
+
+&lt;p&gt;AWS Storage Gateway is a service that connects an on-premises software appliance with cloud-based storage to provide seamless and secure integration between an organization’s on-premises IT environment and AWS’s storage infrastructure. The service enables you to securely store data to the AWS cloud for scalable and cost-effective storage.&lt;/p&gt;
+
+&lt;p&gt;AWS Storage Gateway software appliance is available for download as a virtual machine (VM) image that you install on a host in your data center. Once you’ve installed your gateway and associated it with your AWS account through our activation process, you can use the AWS Management Console to create either gateway-cached or gateway-stored volumes that can be mounted as iSCSI devices by your on-premises applications.&lt;/p&gt;
+
+&lt;h2 id=&quot;storage-gateway-in-two-different-models-gateway-cached-and-gateway-stored&quot;&gt;Storage Gateway in two different models Gateway-cached and Gateway-stored&lt;/h2&gt;
+
+&lt;h2 id=&quot;gateway-cached--&quot;&gt;Gateway-cached :-&lt;/h2&gt;
+&lt;p&gt;Gateway-cached volumes allow you to utilize Amazon S3 for your primary data, while retaining some portion of it locally in a cache for frequently accessed data. These volumes minimize the need to scale your on-premises storage infrastructure, while still providing your applications with low-latency access to their  frequently accessed data. You can create storage volumes up to 32 TBs in size and mount them as iSCSI devices from your on-premises application servers. Data written to these volumes is stored in Amazon S3, with only a cache of recently written and recently read data stored locally on your on-premises storage hardware.&lt;/p&gt;
+
+&lt;h2 id=&quot;gateway-stored--&quot;&gt;Gateway-stored :-&lt;/h2&gt;
+
+&lt;p&gt;Gateway-stored volumes store your primary data locally, while asynchronously backing up that data to AWS. These volumes provide your on-premises applications with low-latency access to their entire data sets, while providing durable, off-site backups. You can create storage volumes up to 1TB in size and mount them as iSCSI devices from your on-premises applications servers. Data written to your gateway-stored volumes is stored on your on-premises storage hardware, and asynchronously backed up to Amazon S3 in the form of Amazon EBS snapshots.&lt;/p&gt;
+
+&lt;h2 id=&quot;storage-gateway-pricing&quot;&gt;Storage Gateway Pricing&lt;/h2&gt;
+
+&lt;p&gt;With AWS Storage Gateway, you pay only for what you use. AWS Storage Gateway has four pricing components: gateway usage (per GB per month) so the number of gateway using per month, snapshot storage usage (per GB per month), volume storage usage (per GB per month), and data transfer out (per GB per month).&lt;/p&gt;</content><author><name>Tarun Jangra</name><email>tarun.jangra@hotmail.com</email></author><category term="sqs" /><category term="amazon" /><category term="aws" /><category term="service" /><category term="pricing" /><summary>Storage Gateway
+
+AWS Storage Gateway is a service that connects an on-premises software appliance with cloud-based storage to provide seamless and secure integration between an organization’s on-premises IT environment and AWS’s storage infrastructure. The service enables you to securely store data to the AWS cloud for scalable and cost-effective storage.
+
+AWS Storage Gateway software appliance is available for download as a virtual machine (VM) image that you install on a host in your data center. Once you’ve installed your gateway and associated it with your AWS account through our activation process, you can use the AWS Management Console to create either gateway-cached or gateway-stored volumes that can be mounted as iSCSI devices by your on-premises applications.
+
+Storage Gateway in two different models Gateway-cached and Gateway-stored
+
+Gateway-cached :-
+Gateway-cached volumes allow you to utilize Amazon S3 for your primary data, while retaining some portion of it locally in a cache for frequently accessed data. These volumes minimize the need to scale your on-premises storage infrastructure, while still providing your applications with low-latency access to their  frequently accessed data. You can create storage volumes up to 32 TBs in size and mount them as iSCSI devices from your on-premises application servers. Data written to these volumes is stored in Amazon S3, with only a cache of recently written and recently read data stored locally on your on-premises storage hardware.
+
+Gateway-stored :-
+
+Gateway-stored volumes store your primary data locally, while asynchronously backing up that data to AWS. These volumes provide your on-premises applications with low-latency access to their entire data sets, while providing durable, off-site backups. You can create storage volumes up to 1TB in size and mount them as iSCSI devices from your on-premises applications servers. Data written to your gateway-stored volumes is stored on your on-premises storage hardware, and asynchronously backed up to Amazon S3 in the form of Amazon EBS snapshots.
+
+Storage Gateway Pricing
+
+With AWS Storage Gateway, you pay only for what you use. AWS Storage Gateway has four pricing components: gateway usage (per GB per month) so the number of gateway using per month, snapshot storage usage (per GB per month), volume storage usage (per GB per month), and data transfer out (per GB per month).</summary></entry><entry><title>Amazon RDS - Relational database service</title><link href="https://www.abcdevops.com/blog/2016/02/20/amazon-RDS.html" rel="alternate" type="text/html" title="Amazon RDS - Relational database service" /><published>2016-02-20T00:00:00+05:30</published><updated>2016-02-20T00:00:00+05:30</updated><id>https://www.abcdevops.com/blog/2016/02/20/amazon-RDS</id><content type="html" xml:base="https://www.abcdevops.com/blog/2016/02/20/amazon-RDS.html">&lt;h2 id=&quot;databases-introduction&quot;&gt;Databases Introduction&lt;/h2&gt;
+
+&lt;p&gt;So we just with brief introduction on the different types of databases so we got Relational databases.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;h5 id=&quot;relational-databases-oltp--&quot;&gt;Relational Databases (OLTP) :-&lt;/h5&gt;
+    &lt;p&gt;Online Transaction Processing these are the databases that used to using day in day.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;span&gt;RDS :-  Amazon have a service code RDS which stands for Relational Database Services. In this consist of 5 different relational databases including (MYSQL, SQL Server, POSTgresql, Oracle, and Aurora)&lt;/span&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;h5 id=&quot;non-relational-databases-nosql--&quot;&gt;Non-Relational Databases (NOSQL) :-&lt;/h5&gt;
+    &lt;p&gt;These aggressively new to the industry having sort of come out around 2004 also and Amazon service for this is :&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;span&gt;Dynamodb :-  Most famous Non-relational database would be something like Mongodb are you could look at cloud end Couchdb. Dynamodb is slightly different to these databases do not compare with Mongodb.&lt;/span&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;h5 id=&quot;data-warehousing-databases-olap--&quot;&gt;Data Warehousing Databases (OLAP) :-&lt;/h5&gt;
+    &lt;p&gt;Online Analytical Processing and these over the use to be relational structure both from a logical perspective and it infrastructure perspective has not changed and these really there are types of databases these known as Data Warehousing Databases. Amazon offers for this product code:&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;span&gt;RedShift&lt;/span&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;compare-the-fundamentals&quot;&gt;Compare The Fundamentals&lt;/h2&gt;
+
+&lt;p&gt;So Let’s start with the Relational Databases or Amazon RDS so it’s for what most of us are used to. Been around since the 1970’s.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Database&lt;/li&gt;
+  &lt;li&gt;Tables :- Inside your database you got number of tables.&lt;/li&gt;
+  &lt;li&gt;Row :- Inside your tables you got Row otherwise knows as Record.&lt;/li&gt;
+  &lt;li&gt;Fields :- That Row or Record consists number of fields which known as colum&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;RDS includes technologies such as :-&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;SQL Server&lt;/li&gt;
+  &lt;li&gt;Oracle&lt;/li&gt;
+  &lt;li&gt;MySQL Server&lt;/li&gt;
+  &lt;li&gt;Postgres&lt;/li&gt;
+  &lt;li&gt;Aurora&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;nosql-database-structure--&quot;&gt;NoSql Database Structure :-&lt;/h2&gt;
+
+&lt;p&gt;NoSql quite a little bit different to relational databases so there is different types of NoSql i am gonna talk about document oriented databases in this  That’s by Dynamodb is you can also get tabular you get key value pairs you get different types of NoSql databases with the ones we are going to look at document oriented.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Collection :- So Inside your database you have got a collection.&lt;/li&gt;
+  &lt;li&gt;Document :- Inside your collection and you got a number of documents.&lt;/li&gt;
+  &lt;li&gt;Key Value Pairs :- Those documents consist of key value pairs.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;data-warehousing--&quot;&gt;Data Warehousing :-&lt;/h2&gt;
+
+&lt;p&gt;This is often used by number of different software products business intelligence. Tools like Cognos, Jaspersoft, SQL Server Reporting Services, Oracle Hyperion, SAP NetWeaver.&lt;/p&gt;</content><author><name>Tarun Jangra</name><email>tarun.jangra@hotmail.com</email></author><category term="RDS" /><category term="oracle" /><category term="mysql" /><category term="PostgreSQL" /><category term="amazon" /><category term="aws" /><category term="service" /><category term="pricing" /><summary>Databases Introduction
+
+So we just with brief introduction on the different types of databases so we got Relational databases.
+
+
+  
+    Relational Databases (OLTP) :-
+    Online Transaction Processing these are the databases that used to using day in day.
+  
+
+
+RDS :-  Amazon have a service code RDS which stands for Relational Database Services. In this consist of 5 different relational databases including (MYSQL, SQL Server, POSTgresql, Oracle, and Aurora)
+
+
+  
+    Non-Relational Databases (NOSQL) :-
+    These aggressively new to the industry having sort of come out around 2004 also and Amazon service for this is :
+  
+
+
+Dynamodb :-  Most famous Non-relational database would be something like Mongodb are you could look at cloud end Couchdb. Dynamodb is slightly different to these databases do not compare with Mongodb.
+
+
+  
+    Data Warehousing Databases (OLAP) :-
+    Online Analytical Processing and these over the use to be relational structure both from a logical perspective and it infrastructure perspective has not changed and these really there are types of databases these known as Data Warehousing Databases. Amazon offers for this product code:
+  
+
+
+RedShift
+
+Compare The Fundamentals
+
+So Let’s start with the Relational Databases or Amazon RDS so it’s for what most of us are used to. Been around since the 1970’s.
+
+
+  Database
+  Tables :- Inside your database you got number of tables.
+  Row :- Inside your tables you got Row otherwise knows as Record.
+  Fields :- That Row or Record consists number of fields which known as colum
+
+
+RDS includes technologies such as :-
+
+
+  SQL Server
+  Oracle
+  MySQL Server
+  Postgres
+  Aurora
+
+
+NoSql Database Structure :-
+
+NoSql quite a little bit different to relational databases so there is different types of NoSql i am gonna talk about document oriented databases in this  That’s by Dynamodb is you can also get tabular you get key value pairs you get different types of NoSql databases with the ones we are going to look at document oriented.
+
+
+  Collection :- So Inside your database you have got a collection.
+  Document :- Inside your collection and you got a number of documents.
+  Key Value Pairs :- Those documents consist of key value pairs.
+
+
+Data Warehousing :-
+
+This is often used by number of different software products business intelligence. Tools like Cognos, Jaspersoft, SQL Server Reporting Services, Oracle Hyperion, SAP NetWeaver.</summary></entry><entry><title>Amazon DynamoDB - NoSQL database for faster response time</title><link href="https://www.abcdevops.com/blog/2016/02/17/amazon-dynamoDB.html" rel="alternate" type="text/html" title="Amazon DynamoDB - NoSQL database for faster response time" /><published>2016-02-17T00:00:00+05:30</published><updated>2016-02-17T00:00:00+05:30</updated><id>https://www.abcdevops.com/blog/2016/02/17/amazon-dynamoDB</id><content type="html" xml:base="https://www.abcdevops.com/blog/2016/02/17/amazon-dynamoDB.html">&lt;h2 id=&quot;dynamodb&quot;&gt;DynamoDB&lt;/h2&gt;
+
+&lt;p&gt;Amazon DynamoDB is a fast and flexible No-SQL database service for all applications that need consistent, single-digit millisecond latency at any scale. It is a fully managed database and supports both document and key-value data models. It’s flexible data model and reliable performance make it a great fit for mobile, web, gaming, ad-tech, IoT, and many other applications.&lt;/p&gt;
+
+&lt;h2 id=&quot;dynamodb-configuration&quot;&gt;DynamoDB Configuration&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;It’s always going to be stored on SSD storage. So there is no magnetic storage you going to get very good and very high IOPS from it.&lt;/li&gt;
+  &lt;li&gt;It is Spread Across 3 different geographically distinct data centers. So if you write a database you write a record to a particular a AZ that is going to be replicated across to your other two AZ and in terms of that replication you can choose between two options;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;span&gt;Eventual Consistent Reads&lt;/span&gt;
+&lt;span&gt;Strongly Consistent Reads&lt;/span&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;difference-between-eventual-consistent-reads-and-strongly-consistent-reads&quot;&gt;Difference Between Eventual Consistent Reads and Strongly Consistent Reads&lt;/h2&gt;
+
+&lt;h2 id=&quot;eventual-consistent-reads--&quot;&gt;Eventual Consistent Reads :-&lt;/h2&gt;
+
+&lt;p&gt;Consistency across all copies of data is usually reached within a second. Repeating a read after a short time should return the updated data. (Best Read Performance). So this means that when you run a read query against your database you might be querying at two unavailability zone that has not yet had that data that is been from the initial write which should be another AZ has not been replicated across. So let say you are writing your data to AZ-(A) and then when you going to read the database it might not be the in AZ-(B) depending on the length of the time between that write and that read that would be Eventual Consistent.&lt;/p&gt;
+
+&lt;h2 id=&quot;strongly-consistent-reads--&quot;&gt;Strongly Consistent Reads :-&lt;/h2&gt;
+
+&lt;p&gt;A strongly consistent read returns a result that reflects all writes that received a successful response prior to the read. So with Strongly Consistent Reads you would not get the same read performance you get with the Eventual Consistent Reads but you do more less guarantee reflect that after somebody has written record to AZ-(A) nobody would be able to read that record in AZ-(B) into has been replicated across. So just keep that in mind when you designing your application whether or not (We are talking about millisecond you know we are not talking within a seconds) so it’s really up to you and your application team is to which one the you would choose most people choose the default which is you know we can afford for my data to be out of date or not replicated within a second so that its Eventual Consistent Reads.&lt;/p&gt;
+
+&lt;h2 id=&quot;pricing&quot;&gt;Pricing&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;Provisioned Throughput Capacity&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;span&gt;Write Throughput $0.0065 per hour for every 10 units.&lt;/span&gt;
+&lt;span&gt;Read Throughput $0.0065 per hour for every 50 units.&lt;/span&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Storage costs of $0.25Gb per month.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;pricing-example&quot;&gt;Pricing Example&lt;/h2&gt;
+
+&lt;p&gt;Let’s assume that your application needs to perform 1 million writes and 1 million reads per day, while storing 3GB of data.&lt;/p&gt;
+
+&lt;p&gt;First, you need to calculate how many writes and reads per second you need. 1 million evenly spread writes per day is equivalent to 1,000,000 (writes) /24 (hours) /60 (minutes) /60 (seconds) = 11.6 writes per second.&lt;/p&gt;
+
+&lt;p&gt;A DynamoDB Write Capacity Unit can handle 1 write per second, so you need 12 Writes Capacity Units. Similarly, to handle 1 million strongly consistent reads per day, you need 12 Read Capacity Units.&lt;/p&gt;
+
+&lt;p&gt;Using on-demand pricing in the US East (N. Virginia) Region. You got 12 Write Capacity Units would cost $0.1872 per day and 12 Read Capacity Units would cost $0.0374 per day. So your total cost of provisioned throughput capacity is $0.1872 + $ 0.03474 = $0.2246 per day. Storage costs $0.25 per GB per month.&lt;/p&gt;
+
+&lt;p&gt;Assuming a 30-day month, your 3GB would cost you 3 * $0.25/30 = $0.025 per day. Combining these numbers, the total cost of your DynamoDB table would be $0.2246 (for provisioned throughput capacity) + $0.025 (for storage) = $0.2496 per day or $7.50 per month.&lt;/p&gt;</content><author><name>Tarun Jangra</name><email>tarun.jangra@hotmail.com</email></author><category term="sqs" /><category term="amazon" /><category term="aws" /><category term="service" /><category term="pricing" /><summary>DynamoDB
+
+Amazon DynamoDB is a fast and flexible No-SQL database service for all applications that need consistent, single-digit millisecond latency at any scale. It is a fully managed database and supports both document and key-value data models. It’s flexible data model and reliable performance make it a great fit for mobile, web, gaming, ad-tech, IoT, and many other applications.
+
+DynamoDB Configuration
+
+  It’s always going to be stored on SSD storage. So there is no magnetic storage you going to get very good and very high IOPS from it.
+  It is Spread Across 3 different geographically distinct data centers. So if you write a database you write a record to a particular a AZ that is going to be replicated across to your other two AZ and in terms of that replication you can choose between two options;
+
+
+Eventual Consistent Reads
+Strongly Consistent Reads
+
+Difference Between Eventual Consistent Reads and Strongly Consistent Reads
+
+Eventual Consistent Reads :-
+
+Consistency across all copies of data is usually reached within a second. Repeating a read after a short time should return the updated data. (Best Read Performance). So this means that when you run a read query against your database you might be querying at two unavailability zone that has not yet had that data that is been from the initial write which should be another AZ has not been replicated across. So let say you are writing your data to AZ-(A) and then when you going to read the database it might not be the in AZ-(B) depending on the length of the time between that write and that read that would be Eventual Consistent.
+
+Strongly Consistent Reads :-
+
+A strongly consistent read returns a result that reflects all writes that received a successful response prior to the read. So with Strongly Consistent Reads you would not get the same read performance you get with the Eventual Consistent Reads but you do more less guarantee reflect that after somebody has written record to AZ-(A) nobody would be able to read that record in AZ-(B) into has been replicated across. So just keep that in mind when you designing your application whether or not (We are talking about millisecond you know we are not talking within a seconds) so it’s really up to you and your application team is to which one the you would choose most people choose the default which is you know we can afford for my data to be out of date or not replicated within a second so that its Eventual Consistent Reads.
+
+Pricing
+
+  Provisioned Throughput Capacity
+
+
+Write Throughput $0.0065 per hour for every 10 units.
+Read Throughput $0.0065 per hour for every 50 units.
+
+
+  Storage costs of $0.25Gb per month.
+
+
+Pricing Example
+
+Let’s assume that your application needs to perform 1 million writes and 1 million reads per day, while storing 3GB of data.
+
+First, you need to calculate how many writes and reads per second you need. 1 million evenly spread writes per day is equivalent to 1,000,000 (writes) /24 (hours) /60 (minutes) /60 (seconds) = 11.6 writes per second.
+
+A DynamoDB Write Capacity Unit can handle 1 write per second, so you need 12 Writes Capacity Units. Similarly, to handle 1 million strongly consistent reads per day, you need 12 Read Capacity Units.
+
+Using on-demand pricing in the US East (N. Virginia) Region. You got 12 Write Capacity Units would cost $0.1872 per day and 12 Read Capacity Units would cost $0.0374 per day. So your total cost of provisioned throughput capacity is $0.1872 + $ 0.03474 = $0.2246 per day. Storage costs $0.25 per GB per month.
+
+Assuming a 30-day month, your 3GB would cost you 3 * $0.25/30 = $0.025 per day. Combining these numbers, the total cost of your DynamoDB table would be $0.2246 (for provisioned throughput capacity) + $0.025 (for storage) = $0.2496 per day or $7.50 per month.</summary></entry><entry><title>Amazon ElastiCache - Inmemory data store and caching</title><link href="https://www.abcdevops.com/blog/2016/02/15/amazon-elastiCache.html" rel="alternate" type="text/html" title="Amazon ElastiCache - Inmemory data store and caching" /><published>2016-02-15T00:00:00+05:30</published><updated>2016-02-15T00:00:00+05:30</updated><id>https://www.abcdevops.com/blog/2016/02/15/amazon-elastiCache</id><content type="html" xml:base="https://www.abcdevops.com/blog/2016/02/15/amazon-elastiCache.html">&lt;h2 id=&quot;elasticache&quot;&gt;ElastiCache&lt;/h2&gt;
+
+&lt;p&gt;ElastiCache is a web service that makes it easy to deploy, operate, and scale an in-memory cache in the cloud. The service improves the performance  of web applications by allowing you to retrieve information from fast, managed, in-memory caches, instead of relying entirely on slower disk-based database. ElastiCache supports two open-source in-memory caching engines:&lt;/p&gt;
+
+&lt;h2 id=&quot;elasticache--use-cases&quot;&gt;ElastiCache – Use Cases&lt;/h2&gt;
+
+&lt;p&gt;Amazon ElastiCache can be used to significantly improve latency and throughput for many read-heavy application workloads (such as social networking, gaming, media sharing and Q&amp;amp;A portals) or compute-intensive workloads (such as a recommendation engine). Caching improves application performance by storing critical pieces of data in memory for low-latency access. Cached information may include the results of I/O-intensive database queries or the results of computationally-intensive calculations. If data does not change regularly and it’s ok the cache you would use ElastiCache can take load of your database service running computation service your are running and that’s by you would use it.&lt;/p&gt;
+
+&lt;h2 id=&quot;elasticache-use-two-different-engines&quot;&gt;ElastiCache Use Two Different Engines&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;h5 id=&quot;memcached&quot;&gt;Memcached&lt;/h5&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;span&gt;A widely adopted memory object caching system. ElastiCache is protocol complaint with Memcached, so popular tools that you use today with existing Memcached environments will work seamlessly with the service.
+&lt;/span&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;h5 id=&quot;redis&quot;&gt;Redis&lt;/h5&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;span&gt;A popular open-source in-memory key-value store that supports data structures such as sorted sets and lists. ElastiCache supports Master/Slave replication and Multi-AZ which can be used to achieve cross AZ redundancy.
+&lt;/span&gt;&lt;/p&gt;</content><author><name>Tarun Jangra</name><email>tarun.jangra@hotmail.com</email></author><category term="ElastiCache" /><category term="amazon" /><category term="aws" /><category term="service" /><category term="pricing" /><summary>ElastiCache
+
+ElastiCache is a web service that makes it easy to deploy, operate, and scale an in-memory cache in the cloud. The service improves the performance  of web applications by allowing you to retrieve information from fast, managed, in-memory caches, instead of relying entirely on slower disk-based database. ElastiCache supports two open-source in-memory caching engines:
+
+ElastiCache – Use Cases
+
+Amazon ElastiCache can be used to significantly improve latency and throughput for many read-heavy application workloads (such as social networking, gaming, media sharing and Q&amp;amp;A portals) or compute-intensive workloads (such as a recommendation engine). Caching improves application performance by storing critical pieces of data in memory for low-latency access. Cached information may include the results of I/O-intensive database queries or the results of computationally-intensive calculations. If data does not change regularly and it’s ok the cache you would use ElastiCache can take load of your database service running computation service your are running and that’s by you would use it.
+
+ElastiCache Use Two Different Engines
+
+
+  
+    Memcached
+  
+
+
+A widely adopted memory object caching system. ElastiCache is protocol complaint with Memcached, so popular tools that you use today with existing Memcached environments will work seamlessly with the service.
+
+
+
+  
+    Redis
+  
+
+
+A popular open-source in-memory key-value store that supports data structures such as sorted sets and lists. ElastiCache supports Master/Slave replication and Multi-AZ which can be used to achieve cross AZ redundancy.</summary></entry><entry><title>Amazon Redshift, Big data solution</title><link href="https://www.abcdevops.com/blog/2016/02/13/amazon-redshift.html" rel="alternate" type="text/html" title="Amazon Redshift, Big data solution" /><published>2016-02-13T00:00:00+05:30</published><updated>2016-02-13T00:00:00+05:30</updated><id>https://www.abcdevops.com/blog/2016/02/13/amazon-redshift</id><content type="html" xml:base="https://www.abcdevops.com/blog/2016/02/13/amazon-redshift.html">&lt;h2 id=&quot;amazon-redshift&quot;&gt;Amazon Redshift&lt;/h2&gt;
+
+&lt;p&gt;Amazon Redshift is a fast and powerful, fully managed, petabyte-scale data warehouse service in the cloud. Customers can start small for just $0.25 per hour with no commitments or upfront costs and scale to a petabyte or more for $1,000 per terabyte per year, less than a tenth of most other data warehousing solutions.&lt;/p&gt;
+
+&lt;h2 id=&quot;configuration-of-redshift&quot;&gt;Configuration of Redshift&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;You start with the Single Node which is 160Gb.&lt;/li&gt;
+  &lt;li&gt;Then you can scale to Multi-Nodes&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;span&gt;Leader Node (manages client connections and receives queries).&lt;/span&gt;
+&lt;span&gt;Compute Node (store data and perform queries and computations). So with Redshift you can have up to 128 Compute Nodes but you can just start with the single node which combines the leader node and compute node into one row but you can then scale out.&lt;/span&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;10-times-faster&quot;&gt;10 Times Faster&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;h5 id=&quot;columnar-data-storage-&quot;&gt;Columnar Data Storage:-&lt;/h5&gt;
+    &lt;p&gt;Instead of storing data as a series of rows, Amazon Redshift organizes the data by column. Unlike row-based systems, which are ideal for transaction processing, column-based systems are ideal for data warehousing and analytics, where queries often involve aggregates performed over large data sets. Since only the columns involved in the queries are processed and columnar data is stored sequentially on the storage media, column-based systems require far fewer I/Os, greatly improving query performance.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h5 id=&quot;advanced-compression-&quot;&gt;Advanced Compression:-&lt;/h5&gt;
+    &lt;p&gt;Columnar data stores can be compressed much more than row-based data storesbecause similar data is stored sequentially on disk. Amazon Redshift employs multiple compression techniques and can often achieve significant compression relative to traditional relational data stores. In addition, Amazon Redshift doesn’t require indexes or materialized views and so uses less space than traditional relational database systems. When loading data into an empty table, Amazon Redshift automatically samples your data and selects the most appropriate compression scheme.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h5 id=&quot;massively-parallel-processing-mpp-&quot;&gt;Massively Parallel Processing (MPP):-&lt;/h5&gt;
+    &lt;p&gt;Amazon Redshift automatically distributes data and query load across all nodes. Amazon Redshift makes it easy to add nodes to your data warehouse and enables you to maintain fast query performance as your data warehouse grows.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;pricing&quot;&gt;Pricing&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;Compute Node Hours (total number of hours you run across all your compute  nodes for the billing period. You are billed for 1 unit per node per hour, so a 3-node data warehouse cluster running persistently for an entire month would incur 2,160 instance hours. You will not be charged for leader node hours; only compute nodes will incur charges.)&lt;/li&gt;
+  &lt;li&gt;Backup&lt;/li&gt;
+  &lt;li&gt;Data transfer (only within a Virtual Private Cloud, not outside it)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;security&quot;&gt;Security&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;Encrypted in transit using SSL&lt;/li&gt;
+  &lt;li&gt;Encrypted at rest using AES-256 encryption&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;span&gt;By default RedShift takes care of keys management.&lt;/span&gt;
+&lt;span&gt;Manage your own keys through Hardware Security Models.&lt;/span&gt;
+&lt;span&gt;AWS Key Management Service.&lt;/span&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;availability&quot;&gt;Availability&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;Currently only available in 1AZ.&lt;/li&gt;
+  &lt;li&gt;If you do lose AZ you can restore snapshots to new AZ’s so that’s the way you can get some kind of redundancy that is not automatic that is a manual process.&lt;/li&gt;
+&lt;/ol&gt;</content><author><name>Tarun Jangra</name><email>tarun.jangra@hotmail.com</email></author><category term="redshift" /><category term="amazon" /><category term="aws" /><category term="service" /><category term="pricing" /><summary>Amazon Redshift
+
+Amazon Redshift is a fast and powerful, fully managed, petabyte-scale data warehouse service in the cloud. Customers can start small for just $0.25 per hour with no commitments or upfront costs and scale to a petabyte or more for $1,000 per terabyte per year, less than a tenth of most other data warehousing solutions.
+
+Configuration of Redshift
+
+  You start with the Single Node which is 160Gb.
+  Then you can scale to Multi-Nodes
+
+
+Leader Node (manages client connections and receives queries).
+Compute Node (store data and perform queries and computations). So with Redshift you can have up to 128 Compute Nodes but you can just start with the single node which combines the leader node and compute node into one row but you can then scale out.
+
+10 Times Faster
+
+  
+    Columnar Data Storage:-
+    Instead of storing data as a series of rows, Amazon Redshift organizes the data by column. Unlike row-based systems, which are ideal for transaction processing, column-based systems are ideal for data warehousing and analytics, where queries often involve aggregates performed over large data sets. Since only the columns involved in the queries are processed and columnar data is stored sequentially on the storage media, column-based systems require far fewer I/Os, greatly improving query performance.
+  
+  
+    Advanced Compression:-
+    Columnar data stores can be compressed much more than row-based data storesbecause similar data is stored sequentially on disk. Amazon Redshift employs multiple compression techniques and can often achieve significant compression relative to traditional relational data stores. In addition, Amazon Redshift doesn’t require indexes or materialized views and so uses less space than traditional relational database systems. When loading data into an empty table, Amazon Redshift automatically samples your data and selects the most appropriate compression scheme.
+  
+  
+    Massively Parallel Processing (MPP):-
+    Amazon Redshift automatically distributes data and query load across all nodes. Amazon Redshift makes it easy to add nodes to your data warehouse and enables you to maintain fast query performance as your data warehouse grows.
+  
+
+
+Pricing
+
+  Compute Node Hours (total number of hours you run across all your compute  nodes for the billing period. You are billed for 1 unit per node per hour, so a 3-node data warehouse cluster running persistently for an entire month would incur 2,160 instance hours. You will not be charged for leader node hours; only compute nodes will incur charges.)
+  Backup
+  Data transfer (only within a Virtual Private Cloud, not outside it)
+
+
+Security
+
+  Encrypted in transit using SSL
+  Encrypted at rest using AES-256 encryption
+
+
+By default RedShift takes care of keys management.
+Manage your own keys through Hardware Security Models.
+AWS Key Management Service.
+
+Availability
+
+  Currently only available in 1AZ.
+  If you do lose AZ you can restore snapshots to new AZ’s so that’s the way you can get some kind of redundancy that is not automatic that is a manual process.</summary></entry><entry><title>Amazon Virtual Private Cloud</title><link href="https://www.abcdevops.com/blog/2016/02/08/Amazon-VPC.html" rel="alternate" type="text/html" title="Amazon Virtual Private Cloud" /><published>2016-02-08T00:00:00+05:30</published><updated>2016-02-08T00:00:00+05:30</updated><id>https://www.abcdevops.com/blog/2016/02/08/Amazon-VPC</id><content type="html" xml:base="https://www.abcdevops.com/blog/2016/02/08/Amazon-VPC.html">&lt;h2 id=&quot;amazon-virtual-private-cloud-definition&quot;&gt;Amazon Virtual Private Cloud Definition&lt;/h2&gt;
+
+&lt;p&gt;Amazon Virtual Private Cloud (Amazon VPC) lets you provision a logically isolated section of the Amazon Web Services (AWS) Cloud where you can launch AWS resources in a virtual network that you define. You have complete control over your virtual networking environment, including selection of your own IP address range, creation of subnets, and configuration of route tables and network gateways.&lt;/p&gt;
+
+&lt;p&gt;You can easily customize the network configuration for your Amazon Virtual Private Cloud. For example, you can create a public-facing subnet for your web servers that has access to the Internet, and you can place your backend systems such as databases or application servers in a private-facing subnet with no Internet access. You can leverage multiple layers of security, including security groups and network access control lists, to help control access to the Amazon EC2 instances in each subnet.&lt;/p&gt;
+
+&lt;p&gt;Additionally, you can create a Hardware Virtual Private Network (VPN) connection between your corporate datacenter and your VPC and leverage the AWS cloud as an extensions of your corporate datacenter.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-can-i-do-with-a-virtual-private-cloud&quot;&gt;What Can I Do with a Virtual Private Cloud&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;You can launch instances into a subnet of your choosing this might be EC2 or RDS instances etc.&lt;/li&gt;
+  &lt;li&gt;Assign custom IP address ranges in each subnet so that custom range in each subnet you can also extend that range into subnets if you are choosing you can bring your own  IP address ranges over.&lt;/li&gt;
+  &lt;li&gt;You can configure route tables between subnets.&lt;/li&gt;
+  &lt;li&gt;Create internet gateways and attach them to subnets (or not) if you have an internet gateway and you attach it to a subnet that subnet is publicly accessible by the internet. you can then have other subnets they do not have internet gateway attach to them. That means those subnets do not have internet access you cannot get to the any resources within that directly via that subnet you have go in via different subnets.&lt;/li&gt;
+  &lt;li&gt;You also get much better security control over your AWS resources you actually get two level security&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;span&gt;Instance security groups&lt;/span&gt;
+&lt;span&gt;Subnet network access control lists (ACLS)&lt;/span&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;default-vpc-vs-custom-vpc&quot;&gt;Default VPC vs Custom VPC&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;Default VPC is user friendly, allowing you to immediately deploy instances.&lt;/li&gt;
+  &lt;li&gt;All Subnets in default VPC have an internet gateway attached. So that when we are in different AZ or different subnets if you put it instance inside those different AZ they all had internet access by default.&lt;/li&gt;
+  &lt;li&gt;Each EC2 instance has both a public and private IP address&lt;/li&gt;
+  &lt;li&gt;If you delete the default VPC the only way to get it back is to contact AWS.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;vpc-peering&quot;&gt;VPC Peering&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;Allows you to connect one VPC with another via a direct network route using private IP addresses.&lt;/li&gt;
+  &lt;li&gt;Instances behave as if they were on the same private network&lt;/li&gt;
+  &lt;li&gt;You can peer VPC’s with other AWS accounts as well as with other VPCs in the same account.&lt;/li&gt;
+  &lt;li&gt;Peering is in a star configuration, ie 1 central VPC peers with 4 others. But you can’t do is have say three VPC’s you got VPC1 that peers with VPC2 which then peers with VPC3 but VPC1 would not be able to directly communicate with VPC3. They could only connect to VPC2 that one in the middle.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;vpc-restrictions&quot;&gt;VPC Restrictions&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;You only get 5 Elastic IP addresses per VPC.&lt;/li&gt;
+  &lt;li&gt;5 Internet Gateways.&lt;/li&gt;
+  &lt;li&gt;You can have 5 VPCs per region (can be increased upon request)&lt;/li&gt;
+  &lt;li&gt;50 VPN connections per region.&lt;/li&gt;
+  &lt;li&gt;50 Customer Gateways per region.&lt;/li&gt;
+  &lt;li&gt;200 Route tables per region.&lt;/li&gt;
+  &lt;li&gt;100 Security Groups per VPC.&lt;/li&gt;
+  &lt;li&gt;50 Rules per security group.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;vpc-creation-summary&quot;&gt;VPC Creation Summary&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;We created a custom VPC.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;span&gt;Defined our IP Address Range so we did that using our CIDR 10.0.0.0/16 that was our IP address range.&lt;/span&gt;
+&lt;span&gt;By default this created a Network ACL &amp;amp; Route&lt;/span&gt;&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Created a Custom route table.&lt;/li&gt;
+  &lt;li&gt;Created 3 Subnets 10.0.1.0/24, 10.0.2.0/24 and 10.0.3.0/24 .&lt;/li&gt;
+  &lt;li&gt;We then created an Internet Gateway.&lt;/li&gt;
+  &lt;li&gt;Attached our Internet Gateway to our VPC and then we essentially created a custom route table. Then without route table we created a outbound route to that internet Gateway.&lt;/li&gt;
+  &lt;li&gt;Adjusted our public subnet to use the newly defined route.&lt;/li&gt;
+  &lt;li&gt;Provisioned an EC2 instances with an Elastic IP address that was in our public subnet we also create an EC2 instances in our private subnet. One thing that comes up again and again is just because of an EC2 instances in your public subnet doesn’t mean that has access to the internet you needed to either have an Elastic IP Address or to have an Elastic Load Balancer attach to it. So just remember that you put an EC2 instances in a public subnet doesn’t mean that has internet by default.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;nat-summary&quot;&gt;NAT Summary&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;Created a security group&lt;/li&gt;
+  &lt;li&gt;Allowed inbound connections to 10.0.1.0/24 and 10.0.2.0/24 on HTTP and HTTPS&lt;/li&gt;
+  &lt;li&gt;Allowed outbound connections on HTTP and HTTPS for all traffic.&lt;/li&gt;
+  &lt;li&gt;Provisioned our NAT instance inside our public subnet.&lt;/li&gt;
+  &lt;li&gt;We Disable Source/Destination Check for the NAT instance. That’s the way you get the NAT instance to work. You have to disable the source/destination check.&lt;/li&gt;
+  &lt;li&gt;Setup up a route on our private subnets to route through the NAT instance&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;acl-summary&quot;&gt;ACL Summary&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;ACLs can be across multiple subnets.&lt;/li&gt;
+  &lt;li&gt;But Subnets can only have 1 NACL.&lt;/li&gt;
+  &lt;li&gt;ACLs encompass all security groups under the subnets associated with them.&lt;/li&gt;
+  &lt;li&gt;Rule Numbers, Lowest is incremented first.&lt;/li&gt;
+&lt;/ol&gt;</content><author><name>Tarun Jangra</name><email>tarun.jangra@hotmail.com</email></author><category term="VPC" /><category term="amazon" /><category term="aws" /><category term="service" /><category term="pricing" /><summary>Amazon Virtual Private Cloud Definition
+
+Amazon Virtual Private Cloud (Amazon VPC) lets you provision a logically isolated section of the Amazon Web Services (AWS) Cloud where you can launch AWS resources in a virtual network that you define. You have complete control over your virtual networking environment, including selection of your own IP address range, creation of subnets, and configuration of route tables and network gateways.
+
+You can easily customize the network configuration for your Amazon Virtual Private Cloud. For example, you can create a public-facing subnet for your web servers that has access to the Internet, and you can place your backend systems such as databases or application servers in a private-facing subnet with no Internet access. You can leverage multiple layers of security, including security groups and network access control lists, to help control access to the Amazon EC2 instances in each subnet.
+
+Additionally, you can create a Hardware Virtual Private Network (VPN) connection between your corporate datacenter and your VPC and leverage the AWS cloud as an extensions of your corporate datacenter.
+
+What Can I Do with a Virtual Private Cloud
+
+  You can launch instances into a subnet of your choosing this might be EC2 or RDS instances etc.
+  Assign custom IP address ranges in each subnet so that custom range in each subnet you can also extend that range into subnets if you are choosing you can bring your own  IP address ranges over.
+  You can configure route tables between subnets.
+  Create internet gateways and attach them to subnets (or not) if you have an internet gateway and you attach it to a subnet that subnet is publicly accessible by the internet. you can then have other subnets they do not have internet gateway attach to them. That means those subnets do not have internet access you cannot get to the any resources within that directly via that subnet you have go in via different subnets.
+  You also get much better security control over your AWS resources you actually get two level security
+
+
+Instance security groups
+Subnet network access control lists (ACLS)
+
+Default VPC vs Custom VPC
+
+  Default VPC is user friendly, allowing you to immediately deploy instances.
+  All Subnets in default VPC have an internet gateway attached. So that when we are in different AZ or different subnets if you put it instance inside those different AZ they all had internet access by default.
+  Each EC2 instance has both a public and private IP address
+  If you delete the default VPC the only way to get it back is to contact AWS.
+
+
+VPC Peering
+
+  Allows you to connect one VPC with another via a direct network route using private IP addresses.
+  Instances behave as if they were on the same private network
+  You can peer VPC’s with other AWS accounts as well as with other VPCs in the same account.
+  Peering is in a star configuration, ie 1 central VPC peers with 4 others. But you can’t do is have say three VPC’s you got VPC1 that peers with VPC2 which then peers with VPC3 but VPC1 would not be able to directly communicate with VPC3. They could only connect to VPC2 that one in the middle.
+
+
+VPC Restrictions
+
+  You only get 5 Elastic IP addresses per VPC.
+  5 Internet Gateways.
+  You can have 5 VPCs per region (can be increased upon request)
+  50 VPN connections per region.
+  50 Customer Gateways per region.
+  200 Route tables per region.
+  100 Security Groups per VPC.
+  50 Rules per security group.
+
+
+VPC Creation Summary
+
+  We created a custom VPC.
+
+
+Defined our IP Address Range so we did that using our CIDR 10.0.0.0/16 that was our IP address range.
+By default this created a Network ACL &amp;amp; Route
+
+  Created a Custom route table.
+  Created 3 Subnets 10.0.1.0/24, 10.0.2.0/24 and 10.0.3.0/24 .
+  We then created an Internet Gateway.
+  Attached our Internet Gateway to our VPC and then we essentially created a custom route table. Then without route table we created a outbound route to that internet Gateway.
+  Adjusted our public subnet to use the newly defined route.
+  Provisioned an EC2 instances with an Elastic IP address that was in our public subnet we also create an EC2 instances in our private subnet. One thing that comes up again and again is just because of an EC2 instances in your public subnet doesn’t mean that has access to the internet you needed to either have an Elastic IP Address or to have an Elastic Load Balancer attach to it. So just remember that you put an EC2 instances in a public subnet doesn’t mean that has internet by default.
+
+
+NAT Summary
+
+  Created a security group
+  Allowed inbound connections to 10.0.1.0/24 and 10.0.2.0/24 on HTTP and HTTPS
+  Allowed outbound connections on HTTP and HTTPS for all traffic.
+  Provisioned our NAT instance inside our public subnet.
+  We Disable Source/Destination Check for the NAT instance. That’s the way you get the NAT instance to work. You have to disable the source/destination check.
+  Setup up a route on our private subnets to route through the NAT instance
+
+
+ACL Summary
+
+  ACLs can be across multiple subnets.
+  But Subnets can only have 1 NACL.
+  ACLs encompass all security groups under the subnets associated with them.
+  Rule Numbers, Lowest is incremented first.</summary></entry></feed>
