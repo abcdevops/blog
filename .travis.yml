@@ -39,4 +39,4 @@ install:
 script:
 - set -e
 - export JEKYLL_ENV=production
-- bundle exec jgd -u git@github.com:abcdevops/abcdevops.github.io.git
+- bundle exec jgd -u git@github.com:abcdevops/blog.git
