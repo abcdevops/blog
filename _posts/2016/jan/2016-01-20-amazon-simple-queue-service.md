@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Amazon Simple Queue Service - message queue service
+title: "Amazon Simple Queue Service - message queue service"
 date: 2016-01-20
 og_image: /images/posts/amazon-simple-queue-service.jpg
 description: |

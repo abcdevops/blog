@@ -1,6 +1,6 @@
 ---
 layout: static1
-title: Contact Us
+title: "ABCDevOps: Here are all the ways to reach us"
 icon: phone
 date: 
 id: where

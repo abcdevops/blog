@@ -2,10 +2,11 @@
 layout: simple1
 date: 2017-10-10 10:30:33 +0530
 id: what
+title: "ABCDevOps: Let's understand, what DevOps actually is??"
 permalink: what
 main_image: /images/what-img.png
 description: |
-
+  What is DevOps and why do i need it?
 ---
 <div class="bg-dark">
  <div class="ui container text-white inner-content-page">

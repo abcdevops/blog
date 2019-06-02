@@ -2,7 +2,7 @@
 layout: static1 
 date: 2017-10-10 10:30:33 +0530
 icon: file outline
-title: We Are Hiring
+title: "ABCDevOps: We are hiring"
 id: career
 permalink: career
 main_image: /images/back.jpg
