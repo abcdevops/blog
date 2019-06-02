@@ -9,7 +9,7 @@ _newsletters/send.sh
 gnuplot/
 css/_icons.scss
 vendor
-node_module
+node_modules
 .vagrant
 cmake-3.5.1.tar.gz
 ubuntu-xenial-16.04-cloudimg-console.log
