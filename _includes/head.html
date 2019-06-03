@@ -60,17 +60,36 @@
     <link rel="apple-touch-icon" href="/favicon.ico?{{ site.data['hash'] }}"/>
 
     <link rel="alternate" type="application/rss+xml" title="RSS for ginvoicing.com" href="{{ site.url }}/rss.xml"/>
+
+    <!-- smooth scroll-css -->
+    <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+
     <link rel="author" href="https://plus.google.com/101607210664685513147?rel=author" />
     <link rel="publisher" href="https://plus.google.com/101607210664685513147" />
     <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
-
+    
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" ></script>
+
+    <!-- smooth scroll -->
+    <script src="/js/jQuery.scrollSpeed.js?{{ site.data['hash'] }}"></script>
+
+
     <script src="/js/custom.js?{{ site.data['hash'] }}"  type="application/javascript"></script>
 
     <link href="/../dist/semantic.min.css?{{ site.data['hash'] }}" rel="stylesheet" async="async" type="text/css"/>
     <link href="/css/style.css?{{ site.data['hash'] }}" rel="stylesheet" async="async" />
     <script src="/../dist/semantic.min.js?{{ site.data['hash'] }}" async="async" type="application/javascript"></script>
+
+    <!-- smooth scroll  -->
+    <script>
+        if(jQuery(window).width() > '768') {
+            $(function() {  
+                jQuery.scrollSpeed(100, 1000);
+            
+            });
+        }    
+    </script>
 
     <script language="javascript" type="application/javascript">
         $(document).ready(function () {
@@ -88,9 +107,6 @@
         })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
         ga('create', 'UA-783273-6', 'auto');
         ga('send', 'pageview');
-    </script>
-    <script>
-            
     </script>
 
 </head>

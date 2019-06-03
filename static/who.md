@@ -34,17 +34,22 @@ description: |
                         <img src="images/tarun-jangra.png" class="ui image" alt="image">
                     </div>
                     <h3>Tarun Jangra</h3>
-                    <h5>(Solutions Architect - Associate)</h5>
-                    <p>The AWS Certified Developer – Associate validates technical expertise in developing and maintaining applications on the AWS platform.</p>
+                    <h6>Co-Founder & CTO</h6>
               </div>
               <div class="column text-center">
                     <div class="circle">
                         <img src="images/puneet-sethi.png" class="ui image" alt="image">
                     </div>
                     <h3>Puneet Sethi</h3>
-                    <h5>(redhat - Certified Engineer)</h5>
-                    <p>Hands-on, successful Software Engineer with 9+ years of verifiable success leading teams in delivering appropriate technology solutions for desktop and mobile products.  Comprehensive knowledge of platform development, enterprise architecture, agile methodologies, cloud services, and web-based applications. </p>
+                    <h6>Co-Founder & CEO</h6>
               </div>
+              <!-- <div class="column text-center">
+                    <div class="circle">
+                        <img src="images/rudy-rupak.png" class="ui image" alt="image">
+                    </div>
+                    <h3>Rudy Rupak</h3>
+                    <h6>Chief Operating Officer</h6>
+              </div> -->
            </div>
         </div>
      </div>
