@@ -34,21 +34,21 @@ description: |
                         <img src="images/tarun-jangra.png" class="ui image" alt="image">
                     </div>
                     <h3>Tarun Jangra</h3>
-                    <h5>Co-Founder & CTO</h5>
+                    <h6>Co-Founder & CTO</h6>
               </div>
               <div class="column text-center">
                     <div class="circle">
                         <img src="images/puneet-sethi.png" class="ui image" alt="image">
                     </div>
                     <h3>Puneet Sethi</h3>
-                    <h5>Co-Founder & CEO</h5>
+                    <h6>Co-Founder & CEO</h6>
               </div>
               <div class="column text-center">
                     <div class="circle">
-                        <img src="images/puneet-.png" class="ui image" alt="image">
+                        <img src="images/rudy-rupak.png" class="ui image" alt="image">
                     </div>
-                    <h3>Kuldeep Spall</h3>
-                    <h5>Chief Operating Officer</h5>
+                    <h3>Rudy Rupak</h3>
+                    <h6>Chief Operating Officer</h6>
               </div>
            </div>
         </div>

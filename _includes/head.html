@@ -83,10 +83,12 @@
 
     <!-- smooth scroll  -->
     <script>
-        $(function() {  
-            jQuery.scrollSpeed(100, 1000);
-        
-        });
+        if(jQuery(window).width() > '768') {
+            $(function() {  
+                jQuery.scrollSpeed(100, 1000);
+            
+            });
+        }    
     </script>
 
     <script language="javascript" type="application/javascript">
@@ -105,9 +107,6 @@
         })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
         ga('create', 'UA-783273-6', 'auto');
         ga('send', 'pageview');
-    </script>
-    <script>
-            
     </script>
 
 </head>

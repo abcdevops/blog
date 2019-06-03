@@ -878,7 +878,6 @@ footer .gst-help-desk large{
 }
 
 .sec-quick-contect{background:#363636}
-header img.ui.image.logo {max-width: 210px;margin-left: 20px;}
 .headsec{font-weight:300;font-size:30px;font-family:'Open Sans',sans-serif;border-bottom:1px solid;margin-bottom:20px;float:left;width:100%}
 .text-center{text-align:center}
 .button{text-decoration: none;
@@ -901,7 +900,7 @@ header img.ui.image.logo {max-width: 210px;margin-left: 20px;}
 
 /*Foundation css*/
 .sec-quick-contect{background:#363636}
-header img.ui.image.logo {max-width: 210px;margin-left: 20px;}
+header img.ui.image.logo {max-width: 260px;}
 .headsec{font-weight:300;font-size:30px;font-family:'Open Sans',sans-serif;border-bottom:1px solid;margin-bottom:20px;float:left;width:100%}
 .text-center{text-align:center}
 .button{text-decoration: none;
