@@ -28,22 +28,27 @@ description: |
      <div class="featured-header-main">
         <h2 style="color:#000;">Get To Know Us</h2>
         <div class="ui grid">
-           <div class="two column row stackable">
+           <div class="three column row stackable">
               <div class="column text-center">
                     <div class="circle">
                         <img src="images/tarun-jangra.png" class="ui image" alt="image">
                     </div>
                     <h3>Tarun Jangra</h3>
-                    <h5>(Solutions Architect - Associate)</h5>
-                    <p>The AWS Certified Developer – Associate validates technical expertise in developing and maintaining applications on the AWS platform.</p>
+                    <h5>Co-Founder & CTO</h5>
               </div>
               <div class="column text-center">
                     <div class="circle">
                         <img src="images/puneet-sethi.png" class="ui image" alt="image">
                     </div>
                     <h3>Puneet Sethi</h3>
-                    <h5>(redhat - Certified Engineer)</h5>
-                    <p>Hands-on, successful Software Engineer with 9+ years of verifiable success leading teams in delivering appropriate technology solutions for desktop and mobile products.  Comprehensive knowledge of platform development, enterprise architecture, agile methodologies, cloud services, and web-based applications. </p>
+                    <h5>Co-Founder & CEO</h5>
+              </div>
+              <div class="column text-center">
+                    <div class="circle">
+                        <img src="images/puneet-.png" class="ui image" alt="image">
+                    </div>
+                    <h3>Kuldeep Spall</h3>
+                    <h5>Chief Operating Officer</h5>
               </div>
            </div>
         </div>

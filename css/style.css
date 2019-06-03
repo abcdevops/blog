@@ -62,17 +62,17 @@ footer a:hover,footer i:hover{color:#f08422}
 .bg-black{overflow:hidden;background-color:transparent!important}
 .bg-black::after{content:"";position:fixed;width:100%;height:100%;background-color:rgba(0,0,0,0.52);top:0;z-index:555555}
 .blog-banner{background:url(../images/blog-banner.jpg)no-repeat;background-size:cover;border-bottom:6px solid rgba(0,0,0,0.4);min-height:240px;margin-top:14px}
-.blog-title,.blog-title-detail{text-align:right;padding:83px 0 0;padding-right:70px}
-.blog-title h1,.blog-title-detail h1{color:#fff;font-size:60px;font-family:'Roboto Condensed',sans-serif;text-shadow:3px 3px 8px rgba(0,0,0,0.59)}
+.blog-title,.blog-title-detail{text-align:right;padding:83px 0 0;}
+.blog-title h1,.blog-title-detail h1{color:#fff;font-size:50px;font-family:'Roboto Condensed',sans-serif;text-shadow:3px 3px 8px rgba(0,0,0,0.59)}
 .blog-title-detail h1{font-size:38px;line-height:34px;padding-right:15px;border-right:5px solid #ffffff;padding-top:8px;text-shadow:1px 1px 3px #000}
 .blog-title-detail{padding:98px 0 0}
 .blog-title-detail h1 small{display:block}
 .blog-list-box{position:relative;position:relative;overflow:hidden}
 .blog-list-box img{width:100%;max-width:100%;min-height:100%;max-height:330px;width:auto;min-width:100%}
 .blog-list-box .top-title{position:absolute;right:0;transition:.3s all;top:0;background-color:#333333;width:calc(100% - 32px);left:0;padding:10px 0;margin:0 16px;text-align:right;font-size:18px;color:#fff;height:13%;padding-right:20px}
-.blog-heading{position:absolute;width:calc(100% - 32px);top:0;bottom:0;margin:auto;text-align:left;display:flex;padding-left:25px;justify-content:center;flex-direction:column;height:30%;background-color:rgba(255,255,255,0.75)}
-.bottom-description{position:absolute;bottom:31px;transition:.3s all;padding:7px 20px;background-color:#333333;color:#fff}
-.blog-heading h2{border-left:6px solid #333333;transition:.3s all;text-align:left;text-transform:uppercase;color:#000;padding:10px 0 10px 20px;text-align:left; font-size: 1.4rem;}
+.blog-heading{position:absolute;width:calc(100% - 32px);top:0;bottom:0;margin:auto;text-align:left;display:flex;padding-left:15px;justify-content:center;flex-direction:column;height:40%;background-color:rgba(255,255,255,0.85)}
+.bottom-description{position:absolute;font-size: 0.9em;bottom:5%;transition:.3s all;padding:5px 12px;background-color:#333333;color:#fff}
+.blog-heading h2{border-left:6px solid #333333;transition:.3s all;text-align:left;text-transform:uppercase;color:#000;padding:10px 5px 10px 10px;text-align:left; font-size: 1.2rem;}
 .blog-heading small{display:block}
 .blog-list{padding:60px 0 0}
 .blog-list-box:hover .top-title{background-color:rgba(240,132,34,0.89)}
@@ -501,7 +501,9 @@ body{background-color:#e77b19}
         height: 270px;
         width: 270px;
     }
-
+    .bottom-description{
+        bottom: 10%;
+    }
     .logo-rs{padding-top: 25px!important;}
 
     footer div.m-bt:nth-child(4){margin-bottom:0!important}
