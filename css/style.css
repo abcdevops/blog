@@ -4,17 +4,19 @@
 main > header{background:linear-gradient(to bottom, rgb(224, 224, 224) 0%,rgb(255, 255, 255) 44%); position: relative; box-shadow: 2px 0px 5px #888;}
 main > header .ui.inverted.menu{background:transparent;}
 main > header .ui.inverted.menu > .item > img{min-width:269px}
-main > header .ui.menu .item{display:block!important;text-align:center;font-family:HelveticaNeue-CondensedBold,HelveticaNeue-CondensedBold;color: #f08422!important;line-height: 78px;background-image: url(../images/menu-devider.jpg) !important; background-repeat: no-repeat!important;background-position: right center !important;font-size: 25px;padding: 0 1.5em !important;}
+main > header .ui.menu .item{width:140px; display:block!important;text-align:center;font-family:HelveticaNeue-CondensedBold,HelveticaNeue-CondensedBold;color: #f08422!important;line-height: 78px;background-image: url(../images/menu-devider.jpg) !important; background-repeat: no-repeat!important;background-position: right center !important;font-size: 25px;padding: 0 0.4em !important;}
 main > header .ui.menu .item span{
     display: block;
-    margin-top: 10px;
-    line-height: 40px!important;
+    margin-top: 15px;
+    line-height: 50px!important;
 }
 main > header .ui.menu .item h6{
     font-size: 12px;
     line-height: 10px;
     display: block;
-    margin-bottom:1.1rem;
+    margin-bottom: 1.6rem;
+    text-transform: lowercase;
+    color: #888;
 }
 .blog-list .image-post {
     float: left;
@@ -27,7 +29,7 @@ main > header .ui.menu .item h6{
 .blog-list h3 a {
     color: #f08422;
 }
-header .bg-img{background-image:url(../images/header-bg.jpg);background-repeat:repeat-x;background-color:#fff}
+header .bg-img{background-repeat:repeat-x;background-color:#fff}
 .border-bottom{border-bottom:1px solid #c3c3c3}
 h1,h2,h3,h4,h5,h6{font-family:"Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;font-weight:400;font-style:normal;color:inherit;text-rendering:optimizeLegibility;margin-top:0;margin-bottom:.5rem;line-height:1.4}
 footer a{vertical-align:top}
@@ -453,11 +455,13 @@ body{background-color:#e77b19}
     .share {right:0; left: inherit; top:190px;}
     footer .degree { max-width: 260px;}
     .hiring img {max-width: 90px;}
+    main > header .ui.menu .item{width: 115px;}
 }
 @media(max-width:990px) {
     main > header .ui.menu .item{background-image:none!important; font-size: 16px;}
     .ui.stackable.menu .item {
         width: 100%!important;
+        text-align: left;
     }
     .sixteen.wide.column.menu-list{
         float: left;
@@ -515,6 +519,11 @@ body{background-color:#e77b19}
     .who-we .circle {
         height: 270px;
         width: 270px;
+    }
+    main > header .ui.menu .item span {
+        display: block;
+        margin-top: 0;
+        line-height: 30px!important;
     }
     .bottom-description{
         bottom: 10%;
