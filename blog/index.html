@@ -21,37 +21,6 @@ keywords:
     </div>
     </div>
 </section>
-    <!-- <section class="blog-list">
-        <div class=" ui container">
-            <div class="featured-header-main">
-            <h2>Recent Stories</h2>
-            </div>
-
-            <div class="ui grid ">
-                <div class="stackable mobile three column row">
-                    {% for post in paginator.posts %}
-                <div class="column blog-list-box">
-                    {% if post.og_image %}
-                    <a href="{{ post.url }}"></a>
-                    <img src="{{ post.og_image }}">
-                    <div class="top-title">
-                        <a href="{{ post.url }}#disqus_thread">0 comments</a>
-                    </div>
-                    <div class="blog-heading">
-
-                        <h2>{{ post.title }}</h2>
-                    </div>
-                    <div class="bottom-description">Read More
-                    </div>
-                    {% endif %}
-                </div>
-                    {% endfor %}
-                </div>
-                </div>
-            </div>
-    </section> -->
-
-
     <section class="blog-list" style="background-color:#f1f1f1;">
         <div class=" ui container">
             <div class="featured-header-main">
@@ -61,7 +30,7 @@ keywords:
                     {% for post in paginator.posts %}
 
                     <div class="ui grid">
-                            <div class="four wide column">
+                            <div class="four wide computer four wide tablet sixteen wide mobile column">
                                     {% if post.og_image %}
                                     <div class="image-post" style="    background-image: url('{{ post.og_image }}');">
                                             <a href="{{ post.url }}" style="    height: 100%;
@@ -70,7 +39,7 @@ keywords:
                                             width: 100%;"></a>
                                     </div>
                             </div>
-                            <div class="twelve wide column">
+                            <div class="twelve wide computer twelve wide tablet sixteen wide mobile column">
                                     <h3><a href="{{ post.url }}">{{ post.title }}</a> </h2>
                             
                                         <p class="blog-tag">
@@ -95,56 +64,8 @@ keywords:
             </div>
     </section>
 
-    <!-- featured -->
 
-    <section class="blog-list top-stories">
-            <div class=" ui container">
-                <div class="featured-header-main">
-                        <h2>Featured Stories</h2>
-                </div>
-    
-                {% assign posts = paginator.posts  %}
-                {% for post in posts %}
-                {% if post.top_story %}
-    
-                        <div class="ui grid">
-                                <div class="four wide column">
-                                        {% if post.og_image %}
-                                        <div class="image-post" style="    background-image: url('{{ post.og_image }}');">
-                                                <a href="{{ post.url }}" style="    height: 100%;
-                                                display: block;
-                                                position: absolute;
-                                                width: 100%;"></a>
-                                        </div>
-                                </div>
-                                <div class="twelve wide column">
-                                        <h3><a href="{{ post.url }}">{{ post.title }}</a> </h2>
-                                
-                                            <p class="blog-tag">
-                                                <a>{{post.tags[0] }}</a>
-                                                <a>{{post.tags[1] }}</a>
-                                                <a>{{post.tags[2] }}</a>
-                                                <a>{{post.tags[3] }}</a>
-                                                <a>{{post.tags[4] }}</a>
-                                            </p>
-                                        
-                                            
-                                        <div class="top-title">
-                                            <a href="{{ post.url }}#disqus_thread">0 comments</a>
-                                        </div>
-                                </div>
-                                {% endif %}
-                        </div>
-                 
-                        
-                       
-                        {% endif %}
-                        {% endfor %}
-                </div>
-        </section>
-    
-    <!-- <section class="blog-list">
-        <div class="top-stories">
+        <div class="top-stories" style="background:url(../images/pettern-orange.jpeg)repeat;">
             <div class="ui container">
                 <div class="ui grid ">
                     <div class="featured-header-main">
@@ -177,4 +98,4 @@ keywords:
                 </div>
             </div>
         </div>
-    </section>   -->
+ 

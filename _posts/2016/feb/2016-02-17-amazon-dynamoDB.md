@@ -3,6 +3,7 @@ layout: post
 title: Amazon DynamoDB - NoSQL database for faster response time
 date: 2016-02-17
 og_image: /images/posts/amazon-dynamoDB.jpg
+main_image: /images/blog-detail/dynamodb.jpg
 top_story: true
 description: |
   Amazon DynamoDB is a fully managed proprietary NoSQL database service that supports key-value and document data structures

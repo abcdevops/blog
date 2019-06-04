@@ -3,6 +3,7 @@ layout: post
 title: Amazon Storage Gateway - Better storage solution.
 date: 2016-02-22
 og_image: /images/posts/amazon-storage-gateway.jpg
+main_image: /images/blog-detail/storage-gateway.jpg
 description: |
   The AWS Storage Gateway service enables hybrid storage between on-premises environments and the AWS Cloud. 
 tags:

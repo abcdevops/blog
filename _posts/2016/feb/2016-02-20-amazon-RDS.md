@@ -3,6 +3,7 @@ layout: post
 title: Amazon RDS - Relational database service
 date: 2016-02-20
 og_image: /images/posts/amazon-RDS.jpg
+main_image: /images/blog-detail/rds.jpg
 description: |
   Amazon Relational Database Service is a distributed relational database service by Amazon Web Services. It is a web service running "in the cloud" designed to simplify the setup, operation, and scaling of a relational database for use in applications.
 tags:

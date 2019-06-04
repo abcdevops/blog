@@ -3,6 +3,7 @@ layout: post
 title: Amazon ElastiCache - Inmemory data store and caching
 date: 2016-02-15
 og_image: /images/posts/amazon-elasticache.jpg
+main_image: /images/blog-detail/elasticache.jpg
 description: |
   Amazon ElastiCache is a fully managed in-memory data store and cache service by Amazon Web Services.
 tags:
