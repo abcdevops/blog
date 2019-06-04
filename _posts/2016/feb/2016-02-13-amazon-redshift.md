@@ -3,6 +3,7 @@ layout: post
 title: Amazon Redshift, Big data solution
 date: 2016-02-13
 og_image: /images/posts/amazon-redshift.jpg
+main_image: /images/blog-detail/redshift.jpg
 description: |
   Amazon Redshift is an Internet hosting service and data warehouse product which forms part of the larger cloud-computing platform Amazon Web Services. 
 tags:
