@@ -3,7 +3,7 @@ layout: post
 title: Amazon Cloud Front - serve static assets from the closest place.
 date: 2016-02-24
 og_image: /images/posts/amazon-cloud-front.jpg
-main_image: /images/blog-detail/storage-gateway.jpg
+main_image: /images/blog-detail/cloudfront.jpg
 top_story: true
 description: |
   Amazon CloudFront is a content delivery network offered by Amazon Web Services. Content delivery networks provide a globally-distributed network of proxy servers which cache content, such as web videos or other bulky media, more locally to consumers, thus improving access speed for downloading the content. 

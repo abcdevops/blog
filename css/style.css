@@ -10,6 +10,9 @@ main > header .ui.menu .item span{
     margin-top: 10px;
     line-height: 40px!important;
 }
+.blog-list .featured-header-main {
+    margin-bottom: 50px;
+}
 main > header .ui.menu .item:nth-child(5) {
     background: none!important;
     z-index:99;
