@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/abcdevops/blog.svg?branch=master)](https://travis-ci.org/abcdevops/abcdevops.github.io)
+[![Build Status](https://travis-ci.org/abcdevops/blog.svg?branch=master)](https://travis-ci.org/abcdevops/blog)
 
 how to work with new jekyll
 -------
