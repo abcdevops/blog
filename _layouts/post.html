@@ -57,10 +57,11 @@ layout: compress
 <main>
     {% include header.html %}
     {% include share.html %}
-
+    {% if page.main_image %}
     <section class="blog-banner main-disc">
             <img src="{{page.main_image}}">
     </section>
+    {% endif %}
 
     <section class="inner-content-page single-blog" style="background-color:#fff;">
         <div class="ui container">
