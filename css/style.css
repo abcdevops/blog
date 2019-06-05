@@ -20,6 +20,9 @@ main > header .ui.menu .item span{
     animation-duration: 1s;
     padding: 10px 0;
 }
+#home header.min-header + .hiring a img {
+    max-width: 117px;
+}
 header.min-header img.ui.image.logo {
     max-width: 210px;
 }
