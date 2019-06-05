@@ -6,6 +6,7 @@ layout: compress
 {% include head.html %}
 
 <script type="application/ld+json">
+  {% assign split_name =  page.author.name | default: site.author.name | split: " " %}
   {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
@@ -20,6 +21,12 @@ layout: compress
     "author": {
       "@type": "Person",
       "name": {{  page.author.name | default: site.author.name | jsonify }},
+      "givenName": {{ split_name[0] | jsonify }},
+      "familyName": {{ split_name[1] | jsonify }},
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://tarunjangra.com/images/about/tarun-jangra-200x200.jpg"
+      },
       "email": {{ page.author.email | default: site.author.email | jsonify }}
     },
     "publisher": {
