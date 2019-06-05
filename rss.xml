@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.1.6">Jekyll</generator><link href="https://abcdevops.com/rss.xml" rel="self" type="application/atom+xml" /><link href="https://abcdevops.com/" rel="alternate" type="text/html" /><updated>2019-06-05T20:46:14+05:30</updated><id>https://abcdevops.com/</id><title>abcdevops: re:inventing DevOps</title><subtitle>ABCDevOps: Let&#39;s discuss what devops is.</subtitle><author><name>Tarun jangra</name><email>tarun.jangra@abcdevops.com</email></author><entry><title>Amazon EC2 - Elastic Cloud Computing</title><link href="https://abcdevops.com/blog/2016/03/02/amazon-EC2.html" rel="alternate" type="text/html" title="Amazon EC2 - Elastic Cloud Computing" /><published>2016-03-02T00:00:00+05:30</published><updated>2016-03-02T00:00:00+05:30</updated><id>https://abcdevops.com/blog/2016/03/02/amazon-EC2</id><content type="html" xml:base="https://abcdevops.com/blog/2016/03/02/amazon-EC2.html">&lt;p&gt;Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides re-sizable compute capacity in the cloud. Amazon EC2 reduces the time required to obtain and boot new server instances to minutes, allowing you to quickly scale capacity, both up and down, as your computing requirements change.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.1.6">Jekyll</generator><link href="https://abcdevops.com/rss.xml" rel="self" type="application/atom+xml" /><link href="https://abcdevops.com/" rel="alternate" type="text/html" /><updated>2019-06-05T13:47:01-04:00</updated><id>https://abcdevops.com/</id><title>abcdevops: re:inventing DevOps</title><subtitle>ABCDevOps: Let&#39;s discuss what devops is.</subtitle><author><name>Tarun jangra</name><email>tarun.jangra@abcdevops.com</email></author><entry><title>What, Servers are on strike. We need some superman?</title><link href="https://abcdevops.com/blog/2019/06/05/servers-on-strike.html" rel="alternate" type="text/html" title="What, Servers are on strike. We need some superman?" /><published>2019-06-05T00:00:00-04:00</published><updated>2019-06-05T00:00:00-04:00</updated><id>https://abcdevops.com/blog/2019/06/05/servers-on-strike</id><content type="html" xml:base="https://abcdevops.com/blog/2019/06/05/servers-on-strike.html">&lt;p&gt;&lt;strong&gt;Allow #ABCDevOps to be the #UnionLeader and keep your servers in your service.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/servers-are-off.jpg&quot; alt=&quot;Where are you going? Our clients are still in queue.&quot; /&gt;&lt;/p&gt;</content><author><name>Tarun jangra</name><email>tarun.jangra@abcdevops.com</email></author><category term="Azure" /><category term="AWS" /><category term="GCP" /><category term="DevToon" /><summary>Allow #ABCDevOps to be the #UnionLeader and keep your servers in your service.</summary></entry><entry><title>Amazon EC2 - Elastic Cloud Computing</title><link href="https://abcdevops.com/blog/2016/03/02/amazon-EC2.html" rel="alternate" type="text/html" title="Amazon EC2 - Elastic Cloud Computing" /><published>2016-03-02T00:00:00-05:00</published><updated>2016-03-02T00:00:00-05:00</updated><id>https://abcdevops.com/blog/2016/03/02/amazon-EC2</id><content type="html" xml:base="https://abcdevops.com/blog/2016/03/02/amazon-EC2.html">&lt;p&gt;Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides re-sizable compute capacity in the cloud. Amazon EC2 reduces the time required to obtain and boot new server instances to minutes, allowing you to quickly scale capacity, both up and down, as your computing requirements change.&lt;/p&gt;
 
 &lt;p&gt;We are working from last 10 years in IT I remember time where if we needed a new Active Directory Server or a new SQL Server we have to go to HP or go to DELL order new servers we then had to get deliver to our data centers we had to get racked we had to do the networking setup them the internet accessible etc and you know your provisioning time should be anywhere from 5 to 10 business days. Then i started public cloud and was really exciting to see the capabilities of cloud in step having of 5 to 10 days lead time you would reduce to literally just couple of minutes you can have that server up and running so that’s really how cloud computing change the IT industry in the last 5 to 10 years so Amazon EC2 changes the economics of computing by allowing you to pay only for capacity that you actually use. Amazon EC2 provides developers the tools to build failure resilient applications and isolate themselves from common failure scenarios. So we just look at the first section the advantage of the cloud computing is utility based model you can pay only by the hour. If you want to spin up the development environment and just test on it and then terminate you only pay for 1 or 2 hours the environment is live the old model way you would buy the server hardware you would be stuck with it.&lt;/p&gt;
 
@@ -206,7 +208,7 @@ Ratio of 3 IOPS per GB, offer single digit millisecond latency, and also have th
   
 
 
-Lowest cost per gigabyte of all Elastic Block Storage volume types. Magnetic volumes are ideal for workloads where data is accessed infrequently, and applications where the lowest storage cost is important.</summary></entry><entry><title>Amazon Lambda - Serverless technology</title><link href="https://abcdevops.com/blog/2016/02/29/amazon-lambda.html" rel="alternate" type="text/html" title="Amazon Lambda - Serverless technology" /><published>2016-02-29T00:00:00+05:30</published><updated>2016-02-29T00:00:00+05:30</updated><id>https://abcdevops.com/blog/2016/02/29/amazon-lambda</id><content type="html" xml:base="https://abcdevops.com/blog/2016/02/29/amazon-lambda.html">&lt;h2 id=&quot;what-is-lambda&quot;&gt;What is Lambda?&lt;/h2&gt;
+Lowest cost per gigabyte of all Elastic Block Storage volume types. Magnetic volumes are ideal for workloads where data is accessed infrequently, and applications where the lowest storage cost is important.</summary></entry><entry><title>Amazon Lambda - Serverless technology</title><link href="https://abcdevops.com/blog/2016/02/29/amazon-lambda.html" rel="alternate" type="text/html" title="Amazon Lambda - Serverless technology" /><published>2016-02-29T00:00:00-05:00</published><updated>2016-02-29T00:00:00-05:00</updated><id>https://abcdevops.com/blog/2016/02/29/amazon-lambda</id><content type="html" xml:base="https://abcdevops.com/blog/2016/02/29/amazon-lambda.html">&lt;h2 id=&quot;what-is-lambda&quot;&gt;What is Lambda?&lt;/h2&gt;
 
 &lt;p&gt;AWS Lambda is a compute service that runs your code in response to events and automatically manages the underlying compute resources. So you don’t have to worry about server infrastructure all you have to worry about is code and you can design your code respond automatically to events.&lt;/p&gt;
 
@@ -250,7 +252,7 @@ Duration is calculated from the time your code begins executing until it returns
 
 In terms of your free tier
 
-1M free requests per month and 400,000 GB-seconds of compute time per month. The memory size you choose for your Lambda functions determines how long they can run in the free tier. The Lambda free tier does not automatically expire at the end of your 12 month AWS Free Tier term, but is available in both existing and new AWS customers indefinitely.</summary></entry><entry><title>Amazon S3 - Simple storage service</title><link href="https://abcdevops.com/blog/2016/02/27/amazon-S3.html" rel="alternate" type="text/html" title="Amazon S3 - Simple storage service" /><published>2016-02-27T00:00:00+05:30</published><updated>2016-02-27T00:00:00+05:30</updated><id>https://abcdevops.com/blog/2016/02/27/amazon-S3</id><content type="html" xml:base="https://abcdevops.com/blog/2016/02/27/amazon-S3.html">&lt;h2 id=&quot;simple-storage-service-s3&quot;&gt;Simple Storage Service (S3):&lt;/h2&gt;
+1M free requests per month and 400,000 GB-seconds of compute time per month. The memory size you choose for your Lambda functions determines how long they can run in the free tier. The Lambda free tier does not automatically expire at the end of your 12 month AWS Free Tier term, but is available in both existing and new AWS customers indefinitely.</summary></entry><entry><title>Amazon S3 - Simple storage service</title><link href="https://abcdevops.com/blog/2016/02/27/amazon-S3.html" rel="alternate" type="text/html" title="Amazon S3 - Simple storage service" /><published>2016-02-27T00:00:00-05:00</published><updated>2016-02-27T00:00:00-05:00</updated><id>https://abcdevops.com/blog/2016/02/27/amazon-S3</id><content type="html" xml:base="https://abcdevops.com/blog/2016/02/27/amazon-S3.html">&lt;h2 id=&quot;simple-storage-service-s3&quot;&gt;Simple Storage Service (S3):&lt;/h2&gt;
 
 &lt;p&gt;S3 provides developers and IT teams with secure, durable, highly-scalable object storage. Amazon S3 is easy to use, with a simple web services interfaces to store and retrieve any amount of data from anywhere on the web.&lt;/p&gt;
 
@@ -411,7 +413,7 @@ S3 Use Cases
   Backup/Archiving
   Origin for CloudFront CDN’s
   Hosting Static Files
-  Hosting Static Websites</summary></entry><entry><title>Amazon Cloud Front - serve static assets from the closest place.</title><link href="https://abcdevops.com/blog/2016/02/24/amazon-cloud-front.html" rel="alternate" type="text/html" title="Amazon Cloud Front - serve static assets from the closest place." /><published>2016-02-24T00:00:00+05:30</published><updated>2016-02-24T00:00:00+05:30</updated><id>https://abcdevops.com/blog/2016/02/24/amazon-cloud-front</id><content type="html" xml:base="https://abcdevops.com/blog/2016/02/24/amazon-cloud-front.html">&lt;h2 id=&quot;cdn-&quot;&gt;CDN:-&lt;/h2&gt;
+  Hosting Static Websites</summary></entry><entry><title>Amazon Cloud Front - serve static assets from the closest place.</title><link href="https://abcdevops.com/blog/2016/02/24/amazon-cloud-front.html" rel="alternate" type="text/html" title="Amazon Cloud Front - serve static assets from the closest place." /><published>2016-02-24T00:00:00-05:00</published><updated>2016-02-24T00:00:00-05:00</updated><id>https://abcdevops.com/blog/2016/02/24/amazon-cloud-front</id><content type="html" xml:base="https://abcdevops.com/blog/2016/02/24/amazon-cloud-front.html">&lt;h2 id=&quot;cdn-&quot;&gt;CDN:-&lt;/h2&gt;
 
 &lt;p&gt;A Content Delivery Network (CDN) is a system of distributed servers (network) that deliver web pages and other web content to a user based on the geographic locations of the user, the origin of the webpage and a content delivery server. Now, let’s look at a practical example if i am in Australia let say i am in Perth for example and i want access the server in New York that server has image files on it in order get those image files the actual image files have to be served across the Atlantic then across the Indian ocean in order to reach Perth and every 200Kms equals to approximately 1 millisecond length of time latency so it’s take me a little bit of time for those files to physically arrived for New York to Perth a even operating a speed of light it’s gonna be a longer time than a files viewing those files directly from a server in Perth so our Content Distribution Network does its every time a user in Perth tries to access those files in New York CDN cache those files add a server in Perth for the length of time. Now a new user goes to access the same files they can just get it from Perth server they don’t have to go halfway around the world to pull down the same files. Those files will be cached depending on the settings but you set was called it time to live (TTL) and that’s measured in seconds you can set on your CDN you can set TTL on your files to say how long you are going to cache them. So that a really high overview what CDN is and CloudFront is Amazon CDN.&lt;/p&gt;
 
@@ -495,7 +497,7 @@ Speed up distribution of static and dynamic content, for example, .html, .css, .
 
 
 To create an RTMP distribution, you must store the media files in an Amazon S3 bucket.
-  To use CloudFront live streaming, create a web distribution.</summary></entry><entry><title>Amazon Storage Gateway - Better storage solution.</title><link href="https://abcdevops.com/blog/2016/02/22/amazon-storage-gateway.html" rel="alternate" type="text/html" title="Amazon Storage Gateway - Better storage solution." /><published>2016-02-22T00:00:00+05:30</published><updated>2016-02-22T00:00:00+05:30</updated><id>https://abcdevops.com/blog/2016/02/22/amazon-storage-gateway</id><content type="html" xml:base="https://abcdevops.com/blog/2016/02/22/amazon-storage-gateway.html">&lt;h2 id=&quot;storage-gateway&quot;&gt;Storage Gateway&lt;/h2&gt;
+  To use CloudFront live streaming, create a web distribution.</summary></entry><entry><title>Amazon Storage Gateway - Better storage solution.</title><link href="https://abcdevops.com/blog/2016/02/22/amazon-storage-gateway.html" rel="alternate" type="text/html" title="Amazon Storage Gateway - Better storage solution." /><published>2016-02-22T00:00:00-05:00</published><updated>2016-02-22T00:00:00-05:00</updated><id>https://abcdevops.com/blog/2016/02/22/amazon-storage-gateway</id><content type="html" xml:base="https://abcdevops.com/blog/2016/02/22/amazon-storage-gateway.html">&lt;h2 id=&quot;storage-gateway&quot;&gt;Storage Gateway&lt;/h2&gt;
 
 &lt;p&gt;AWS Storage Gateway is a service that connects an on-premises software appliance with cloud-based storage to provide seamless and secure integration between an organization’s on-premises IT environment and AWS’s storage infrastructure. The service enables you to securely store data to the AWS cloud for scalable and cost-effective storage.&lt;/p&gt;
 
@@ -529,7 +531,7 @@ Gateway-stored volumes store your primary data locally, while asynchronously bac
 
 Storage Gateway Pricing
 
-With AWS Storage Gateway, you pay only for what you use. AWS Storage Gateway has four pricing components: gateway usage (per GB per month) so the number of gateway using per month, snapshot storage usage (per GB per month), volume storage usage (per GB per month), and data transfer out (per GB per month).</summary></entry><entry><title>Amazon RDS - Relational database service</title><link href="https://abcdevops.com/blog/2016/02/20/amazon-RDS.html" rel="alternate" type="text/html" title="Amazon RDS - Relational database service" /><published>2016-02-20T00:00:00+05:30</published><updated>2016-02-20T00:00:00+05:30</updated><id>https://abcdevops.com/blog/2016/02/20/amazon-RDS</id><content type="html" xml:base="https://abcdevops.com/blog/2016/02/20/amazon-RDS.html">&lt;h2 id=&quot;databases-introduction&quot;&gt;Databases Introduction&lt;/h2&gt;
+With AWS Storage Gateway, you pay only for what you use. AWS Storage Gateway has four pricing components: gateway usage (per GB per month) so the number of gateway using per month, snapshot storage usage (per GB per month), volume storage usage (per GB per month), and data transfer out (per GB per month).</summary></entry><entry><title>Amazon RDS - Relational database service</title><link href="https://abcdevops.com/blog/2016/02/20/amazon-RDS.html" rel="alternate" type="text/html" title="Amazon RDS - Relational database service" /><published>2016-02-20T00:00:00-05:00</published><updated>2016-02-20T00:00:00-05:00</updated><id>https://abcdevops.com/blog/2016/02/20/amazon-RDS</id><content type="html" xml:base="https://abcdevops.com/blog/2016/02/20/amazon-RDS.html">&lt;h2 id=&quot;databases-introduction&quot;&gt;Databases Introduction&lt;/h2&gt;
 
 &lt;p&gt;So we just with brief introduction on the different types of databases so we got Relational databases.&lt;/p&gt;
 
@@ -657,7 +659,7 @@ NoSql quite a little bit different to relational databases so there is different
 
 Data Warehousing :-
 
-This is often used by number of different software products business intelligence. Tools like Cognos, Jaspersoft, SQL Server Reporting Services, Oracle Hyperion, SAP NetWeaver.</summary></entry><entry><title>Amazon DynamoDB - NoSQL database for faster response time</title><link href="https://abcdevops.com/blog/2016/02/17/amazon-dynamoDB.html" rel="alternate" type="text/html" title="Amazon DynamoDB - NoSQL database for faster response time" /><published>2016-02-17T00:00:00+05:30</published><updated>2016-02-17T00:00:00+05:30</updated><id>https://abcdevops.com/blog/2016/02/17/amazon-dynamoDB</id><content type="html" xml:base="https://abcdevops.com/blog/2016/02/17/amazon-dynamoDB.html">&lt;h2 id=&quot;dynamodb&quot;&gt;DynamoDB&lt;/h2&gt;
+This is often used by number of different software products business intelligence. Tools like Cognos, Jaspersoft, SQL Server Reporting Services, Oracle Hyperion, SAP NetWeaver.</summary></entry><entry><title>Amazon DynamoDB - NoSQL database for faster response time</title><link href="https://abcdevops.com/blog/2016/02/17/amazon-dynamoDB.html" rel="alternate" type="text/html" title="Amazon DynamoDB - NoSQL database for faster response time" /><published>2016-02-17T00:00:00-05:00</published><updated>2016-02-17T00:00:00-05:00</updated><id>https://abcdevops.com/blog/2016/02/17/amazon-dynamoDB</id><content type="html" xml:base="https://abcdevops.com/blog/2016/02/17/amazon-dynamoDB.html">&lt;h2 id=&quot;dynamodb&quot;&gt;DynamoDB&lt;/h2&gt;
 
 &lt;p&gt;Amazon DynamoDB is a fast and flexible No-SQL database service for all applications that need consistent, single-digit millisecond latency at any scale. It is a fully managed database and supports both document and key-value data models. It’s flexible data model and reliable performance make it a great fit for mobile, web, gaming, ad-tech, IoT, and many other applications.&lt;/p&gt;
 
@@ -747,7 +749,7 @@ A DynamoDB Write Capacity Unit can handle 1 write per second, so you need 12 Wri
 
 Using on-demand pricing in the US East (N. Virginia) Region. You got 12 Write Capacity Units would cost $0.1872 per day and 12 Read Capacity Units would cost $0.0374 per day. So your total cost of provisioned throughput capacity is $0.1872 + $ 0.03474 = $0.2246 per day. Storage costs $0.25 per GB per month.
 
-Assuming a 30-day month, your 3GB would cost you 3 * $0.25/30 = $0.025 per day. Combining these numbers, the total cost of your DynamoDB table would be $0.2246 (for provisioned throughput capacity) + $0.025 (for storage) = $0.2496 per day or $7.50 per month.</summary></entry><entry><title>Amazon ElastiCache - Inmemory data store and caching</title><link href="https://abcdevops.com/blog/2016/02/15/amazon-elastiCache.html" rel="alternate" type="text/html" title="Amazon ElastiCache - Inmemory data store and caching" /><published>2016-02-15T00:00:00+05:30</published><updated>2016-02-15T00:00:00+05:30</updated><id>https://abcdevops.com/blog/2016/02/15/amazon-elastiCache</id><content type="html" xml:base="https://abcdevops.com/blog/2016/02/15/amazon-elastiCache.html">&lt;h2 id=&quot;elasticache&quot;&gt;ElastiCache&lt;/h2&gt;
+Assuming a 30-day month, your 3GB would cost you 3 * $0.25/30 = $0.025 per day. Combining these numbers, the total cost of your DynamoDB table would be $0.2246 (for provisioned throughput capacity) + $0.025 (for storage) = $0.2496 per day or $7.50 per month.</summary></entry><entry><title>Amazon ElastiCache - Inmemory data store and caching</title><link href="https://abcdevops.com/blog/2016/02/15/amazon-elastiCache.html" rel="alternate" type="text/html" title="Amazon ElastiCache - Inmemory data store and caching" /><published>2016-02-15T00:00:00-05:00</published><updated>2016-02-15T00:00:00-05:00</updated><id>https://abcdevops.com/blog/2016/02/15/amazon-elastiCache</id><content type="html" xml:base="https://abcdevops.com/blog/2016/02/15/amazon-elastiCache.html">&lt;h2 id=&quot;elasticache&quot;&gt;ElastiCache&lt;/h2&gt;
 
 &lt;p&gt;ElastiCache is a web service that makes it easy to deploy, operate, and scale an in-memory cache in the cloud. The service improves the performance  of web applications by allowing you to retrieve information from fast, managed, in-memory caches, instead of relying entirely on slower disk-based database. ElastiCache supports two open-source in-memory caching engines:&lt;/p&gt;
 
@@ -798,7 +800,7 @@ A widely adopted memory object caching system. ElastiCache is protocol complaint
   
 
 
-A popular open-source in-memory key-value store that supports data structures such as sorted sets and lists. ElastiCache supports Master/Slave replication and Multi-AZ which can be used to achieve cross AZ redundancy.</summary></entry><entry><title>Amazon Redshift, Big data solution</title><link href="https://abcdevops.com/blog/2016/02/13/amazon-redshift.html" rel="alternate" type="text/html" title="Amazon Redshift, Big data solution" /><published>2016-02-13T00:00:00+05:30</published><updated>2016-02-13T00:00:00+05:30</updated><id>https://abcdevops.com/blog/2016/02/13/amazon-redshift</id><content type="html" xml:base="https://abcdevops.com/blog/2016/02/13/amazon-redshift.html">&lt;h2 id=&quot;amazon-redshift&quot;&gt;Amazon Redshift&lt;/h2&gt;
+A popular open-source in-memory key-value store that supports data structures such as sorted sets and lists. ElastiCache supports Master/Slave replication and Multi-AZ which can be used to achieve cross AZ redundancy.</summary></entry><entry><title>Amazon Redshift, Big data solution</title><link href="https://abcdevops.com/blog/2016/02/13/amazon-redshift.html" rel="alternate" type="text/html" title="Amazon Redshift, Big data solution" /><published>2016-02-13T00:00:00-05:00</published><updated>2016-02-13T00:00:00-05:00</updated><id>https://abcdevops.com/blog/2016/02/13/amazon-redshift</id><content type="html" xml:base="https://abcdevops.com/blog/2016/02/13/amazon-redshift.html">&lt;h2 id=&quot;amazon-redshift&quot;&gt;Amazon Redshift&lt;/h2&gt;
 
 &lt;p&gt;Amazon Redshift is a fast and powerful, fully managed, petabyte-scale data warehouse service in the cloud. Customers can start small for just $0.25 per hour with no commitments or upfront costs and scale to a petabyte or more for $1,000 per terabyte per year, less than a tenth of most other data warehousing solutions.&lt;/p&gt;
 
@@ -897,163 +899,4 @@ AWS Key Management Service.
 Availability
 
   Currently only available in 1AZ.
-  If you do lose AZ you can restore snapshots to new AZ’s so that’s the way you can get some kind of redundancy that is not automatic that is a manual process.</summary></entry><entry><title>Amazon Virtual Private Cloud</title><link href="https://abcdevops.com/blog/2016/02/08/Amazon-VPC.html" rel="alternate" type="text/html" title="Amazon Virtual Private Cloud" /><published>2016-02-08T00:00:00+05:30</published><updated>2016-02-08T00:00:00+05:30</updated><id>https://abcdevops.com/blog/2016/02/08/Amazon-VPC</id><content type="html" xml:base="https://abcdevops.com/blog/2016/02/08/Amazon-VPC.html">&lt;h2 id=&quot;amazon-virtual-private-cloud-definition&quot;&gt;Amazon Virtual Private Cloud Definition&lt;/h2&gt;
-
-&lt;p&gt;Amazon Virtual Private Cloud (Amazon VPC) lets you provision a logically isolated section of the Amazon Web Services (AWS) Cloud where you can launch AWS resources in a virtual network that you define. You have complete control over your virtual networking environment, including selection of your own IP address range, creation of subnets, and configuration of route tables and network gateways.&lt;/p&gt;
-
-&lt;p&gt;You can easily customize the network configuration for your Amazon Virtual Private Cloud. For example, you can create a public-facing subnet for your web servers that has access to the Internet, and you can place your backend systems such as databases or application servers in a private-facing subnet with no Internet access. You can leverage multiple layers of security, including security groups and network access control lists, to help control access to the Amazon EC2 instances in each subnet.&lt;/p&gt;
-
-&lt;p&gt;Additionally, you can create a Hardware Virtual Private Network (VPN) connection between your corporate datacenter and your VPC and leverage the AWS cloud as an extensions of your corporate datacenter.&lt;/p&gt;
-
-&lt;h2 id=&quot;what-can-i-do-with-a-virtual-private-cloud&quot;&gt;What Can I Do with a Virtual Private Cloud&lt;/h2&gt;
-&lt;ol&gt;
-  &lt;li&gt;You can launch instances into a subnet of your choosing this might be EC2 or RDS instances etc.&lt;/li&gt;
-  &lt;li&gt;Assign custom IP address ranges in each subnet so that custom range in each subnet you can also extend that range into subnets if you are choosing you can bring your own  IP address ranges over.&lt;/li&gt;
-  &lt;li&gt;You can configure route tables between subnets.&lt;/li&gt;
-  &lt;li&gt;Create internet gateways and attach them to subnets (or not) if you have an internet gateway and you attach it to a subnet that subnet is publicly accessible by the internet. you can then have other subnets they do not have internet gateway attach to them. That means those subnets do not have internet access you cannot get to the any resources within that directly via that subnet you have go in via different subnets.&lt;/li&gt;
-  &lt;li&gt;You also get much better security control over your AWS resources you actually get two level security&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;span&gt;Instance security groups&lt;/span&gt;
-&lt;span&gt;Subnet network access control lists (ACLS)&lt;/span&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;default-vpc-vs-custom-vpc&quot;&gt;Default VPC vs Custom VPC&lt;/h2&gt;
-&lt;ol&gt;
-  &lt;li&gt;Default VPC is user friendly, allowing you to immediately deploy instances.&lt;/li&gt;
-  &lt;li&gt;All Subnets in default VPC have an internet gateway attached. So that when we are in different AZ or different subnets if you put it instance inside those different AZ they all had internet access by default.&lt;/li&gt;
-  &lt;li&gt;Each EC2 instance has both a public and private IP address&lt;/li&gt;
-  &lt;li&gt;If you delete the default VPC the only way to get it back is to contact AWS.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;vpc-peering&quot;&gt;VPC Peering&lt;/h2&gt;
-&lt;ol&gt;
-  &lt;li&gt;Allows you to connect one VPC with another via a direct network route using private IP addresses.&lt;/li&gt;
-  &lt;li&gt;Instances behave as if they were on the same private network&lt;/li&gt;
-  &lt;li&gt;You can peer VPC’s with other AWS accounts as well as with other VPCs in the same account.&lt;/li&gt;
-  &lt;li&gt;Peering is in a star configuration, ie 1 central VPC peers with 4 others. But you can’t do is have say three VPC’s you got VPC1 that peers with VPC2 which then peers with VPC3 but VPC1 would not be able to directly communicate with VPC3. They could only connect to VPC2 that one in the middle.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;vpc-restrictions&quot;&gt;VPC Restrictions&lt;/h2&gt;
-&lt;ol&gt;
-  &lt;li&gt;You only get 5 Elastic IP addresses per VPC.&lt;/li&gt;
-  &lt;li&gt;5 Internet Gateways.&lt;/li&gt;
-  &lt;li&gt;You can have 5 VPCs per region (can be increased upon request)&lt;/li&gt;
-  &lt;li&gt;50 VPN connections per region.&lt;/li&gt;
-  &lt;li&gt;50 Customer Gateways per region.&lt;/li&gt;
-  &lt;li&gt;200 Route tables per region.&lt;/li&gt;
-  &lt;li&gt;100 Security Groups per VPC.&lt;/li&gt;
-  &lt;li&gt;50 Rules per security group.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;vpc-creation-summary&quot;&gt;VPC Creation Summary&lt;/h2&gt;
-&lt;ol&gt;
-  &lt;li&gt;We created a custom VPC.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;span&gt;Defined our IP Address Range so we did that using our CIDR 10.0.0.0/16 that was our IP address range.&lt;/span&gt;
-&lt;span&gt;By default this created a Network ACL &amp;amp; Route&lt;/span&gt;&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;Created a Custom route table.&lt;/li&gt;
-  &lt;li&gt;Created 3 Subnets 10.0.1.0/24, 10.0.2.0/24 and 10.0.3.0/24 .&lt;/li&gt;
-  &lt;li&gt;We then created an Internet Gateway.&lt;/li&gt;
-  &lt;li&gt;Attached our Internet Gateway to our VPC and then we essentially created a custom route table. Then without route table we created a outbound route to that internet Gateway.&lt;/li&gt;
-  &lt;li&gt;Adjusted our public subnet to use the newly defined route.&lt;/li&gt;
-  &lt;li&gt;Provisioned an EC2 instances with an Elastic IP address that was in our public subnet we also create an EC2 instances in our private subnet. One thing that comes up again and again is just because of an EC2 instances in your public subnet doesn’t mean that has access to the internet you needed to either have an Elastic IP Address or to have an Elastic Load Balancer attach to it. So just remember that you put an EC2 instances in a public subnet doesn’t mean that has internet by default.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;nat-summary&quot;&gt;NAT Summary&lt;/h2&gt;
-&lt;ol&gt;
-  &lt;li&gt;Created a security group&lt;/li&gt;
-  &lt;li&gt;Allowed inbound connections to 10.0.1.0/24 and 10.0.2.0/24 on HTTP and HTTPS&lt;/li&gt;
-  &lt;li&gt;Allowed outbound connections on HTTP and HTTPS for all traffic.&lt;/li&gt;
-  &lt;li&gt;Provisioned our NAT instance inside our public subnet.&lt;/li&gt;
-  &lt;li&gt;We Disable Source/Destination Check for the NAT instance. That’s the way you get the NAT instance to work. You have to disable the source/destination check.&lt;/li&gt;
-  &lt;li&gt;Setup up a route on our private subnets to route through the NAT instance&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;acl-summary&quot;&gt;ACL Summary&lt;/h2&gt;
-&lt;ol&gt;
-  &lt;li&gt;ACLs can be across multiple subnets.&lt;/li&gt;
-  &lt;li&gt;But Subnets can only have 1 NACL.&lt;/li&gt;
-  &lt;li&gt;ACLs encompass all security groups under the subnets associated with them.&lt;/li&gt;
-  &lt;li&gt;Rule Numbers, Lowest is incremented first.&lt;/li&gt;
-&lt;/ol&gt;</content><author><name>Tarun jangra</name><email>tarun.jangra@abcdevops.com</email></author><category term="VPC" /><category term="amazon" /><category term="aws" /><category term="service" /><category term="pricing" /><summary>Amazon Virtual Private Cloud Definition
-
-Amazon Virtual Private Cloud (Amazon VPC) lets you provision a logically isolated section of the Amazon Web Services (AWS) Cloud where you can launch AWS resources in a virtual network that you define. You have complete control over your virtual networking environment, including selection of your own IP address range, creation of subnets, and configuration of route tables and network gateways.
-
-You can easily customize the network configuration for your Amazon Virtual Private Cloud. For example, you can create a public-facing subnet for your web servers that has access to the Internet, and you can place your backend systems such as databases or application servers in a private-facing subnet with no Internet access. You can leverage multiple layers of security, including security groups and network access control lists, to help control access to the Amazon EC2 instances in each subnet.
-
-Additionally, you can create a Hardware Virtual Private Network (VPN) connection between your corporate datacenter and your VPC and leverage the AWS cloud as an extensions of your corporate datacenter.
-
-What Can I Do with a Virtual Private Cloud
-
-  You can launch instances into a subnet of your choosing this might be EC2 or RDS instances etc.
-  Assign custom IP address ranges in each subnet so that custom range in each subnet you can also extend that range into subnets if you are choosing you can bring your own  IP address ranges over.
-  You can configure route tables between subnets.
-  Create internet gateways and attach them to subnets (or not) if you have an internet gateway and you attach it to a subnet that subnet is publicly accessible by the internet. you can then have other subnets they do not have internet gateway attach to them. That means those subnets do not have internet access you cannot get to the any resources within that directly via that subnet you have go in via different subnets.
-  You also get much better security control over your AWS resources you actually get two level security
-
-
-Instance security groups
-Subnet network access control lists (ACLS)
-
-Default VPC vs Custom VPC
-
-  Default VPC is user friendly, allowing you to immediately deploy instances.
-  All Subnets in default VPC have an internet gateway attached. So that when we are in different AZ or different subnets if you put it instance inside those different AZ they all had internet access by default.
-  Each EC2 instance has both a public and private IP address
-  If you delete the default VPC the only way to get it back is to contact AWS.
-
-
-VPC Peering
-
-  Allows you to connect one VPC with another via a direct network route using private IP addresses.
-  Instances behave as if they were on the same private network
-  You can peer VPC’s with other AWS accounts as well as with other VPCs in the same account.
-  Peering is in a star configuration, ie 1 central VPC peers with 4 others. But you can’t do is have say three VPC’s you got VPC1 that peers with VPC2 which then peers with VPC3 but VPC1 would not be able to directly communicate with VPC3. They could only connect to VPC2 that one in the middle.
-
-
-VPC Restrictions
-
-  You only get 5 Elastic IP addresses per VPC.
-  5 Internet Gateways.
-  You can have 5 VPCs per region (can be increased upon request)
-  50 VPN connections per region.
-  50 Customer Gateways per region.
-  200 Route tables per region.
-  100 Security Groups per VPC.
-  50 Rules per security group.
-
-
-VPC Creation Summary
-
-  We created a custom VPC.
-
-
-Defined our IP Address Range so we did that using our CIDR 10.0.0.0/16 that was our IP address range.
-By default this created a Network ACL &amp;amp; Route
-
-  Created a Custom route table.
-  Created 3 Subnets 10.0.1.0/24, 10.0.2.0/24 and 10.0.3.0/24 .
-  We then created an Internet Gateway.
-  Attached our Internet Gateway to our VPC and then we essentially created a custom route table. Then without route table we created a outbound route to that internet Gateway.
-  Adjusted our public subnet to use the newly defined route.
-  Provisioned an EC2 instances with an Elastic IP address that was in our public subnet we also create an EC2 instances in our private subnet. One thing that comes up again and again is just because of an EC2 instances in your public subnet doesn’t mean that has access to the internet you needed to either have an Elastic IP Address or to have an Elastic Load Balancer attach to it. So just remember that you put an EC2 instances in a public subnet doesn’t mean that has internet by default.
-
-
-NAT Summary
-
-  Created a security group
-  Allowed inbound connections to 10.0.1.0/24 and 10.0.2.0/24 on HTTP and HTTPS
-  Allowed outbound connections on HTTP and HTTPS for all traffic.
-  Provisioned our NAT instance inside our public subnet.
-  We Disable Source/Destination Check for the NAT instance. That’s the way you get the NAT instance to work. You have to disable the source/destination check.
-  Setup up a route on our private subnets to route through the NAT instance
-
-
-ACL Summary
-
-  ACLs can be across multiple subnets.
-  But Subnets can only have 1 NACL.
-  ACLs encompass all security groups under the subnets associated with them.
-  Rule Numbers, Lowest is incremented first.</summary></entry></feed>
+  If you do lose AZ you can restore snapshots to new AZ’s so that’s the way you can get some kind of redundancy that is not automatic that is a manual process.</summary></entry></feed>
