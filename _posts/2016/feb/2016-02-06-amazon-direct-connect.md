@@ -3,6 +3,7 @@ layout: post
 title: Amazon Direct Connect, Data warehouse to Cloud 
 date: 2016-02-06
 og_image: /images/posts/amazon-direct-connect.jpg
+main_image: /images/blog-detail/directconnect.jpg
 description: |
   Amazon Direct connect allows faster transfer of data from your premises to Cloud
 tags:
