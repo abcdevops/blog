@@ -1,4 +1,17 @@
 jQuery(document).ready(function($) {
+
+    // share js
+    $(window).scroll(function() {    
+        var scroll = $(window).scrollTop();
+        if (scroll >= 200) {
+            $(".share").addClass("ss_top");
+        }
+        else {
+            $(".share").removeClass("ss_top");
+        }
+    }); 
+    
+
     $('.mobile-menu').click(function() {
         $('.menu-responsive').toggleClass('m-show');
       });
