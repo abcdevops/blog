@@ -15,7 +15,7 @@ how to work with new jekyll
 ```
 
 
-ABCDevOps: [www.abcdevops.com](https://www.abcdevops.com)
+ABCDevOps: [abcdevops.com](https://abcdevops.com)
 ## License
 
 Copyright (c) 2018 ABCDevOps.

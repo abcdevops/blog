@@ -1,7 +1,7 @@
 {
-  "name": "www.abcdevops.com",
+  "name": "abcdevops.com",
   "version": "1.0.0",
-  "description": "www.abcdevops on jekyll",
+  "description": "abcdevops on jekyll",
   "main": "index.js",
   "dependencies": {
     "cssshrink": "0.0.5",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:abcdevops/abcdevops.github.io.git"
+    "url": "git@github.com:abcdevops/blog"
   },
   "keywords": [
     "jekyll",
