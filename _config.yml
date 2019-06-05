@@ -7,7 +7,7 @@ author:
 description: "ABCDevOps: Let's discuss what devops is."
 copyright: "(c) abcdevops, 2019"
 encoding: utf-8
-timezone: Asia/Calcutta
+timezone: Canada/Eastern
 markdown: kramdown
 highlighter: pygments
 redcarpet:
