@@ -25,7 +25,7 @@ layout: compress
       "familyName": {{ split_name[1] | jsonify }},
       "image": {
         "@type": "ImageObject",
-        "url": "https://tarunjangra.com/images/about/tarun-jangra-200x200.jpg"
+        "url": "{{  page.author.image | default: site.author.image | jsonify }}"
       },
       "email": {{ page.author.email | default: site.author.email | jsonify }}
     },

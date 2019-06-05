@@ -2,8 +2,9 @@ name: abcdevops.com
 url: https://abcdevops.com
 title: "abcdevops: re:inventing DevOps"
 author:
-  name: "Tarun jangra"
+  name: "Tarun Jangra"
   email: tarun.jangra@abcdevops.com
+  image: "https://tarunjangra.com/images/about/tarun-jangra-200x200.jpg"
 description: "ABCDevOps: Let's discuss what devops is."
 copyright: "(c) abcdevops, 2019"
 encoding: utf-8
