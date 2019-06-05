@@ -33,44 +33,27 @@ if (typeof($) != 'undefined') {
                 if (data.Twitter > 0){
                     $('.count-twitter').html(number(data.Twitter)).fadeIn();
                 }
+                if (data.LinkedIn > 0) {
+                  $('.count-linkedin').html(number(data.LinkedIn)).fadeIn();
+                }
+                if (data.Facebook.total_count > 0 ){
+                  $('.count-twitter').html(number(data.Facebook.total_count)).fadeIn();
+                }
+                if (data.Pinterest > 0) {
+                  $('.count-pinterest').html(number(data.Pinterest)).fadeIn();
+                }
+                if (data.StumbleUpon > 0) {
+                  $('.count-stumbleupon').html(number(data.StumbleUpon)).fadeIn();
+                }
             },
             error: function() {
                 $('.share .google').css('border', border);
                 $('.share .twitter').css('border', border);
             }
         });
-      // $.ajax({
-      //   dataType: 'jsonp',
-      //   async: true,
-      //   timeout: timeout,
-      //   url: 'https://graph.facebook.com/?callback=?&ids=' + eurl,
-      //   success: function(json) {
-      //     var count = json[url].share.share_count;
-      //     if (count > 0) {
-      //       $('.count-facebook').html(number(count)).fadeIn();
-      //     }
-      //   },
-      //   error: function() {
-      //     $('.share .icon-facebook').css('border', border);
-      //   }
-      // });
-      $.ajax({
-        dataType: 'json',
-        async: true,
-        timeout: timeout,
-        url: 'https://www.linkedin.com/countserv/count/share?format=jsonp&callback=?&url=' + eurl,
-        success: function(json) {
-          var count = json.count;
-          if (count > 0) {
-            $('.count-linkedin').html(number(count)).fadeIn();
-          }
-        },
-        error: function() {
-          $('.share .icon-linkedin').css('border', border);
-        }
-      });
+      
     }
-    /*$('h2').each(
+    $('h2').each(
       function (idx, element) {
         var $element = $(element), id = $element.attr('id');
         if (id) {
@@ -88,6 +71,6 @@ if (typeof($) != 'undefined') {
           $(this).append('<i class="icon icon-exit foreign"></i>');
         }
       }
-    );*/
+    );
   });
 }
