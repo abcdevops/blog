@@ -6,7 +6,7 @@ og_image: /images/posts/servers-are-off.jpg
 tw_txt_to_be_shared: "Allow ABCDevOps to be the #UnionLeader and keep your servers in your service. Happy #DevOps, #AWS, #Azure, #Cloud, #Google, #GCP."
 top_story: true
 description: |
-  "Being a #UnionLeader We ABCDevOps​ persuade such situations effectively. Allow us to keep your service running."
+  Being a #UnionLeader We ABCDevOps persuade such situations effectively. Allow us to keep your service running.
 tags:
 - Azure
 - AWS

@@ -13,9 +13,9 @@ layout: compress
     "name": {{ page.title | jsonify }},
     "headline": {{ page.title | jsonify }},
     "keywords": {{ page.tags | join: ',' | jsonify }},
-    "description": {{ page.excerpt | strip_newlines | strip | jsonify }},
-    "articleBody": {{ page.content | strip_html | jsonify }},
-    "datePublished": {{ page.date | jsonify }},
+    "description": {{ page.description | default: page.excerpt | strip_newlines | strip | jsonify }},
+    "articleBody": {{ page.content | strip_html | strip_newlines | jsonify }},
+    "datePublished": {{ page.date | date: "%Y-%m-%d" | jsonify }},
     "dateModified": {{ page.last_modified_at | default: page.date | jsonify }},
     "author": {
       "@type": "Person",
@@ -24,7 +24,7 @@ layout: compress
       "familyName": {{ split_name[1] | jsonify }},
       "image": {
         "@type": "ImageObject",
-        "url": "{{  page.author.image | default: site.author.image | jsonify }}"
+        "url": {{  page.author.image | default: site.author.image | jsonify }}
       },
       "email": {{ page.author.email | default: site.author.email | jsonify }}
     },
