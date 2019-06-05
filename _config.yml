@@ -1,6 +1,6 @@
-name: abcdevops.com
+name: ABCDevOps
 url: https://abcdevops.com
-title: "abcdevops: re:inventing DevOps"
+title: "ABCDevOps: re:devining DevOps"
 author:
   name: "Tarun Jangra"
   email: tarun.jangra@abcdevops.com
@@ -41,6 +41,11 @@ exclude:
   - dist/components
   - dist/semantic.js
   - dist/semantic.css
+  - .bundle
+  - Makefile
+  - package.json
+  - package-lock.json
+  - semantic.json
 
 
 featured: 3
@@ -62,8 +67,8 @@ related:
 
 # jekyll-feed
 feed:
-  title: abcdevops.com
-  subtitle: Business, TAX, GST Blog
+  title: "ABCDevOps: re:defining devops"
+  subtitle: "AWS, Cloud, Azure, GCP, Google, DevOps"
   path: rss.xml
 
 sass:

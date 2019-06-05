@@ -37,7 +37,7 @@ if (typeof($) != 'undefined') {
                   $('.count-linkedin').html(number(data.LinkedIn)).fadeIn();
                 }
                 if (data.Facebook.total_count > 0 ){
-                  $('.count-twitter').html(number(data.Facebook.total_count)).fadeIn();
+                  $('.count-facebook').html(number(data.Facebook.total_count)).fadeIn();
                 }
                 if (data.Pinterest > 0) {
                   $('.count-pinterest').html(number(data.Pinterest)).fadeIn();
