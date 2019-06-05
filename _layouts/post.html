@@ -4,6 +4,11 @@ layout: compress
 <!DOCTYPE html>
 <html lang="en-US" xml:lang="en-US" itemscope="" itemtype="http://schema.org/WebPage">
 {% capture jsonLD %}
+<meta property="article:published_time" content="{{page.date}}"/>
+<meta property="article:modified_time" content="{{page.last_modified_at}}"/>
+<meta property="article:author" content="{{ page.author.profile | default: site.author.profile }}"/>
+<meta property="article:section" content="Technology"/>
+<meta property="article:tag" content={{page.tags | join: "," | jsonify}}/>
 <script type="application/ld+json">
   {% assign split_name =  page.author.name | default: site.author.name | split: " " %}
   {
