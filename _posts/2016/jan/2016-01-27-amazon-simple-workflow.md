@@ -3,6 +3,7 @@ layout: post
 title: Amazon Simple Workflow Service - Cloud Workflow Development - AWS
 date: 2016-01-27
 og_image: /images/posts/amazon-simple-workflow.jpg
+main_image: /images/blog-detail/simple-workflow.jpg
 description: |
   Amazon Simple Workflow (Amazon SWF) is a cloud workflow management application that gives developers tools to coordinate applications across multiple
 tags:

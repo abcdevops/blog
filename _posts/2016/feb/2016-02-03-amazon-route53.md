@@ -3,6 +3,7 @@ layout: post
 title: Amazon Route53, Powerfull controll on DNS.
 date: 2016-02-03
 og_image: /images/posts/amazon-route-53.jpg
+main_image: /images/blog-detail/route53.jpg
 description: |
   Amazon Route53, A complete DNS control Which allows you to failover between multiple regions.
 tags:

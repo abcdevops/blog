@@ -3,6 +3,7 @@ layout: post
 title: "Amazon Simple Queue Service - message queue service"
 date: 2016-01-20
 og_image: /images/posts/amazon-simple-queue-service.jpg
+main_image: /images/blog-detail/simple-queue.jpg
 description: |
   Amazon Simple Queue Service (SQS) is a fully managed message queuing service that enables you to decouple and scale microservices, distributed systems, and serverless applications.
 tags:

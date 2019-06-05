@@ -3,6 +3,7 @@ layout: post
 title: AWS CloudFormation - Infrastructure as Code &amp; AWS Resource Provisioning
 date: 2016-01-25
 og_image: /images/posts/amazon-cloudformation.jpg
+main_image: /images/blog-detail/cloudformation.jpg
 top_story: true
 description: |
   AWS CloudFormation provides a common language for you to describe and provision all the infrastructure resources in your cloud environment. 

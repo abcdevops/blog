@@ -3,6 +3,7 @@ layout: post
 title: Amazon Simple Notification Service (SNS) | AWS
 date: 2016-01-22
 og_image: /images/posts/amazon-simple-notification-service.jpg
+main_image: /images/blog-detail/simple-notification.jpg
 description: |
   Amazon Simple Notification Service is a notification service provided as part of Amazon Web Services since 2010.
 tags:
