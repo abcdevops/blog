@@ -1,4 +1,4 @@
-Sitemap: https://www.abcdevops.com/sitemap.xml
+Sitemap: https://abcdevops.com/sitemap.xml
 
 User-agent: *
 Disallow: /p/
