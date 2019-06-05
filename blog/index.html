@@ -3,7 +3,6 @@ layout: simple1
 title: ABCDevOps Blog
 date: 2018-10-10 10:30:33 +0530
 id: why
-permalink: why
 description: |
   Presenting ABCDevOps having all the latest technology around DevOps, Cloud, AI, Machine Learning, Block Chain.
 keywords:
@@ -41,16 +40,9 @@ keywords:
                             </div>
                             <div class="twelve wide computer twelve wide tablet sixteen wide mobile column">
                                     <h3><a href="{{ post.url }}">{{ post.title }}</a> </h2>
-                            
-                                        <p class="blog-tag">
-                                            <a>{{post.tags[0] }}</a>
-                                            <a>{{post.tags[1] }}</a>
-                                            <a>{{post.tags[2] }}</a>
-                                            <a>{{post.tags[3] }}</a>
-                                            <a>{{post.tags[4] }}</a>
-                                        </p>
-                                    
-                                        
+                                      {% if post.tags %}
+                                      <p class="blog-tag">{{ post | tags }}</p>
+                                      {% endif %}
                                     <div class="top-title">
                                         <a href="{{ post.url }}#disqus_thread">0 comments</a>
                                     </div>
@@ -62,20 +54,46 @@ keywords:
                    
                     {% endfor %}
             </div>
+
+            {% if paginator.total_pages > 1 %}
+            <div class="pagination">
+              {% if paginator.previous_page %}
+                <a href="{{ paginator.previous_page_path | relative_url }}">&laquo; Prev</a>
+              {% else %}
+                <span>&laquo; Prev</span>
+              {% endif %}
+
+              {% for page in (1..paginator.total_pages) %}
+                {% if page == paginator.page %}
+                  <em>{{ page }}</em>
+                {% elsif page == 1 %}
+                  <a href="{{ paginator.previous_page_path | relative_url }}">{{ page }}</a>
+                {% else %}
+                  <a href="{{ site.paginate_path | relative_url | replace: ':num', page }}">{{ page }}</a>
+                {% endif %}
+              {% endfor %}
+
+              {% if paginator.next_page %}
+                <a href="{{ paginator.next_page_path | relative_url }}">Next &raquo;</a>
+              {% else %}
+                <span>Next &raquo;</span>
+              {% endif %}
+            </div>
+            {% endif %}
+            
     </section>
 
-
-        <div class="top-stories" style="background:url(../images/pettern-orange.jpeg)repeat;">
+        <div class="top-stories" style="background:url(/images/pettern-orange.jpeg)repeat;">
             <div class="ui container">
                 <div class="ui grid ">
                     <div class="featured-header-main">
                         <h2>Featured Stories</h2>
                     </div>
                     <div class="stackable mobile three column row">
-                        {% assign posts = paginator.posts  %}
-                        {% for post in posts %}
-                        {% if post.top_story %}
-
+                        {% assign cnt = 0 %}
+                        {% for post in site.posts %}
+                        {% if cnt < site.featured and post.top_story %}
+                        {% assign cnt = cnt | plus:1 %}
                         <div class="column blog-list-box">
                             {% if post.og_image %}
                             <a href="{{ post.url }}"></a>

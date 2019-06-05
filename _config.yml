@@ -17,7 +17,7 @@ redcarpet:
     - autolink
     - tables
     - with_toc_data
-permalink: blog/:year/:month/:day/:title.html
+permalink: /blog/:year/:month/:day/:title.html
 paginate: 10
 paginate_path: "/blog/page:num"
 excerpt_separator: <!--more-->
@@ -40,6 +40,9 @@ exclude:
   - dist/components
   - dist/semantic.js
   - dist/semantic.css
+
+
+featured: 3
 
 gems:
   - jekyll-feed
