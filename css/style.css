@@ -23,6 +23,67 @@ section.blog-banner.main-disc {
 header + .hiring a img {
     max-width: 130px;
 }
+#why .pagination {
+    text-align: center;
+}
+#why .pagination a {
+    border: 2px solid #f08422;
+    border-radius: 100%;
+    display: inline-block;
+    height: 38px;
+    min-width: 38px;
+    transition: background 250ms;
+    line-height: 38px;
+    font-size: 16px;
+}
+#why .pagination a:hover {
+    background-color: #f08422;
+    color: #fff;
+}
+#why .pagination > a {
+    border-radius: 20px;
+    padding:  0 10px;
+}
+#why .pagination > span {
+    border: 2px solid #f08422;
+    border-radius: 20px;
+    display: inline-block;
+    height: 38px;
+    min-width: 38px;
+    color: #f08422;
+    transition: background 250ms;
+    line-height: 38px;
+    padding: 0 10px;
+    font-size: 16px;
+}
+#why .pagination em + span {
+    border: 2px solid #f08422;
+    border-radius: 20px;
+    padding:  0 10px;
+    display: inline-block;
+    height: 38px;
+    min-width: 38px;
+    color: #f08422;
+    transition: background 250ms;
+    line-height: 38px;
+    font-size: 16px;
+}
+#why .pagination em {
+    border: 2px solid #f08422;
+    border-radius: 100%;
+    display: inline-block;
+    height: 38px;
+    min-width: 38px;
+    line-height: 38px;
+    font-size: 16px;
+    background-color: #f08422;
+    color: #fff;
+}
+/* #why .pagination em {
+    padding: 7px 10px;
+    background-color: #f08422;
+    color: #fff;
+} */
 main > header .ui.menu .item h6{
     font-size: 14px;
     line-height: 10px;
