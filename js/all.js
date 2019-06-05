@@ -28,11 +28,8 @@ if (typeof($) != 'undefined') {
             dataType: 'json',
             async: true,
             timeout: timeout,
-            url: 'https://free.sharedcount.com/?apikey=33fe42ed0045fb028ccd18be4770761de59927fd&url=' + eurl,
+            url: 'https://free.sharedcount.com/?apikey=a92cf89a88dc0f8736df1a93c50286b4a62ac731&url=' + eurl,
             success: function (data) {
-                if (data.GooglePlusOne > 0) {
-                    $('.count-googleplus').html(number(data.GooglePlusOne)).fadeIn();
-                }
                 if (data.Twitter > 0){
                     $('.count-twitter').html(number(data.Twitter)).fadeIn();
                 }
