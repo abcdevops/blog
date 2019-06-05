@@ -10,6 +10,39 @@ main > header .ui.menu .item span{
     margin-top: 10px;
     line-height: 40px!important;
 }
+.min-header {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    transition: .5s all;
+    animation-name: min-menu;
+    animation-duration: 1s;
+    padding: 10px 0;
+}
+header.min-header img.ui.image.logo {
+    max-width: 210px;
+}
+.min-header a.item h6 {
+    display: none!important;
+}
+.min-header header + .hiring a img {
+    max-width: 80px;
+}
+.min-header .twelve.wide.column {
+    padding: 0 40px 0 0!important;
+}
+.min-header .eight.wide.column {
+    padding: 0 0 0 20px;
+}
+ header.min-header + .hiring a img {
+    max-width: 80px;
+}
+main > header.min-header .ui.menu .item span {
+    display: block;
+    margin-top: 0px;
+    line-height: 45px!important;
+}
 .blog-list .featured-header-main {
     margin-bottom: 50px;
 }

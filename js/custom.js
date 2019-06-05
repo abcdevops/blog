@@ -1,5 +1,23 @@
 jQuery(document).ready(function($) {
-
+        //header fix
+        function minheader() {
+            var wd = $(window).scrollTop();
+    
+            if (wd >= 100) {
+                $("main  header").addClass("min-header");
+                $(".min-header .logo").attr("src", "/images/logo-abc-home.png");
+            }
+            else {
+                $(".min-header .logo").attr("src", "/images/logo-abc-home.png");
+                $("main header").removeClass("min-header");
+            }
+        }
+        minheader();
+        $(document).scroll(function () {
+            minheader();
+        });
+    
+        
     // share js
     $(window).scroll(function() {    
         var scroll = $(window).scrollTop();
@@ -11,6 +29,8 @@ jQuery(document).ready(function($) {
         }
     }); 
     
+            
+
 
     $('.mobile-menu').click(function() {
         $('.menu-responsive').toggleClass('m-show');
