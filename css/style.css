@@ -79,11 +79,6 @@ header + .hiring a img {
     background-color: #f08422;
     color: #fff;
 }
-/* #why .pagination em {
-    padding: 7px 10px;
-    background-color: #f08422;
-    color: #fff;
-} */
 main > header .ui.menu .item h6{
     font-size: 14px;
     line-height: 10px;
