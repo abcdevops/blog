@@ -3,7 +3,7 @@ layout: simple1
 date: 2017-10-10 10:30:33 +0530
 title: "ABCDevOps: How we do monitoring"
 id: how
-permalink: how
+permalink: how.html
 main_image: /images/what-img.png
 description: |
   24/7 remote monitoring $250/week, first week free & custom devop solutions

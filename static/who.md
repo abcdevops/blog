@@ -3,7 +3,7 @@ layout: simple1
 date: 2017-10-10 10:30:33 +0530
 id: who
 title: "ABCDevOps: Who are we and what we do?"
-permalink: who
+permalink: who.html
 main_image: /images/what-img.png
 description: |
 

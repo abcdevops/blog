@@ -4,7 +4,7 @@ title: "ABCDevOps: Here are all the ways to reach us"
 icon: phone
 date: 
 id: where
-permalink: where
+permalink: where.html
 main_image: /images/back2.jpg
 description: | 
     Love to hear from you. Send us an email or fill the form.

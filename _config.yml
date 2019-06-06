@@ -20,7 +20,7 @@ redcarpet:
     - tables
     - with_toc_data
 permalink: /blog/:year/:month/:day/:title.html
-paginate: 10
+paginate: 5
 paginate_path: "/blog/page:num"
 excerpt_separator: <!--more-->
 exclude:
