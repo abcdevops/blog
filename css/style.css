@@ -424,7 +424,7 @@ footer a:hover,footer i:hover{color:#f08422}
 nav.share a{font-size:31px;position:relative;display:flex;justify-content:center;height:100%;align-items:center;line-height:30px;margin-bottom:10px}
 nav.share span{position:absolute;top:-7px;right:0px;margin:auto; background-color:#f00;width:20px;height:20px;border-radius:30px;text-align:center;line-height:20px;font-size:14px;left:0;}
 .inner-child-features:hover ul{display:block}
-.share{position:fixed;left:0;width:55px;height:60px;top:500px}
+.share{position:fixed;left:0;width:55px;height:60px;top:500px;z-index:9;}
 .facebook-link{background-color:#3b5998;color:#fff}
 .facebook-link:hover{background-color:#3b5998;color:#fff}
 .twitter-link{background-color:#0084b4;color:#fff}
