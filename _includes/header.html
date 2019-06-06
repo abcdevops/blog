@@ -10,25 +10,24 @@
                 ">
 
                         <div class="left aligned sixteen wide tablet eight wide column ">
-            
                             <div class="ui inverted stackable menu menu-responsive">
-                                <a class="item" href="/what.html">
+                                <a  {% if page.url == "/what.html" %}class="active item" {% else %}class=" item"{% endif %} href="/what.html" >
                                     <span>What</span>
                                     <h6>Do i need DevOps?</h6>
                                 </a>
-                                <a class="item" href="/who.html">
+                                <a  {% if page.url == "/who.html" %}class="active item" {% else %}class=" item"{% endif %} href="/who.html" >
                                     <span>who</span>
                                     <h6>more about our work</h6>
                                 </a>
-                                <a class="item" href="/how.html">
+                                <a  {% if page.url == "/how.html" %}class="active item" {% else %}class=" item"{% endif %} href="/how.html" >
                                     <span>how</span>
                                     <h6>24/7 monitoring</h6>
                                 </a>
-                                <a class="item" href="/blog/index.html">
+                                <a  {% if page.url == "/blog.html" %}class="active item" {% else %}class=" item"{% endif %} href="/blog.html" >
                                     <span>why</span>
                                     <h6>Our blog</h6>
                                 </a>
-                                <a class="item" href="/where.html">
+                                <a  {% if page.url == "/where.html" %}class="active item" {% else %}class=" item"{% endif %} href="/where.html" >
                                     <span>where</span>
                                     <h6>Reach us</h6>
                                 </a>

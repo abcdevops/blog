@@ -20,9 +20,9 @@ main > header .ui.menu .item span{
     animation-duration: 1s;
     padding: 10px 0;
 }
-#home header.min-header + .hiring a img {
+/* #home header.min-header + .hiring a img {
     max-width: 117px;
-}
+} */
 header.min-header img.ui.image.logo {
     max-width: 210px;
 }
@@ -157,7 +157,7 @@ main > header .ui.inverted.menu .active.item{background:none;border-radius:0;tex
 main > header .ui.inverted.menu .item::before{background:none}
 body > img{display:none}
 .c-padding{padding:10px 0 0}
-main > header .ui.inverted.menu .active.item{box-shadow:0 4px #f08422}
+/* main > header .ui.inverted.menu .active.item{box-shadow:0 4px #f08422} */
 main > header .item{text-transform:uppercase!important;border-radius:0!important}
 .c-left-border span{box-shadow:-3px 0 #f08422;padding-left:13px}
 .banner1{background-position:0 0;background:rgb(237,239,225);background:-moz-radial-gradient(center,ellipse cover,rgba(237,239,225,1) 0%,rgba(237,239,225,1) 61%,rgba(146,181,164,1) 100%);background:-webkit-radial-gradient(center,ellipse cover,rgba(237,239,225,1) 0%,rgba(237,239,225,1) 61%,rgba(146,181,164,1) 100%);background:radial-gradient(ellipse at center,rgba(237,239,225,1) 0%,rgba(237,239,225,1) 61%,rgba(146,181,164,1) 100%);background-size:auto auto;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#edefe1 ',endColorstr='#92b5a4 ',GradientType=1);min-height:450px;position:relative;overflow:hidden}
@@ -492,7 +492,7 @@ body{background-color:#e77b19}
 .pad-md{padding:20px}
 .heavy-font{color:#fff;font-size:57px;line-height:50px;font-weight:700;font-family: HelveticaNeue-CondensedBold,HelveticaNeue-CondensedBold;}
 .hm-a{display:block;border-bottom:3px solid #db7010}
-#home .logo{ max-width: 360px;}
+/* #home .logo{ max-width: 360px;} */
 .heavy-h4{color:#fff;line-height:25px;margin:0}
 .foot-top{background:#212121}
 .sec-certification{padding:40px 5px}
@@ -519,7 +519,7 @@ body{background-color:#e77b19}
 .benefits{background:#753800;border:15px solid #fff;padding:20px}
 .technical h2{font-weight:400}
 .technical{list-style:none}
-.technical span{color:#e87b19;background:#fff;width:30px;height:30px;border-radius:50%;padding:10px 15px}
+.technical span{color:#e87b19;background:#fff;width:30px;height:30px;border-radius:50%;padding:6px 11px}
 .technical li{margin-bottom:30px}
 .ssec{padding:20px;border-right:1px solid #272727}
 .bg-dark{background:#363636}
