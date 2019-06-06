@@ -6,7 +6,7 @@ jQuery(document).ready(function($) {
         
                 if (wd >= 100) {
                     $("main  header").addClass("min-header");
-                    $(".min-header .logo").attr("src", "/images/logo-abc-home.png");
+                    $(".min-header .logo").attr("src", "/images/abc-appicon.png");
                 }
                 else {
                     $(".min-header .logo").attr("src", "/images/logo-abc-home.png");
@@ -47,4 +47,15 @@ jQuery(document).ready(function($) {
         }
 
     }
+
+
+    // career page js
+    jQuery("a[href^='#career-form']").click(function(e) {
+        e.preventDefault();
+        var position = jQuery(jQuery(this).attr("href")).offset().top;
+        jQuery("body, html").animate({
+            scrollTop: position
+        } /* speed */ );
+    });
+
 });

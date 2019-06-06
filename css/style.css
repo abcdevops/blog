@@ -24,7 +24,7 @@ main > header .ui.menu .item span{
     max-width: 117px;
 } */
 header.min-header img.ui.image.logo {
-    max-width: 210px;
+    max-width: 70px;
 }
 .min-header a.item h6 {
     display: none!important;
@@ -39,12 +39,12 @@ header.min-header img.ui.image.logo {
     padding: 0 0 0 20px;
 }
  header.min-header + .hiring a img {
-    max-width: 80px;
+    max-width: 95px;
 }
 main > header.min-header .ui.menu .item span {
     display: block;
     margin-top: 0px;
-    line-height: 45px!important;
+    line-height: 60px!important
 }
 .blog-list .featured-header-main {
     margin-bottom: 50px;
@@ -64,13 +64,13 @@ header + .hiring a img {
     text-align: center;
 }
 #why .pagination a {
-    border: 2px solid #f08422;
+    border: 1px solid #f08422;
     border-radius: 100%;
     display: inline-block;
     height: 38px;
     min-width: 38px;
     transition: background 250ms;
-    line-height: 38px;
+    line-height: 36px;
     font-size: 16px;
 }
 #why .pagination a:hover {
@@ -78,40 +78,19 @@ header + .hiring a img {
     color: #fff;
 }
 #why .pagination > a {
-    border-radius: 20px;
+    border-radius: 2px;
     padding:  0 10px;
 }
 #why .pagination > span {
-    border: 2px solid #f08422;
-    border-radius: 20px;
-    display: inline-block;
-    height: 38px;
-    min-width: 38px;
-    color: #f08422;
-    transition: background 250ms;
-    line-height: 38px;
-    padding: 0 10px;
-    font-size: 16px;
-}
-#why .pagination em + span {
-    border: 2px solid #f08422;
-    border-radius: 20px;
-    padding:  0 10px;
-    display: inline-block;
-    height: 38px;
-    min-width: 38px;
-    color: #f08422;
-    transition: background 250ms;
-    line-height: 38px;
-    font-size: 16px;
+    display: none;
 }
 #why .pagination em {
     border: 2px solid #f08422;
-    border-radius: 100%;
+    border-radius: 2px;
     display: inline-block;
     height: 38px;
     min-width: 38px;
-    line-height: 38px;
+    line-height: 36px;
     font-size: 16px;
     background-color: #f08422;
     color: #fff;
@@ -140,6 +119,7 @@ a {
     overflow: hidden;
     background-position: center;
     background-size: cover;
+    border: 2px solid #ddd;
 }
 .blog-list h3 a {
     color: #f08422;
@@ -566,13 +546,14 @@ body{background-color:#e77b19}
 }
 @media(max-width:1360px){
     .hiring img { max-width: 110px;}
-    main > header .ui.menu .item{font-size: 18px;}
+    main > header .ui.menu .item{font-size: 22px;}
 }
 @media(max-width:1199px) {
     .tabular.menu .item{flex:auto!important}
     /* main > header .ui.menu .item{font-size:14px} */
     .share {right:0; left: inherit; top:190px;}
     footer .degree { max-width: 260px;}
+    main > header .ui.menu .item{font-size: 18px;}
     .hiring img {max-width: 90px;}
     main > header .ui.menu .item {
         width: 110px;
@@ -694,7 +675,7 @@ body{background-color:#e77b19}
         bottom: 10%;
     }
     header + .hiring a img {
-        max-width: 100px;
+        max-width: 90px;
     }
     .mobile-menu {
         top: -50px;
