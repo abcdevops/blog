@@ -34,8 +34,7 @@ install:
   - bundle
 script:
   - set -e
-  - openssl aes-256-cbc -K $encrypted_00bac43a30b4_key -iv $encrypted_00bac43a30b4_iv
-  -in id_rsa.enc -out id_rsa -d
+  - openssl aes-256-cbc -K $encrypted_00bac43a30b4_key -iv $encrypted_00bac43a30b4_iv -in id_rsa.enc -out id_rsa -d
   - mv id_rsa ~/.ssh
   - chmod 600 ~/.ssh/id_rsa
   - export JEKYLL_ENV=production
