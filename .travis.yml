@@ -32,16 +32,11 @@ before_install:
 install:
   - set -e
   - bundle
-deploy:
-  provider: script
-  script: 
-    - set -e
-    - openssl aes-256-cbc -K $encrypted_00bac43a30b4_key -iv $encrypted_00bac43a30b4_iv
-    -in id_rsa.enc -out id_rsa -d
-    - mv id_rsa ~/.ssh
-    - chmod 600 ~/.ssh/id_rsa
-    - export JEKYLL_ENV=production
-    - bundle exec jgd -u git@github.com:abcdevops/blog.git
-  on:
-    branch: master
-    
+script:
+  - set -e
+  - openssl aes-256-cbc -K $encrypted_00bac43a30b4_key -iv $encrypted_00bac43a30b4_iv
+  -in id_rsa.enc -out id_rsa -d
+  - mv id_rsa ~/.ssh
+  - chmod 600 ~/.ssh/id_rsa
+  - export JEKYLL_ENV=production
+  - bundle exec jgd -u git@github.com:abcdevops/blog.git
