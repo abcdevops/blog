@@ -13,7 +13,7 @@ main > header .ui.menu .item span{
 .min-header {
     position: fixed;
     top: 0;
-    z-index: 1;
+    z-index: 8;
     width: 100%;
     transition: .5s all;
     animation-name: min-menu;
@@ -23,8 +23,96 @@ main > header .ui.menu .item span{
 /* #home header.min-header + .hiring a img {
     max-width: 117px;
 } */
+.education_footer li::before {
+        content: "\f101";
+        display: block;
+        position: absolute;
+        font-family: Icons;
+        color: #d0d0d0;
+        left: 0;
+    }
+    .education_footer .ui.image.logo {
+        max-width: 320px !important;
+        margin: 0 !important;
+    }
+    .education_footer h4::after {
+        position: absolute;
+        left: 0;
+        /* width: 30%; */
+        background-color: #e77b19;
+        content: "";
+        bottom: -2px;
+        height: 1px;
+        right: 0;
+    }
+    .education_footer h4 {
+        position: relative;
+        border: none;
+    }
+      .education_footer li a{
+          color: #fff;
+          font-size: 15px !important;
+      }
+      .education_footer p {
+        margin-top: 30px;
+        font-size: 14px;
+        color: #fff;
+    }
+    .education_footer {
+        background-image: url('../images/education.jpg');
+        background-color: transparent;
+        position: relative;
+        padding: 90px 0 80px 0;
+        background-attachment: fixed !important;
+    }
+    .education_footer .ui.container{
+        position: relative;
+        z-index: 1;
+    }
+    .education_footer::after {
+        width: 100%;
+        height: 100%;
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        pointer-events: none;
+        background: rgba(0, 0, 0, 0.8);
+        /* background: rgba(231, 123, 25, 0.65); */
+        display: block !important;
+    }
+    .education_footer .button:hover{
+        color: rgba(255, 255, 255, 0.7)!important;
+        box-shadow: 0 10px 20px rgba(255, 255, 255, 0.04);
+        background-color: #df7b20;
+    }
+    .education_footer .enroll_sec{
+        display: flex!important;
+        align-items: center;
+    }
+    .education_footer .button{
+        font-weight: 500;
+        min-width: 220px;
+        line-height: 45px;
+        height: 45px;
+        padding: 0;
+        text-align: center;
+        border-radius: 35px;
+        text-transform: uppercase;
+        transition: all 0.3s ease 0s;
+        text-decoration: none !important;
+        outline: none !important;
+        display: inline-block;
+        margin: 0 auto;
+    }
+.education_footer ul {
+    display: inline-block;
+    padding: 0;
+    vertical-align: top;
+
+}
 header.min-header img.ui.image.logo {
-    max-width: 70px;
+    max-width: 70px!important;
 }
 .min-header a.item h6 {
     display: none!important;
@@ -156,10 +244,11 @@ main > header .item{text-transform:uppercase!important;border-radius:0!important
 .banner-txt > div h2{margin:-16px 0 0;color:#fff;font-weight:600;font-family:'Open Sans',sans-serif}
 .mobile-app{background:rgb(255,159,69);background:-moz-linear-gradient(top,rgba(255,159,69,1) 0%,rgba(255,75,20,1) 100%);background:-webkit-linear-gradient(top,rgba(255,159,69,1) 0%,rgba(255,75,20,1) 100%);background:linear-gradient(to bottom,rgba(255,159,69,1) 0%,rgba(255,75,20,1) 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff9f45 ',endColorstr='#ff4b14 ',GradientType=0);margin-top:-20px}
 footer{background-color:#212121; }
-footer h4{color:#fff;font-size:24px;text-transform:uppercase;font-weight:400;font-family:'Open Sans',sans-serif;border-bottom:1px solid #2e2e2e;padding-bottom:10px}
+footer h4{color:#fff;font-size:24px;text-transform:uppercase;font-weight:400;font-family:'Open Sans',sans-serif;border-bottom:1px solid #e77b19;padding-bottom:10px}
 footer strong{color:#f08422;font-weight:400}
 footer img{max-width:100%}
 footer ul{display: flex;}
+
 footer li{list-style:none;padding-left:25px;position:relative;margin:3px 0}
 footer li a{color:#d0d0d0;font-size:16px!important;font-family:'Roboto',sans-serif}
 footer li a:hover,footer li:hover::before{color:#f08422}
@@ -644,7 +733,15 @@ body{background-color:#e77b19}
     .hiring img {max-width: 80px;}
 }
 @media(max-width:767px) {
-
+    .education_footer .ui.sixteen.wide {
+        margin-top: 30px;
+    }
+    .education_footer {
+        padding: 30px 0 50px 0;
+    }
+    .education_footer .ui.image.logo {
+        max-width: 270px !important;
+    }
     header img.ui.image.logo {
         margin-left: 15px;
         max-width: 260px;
@@ -714,7 +811,7 @@ body{background-color:#e77b19}
     footer .degree {max-width: 100%;}
     .copyright{text-align:center}
     footer .certificate{padding-left: 10px;}
-    footer{padding:30px 0}
+    /* footer{padding:30px 0} */
     footer img{margin-bottom: 20px;max-width: 200px;vertical-align: top;}
     .bottom-footer{margin-top:0}
     .gst-help-desk large{font-size:30px;text-align:left}
@@ -730,7 +827,7 @@ body{background-color:#e77b19}
     .blog-list-box .top-title{width:calc(100% - 32px);top:14px;padding:inherit}
     .top-stories .blog-list-box .top-title{top:0}
     .blog-list .ui.container{width:auto!important}
-    footer{padding:30px 0!important}
+    /* footer{padding:30px 0!important} */
     .sec-technologies img{max-width: 40px}
     .button{
         padding: 10px 25px;

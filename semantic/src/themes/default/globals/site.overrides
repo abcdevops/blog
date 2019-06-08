@@ -883,7 +883,6 @@ footer .gst-help-desk large{
 .button{text-decoration: none;
     color: #fff!important;
     background-color: #db7010;
-    font-weight: 600;
     padding: 12px 35px;
     border-radius: 3px;
     text-transform:uppercase;
@@ -906,12 +905,12 @@ header img.ui.image.logo {max-width: 360px;}
 .button{text-decoration: none;
     color: #fff!important;
     background-color: #db7010;
-    font-weight: 600;
     padding: 12px 35px;
     border-radius: 3px;
     display: inline-block;
     position: relative;
     overflow: hidden;
+    border-radius:35px;
 }
 .address-right-cont-us {
     padding: 4px 30px;
