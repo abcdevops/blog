@@ -44,3 +44,4 @@ deploy:
     - bundle exec jgd -u git@github.com:abcdevops/blog.git
   on:
     branch: master
+    
