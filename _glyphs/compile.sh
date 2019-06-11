@@ -12,7 +12,5 @@ dir=$(dirname "$x")
 target=$1
 
 mkdir -p "${target}"
-fontcustom compile "${dir}" "--output=${target}" \
---font-name=icons --templates=css --no-hash --force --autowidth
-
+bundle exec fontcustom compile "${dir}" "--output=${target}" --font-name=icons --templates=css --no-hash --force --autowidth
 sed -i -E "s|\"./icons([^\"]+)\"|\"/css/icons\1?$(date +%s)\"|g" "${target}/icons.css"
