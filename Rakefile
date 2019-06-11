@@ -2,6 +2,7 @@
 
 require 'rubygems'
 require 'rake'
+require 'fileutils'
 require 'tempfile'
 require 'rake/clean'
 require 'scss_lint/rake_task'
@@ -12,21 +13,24 @@ require 'English'
 require 'net/http'
 require 'html-proofer'
 
+VERBOSE = false
+
+raise "Invalid encoding \"#{Encoding.default_external}\"" unless Encoding.default_external.to_s == 'UTF-8'
+
 task default: [
-  :clean,
   :build,
   :pages,
   :garbage,
-  :snippets,
-#  :orphans,
-#  :jslint,
-#  :proofer,
-#  :rubocop,
-#  :scss_lint,
+  :scss_lint,
   :spell,
   :regex,
   :excerpts,
-  :ping
+  :snippets,
+  :orphans,
+  # :ping,
+  # :jslint,
+  # :proofer,
+  # :rubocop,
 ]
 
 def done(msg)
@@ -48,16 +52,28 @@ end
 desc 'Delete _site directory'
 task :clean do
   rm_rf '_site'
-  done 'Jekyll site directory deleted'
+  rm_rf 'uml'
+  rm_rf '.sass-cache'
+  rm_rf '.jekyll-metadata'
+  rm_rf '_temp'
+  rm_rf 'gnuplot'
+  done 'Jekyll temporary files and directories deleted'
 end
 
 desc 'Lint SASS sources'
 SCSSLint::RakeTask.new do |t|
-  f = Tempfile.new(['abcdevops-', '.scss'])
-  f << File.open('css/layout.scss').drop(2).join("\n")
-  f.flush
-  f.close
-  t.files = Dir.glob([f.path])
+  FileUtils.mkdir_p('_temp')
+  paths = []
+  Dir['css/**/*.scss'].each do |css|
+    name = File.basename(css)
+    f = File.open("_temp/#{name}", 'w')
+    f << File.open(css).drop(2).join("\n")
+    f.flush
+    f.close
+    paths << f.path
+  end
+  paths += Dir['_sass/**/*.scss']
+  t.files = Dir.glob(paths)
 end
 
 desc 'Build Jekyll site'
@@ -65,8 +81,9 @@ task :build do
   if File.exist? '_site'
     done 'Jekyll site already exists in _site (run "rake clean" first)'
   else
-    system('bundle exec jekyll build')
-    fail 'Jekyll failed' unless $CHILD_STATUS.success?
+    puts 'Building Jekyll site...'
+    system('jekyll build --trace')
+    fail "Jekyll failed with #{$CHILD_STATUS}" unless $CHILD_STATUS.success?
     done 'Jekyll site generated without issues'
   end
 end
@@ -75,8 +92,8 @@ desc 'Check the existence of all critical pages'
 task pages: [:build] do
   File.open('_rake/pages.txt').map(&:strip).each do |p|
     file = "_site/#{p}"
-    fail "Page #{file} is not found" unless File.exist? file
-    puts "#{file}: OK"
+    fail "Page/directory #{file} is not found" unless File.exist?(file)
+    puts "#{file}: OK" if VERBOSE
   end
   done 'All files are in place'
 end
@@ -86,7 +103,11 @@ task garbage: [:build] do
   File.open('_rake/garbage.txt').map(&:strip).each do |p|
     file = "_site/#{p}"
     fail "Page #{file} is still there" if File.exist? file
-    puts "#{file}: absent, OK"
+    puts "#{file}: absent, OK" if VERBOSE
+  end
+  ['_posts', 'static'].each do |p|
+    garbage = Dir["#{p}/**/*"].reject{ |f| f.end_with?('.md') || !File.file?(f) }
+    raise "Suspicious files in #{p}: #{garbage}" unless garbage.empty?
   end
   done 'There is no garbage'
 end
@@ -108,7 +129,7 @@ task w3c: [:build] do
       end
       fail "Page #{file} is not W3C compliant"
     end
-    puts "#{p}: OK"
+    puts "#{p}: OK" if VERBOSE
   end
   done 'HTML is W3C compliant'
 end
@@ -117,10 +138,23 @@ desc 'Validate a few pages through HTML proofer'
 task proofer: [:build] do
   HTMLProofer.check_directory(
     '_site',
+    only_4xx: true,
+    disable_external: true,
     log_level: :warn,
+    validation: {
+      report_invalid_tags: false,
+      report_missing_names: true,
+      report_script_embeds: true
+    },
+    parallel: {
+      in_processes: 8
+    },
     check_favicon: true,
     check_html: true,
-    file_ignore: [/201[4-6].*/]
+    file_ignore: [
+      '_site/2009/03/04/pdd.html',
+      '_site/2017/05/02/unlimited-number-of-bugs.html'
+    ]
   ).run
   done 'HTML passed through html-proofer'
 end
@@ -132,6 +166,7 @@ task spell: [:build] do
     html.search('//code').remove
     html.search('//script').remove
     html.search('//pre').remove
+    html.search('//div[@class="nospell"]').remove
     html.search('//header').remove
     html.search('//footer').remove
     tmp = Tempfile.new(['abcdevops-', '.txt'])
@@ -139,10 +174,10 @@ task spell: [:build] do
       .gsub(/[\n\r\t ]+/, ' ')
       .gsub(/&[a-z]+;/, ' ')
       .gsub(/&#[0-9]+;/, ' ')
-      .gsub(/n't/, ' not')
-      .gsub(/'ll/, ' will')
-      .gsub(/'ve/, ' have')
-      .gsub(/'s/, ' ')
+      .gsub(/n[’']t/, ' not')
+      .gsub(/[’']ll/, ' will')
+      .gsub(/[’']ve/, ' have')
+      .gsub(/[’']s/, ' ')
       .gsub(/[,:;<>?!-#$%^&@]+/, ' ')
     tmp << text
     tmp.flush
@@ -151,10 +186,12 @@ task spell: [:build] do
       | aspell -a --lang=en_US -W 3 --ignore-case --encoding=utf-8 -p ./_rake/aspell.en.pws \
       | grep ^\\&`
     if stdout.empty?
-      puts "#{f}: OK (#{text.split(' ').size} words)"
+      puts "#{f}: OK (#{text.split(' ').size} words)" if VERBOSE
     else
       puts "Typos in #{f}:"
       puts stdout
+      puts text
+      exit
     end
     total + stdout.split("\n").size
   end
@@ -191,7 +228,7 @@ task ping: [:build] do
 end
 
 desc 'Run RuboCop on all Ruby files'
-RuboCop::RakeTask.new(:rubocop) do |t|
+RuboCop::RakeTask.new do |t|
   t.fail_on_error = true
   t.requires << 'rubocop-rspec'
 end
@@ -216,17 +253,28 @@ end
 desc 'Make sure there are no prohibited RegEx-es'
 task :regex do
   ptns = [
+    /("|&quot;)[,.?!]/,
     /\s&mdash;/,
     /&mdash;\s/
   ]
+  errors = 0;
   all_html().each do |f|
-    html = File.read(f, :encoding => 'utf-8')
+    html = Nokogiri::HTML(File.read(f))
+    html.search('//code').remove
+    html.search('//script').remove
+    html.search('//pre').remove
+    text = html.xpath('//article//p').to_a.join(' ')
     ptns.each do |re|
-      fail "#{f}: #{re}" if re.match html
+      if re.match text
+        puts "#{f}: #{re} found and it's prohibited"
+        errors += 1
+      end
     end
   end
-  done 'Not prohibited regular expressions'
+  raise "#{errors} violations of RegEx prohibition" unless errors == 0
+  done 'No prohibited regular expressions'
 end
+
 desc 'Make sure all snippets are compact enough'
 task :snippets do
   all_html().each do |f|
@@ -236,6 +284,8 @@ task :snippets do
       .join("\n")
       .gsub(/<code [^>]+>/, '')
       .gsub(/<span class="[A-Za-z0-9-]+">/, '')
+      .gsub(/<a href="[^\"]+">/, '')
+      .gsub(/<\/a>/, '')
       .gsub(/<\/code>/, "\n")
       .gsub(/<\/span>/, '')
       .gsub(/&lt;/, '<')
@@ -243,7 +293,7 @@ task :snippets do
       .split("\n")
     long = lines.reject{ |s| s.length < 81 }
     fail "Too wide snippet in #{f}: #{long}" unless long.empty?
-    puts "#{f}: OK (#{lines.size} lines)"
+    puts "#{f}: OK (#{lines.size} lines)" if VERBOSE
   end
   done 'All snippets are compact enough'
 end
@@ -258,7 +308,10 @@ task orphans: [:build] do
   links
     .reject{ |a| !a.match /.*\/[0-9]{4}\/[0-9]{2}\/[0-9]{2}\/.*/ }
     .reject{ |a| a.end_with? '.amp.html' }
-    .group_by(&:itself).each { |k,v| counts[k] = v.length }
+    .reject{ |a| a.include? '2009/03/04/pdd' }
+    .reject{ |a| a.include? '2017/05/02/unl' }
+    .group_by(&:itself)
+    .each { |k,v| counts[k] = v.length }
   orphans = 0
   counts.each do |k,v|
     if v < 4
@@ -271,9 +324,3 @@ task orphans: [:build] do
   fail "There are #{orphans} orphans" unless orphans == 0
   done "There are no orphans in #{links.size} links"
 end
-
-desc 'Server _site on localhost'
-task :serve do
-  system "http-server _site/"
-end
-
