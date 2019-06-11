@@ -20,7 +20,7 @@ tags:
 Databases Introduction
 ---
 
-So we just with brief introduction on the different types of databases so we got Relational databases.
+So we just with brief introduction on the different types of databases so we got Relational databases.<!--more-->
 
 1. ##### Relational Databases (OLTP) :- 
 Online Transaction Processing these are the databases that used to using day in day.

@@ -16,7 +16,8 @@ tags:
 
 ## Amazon Redshift
 
-Amazon Redshift is a fast and powerful, fully managed, petabyte-scale data warehouse service in the cloud. Customers can start small for just $0.25 per hour with no commitments or upfront costs and scale to a petabyte or more for $1,000 per terabyte per year, less than a tenth of most other data warehousing solutions.
+Amazon Redshift is a fast and powerful, fully managed, petabyte-scale data warehouse service in the cloud. <!--more-->
+Customers can start small for just $0.25 per hour with no commitments or upfront costs and scale to a petabyte or more for $1,000 per terabyte per year, less than a tenth of most other data warehousing solutions.
 
 Configuration of Redshift
 ---

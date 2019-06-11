@@ -18,7 +18,8 @@ tags:
 
 ## What is OpsWorks?
 
-Cloud-based applications usually require a group of related resources – web servers, application servers, database servers, and so on – that must be created and managed collectively. This collection of instances is called a stack.
+Cloud-based applications usually require a group of related resources – web servers, application servers, database servers, and so on – that must be created and managed collectively.<!--more-->
+ This collection of instances is called a stack.
 
 AWS OpsWorks provides a simple and straightforward way to create and manage stacks and their associated applications and resources.
 
