@@ -41,7 +41,7 @@ install:
   - travis_retry sudo _travis/install_sfnt2woff.sh
   - travis_retry sudo _travis/install_tidy.sh
   - travis_retry gem install jekyll-watch -v 2.0.0
-  - fontcustom --version
+  - bundle exec fontcustom --version
   - travis_retry gem install jgd -v 1.11 
   - gnuplot --version
 script:
