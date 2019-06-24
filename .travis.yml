@@ -35,17 +35,17 @@ before_install:
 install:
   - set -e
   - bundle
-  - travis_retry sudo _travis/install_cmake.sh; sudo apt-get install -y libxml2-utils
-  - travis_retry npm install cssshrink@0.0.5
-  - travis_retry sudo _travis/install_plantuml.sh
-  - travis_retry sudo _travis/install_sfnt2woff.sh
-  - travis_retry sudo _travis/install_tidy.sh
-  - travis_retry gem install jekyll-watch -v 2.0.0
-  - bundle exec fontcustom --version
+  #- travis_retry sudo _travis/install_cmake.sh; sudo apt-get install -y libxml2-utils
+  #- travis_retry npm install cssshrink@0.0.5
+  #- travis_retry sudo _travis/install_plantuml.sh
+  #- travis_retry sudo _travis/install_sfnt2woff.sh
+  #- travis_retry sudo _travis/install_tidy.sh
+  #- travis_retry gem install jekyll-watch -v 2.0.0
+  #- bundle exec fontcustom --version
   - travis_retry gem install jgd -v 1.11 
-  - gnuplot --version
+  #- gnuplot --version
 script:
   - set -e
-  - bundle exec rake
+  #- bundle exec rake
   - export JEKYLL_ENV=production
   - jgd -u git@github.com:abcdevops/blog.git --bundle
