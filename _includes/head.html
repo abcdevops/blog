@@ -27,7 +27,7 @@
     {% endif %}
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="twitter:card" content="summary">
+    <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@abcdevops">
     <meta name="twitter:creator" content="@abcdevops">
     <meta name="twitter:title" content="{{title}}">
@@ -41,15 +41,16 @@
     <meta name="twitter:image" content="{{ site.url }}/images/logo-abc-home.png">
     {% endif %}
 
-    
-
     <meta property="fb:app_id" content="439141360000442"/>
-    <meta property="og:site_name" content="abcdevops.com" />
+    <meta property="og:site_name" content="The ABCDevOps Blog" />
     <meta property="og:title" content="{{ title }}"/>
     <meta property="og:description" content="{{ description }}"/>
-    <meta property="og:type" content="website" />
-    <meta property="og:locale" content="en_IN" />
-
+    <meta property="og:type" content="article" />
+    <meta property="og:locale" content="en_US" />
+    
+    {% if page.og_image %}
+    <meta property="og:image" content="{{ site.url }}{{ page.og_image }}" />
+    {% endif %}
     {% if page.layout == 'image' %}
       <meta property="og:image:type" content="{{page.image_type}}">
       <meta property="og:image:width" content="{{page.width}}">
@@ -63,9 +64,7 @@
     <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
     <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
     {% endif %}
-    {% if page.og_image %}
-    <meta property="og:image" content="{{ site.url }}{{ page.og_image }}" />
-    {% endif %}
+    
 
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="ABCDevOps" />
     <link rel="shortcut icon" href="/favicon.ico?{{ site.data['hash'] }}"/>
