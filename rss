@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.1.6">Jekyll</generator><link href="https://abcdevops.com/rss.xml" rel="self" type="application/atom+xml" /><link href="https://abcdevops.com/" rel="alternate" type="text/html" /><updated>2019-06-24T05:20:11-04:00</updated><id>https://abcdevops.com/</id><title>ABCDevOps: re:devining DevOps</title><subtitle>ABCDevOps: Let&#39;s discuss what devops is.</subtitle><author><name>Tarun Jangra</name><email>tarun.jangra@abcdevops.com</email></author><entry><title>Applcation development before DevOps vs after DevOps.</title><link href="https://abcdevops.com/blog/2019/06/24/before-devops.html" rel="alternate" type="text/html" title="Applcation development before DevOps vs after DevOps." /><published>2019-06-24T00:00:00-04:00</published><updated>2019-06-24T00:00:00-04:00</updated><id>https://abcdevops.com/blog/2019/06/24/before-devops</id><content type="html" xml:base="https://abcdevops.com/blog/2019/06/24/before-devops.html">&lt;p&gt;&lt;strong&gt;Application development before DevOps vs after DevOps.&lt;/strong&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.1.6">Jekyll</generator><link href="https://abcdevops.com/rss.xml" rel="self" type="application/atom+xml" /><link href="https://abcdevops.com/" rel="alternate" type="text/html" /><updated>2019-06-25T18:07:23-04:00</updated><id>https://abcdevops.com/</id><title>ABCDevOps: re:devining DevOps</title><subtitle>ABCDevOps: Let&#39;s discuss what devops is.</subtitle><author><name>Tarun Jangra</name><email>tarun.jangra@abcdevops.com</email></author><entry><title>WOW! sending data to the could is thaaat easy :)</title><link href="https://abcdevops.com/blog/2019/06/25/what-is-cloud.html" rel="alternate" type="text/html" title="WOW! sending data to the could is thaaat easy :)" /><published>2019-06-25T00:00:00-04:00</published><updated>2019-06-25T00:00:00-04:00</updated><id>https://abcdevops.com/blog/2019/06/25/what-is-cloud</id><content type="html" xml:base="https://abcdevops.com/blog/2019/06/25/what-is-cloud.html">&lt;p&gt;How it would be if sending data to the cloud is that easy? #AWS, #Azure, #Cloud, #Google, #GCP.
+&lt;!--more--&gt;
+&lt;img src=&quot;/images/posts/send-data-to-cloud-black.jpg&quot; alt=&quot;before devops vs after devops&quot; /&gt;&lt;/p&gt;</content><author><name>Tarun Jangra</name><email>tarun.jangra@abcdevops.com</email></author><category term="Azure" /><category term="AWS" /><category term="GCP" /><category term="DevToon" /><summary>How it would be if sending data to the cloud is that easy? #AWS, #Azure, #Cloud, #Google, #GCP.</summary></entry><entry><title>Applcation development before DevOps vs after DevOps.</title><link href="https://abcdevops.com/blog/2019/06/24/before-devops.html" rel="alternate" type="text/html" title="Applcation development before DevOps vs after DevOps." /><published>2019-06-24T00:00:00-04:00</published><updated>2019-06-24T00:00:00-04:00</updated><id>https://abcdevops.com/blog/2019/06/24/before-devops</id><content type="html" xml:base="https://abcdevops.com/blog/2019/06/24/before-devops.html">&lt;p&gt;&lt;strong&gt;Application development before DevOps vs after DevOps.&lt;/strong&gt;
 &lt;!--more--&gt;
 &lt;img src=&quot;/images/posts/before-devops.png&quot; alt=&quot;before devops vs after devops&quot; /&gt;&lt;/p&gt;</content><author><name>Tarun Jangra</name><email>tarun.jangra@abcdevops.com</email></author><category term="Azure" /><category term="AWS" /><category term="GCP" /><category term="DevToon" /><summary>Application development before DevOps vs after DevOps.</summary></entry><entry><title>What, Servers are on strike. We need some superman?</title><link href="https://abcdevops.com/blog/2019/06/05/servers-on-strike.html" rel="alternate" type="text/html" title="What, Servers are on strike. We need some superman?" /><published>2019-06-05T00:00:00-04:00</published><updated>2019-06-05T00:00:00-04:00</updated><id>https://abcdevops.com/blog/2019/06/05/servers-on-strike</id><content type="html" xml:base="https://abcdevops.com/blog/2019/06/05/servers-on-strike.html">&lt;p&gt;&lt;strong&gt;Allow #ABCDevOps to be the #UnionLeader and keep your servers in your service.&lt;/strong&gt;
 &lt;!--more--&gt;
@@ -394,33 +396,4 @@ It is a fully managed database and supports both document and key-value data mod
 
 &lt;p&gt;Assuming a 30-day month, your 3GB would cost you 3 * $0.25/30 = $0.025 per day. Combining these numbers, the total cost of your DynamoDB table would be $0.2246 (for provisioned throughput capacity) + $0.025 (for storage) = $0.2496 per day or $7.50 per month.&lt;/p&gt;</content><author><name>Tarun Jangra</name><email>tarun.jangra@abcdevops.com</email></author><category term="sqs" /><category term="amazon" /><category term="aws" /><category term="service" /><category term="pricing" /><summary>DynamoDB
 
-Amazon DynamoDB is a fast and flexible No-SQL database service for all applications that need consistent, single-digit millisecond latency at any scale.</summary></entry><entry><title>Amazon ElastiCache - Inmemory data store and caching</title><link href="https://abcdevops.com/blog/2016/02/15/amazon-elastiCache.html" rel="alternate" type="text/html" title="Amazon ElastiCache - Inmemory data store and caching" /><published>2016-02-15T00:00:00-05:00</published><updated>2016-02-15T00:00:00-05:00</updated><id>https://abcdevops.com/blog/2016/02/15/amazon-elastiCache</id><content type="html" xml:base="https://abcdevops.com/blog/2016/02/15/amazon-elastiCache.html">&lt;h2 id=&quot;elasticache&quot;&gt;ElastiCache&lt;/h2&gt;
-
-&lt;p&gt;ElastiCache is a web service that makes it easy to deploy, operate, and scale an in-memory cache in the cloud. &lt;!--more--&gt;
-The service improves the performance  of web applications by allowing you to retrieve information from fast, managed, in-memory caches, instead of relying entirely on slower disk-based database. ElastiCache supports two open-source in-memory caching engines:&lt;/p&gt;
-
-&lt;h2 id=&quot;elasticache--use-cases&quot;&gt;ElastiCache – Use Cases&lt;/h2&gt;
-
-&lt;p&gt;Amazon ElastiCache can be used to significantly improve latency and throughput for many read-heavy application workloads (such as social networking, gaming, media sharing and Q&amp;amp;A portals) or compute-intensive workloads (such as a recommendation engine). Caching improves application performance by storing critical pieces of data in memory for low-latency access. Cached information may include the results of I/O-intensive database queries or the results of computationally-intensive calculations. If data does not change regularly and it’s ok the cache you would use ElastiCache can take load of your database service running computation service your are running and that’s by you would use it.&lt;/p&gt;
-
-&lt;h2 id=&quot;elasticache-use-two-different-engines&quot;&gt;ElastiCache Use Two Different Engines&lt;/h2&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;h5 id=&quot;memcached&quot;&gt;Memcached&lt;/h5&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;span&gt;A widely adopted memory object caching system. ElastiCache is protocol complaint with Memcached, so popular tools that you use today with existing Memcached environments will work seamlessly with the service.
-&lt;/span&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;h5 id=&quot;redis&quot;&gt;Redis&lt;/h5&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;span&gt;A popular open-source in-memory key-value store that supports data structures such as sorted sets and lists. ElastiCache supports Master/Slave replication and Multi-AZ which can be used to achieve cross AZ redundancy.
-&lt;/span&gt;&lt;/p&gt;</content><author><name>Tarun Jangra</name><email>tarun.jangra@abcdevops.com</email></author><category term="ElastiCache" /><category term="amazon" /><category term="aws" /><category term="service" /><category term="pricing" /><summary>ElastiCache
-
-ElastiCache is a web service that makes it easy to deploy, operate, and scale an in-memory cache in the cloud.</summary></entry></feed>
+Amazon DynamoDB is a fast and flexible No-SQL database service for all applications that need consistent, single-digit millisecond latency at any scale.</summary></entry></feed>
