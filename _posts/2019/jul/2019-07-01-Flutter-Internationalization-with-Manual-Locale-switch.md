@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Flutter: Internationalization & Switching Locales Manually"
-date: 2019-06-29
-og_image: /images/posts/amazon-ec2.jpg
-main_image: /images/blog-detail/ec2.jpg
+date: 2019-07-01
+og_image: /images/posts/internaiont-blog-social-media.jpg
+main_image: /images/posts/blog-main-image.jpg
 description: |
   An Easy step by step tutorial for implementing internationalization into your flutter app and also how to manually switch your App's Locale on specific events. Learn how the text in your app responds to updated Locale
 tags:
