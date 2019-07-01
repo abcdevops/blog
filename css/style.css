@@ -23,6 +23,9 @@ main > header .ui.menu .item span{
 /* #home header.min-header + .hiring a img {
     max-width: 117px;
 } */
+.appicon{
+    display: none;
+}
 .education_footer li::before {
         content: "\f101";
         display: block;
@@ -111,7 +114,7 @@ main > header .ui.menu .item span{
     vertical-align: top;
 
 }
-header.min-header img.ui.image.logo {
+header.min-header img.ui.appicon {
     max-width: 70px!important;
 }
 .min-header a.item h6 {

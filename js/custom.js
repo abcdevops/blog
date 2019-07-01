@@ -6,10 +6,12 @@ jQuery(document).ready(function($) {
         
                 if (wd >= 100) {
                     $("main  header").addClass("min-header");
-                    $(".min-header .logo").attr("src", "/images/abc-appicon.png");
+                    $('.min-header .appicon').show();
+                    $("main  header .logo").hide();
                 }
                 else {
-                    $(".min-header .logo").attr("src", "/images/logo-abc-home.png");
+                    $('.appicon').hide();
+                    $("main  header .logo").show();
                     $("main header").removeClass("min-header");
                 }
             }    
@@ -18,6 +20,8 @@ jQuery(document).ready(function($) {
         $(document).scroll(function () {
             minheader();
         });
+
+     
     
         
     // share js
