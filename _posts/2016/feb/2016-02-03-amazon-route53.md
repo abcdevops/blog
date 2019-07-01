@@ -17,7 +17,9 @@ tags:
 
 ## Route 53
 
-Amazon Route 53 is a highly available and scalable cloud Domain Name System (DNS) web service and the reason is called the Route 53 is it’s combination of Route 66. Which is the old interstate of first interstate route across the United States but it’s named after port 53 which is the DNS Port that’s how it came to get its name.
+Amazon Route 53 is a highly available and scalable cloud Domain Name System (DNS) web service and the reason is called the Route 53 is it’s combination of Route 66. 
+<!--more-->
+Which is the old interstate of first interstate route across the United States but it’s named after port 53 which is the DNS Port that’s how it came to get its name.
 
 ## What is Domain Name System?
 If you’ve used the internet before, you’ve used DNS. DNS is used to convert human friendly domain names (such as http://example.com) into an Internet Protocol (IP) address (such as http://192.0.2.1)

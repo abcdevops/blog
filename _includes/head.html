@@ -27,7 +27,7 @@
     {% endif %}
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="twitter:card" content="summary">
+    <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@abcdevops">
     <meta name="twitter:creator" content="@abcdevops">
     <meta name="twitter:title" content="{{title}}">
@@ -36,33 +36,40 @@
     <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
     {% endif %}
     {% if page.og_image %}
-    <meta name="twitter:image:src" content="{{ site.url }}{{ page.og_image }}">
+    <meta name="twitter:image" content="{{ site.url }}{{ page.og_image }}">
     {% else %}
-    <meta name="twitter:image:src" content="{{ site.url }}/images/logo-abc-home.png">
+    <meta name="twitter:image" content="{{ site.url }}/images/logo-abc-home.png">
     {% endif %}
 
-    <meta property="fb:app_id" content="1303279726368879"/>
-    <meta property="og:site_name" content="abcdevops.com/" />
+    <meta property="fb:app_id" content="439141360000442"/>
+    <meta property="og:site_name" content="The ABCDevOps Blog" />
     <meta property="og:title" content="{{ title }}"/>
     <meta property="og:description" content="{{ description }}"/>
     <meta property="og:type" content="article" />
-    <meta property="og:locale" content="en_IN" />
+    <meta property="og:locale" content="en_US" />
+    
+    {% if page.og_image %}
+    <meta property="og:image" content="{{ site.url }}{{ page.og_image }}" />
+    {% endif %}
+    {% if page.layout == 'image' %}
+      <meta property="og:image:type" content="{{page.image_type}}">
+      <meta property="og:image:width" content="{{page.width}}">
+      <meta property="og:image:height" content="{{page.height}}">
+      <meta name="twitter:image:width" content="{{page.width}}">
+      <meta name="twitter:image:height" content="{{page.height}}">
+    {% endif %}
 
     
     {% if page.url %}
     <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
     <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
     {% endif %}
-    {% if page.og_image %}
-    <meta property="og:image" content="{{ site.url }}{{ page.og_image }}" />
-    {% endif %}
+    
 
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="ABCDevOps" />
     <link rel="shortcut icon" href="/favicon.ico?{{ site.data['hash'] }}"/>
     <link rel="apple-touch-icon" href="/favicon.ico?{{ site.data['hash'] }}"/>
-
     <link rel="alternate" type="application/rss+xml" title="RSS for abcdevops.com" href="{{ site.url }}/rss.xml"/>
-
     {{ jsonLD }}
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" ></script>
     <script src="/js/custom.js?{{ site.data['hash'] }}"  type="application/javascript"></script>
@@ -70,4 +77,14 @@
     <link href="/../dist/semantic.min.css?{{ site.data['hash'] }}" rel="stylesheet" async="async" type="text/css"/>
     <link href="/css/style.css?{{ site.data['hash'] }}" rel="stylesheet" async="async" />
     <script src="/../dist/semantic.min.js?{{ site.data['hash'] }}" async="async" type="application/javascript"></script>   
-</head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-783273-8"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-783273-8');
+    </script>
+    <!-- END Global site tag (gtag.js) - Google Analytics -->
+  </head>

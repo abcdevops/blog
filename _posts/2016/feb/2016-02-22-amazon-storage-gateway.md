@@ -15,7 +15,8 @@ tags:
 ---
 ## Storage Gateway
 
-AWS Storage Gateway is a service that connects an on-premises software appliance with cloud-based storage to provide seamless and secure integration between an organization’s on-premises IT environment and AWS’s storage infrastructure. The service enables you to securely store data to the AWS cloud for scalable and cost-effective storage.
+AWS Storage Gateway is a service that connects an on-premises software appliance with cloud-based storage to provide seamless and secure integration between an organization’s on-premises IT environment and AWS’s storage infrastructure.<!--more-->
+ The service enables you to securely store data to the AWS cloud for scalable and cost-effective storage.
 
 AWS Storage Gateway software appliance is available for download as a virtual machine (VM) image that you install on a host in your data center. Once you’ve installed your gateway and associated it with your AWS account through our activation process, you can use the AWS Management Console to create either gateway-cached or gateway-stored volumes that can be mounted as iSCSI devices by your on-premises applications.
 

@@ -14,7 +14,7 @@ tags:
 - pricing
 ---
 
-Amazon SQS is a web service that gives you access to a message queue that can be used to store messages while waiting for a computer to process them.
+Amazon SQS is a web service that gives you access to a message queue that can be used to store messages while waiting for a computer to process them.<!--more-->
 
 So we have an example of a web application may be you upload an image file to this web application and then what that application will do is load the SQS that a user has uploaded it an image file and that job needs to be executed on its stored that message on the SQS system.
 

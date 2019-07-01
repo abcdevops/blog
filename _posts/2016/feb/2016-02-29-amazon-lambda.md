@@ -17,7 +17,7 @@ tags:
 ## What is Lambda?
 
 AWS Lambda is a compute service that runs your code in response to events and automatically manages the underlying compute resources. So you don’t have to worry about server infrastructure all you have to worry about is code and you can design your code respond automatically to events.
-
+<!--more-->
 AWS Lambda can automatically run code in response to modifications to objects in Amazon S3 buckets, messages arriving in Amazon Kinesis streams, or table updates in Amazon DynamoDb.
 
 Lambda runs your code on high-availability compute infrastructure and performs all the administration of the compute resources, including server and operating system maintenance, capacity provisioning and automatic scaling, code and security patch deployment, and code monitoring and logging.
