@@ -59,6 +59,7 @@ gems:
   - jekyll-plantuml
   - jekyll-sitemap
   - jekyll-related-posts
+  - jekyll-gist
 
 # see https://github.com/alfanick/jekyll-related-posts
 related:
