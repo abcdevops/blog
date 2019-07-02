@@ -1,4 +1,321 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.1.6">Jekyll</generator><link href="https://abcdevops.com/rss.xml" rel="self" type="application/atom+xml" /><link href="https://abcdevops.com/" rel="alternate" type="text/html" /><updated>2019-07-01T22:57:03-04:00</updated><id>https://abcdevops.com/</id><title>ABCDevOps: re:devining DevOps</title><subtitle>ABCDevOps: Let&#39;s discuss what devops is.</subtitle><author><name>Tarun Jangra</name><email>tarun.jangra@abcdevops.com</email></author><entry><title>WOW! sending data to the could is thaaat easy :)</title><link href="https://abcdevops.com/blog/2019/06/25/what-is-cloud.html" rel="alternate" type="text/html" title="WOW! sending data to the could is thaaat easy :)" /><published>2019-06-25T00:00:00-04:00</published><updated>2019-06-25T00:00:00-04:00</updated><id>https://abcdevops.com/blog/2019/06/25/what-is-cloud</id><content type="html" xml:base="https://abcdevops.com/blog/2019/06/25/what-is-cloud.html">&lt;p&gt;How it would be if sending data to the cloud is that easy? #AWS, #Azure, #Cloud, #Google, #GCP.
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.1.6">Jekyll</generator><link href="https://abcdevops.com/rss.xml" rel="self" type="application/atom+xml" /><link href="https://abcdevops.com/" rel="alternate" type="text/html" /><updated>2019-07-02T04:21:54-04:00</updated><id>https://abcdevops.com/</id><title>ABCDevOps: re:devining DevOps</title><subtitle>ABCDevOps: Let&#39;s discuss what devops is.</subtitle><author><name>Tarun Jangra</name><email>tarun.jangra@abcdevops.com</email></author><entry><title>Flutter: Internationalization &amp;amp; Switching Locales Manually</title><link href="https://abcdevops.com/blog/2019/07/01/Flutter-Internationalization-with-Manual-Locale-switch.html" rel="alternate" type="text/html" title="Flutter: Internationalization &amp; Switching Locales Manually" /><published>2019-07-01T00:00:00-04:00</published><updated>2019-07-01T00:00:00-04:00</updated><id>https://abcdevops.com/blog/2019/07/01/Flutter-Internationalization-with-Manual-Locale-switch</id><content type="html" xml:base="https://abcdevops.com/blog/2019/07/01/Flutter-Internationalization-with-Manual-Locale-switch.html">&lt;p&gt;At times you will have to make your Flutter app support different language or “locale” or in other words make your app Internationalized. &lt;!--more--&gt;
+Flutter provides widgets &amp;amp; classes that help with this and the Flutter libraries themselves are internationalized. In the following tutorials we’ll use the APIs and tools provided by the intl package. If you’re new Dart’s intl package, i suggest you have a look at the &lt;a href=&quot;https://flutter.dev/docs/development/accessibility-and-localization/internationalization#dart-tools&quot;&gt;Dart intl tools&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;As you might know Flutter is now taking over vast majority of market, so if you’re a software developer there is 99.9% chance that you will come across this. So here’s an easy step by step tutorial for internationalization of your flutter app, also we’ll see how to manually switch your App’s Locale on specific events. I’ll assume you know how to setup a flutter app so we’ll skip that part. Alrighty then Avengers! Assemble!!&lt;/p&gt;
+
+&lt;p&gt;So first step is to Include the packages in &lt;code&gt;pubspec.yaml&lt;/code&gt; file. For that just add the 2 packages name under  the dependencies. It would look something like this.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-yaml&quot;&gt;dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+    
+  intl_translation: ^0.17.1
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;After you save this, flutter automatically downloads and include the packages. You can now use it in your app anywhere simply by importing it. We’ll import it in the main.dart file first. Goto you &lt;code&gt;main.dart&lt;/code&gt; file and add import the package.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-dart&quot;&gt;import &#39;package:flutter_localizations/flutter_localizations.dart&#39;;
+import &#39;package:intl/intl.dart&#39;;
+void main() =&amp;gt; runApp(MyApp());
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The next step is to setup the Localization delegates in your &lt;code&gt;main.dart&lt;/code&gt; file. For that you need to specify the 2 delegates first.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-dart&quot;&gt;  Widget build(BuildContext context) {
+    return MaterialApp(
+      localizationsDelegates: [
+        GlobalMaterialLocalizations.delegate,
+        GlobalWidgetsLocalizations.delegate
+      ],
+      supportedLocales: [
+        const Locale(&#39;en&#39;, &#39;US&#39;),
+        const Locale(&#39;de&#39;, &#39;DE&#39;)
+      ],
+      ...
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;GlobalMaterialLocalizations.delegate&lt;/code&gt; provides localized strings and other values for the Material Components library. &lt;code&gt;GlobalWidgetsLocalizations.delegate&lt;/code&gt; defines the default text direction, either left to right or right to left, for the widgets library.
+As you can see here, we added 2 lists to our Material app &lt;code&gt;localizationsDelegates&lt;/code&gt; &amp;amp; &lt;code&gt;supportedLocales&lt;/code&gt;. The &lt;code&gt;supportedLocales&lt;/code&gt; parameter holds the list of languages that our app will support. Here you will specify list of languages_codes.&lt;/p&gt;
+
+&lt;h2 id=&quot;create-a-file-on-path-liblocaleapp_localizationdart&quot;&gt;Create a file on path /lib/locale/app_localization.dart&lt;/h2&gt;
+
+&lt;p&gt;Next step is to create an &lt;code&gt;AppLocalization&lt;/code&gt; &amp;amp; &lt;code&gt;AppLocalizationDelegate&lt;/code&gt;. Classes in which we’ll be defining our keywords and their translations. We’ll also use it throughout the app and for manually switching the Locale if required. Therefore i suggest you create this class in a Separate folder in  your lib directory. Mine looks like &lt;code&gt;/lib/locale/app_localization.dart&lt;/code&gt;
+The AppLocalization class will only have 2 static methods for now. The &lt;code&gt;load()&lt;/code&gt; &amp;amp; &lt;code&gt;of()&lt;/code&gt; method.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-dart&quot;&gt;import &#39;package:flutter/material.dart&#39;;
+import &#39;package:intl/intl.dart&#39;;
+
+class AppLocalization {
+  
+  static Future&amp;lt;AppLocalization&amp;gt; load(Locale locale) {
+    final String name = locale.countryCode.isEmpty ? locale.languageCode : locale.toString();
+    final String localeName = Intl.canonicalizedLocale(name);
+    return initializeMessages(localeName).then((_) {
+      Intl.defaultLocale = localeName;
+      return AppLocalization();
+    });
+  }
+
+  static AppLocalization of(BuildContext context) {
+    return Localizations.of&amp;lt;AppLocalization&amp;gt;(context, AppLocalization);
+  }
+  
+  // list of locales
+  String get heyWorld {
+    return Intl.message(
+      &#39;Hey World&#39;,
+      name: &#39;heyWorld&#39;,
+      desc: &#39;Simpel word for greeting &#39;,
+    );
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;em&gt;PS: NOTE THAT YOUR &lt;code&gt;load()&lt;/code&gt; might be returning an error on the line: &lt;code&gt;return initializeMessages()&lt;/code&gt; ignore this for now, we’ll remove it in a while.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/error-at-initializeMessages.png&quot; alt=&quot;error at initializeMessages&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;load()&lt;/code&gt; : It will load/set all the Localized values. You can also call this method if you wish to switch the locale of app manually.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;of()&lt;/code&gt; : This method will return the instance of current Localization of the app. Somewhat like a factory method.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;get heyWorld&lt;/code&gt;: This getter returns the value of the heyWorld. This property is what will be using to get its  translations based on locale of the app. For demo purpose i have only set 1 String as for now but you can as many as you can.&lt;/p&gt;
+
+&lt;h2 id=&quot;create-a-applocalizationdelegate-in-the-applocalization-class&quot;&gt;Create a AppLocalizationDelegate in the AppLocalization class&lt;/h2&gt;
+
+&lt;p&gt;Now create an &lt;code&gt;AppLocalizationDelegate&lt;/code&gt; for the &lt;code&gt;AppLocalization&lt;/code&gt; class.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-dart&quot;&gt;class AppLocalizationDelegate extends LocalizationsDelegate&amp;lt;AppLocalization&amp;gt;{
+  final Locale overriddenLocale;
+
+  const AppLocalizationDelegate(this.overriddenLocale);
+
+  @override
+  bool isSupported(Locale locale) =&amp;gt; [&#39;en&#39;, &#39;de&#39;].contains(locale.languageCode);
+
+  @override
+  Future&amp;lt;AppLocalization&amp;gt; load(Locale locale) =&amp;gt; AppLocalization.load(locale);
+
+  @override
+  bool shouldReload(LocalizationsDelegate&amp;lt;AppLocalization&amp;gt; old) =&amp;gt; false; 
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;As you can see this Delegate class is extended from main  &lt;code&gt;LocalizationsDelegate&lt;/code&gt; and we have pointed it to &lt;code&gt;AppLocalization&lt;/code&gt; via &lt;code&gt;&amp;lt;AppLocalization&amp;gt;&lt;/code&gt;
+add the above required methods and take a look at the &lt;code&gt;isSupported()&lt;/code&gt; method:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;@override
+bool isSupported(Locale locale)=&amp;gt;[&#39;en&#39;,&#39;de&#39;].contains(locale.languageCode);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This method will be called to check if the language is supported or not, based on the Locale instance provided. &lt;strong&gt;Make sure to you have your supported languages inserted in this list here such as: [‘en’, ‘de’ ….]&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;create-a-libl10n-directory-in-your-libfolder&quot;&gt;Create a lib/l10n Directory in your lib folder&lt;/h2&gt;
+&lt;p&gt;Now create a l10n directory in your lib folder. This directory will hold all the translated values as per your Locale. Your final directory structure will look somewhat like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/l10n-folder.png&quot; alt=&quot;l10n-folder&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;create-resource-bundles-arbfiles&quot;&gt;Create resource bundles (.arb files)&lt;/h2&gt;
+&lt;p&gt;In your Terminal and run the following command to create the arb files:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ flutter pub run intl_translation:extract_to_arb --output-dir=lib/l10n lib/locale/app_localization.dart
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;You will now see a new file in your l10n folder &lt;code&gt;intl_messages.arb&lt;/code&gt; . Cool!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/intl-messages-arb.png&quot; alt=&quot;intl-messagse-arb&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;NOTE: The Dart intl package only creates one template file of .arb  from your Localization class and names it &lt;code&gt;intl_messages.arb&lt;/code&gt;. From here you now have to manually create other resource  files with convention &lt;code&gt;intl_[LANGUAGE_CODE].arb&lt;/code&gt; and copy the content of &lt;code&gt;intl_messages.arb&lt;/code&gt; directly with updated the values.&lt;/p&gt;
+
+&lt;p&gt;For eg: For English format you will create file &lt;code&gt;intl_en.arb&lt;/code&gt; and the content copied from &lt;code&gt;intl_messages.arb &lt;/code&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-ruby&quot;&gt;{
+  &quot;@@last_modified&quot;: &quot;2019-06-27T22:25:57.081431&quot;,
+  &quot;heyWorld&quot;: &quot;Hey World&quot;,
+  &quot;@heyWorld&quot;: {
+    &quot;description&quot;: &quot;Simple world for greeting &quot;,
+    &quot;type&quot;: &quot;text&quot;,
+    &quot;placeholders&quot;: {}
+  },
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Now lets create one in German language. So this will be:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-ruby&quot;&gt;{
+  &quot;@@last_modified&quot;: &quot;2019-06-27T23:38:38.868199&quot;,
+  &quot;heyWorld&quot;: &quot;Hey Welt&quot;,
+  &quot;@heyWorld&quot;: {
+    &quot;description&quot;: &quot;Einfaches Wort zur Begrüßung&quot;,
+    &quot;type&quot;: &quot;text&quot;,
+    &quot;placeholders&quot;: {}
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&quot;/images/posts/intl-de-arb.png&quot; alt=&quot;intl-de-arb&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Once you created these files in your l10n folder. Now you need to run another command to create the corresponding .dart files that will be used to manage these resource files. For that run the following command:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ flutter pub run intl_translation:generate_from_arb \
+--output-dir=lib/l10n --no-use-deferred-loading \
+lib/l10n/intl_messages.arb lib/l10n/intl_de.arb lib/l10n/intl_en.arb lib/locale/app_localization.dart
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;NOTE that i have only 2 files &lt;code&gt;intl_en.arb&lt;/code&gt; &amp;amp; &lt;code&gt;intl_de.arb&lt;/code&gt; therefore i am only passing those in command. But if you have more or less you need to pass them all.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/intl-messages-dart.png&quot; alt=&quot;intl-messages-dart&quot; /&gt;
+&lt;em&gt;Now check your l10n folder you will now see new dart files created from those resource files.
+Btw you might see some warnings in the console, but its ok. just ignore them.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Now import the &lt;code&gt;messages_all.dart&lt;/code&gt; file in your &lt;code&gt;AppLocalization&lt;/code&gt; Class and here’s a final look at your &lt;code&gt;AppLocalization&lt;/code&gt; Class:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-dart&quot;&gt;import &#39;dart:async&#39;;
+import &#39;package:flutter/material.dart&#39;;
+import &#39;package:intl/intl.dart&#39;;
+import &#39;../l10n/messages_all.dart&#39;;
+
+class AppLocalization {
+  
+  static Future&amp;lt;AppLocalization&amp;gt; load(Locale locale) {
+    final String name = locale.countryCode.isEmpty ? locale.languageCode : locale.toString();
+    final String localeName = Intl.canonicalizedLocale(name);
+    return initializeMessages(localeName).then((_) {
+      Intl.defaultLocale = localeName;
+      return AppLocalization();
+    });
+  }
+
+  static AppLocalization of(BuildContext context) {
+    return Localizations.of&amp;lt;AppLocalization&amp;gt;(context, AppLocalization);
+  }
+
+  String get heyWorld {
+    return Intl.message(
+      &#39;Hey World&#39;,
+      name: &#39;heyWorld&#39;,
+      desc: &#39;Simpel word for greeting &#39;,
+    );
+  }
+}
+
+class AppLocalizationDelegate extends LocalizationsDelegate&amp;lt;AppLocalization&amp;gt; {
+  final Locale overriddenLocale;
+
+  const AppLocalizationDelegate(this.overriddenLocale);
+
+  @override
+  bool isSupported(Locale locale) =&amp;gt; [&#39;en&#39;, &#39;es&#39;, &#39;de&#39;].contains(locale.languageCode);
+
+  @override
+  Future&amp;lt;AppLocalization&amp;gt; load(Locale locale) =&amp;gt; AppLocalization.load(locale);
+  
+  @override
+  bool shouldReload(LocalizationsDelegate&amp;lt;AppLocalization&amp;gt; old) =&amp;gt; false;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;The error is gone! right. ;)&lt;/em&gt;&lt;/strong&gt;
+Now you’re just 1 step from using the language values based on your current Localization. To use language specific text in your app, you’ll simply need to follow the 2 steps :&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;import AppLocalization class where you want to use the text&lt;/li&gt;
+  &lt;li&gt;Call localized value of text via: &lt;code&gt;AppLocalizations.of(context).heyWorld&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Now what is happening here is when you call the above method, it calls the getter of the &lt;code&gt;AppLocalization&lt;/code&gt; class and returns its value based on the Locale of the context. Which means.. &lt;/p&gt;
+
+&lt;p&gt;If the context is en (ie english) it will return the value from &lt;code&gt;intl_en.arb&lt;/code&gt; and when the Locale changes to de ( ie german) it will return the value from &lt;code&gt;intl_de.arb&lt;/code&gt;. And since we’re using only Class getter for both languages ie &lt;code&gt;heyWorld&lt;/code&gt; therefore need not to worry about the that as well. Flutter will take care of that. Now here comes the best part.&lt;/p&gt;
+
+&lt;h2 id=&quot;finally-update-maindart-file&quot;&gt;Finally update main.dart file&lt;/h2&gt;
+&lt;p&gt;In your main.dart file and in your main Class set a new property &lt;code&gt;_localOverrideDelegate&lt;/code&gt; in the &lt;code&gt;_MyAppState&lt;/code&gt; and give it a default initial value:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;AppLocalizationDelegate _localeOverrideDelegate = AppLocalizationDelegate(Locale(&#39;en&#39;, &#39;US&#39;));
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;later we’ll be changing the state of Locale on custom event. Now add this parameter in the list of &lt;code&gt;_localizationDelegates&lt;/code&gt; in your main file.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-dart&quot;&gt;return new MaterialApp(
+        ....,
+        localizationsDelegates: [
+        GlobalMaterialLocalizations.delegate,
+        GlobalWidgetsLocalizations.delegate,
+        _localeOverrideDelegate
+    ],
+    home: Scaffold(...
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Thats it! you’re all set to use you language files code. Now each place where you’ve used the convention: &lt;code&gt;AppLocalizations.of(context).[GETTER_KEY]&lt;/code&gt; the text will return the Localized value always. Now here’s the best part!&lt;/p&gt;
+
+&lt;h2 id=&quot;switch-the-applocalization-on-customevents&quot;&gt;Switch the AppLocalization on custom events&lt;/h2&gt;
+&lt;p&gt;To switch the Localization is real easy now. You only have to call the &lt;code&gt;load()&lt;/code&gt; method with the instance of &lt;code&gt;Locale([LANGUAGE_CODE], [SUBTAG])&lt;/code&gt; as argument. Like this.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;For English US:
+    AppLocalization.load(Locale(&#39;en&#39;, &#39;US&#39;));
+For German DE:
+    AppLocalization.load(Locale(&#39;de&#39;, &#39;DE&#39;));
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Pretty easy! right. And yes, you can call it on &lt;code&gt;onPressed()&lt;/code&gt; events on buttons or any other. &lt;/p&gt;
+
+&lt;p&gt;Lets see a working example I’ll be switching the app Localization on click of a button. I’ll be adding a simple 2 buttons on the page and a &lt;code&gt;heyWorld&lt;/code&gt; text in the center. On click of button the &lt;code&gt;AppLocalization&lt;/code&gt; will switch over.
+&lt;img src=&quot;/images/posts/flutter-Localization.gif&quot; alt=&quot;flutter-Localization&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Here is snippet of my main.dart file&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-dart&quot;&gt;import &#39;package:flutter/material.dart&#39;;
+import &#39;package:flutter_localizations/flutter_localizations.dart&#39;;
+import &#39;locale/app_localization.dart&#39;;
+import &#39;package:intl/intl.dart&#39;;
+
+void main() =&amp;gt; runApp(MyApp());
+
+class MyApp extends StatefulWidget {
+  @override
+  State&amp;lt;StatefulWidget&amp;gt; createState() =&amp;gt; _MyAppState();
+}
+
+class _MyAppState extends State&amp;lt;MyApp&amp;gt; {
+  // This widget is the root of your application.
+  AppLocalizationDelegate _localeOverrideDelegate =
+      AppLocalizationDelegate(Locale(&#39;en&#39;, &#39;US&#39;));
+
+  @override
+  Widget build(BuildContext context) {
+    return new MaterialApp(localizationsDelegates: [
+      GlobalMaterialLocalizations.delegate,
+      GlobalWidgetsLocalizations.delegate,
+      _localeOverrideDelegate
+    ], supportedLocales: [
+      const Locale(&#39;en&#39;, &#39;US&#39;),
+      const Locale(&#39;de&#39;, &#39;DE&#39;)
+    ], 
+    home: MyHomePage());
+  }
+}
+
+class MyHomePage extends StatefulWidget {
+  @override
+  State&amp;lt;StatefulWidget&amp;gt; createState() =&amp;gt; _MyHomePageState();
+}
+
+class _MyHomePageState extends State&amp;lt;MyHomePage&amp;gt; {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+          // title: Text(AppLocalization.of(context).heyWorld),
+          ),
+      body: Column(
+        mainAxisAlignment: MainAxisAlignment.start,
+        children: &amp;lt;Widget&amp;gt;[
+          Expanded(
+            flex: 1,
+            child: ListTile(
+              leading: RaisedButton(
+                onPressed: () {
+                  setState(() {
+                    AppLocalization.load(Locale(&#39;en&#39;, &#39;US&#39;));
+                  });
+                },
+                child: Text(&#39;ENGLISH&#39;),
+              ),
+              trailing: RaisedButton(
+                onPressed: () {
+                  setState(() {
+                    AppLocalization.load(Locale(&#39;de&#39;, &#39;DE&#39;));
+                  });
+                },
+                child: Text(&#39;GERMAN&#39;),
+              ),
+            ),
+          ),
+          Expanded(
+            flex: 1,
+            child: Text(
+              AppLocalization.of(context).heyWorld,
+              style: TextStyle(fontSize: 20),
+            ),
+          )
+        ],
+      ),
+    );
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;and here is the &lt;a href=&quot;https://github.com/abcdevops/flutter-tutorials/tree/master/internationalization&quot;&gt;link&lt;/a&gt; to full working example. Enjoy and Keep Fluttering!&lt;/p&gt;</content><author><name>Tarun Jangra</name><email>tarun.jangra@abcdevops.com</email></author><category term="flutter" /><category term="localization" /><category term="app-translation" /><category term="internationalization" /><category term="tutorial" /><category term="locales" /><category term="flutter_localizations" /><summary>At times you will have to make your Flutter app support different language or “locale” or in other words make your app Internationalized.</summary></entry><entry><title>WOW! sending data to the could is thaaat easy :)</title><link href="https://abcdevops.com/blog/2019/06/25/what-is-cloud.html" rel="alternate" type="text/html" title="WOW! sending data to the could is thaaat easy :)" /><published>2019-06-25T00:00:00-04:00</published><updated>2019-06-25T00:00:00-04:00</updated><id>https://abcdevops.com/blog/2019/06/25/what-is-cloud</id><content type="html" xml:base="https://abcdevops.com/blog/2019/06/25/what-is-cloud.html">&lt;p&gt;How it would be if sending data to the cloud is that easy? #AWS, #Azure, #Cloud, #Google, #GCP.
 &lt;!--more--&gt;
 &lt;img src=&quot;/images/posts/send-data-to-cloud-black.jpg&quot; alt=&quot;before devops vs after devops&quot; /&gt;&lt;/p&gt;</content><author><name>Tarun Jangra</name><email>tarun.jangra@abcdevops.com</email></author><category term="Azure" /><category term="AWS" /><category term="GCP" /><category term="DevToon" /><summary>How it would be if sending data to the cloud is that easy? #AWS, #Azure, #Cloud, #Google, #GCP.</summary></entry><entry><title>Applcation development before DevOps vs after DevOps.</title><link href="https://abcdevops.com/blog/2019/06/24/before-devops.html" rel="alternate" type="text/html" title="Applcation development before DevOps vs after DevOps." /><published>2019-06-24T00:00:00-04:00</published><updated>2019-06-24T00:00:00-04:00</updated><id>https://abcdevops.com/blog/2019/06/24/before-devops</id><content type="html" xml:base="https://abcdevops.com/blog/2019/06/24/before-devops.html">&lt;p&gt;&lt;strong&gt;Application development before DevOps vs after DevOps.&lt;/strong&gt;
 &lt;!--more--&gt;
@@ -348,52 +665,4 @@ AWS Storage Gateway is a service that connects an on-premises software appliance
 
 &lt;p&gt;This is often used by number of different software products business intelligence. Tools like Cognos, Jaspersoft, SQL Server Reporting Services, Oracle Hyperion, SAP NetWeaver.&lt;/p&gt;</content><author><name>Tarun Jangra</name><email>tarun.jangra@abcdevops.com</email></author><category term="RDS" /><category term="oracle" /><category term="mysql" /><category term="PostgreSQL" /><category term="amazon" /><category term="aws" /><category term="service" /><category term="pricing" /><summary>Databases Introduction
 
-So we just with brief introduction on the different types of databases so we got Relational databases.</summary></entry><entry><title>Amazon DynamoDB - NoSQL database for faster response time</title><link href="https://abcdevops.com/blog/2016/02/17/amazon-dynamoDB.html" rel="alternate" type="text/html" title="Amazon DynamoDB - NoSQL database for faster response time" /><published>2016-02-17T00:00:00-05:00</published><updated>2016-02-17T00:00:00-05:00</updated><id>https://abcdevops.com/blog/2016/02/17/amazon-dynamoDB</id><content type="html" xml:base="https://abcdevops.com/blog/2016/02/17/amazon-dynamoDB.html">&lt;h2 id=&quot;dynamodb&quot;&gt;DynamoDB&lt;/h2&gt;
-
-&lt;p&gt;Amazon DynamoDB is a fast and flexible No-SQL database service for all applications that need consistent, single-digit millisecond latency at any scale. &lt;!--more--&gt;
-It is a fully managed database and supports both document and key-value data models. It’s flexible data model and reliable performance make it a great fit for mobile, web, gaming, ad-tech, IoT, and many other applications.&lt;/p&gt;
-
-&lt;h2 id=&quot;dynamodb-configuration&quot;&gt;DynamoDB Configuration&lt;/h2&gt;
-&lt;ol&gt;
-  &lt;li&gt;It’s always going to be stored on SSD storage. So there is no magnetic storage you going to get very good and very high IOPS from it.&lt;/li&gt;
-  &lt;li&gt;It is Spread Across 3 different geographically distinct data centers. So if you write a database you write a record to a particular a AZ that is going to be replicated across to your other two AZ and in terms of that replication you can choose between two options;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;span&gt;Eventual Consistent Reads&lt;/span&gt;
-&lt;span&gt;Strongly Consistent Reads&lt;/span&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;difference-between-eventual-consistent-reads-and-strongly-consistent-reads&quot;&gt;Difference Between Eventual Consistent Reads and Strongly Consistent Reads&lt;/h2&gt;
-
-&lt;h2 id=&quot;eventual-consistent-reads--&quot;&gt;Eventual Consistent Reads :-&lt;/h2&gt;
-
-&lt;p&gt;Consistency across all copies of data is usually reached within a second. Repeating a read after a short time should return the updated data. (Best Read Performance). So this means that when you run a read query against your database you might be querying at two unavailability zone that has not yet had that data that is been from the initial write which should be another AZ has not been replicated across. So let say you are writing your data to AZ-(A) and then when you going to read the database it might not be the in AZ-(B) depending on the length of the time between that write and that read that would be Eventual Consistent.&lt;/p&gt;
-
-&lt;h2 id=&quot;strongly-consistent-reads--&quot;&gt;Strongly Consistent Reads :-&lt;/h2&gt;
-
-&lt;p&gt;A strongly consistent read returns a result that reflects all writes that received a successful response prior to the read. So with Strongly Consistent Reads you would not get the same read performance you get with the Eventual Consistent Reads but you do more less guarantee reflect that after somebody has written record to AZ-(A) nobody would be able to read that record in AZ-(B) into has been replicated across. So just keep that in mind when you designing your application whether or not (We are talking about millisecond you know we are not talking within a seconds) so it’s really up to you and your application team is to which one the you would choose most people choose the default which is you know we can afford for my data to be out of date or not replicated within a second so that its Eventual Consistent Reads.&lt;/p&gt;
-
-&lt;h2 id=&quot;pricing&quot;&gt;Pricing&lt;/h2&gt;
-&lt;ol&gt;
-  &lt;li&gt;Provisioned Throughput Capacity&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;span&gt;Write Throughput $0.0065 per hour for every 10 units.&lt;/span&gt;
-&lt;span&gt;Read Throughput $0.0065 per hour for every 50 units.&lt;/span&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Storage costs of $0.25Gb per month.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;pricing-example&quot;&gt;Pricing Example&lt;/h2&gt;
-
-&lt;p&gt;Let’s assume that your application needs to perform 1 million writes and 1 million reads per day, while storing 3GB of data.&lt;/p&gt;
-
-&lt;p&gt;First, you need to calculate how many writes and reads per second you need. 1 million evenly spread writes per day is equivalent to 1,000,000 (writes) /24 (hours) /60 (minutes) /60 (seconds) = 11.6 writes per second.&lt;/p&gt;
-
-&lt;p&gt;A DynamoDB Write Capacity Unit can handle 1 write per second, so you need 12 Writes Capacity Units. Similarly, to handle 1 million strongly consistent reads per day, you need 12 Read Capacity Units.&lt;/p&gt;
-
-&lt;p&gt;Using on-demand pricing in the US East (N. Virginia) Region. You got 12 Write Capacity Units would cost $0.1872 per day and 12 Read Capacity Units would cost $0.0374 per day. So your total cost of provisioned throughput capacity is $0.1872 + $ 0.03474 = $0.2246 per day. Storage costs $0.25 per GB per month.&lt;/p&gt;
-
-&lt;p&gt;Assuming a 30-day month, your 3GB would cost you 3 * $0.25/30 = $0.025 per day. Combining these numbers, the total cost of your DynamoDB table would be $0.2246 (for provisioned throughput capacity) + $0.025 (for storage) = $0.2496 per day or $7.50 per month.&lt;/p&gt;</content><author><name>Tarun Jangra</name><email>tarun.jangra@abcdevops.com</email></author><category term="sqs" /><category term="amazon" /><category term="aws" /><category term="service" /><category term="pricing" /><summary>DynamoDB
-
-Amazon DynamoDB is a fast and flexible No-SQL database service for all applications that need consistent, single-digit millisecond latency at any scale.</summary></entry></feed>
+So we just with brief introduction on the different types of databases so we got Relational databases.</summary></entry></feed>

@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>https://abcdevops.com/blog/2019/07/01/Flutter-Internationalization-with-Manual-Locale-switch.html</loc>
+<lastmod>2019-07-01T00:00:00-04:00</lastmod>
+</url>
+<url>
 <loc>https://abcdevops.com/blog/2019/06/25/what-is-cloud.html</loc>
 <lastmod>2019-06-25T00:00:00-04:00</lastmod>
 </url>
@@ -220,6 +224,27 @@
 <loc>https://abcdevops.com/tag/DevToon</loc>
 </url>
 <url>
+<loc>https://abcdevops.com/tag/flutter</loc>
+</url>
+<url>
+<loc>https://abcdevops.com/tag/localization</loc>
+</url>
+<url>
+<loc>https://abcdevops.com/tag/app-translation</loc>
+</url>
+<url>
+<loc>https://abcdevops.com/tag/internationalization</loc>
+</url>
+<url>
+<loc>https://abcdevops.com/tag/tutorial</loc>
+</url>
+<url>
+<loc>https://abcdevops.com/tag/locales</loc>
+</url>
+<url>
+<loc>https://abcdevops.com/tag/flutter_localizations</loc>
+</url>
+<url>
 <loc>https://abcdevops.com/blog/page2/</loc>
 </url>
 <url>
@@ -233,6 +258,6 @@
 </url>
 <url>
 <loc>https://abcdevops.com/dist/themes/default/assets/fonts/preview.html</loc>
-<lastmod>2019-07-01T22:57:03-04:00</lastmod>
+<lastmod>2019-07-02T04:21:53-04:00</lastmod>
 </url>
 </urlset>
