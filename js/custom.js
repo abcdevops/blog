@@ -52,7 +52,7 @@ jQuery(document).ready(function($) {
 
     }
 
-     // career page js
+     // how page js
      jQuery("a[href^='#how-form']").click(function(e) {
         e.preventDefault();
         var position = jQuery(jQuery(this).attr("href")).offset().top;
