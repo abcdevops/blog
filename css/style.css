@@ -26,6 +26,67 @@ main > header .ui.menu .item span{
 .appicon{
     display: none;
 }
+.monitoring-banner{
+    background-color: #fff;
+    height: 700px;
+    color: #fff;
+    background-image: url(../images/screen-monitoring.png);
+    position: relative;
+    background-size: cover;
+    background-position: 0 -80px;
+    display: flex;
+    align-items: center;
+}
+.monitoring-banner::after{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: "";
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.monitoring-banner .text-banner h2{
+    font-weight: 700;
+    color: #fff;
+    font-size: 40px;
+    line-height: 90px;
+}
+.features-monitoring .column.ssec {
+    border: none;
+}
+.features-monitoring i.fa {
+    font-size: 4em;
+    color: #e77b19;
+}
+.monitoring-banner .text-banner a{
+    box-shadow: 0px 0px 7px #db7010;
+}
+.monitoring-banner .text-banner h2 span{
+    color: #e77b19;
+}
+.monitoring-banner .text-banner h2 + span{
+    font-size: 32px;
+}
+.monitoring-banner .text-banner {
+    z-index: 1;
+    padding: 0;
+}
+.monitoring-banner .banner-txt > div h2{
+ box-shadow: none;
+}
+.monitoring-banner .text-banner h2 b {
+    display: inline-block;
+    position: relative;
+    top: -10px;
+}
+
+.prom-graf-sec {
+    padding: 0 40px;
+}
+.prom-graf-sec .wrap-div{
+    padding-right:40px;
+}
 .education_footer li::before {
         content: "\f101";
         display: block;
@@ -738,6 +799,15 @@ body{background-color:#e77b19}
 @media(max-width:767px) {
     .education_footer .ui.sixteen.wide {
         margin-top: 30px;
+    }
+    .monitoring-banner .text-banner h2 {
+        font-size: 20px;
+    }
+    .monitoring-banner .text-banner h2 + span {
+        font-size: 12px;
+    }
+    .monitoring-banner .text-banner a {
+        word-wrap: break-word;
     }
     .education_footer {
         padding: 30px 0 50px 0;

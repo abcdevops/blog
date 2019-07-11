@@ -52,6 +52,14 @@ jQuery(document).ready(function($) {
 
     }
 
+     // career page js
+     jQuery("a[href^='#how-form']").click(function(e) {
+        e.preventDefault();
+        var position = jQuery(jQuery(this).attr("href")).offset().top;
+        jQuery("body, html").animate({
+            scrollTop: position
+        } /* speed */ );
+    });
 
     // career page js
     jQuery("a[href^='#career-form']").click(function(e) {
