@@ -144,7 +144,7 @@ description: |
 <div class="formsec"  id="how-form">
     <div class="ui centered grid ">
         <div class="ten wide computer sixteen wide mobile column">
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe3f4Eq1LcJQarQ1snsSLna900VQY4t1lPD1KOd5BW6zQRKjQ/viewform?embedded=true"  height="1140" frameborder="0" marginheight="0" marginwidth="0" style="width:100%;">Loading...</iframe>
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe3f4Eq1LcJQarQ1snsSLna900VQY4t1lPD1KOd5BW6zQRKjQ/viewform?embedded=true"  height="1010" frameborder="0" marginheight="0" marginwidth="0" style="width:100%;">Loading...</iframe>
         </div>
     </div>
 </div>
