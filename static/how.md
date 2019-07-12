@@ -32,19 +32,19 @@ description: |
                    <i class="fa fa-flask"></i>
                     <br><br>
                     <h4> Dimensional data</h4>
-                    <p>Prometheus implements a highly dimensional data model. Time series are identified by a metric name and a set of key-value pairs.</p>
+                    <p><a href="https://prometheus.io" target="_blank">Prometheus</a> implements a highly dimensional data model. Time series are identified by a metric name and a set of key-value pairs.</p>
                 </div>
                 <div class="column ssec">
                    <i class="fa fa-line-chart"></i>
                     <br><br>
                     <h4> Great visualization</h4>
-                    <p>Prometheus has multiple modes for visualizing data: a built-in expression browser, Grafana integration, and a console template language.</p>
+                    <p><a href="https://prometheus.io" target="_blank">Prometheus</a> has multiple modes for visualizing data: a built-in expression browser, <a href="https://grafana.com" target="_blank">Grafana</a> integration, and a console template language.</p>
                 </div>
                 <div class="column ssec">
                    <i class="fa fa-database"></i>
                     <br><br>
                     <h4>  Efficient storage</h4>
-                    <p>Prometheus stores time series in memory and on local disk in an efficient custom format. Scaling is achieved by functional sharding and federation.</p>
+                    <p><a href="https://prometheus.io" target="_blank">Prometheus</a> stores time series in memory and on local disk in an efficient custom format. Scaling is achieved by functional sharding and federation.</p>
                 </div>
             </div>
             <div class="three column row  stackable">
@@ -85,7 +85,7 @@ description: |
         <div class="eight wide computer sixteen wide mobile column eight wide tablet">
             <img src="/images/grafana12.jpg" class="grafana" alt="grafana">
         </div>
-        <div class="fourteen wide computer sixteen wide mobile column eight wide tablet center aligned">
+        <div class="fourteen wide computer sixteen wide mobile column sixteen wide tablet center aligned">
           <p>We use the world’s most popular open source monitoring and troubleshooting technologies as a service on the cloud. We help you for Scalability, Availability and assured Security.</p>
         </div>  
     </div>
@@ -97,17 +97,17 @@ description: |
     <div class="ui grid middle center aligned">
         <div class="sixteen wide computer sixteen wide mobile sixteen wide tablet column">
                 <div class="wrap-div">
-                    <h2>FAQS</h2>
+                    <h2>FAQs</h2>
                 </div>
         </div>
-        <div class="sixteen wide computer sixteen wide mobile column eight wide tablet left aligned">
+        <div class="sixteen wide computer sixteen wide mobile column sixteen wide tablet left aligned">
             <div class="ui accordion styled fluid">
                 <div class="title active">
                     <i class="dropdown icon"></i>
                 What can I monitor using your service?
                 </div>
                 <div class="content active">
-                    <p class="transition visible" style="display: block !important;">Since we are using Prometheus to collect different metrics of your application. It has hundreds of open source <a href="https://prometheus.io/docs/instrumenting/exporters" target="_blank">exporters</a> which can be used to monitor your different applications. We also create custom exporter as per your application. Development cost for custom exporter is $75/Hour.</p>
+                    <p class="transition visible" style="display: block !important;">Since we are using <a href="https://prometheus.io" target="_blank">Prometheus</a> to collect different metrics of your application. It has hundreds of open source <a href="https://prometheus.io/docs/instrumenting/exporters" target="_blank">exporters</a> which can be used to monitor your different applications. We also create custom exporter as per your application. Development cost for custom exporter is $75/Hour.</p>
                 </div>
                  <div class="title">
                     <i class="dropdown icon"></i>
@@ -143,27 +143,44 @@ description: |
    </div>
 </div>
 
-<!-- <div class="prom-graf-sec modern-sec" style="background-color:#e77b19">
-   <div class="ui container ">
+
+
+<div class="prom-graf-sec modern-sec bg-white">
+   <div class="ui container inner-content-page">
     <div class="ui grid middle aligned">
-        <div class="six wide computer sixteen wide mobile sixteen wide tablet column">
-                <div class="wrap-div text-white">
-                    <h3>Modern</h3>
-                    <p>Works with your technology stack with out-of-the-box integrations with cloud, containers, incident management platforms, and more. ABCDevOps offers easy setup and built-in integrations with any data source using Prometheus and Grafana.</p>
+        <div class="nine wide computer sixteen wide mobile sixteen wide tablet column">
+                <div class="wrap-div">
+                    <h2>Modern</h2>
+                    <p>Works with your technology stack with out-of-the-box integrations with cloud, containers, incident management platforms, and more. ABCDevOps offers easy setup and built-in integrations with any data source using <a href="https://prometheus.io" target="_blank">Prometheus</a> and <a href="https://grafana.com" target="_blank">Grafana</a>.</p>
                 </div>
         </div>
-        <div class="ten wide computer sixteen wide mobile column eight wide tablet ">
+        <div class="seven wide computer sixteen wide mobile column sixteen wide tablet ">
             <div class="section_box home_box">
-               <div class="img-left hero-bkg-animated"><div class="sliding-background"></div></div>
+                <div class="img-left block-anim">
+                    <div class="parrent_img">
+                        <div class="parrent_wrapper_img">
+                            <div class="cloudwatch"> <img src="../images/azure.png" alt="azure-logo"></div>
+                            <div class="docker"> <img  src="../images/docker.png"  alt="docker-logo"></div>
+                            <div class="kubernetes"> <img  src="../images/kubernetes.png" alt="kubernetes"></div>
+                            <div class="lambda"> <img  src="../images/metricbeat-copy.png" alt="aws-logo"></div>
+                            <div class="metricbeat"> <img  src="../images/slack.png"  alt="slack_logo"></div>
+                            <div class="pd_logo_modern"> <img  src="../images/google-cloud.png"  alt="google-cloud"></div>
+                        </div>
+                        <div class="abcdevops-circle"> 
+                            <img src="../images/abcdevops-circle.png" data-lazy-type="image" data-lazy-src="" alt="ABCDevOps">
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
    </div>
-</div> -->
+</div>
+
 <div class="formsec"  id="how-form">
     <div class="ui centered grid ">
         <div class="ten wide computer sixteen wide mobile column">
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe3f4Eq1LcJQarQ1snsSLna900VQY4t1lPD1KOd5BW6zQRKjQ/viewform?embedded=true"  height="1495" frameborder="0" marginheight="0" marginwidth="0" style="width:100%;">Loading...</iframe>
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe3f4Eq1LcJQarQ1snsSLna900VQY4t1lPD1KOd5BW6zQRKjQ/viewform?embedded=true"  height="1380" frameborder="0" marginheight="0" marginwidth="0" style="width:100%;">Loading...</iframe>
         </div>
     </div>
 </div>  
