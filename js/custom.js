@@ -52,6 +52,8 @@ jQuery(document).ready(function($) {
 
     }
 
+    $('.ui.accordion').accordion();
+
      // how page js
      jQuery("a[href^='#how-form']").click(function(e) {
         e.preventDefault();
