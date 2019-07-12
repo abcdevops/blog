@@ -97,7 +97,7 @@ description: |
     <div class="ui grid middle center aligned">
         <div class="sixteen wide computer sixteen wide mobile sixteen wide tablet column">
                 <div class="wrap-div">
-                    <h2>FAQS</h2>
+                    <h2>FAQs</h2>
                 </div>
         </div>
         <div class="sixteen wide computer sixteen wide mobile column eight wide tablet left aligned">
