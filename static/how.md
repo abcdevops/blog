@@ -71,16 +71,16 @@ description: |
 <div class="prom-graf-sec bg-white">
    <div class=" inner-content-page">
     <div class="ui grid middle aligned">
-        <div class="six wide computer sixteen wide mobile column">
+        <div class="six wide computer sixteen wide mobile sixteen wide tablet column">
                 <div class="wrap-div">
                     <h3>Prometheus and Grafana</h3>
                     <p>Use the world’s most popular open source monitoring and troubleshooting technologies as a service on the cloud. Scalability, availability and security assured.</p>
                 </div>
         </div>
-        <div class="five wide computer sixteen wide mobile column">
+        <div class="five wide computer sixteen wide mobile column eight wide tablet ">
             <img src="/images/prometheus11.jpg" class="prometheus" alt="prometheus">
         </div>
-        <div class="five wide computer sixteen wide mobile column">
+        <div class="five wide computer sixteen wide mobile column eight wide tablet">
             <img src="/images/grafana11.jpg" class="grafana" alt="grafana">
         </div>
     </div>
