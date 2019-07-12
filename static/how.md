@@ -15,7 +15,7 @@ description: |
             <h2>Monitoring <b>.</b> <span>Troubleshooting</span> <b>.</b> Security</h2>
             <span>Built on Prometheus and Grafana</span>
             <div class="wrap-div" style="margin-top:40px;">
-                <a href="#how-form" class="button">Get 3 MONTHS FREE trial monitoring service</a>
+                <a href="#how-form" class="button">GET 3 MONTHS FREE TRIAL MONITORING & ALERTING SERVICE</a>
             </div>
          </div>
       </div>
@@ -69,23 +69,44 @@ description: |
 </div> 
 
 <div class="prom-graf-sec bg-white">
-   <div class=" inner-content-page">
-    <div class="ui grid middle aligned">
-        <div class="six wide computer sixteen wide mobile sixteen wide tablet column">
+   <div class="ui container inner-content-page">
+    <div class="ui grid middle center aligned">
+        <div class="sixteen wide computer sixteen wide mobile sixteen wide tablet column">
                 <div class="wrap-div">
-                    <h3>Prometheus and Grafana</h3>
-                    <p>Use the world’s most popular open source monitoring and troubleshooting technologies as a service on the cloud. Scalability, availability and security assured.</p>
+                    <h2>Prometheus and Grafana</h2>
                 </div>
         </div>
-        <div class="five wide computer sixteen wide mobile column eight wide tablet ">
+        <div class="eight wide computer sixteen wide mobile column eight wide tablet ">
             <img src="/images/prometheus11.jpg" class="prometheus" alt="prometheus">
         </div>
-        <div class="five wide computer sixteen wide mobile column eight wide tablet">
+        <div class="eight wide computer sixteen wide mobile column eight wide tablet">
             <img src="/images/grafana11.jpg" class="grafana" alt="grafana">
         </div>
+        <div class="fourteen wide computer sixteen wide mobile column eight wide tablet center aligned">
+          <p>We Use the world’s most popular open source monitoring and troubleshooting technologies as a service on the cloud. Scalability, availability and security assured.</p>
+        </div>  
     </div>
    </div>
 </div>
+
+<!-- <div class="prom-graf-sec modern-sec" style="background-color:#f8f8f8">
+   <div class="ui container inner-content-page">
+    <div class="ui grid middle aligned">
+        <div class="eight wide computer sixteen wide mobile sixteen wide tablet column">
+                <div class="wrap-div">
+                    <h3>Modern</h3>
+                    <p>Works with your technology stack with out-of-the-box integrations with cloud, containers, incident management platforms, and more.</p>
+                </div>
+        </div>
+        <div class="eight wide computer sixteen wide mobile column eight wide tablet ">
+            <div class="section_box home_box">
+               <div class="img-left"><div class="sliding-background"></div></div>
+            </div>
+        </div>
+    </div>
+   </div>
+</div> -->
+
 <!-- <section class="bg-dark inner-content-page">
 <div class="ui container">
         <div class="expanded bg-dark ui grid">
@@ -123,7 +144,7 @@ description: |
 <div class="formsec"  id="how-form">
     <div class="ui centered grid ">
         <div class="ten wide computer sixteen wide mobile column">
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfnMUoAtIRGsQnmZoqftFBhW9TOQgSFQVHWXBaRYTSnspdNtQ/viewform?embedded=true"  height="1140" frameborder="0" marginheight="0" marginwidth="0" style="width:100%;">Loading...</iframe>
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe3f4Eq1LcJQarQ1snsSLna900VQY4t1lPD1KOd5BW6zQRKjQ/viewform?embedded=true"  height="1140" frameborder="0" marginheight="0" marginwidth="0" style="width:100%;">Loading...</iframe>
         </div>
     </div>
 </div>

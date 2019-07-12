@@ -80,12 +80,94 @@ main > header .ui.menu .item span{
     position: relative;
     top: -10px;
 }
-
+.modern-sec .parrent_img {
+    width: 408px;
+    height: 395px;
+    margin-top: 70px;
+    margin-left: 40px;
+}
+.parrent_wrapper_img{
+    width: 90%;
+    height: 90%;
+    animation: circle 35s linear infinite;
+    border-radius: 50%;
+    border: 1px solid #eaeaea;
+    margin: 5%;
+}
+.cloudwatch {
+    top: 11%;
+    position: absolute;
+    left: -14%;
+    animation: inner-circle 35s linear infinite;
+}
+.docker{
+    left: 67%;
+    top: -1%;
+    animation: inner-circle 35s linear infinite;
+}
+.parrent_wrapper_img>div {
+    width: 135px;
+    position: absolute;
+}
+.kubernetes {
+    left: -6%;
+    top: 63%;
+    animation: inner-circle 35s linear infinite;
+}
+.lambda{
+    left: 79%;
+    top: 44%;
+    animation: inner-circle 35s linear infinite;
+}
+.metricbeat{
+    top: 80%;
+    left: 40%;
+    animation: inner-circle 35s linear infinite;
+}
+.pd_logo_modern {
+    left: 18%;
+    top: -16%;
+    animation: inner-circle 35s linear infinite;
+}   
+.parrent_img .logzio {
+    position: absolute;
+    top: 28%;
+    left: 24%;
+}
+.img-left{
+    height: 400px;
+}
+/* .sliding-background {
+    background: url(https://logz.io/wp-content/uploads/2018/11/second-part2-1.png) repeat-y;
+    height: 5676px;
+    width: 100%;
+    animation: slide 120s linear infinite;
+    background-size: contain;
+}
+@keyframes moveSlideshow {
+    100% { 
+      transform: translateX(-66.6666%);  
+    }
+  } */
 .prom-graf-sec {
     padding: 0 20px;
 }
-.prom-graf-sec .wrap-div{
-    padding-right:40px;
+
+.prom-graf-sec .wrap-div h2{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.prom-graf-sec .wrap-div h2::before {
+    background-color: #e77b19;
+    bottom: -20px;
+    content: '';
+    height: 4px;
+    width: 100px;
+    position: absolute;
+    border-radius: 10px;
 }
 .education_footer li::before {
         content: "\f101";
@@ -800,11 +882,23 @@ body{background-color:#e77b19}
     .education_footer .ui.sixteen.wide {
         margin-top: 30px;
     }
+    .monitoring-banner .text-banner{
+        min-width: auto;
+    }
+    .monitoring-banner .banner-txt.sixteen {
+        padding: 0!important;
+    }
     .monitoring-banner .text-banner h2 {
-        font-size: 20px;
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .monitoring-banner{
+        height: 600px;
     }
     .monitoring-banner .text-banner h2 + span {
-        font-size: 12px;
+        font-size: 20px;
+        margin-top: 20px;
+        display: inline-block;
     }
     .monitoring-banner .text-banner a {
         word-wrap: break-word;
