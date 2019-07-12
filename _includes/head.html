@@ -19,7 +19,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta itemprop="name" content="{{ page.title }}" />
-    <meta itemprop="author" content="{{ site.author.name }}" />
+    <meta itemprop="author" content="{{  page.author.name | default: site.author.name }}" />
     <meta itemprop="breadcrumb" content="{{ site.url }}" />
     <meta name="description" content="{{description}}" />
     {% if page.keywords %}
@@ -47,7 +47,7 @@
     <meta property="og:description" content="{{ description }}"/>
     <meta property="og:type" content="article" />
     <meta property="og:locale" content="en_US" />
-    <meta property="article:author" content="{{ site.author.name }}" />
+    <meta property="article:author" content="{{  page.author.name | default: site.author.name }}" />
     
     {% if page.og_image %}
     <meta property="og:image" content="{{ site.url }}{{ page.og_image }}" />

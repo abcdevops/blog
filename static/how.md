@@ -1,7 +1,7 @@
 ---
 layout: simple1 
 date: 2017-10-10 10:30:33 +0530
-title: "ABCDevOps: Monitoring with Prometheus and Grafana"
+title: "ABCDevOps: Free 3 months monitoring with Prometheus and Grafana"
 id: how
 permalink: how.html
 og_image: /images/screen-monitoring.png
@@ -17,9 +17,6 @@ description: |
             <div class="wrap-div" style="margin-top:40px;">
                 <a href="#how-form" class="button">GET 3 MONTHS FREE TRIAL MONITORING & ALERTING SERVICE</a>
             </div>
-             <!-- <div class="wrap-div" style="margin-top:10px;">
-                <a href="#faqs" class="button">Faqs</a>
-            </div> -->
          </div>
       </div>
    </div>
@@ -125,17 +122,17 @@ description: |
                 </div>
                  <div class="title">
                     <i class="dropdown icon"></i>
-                What after 3 Months free service?
+                  What after 3 Months free service?
                 </div>
                 <div class="content">
-                    <p class="transition visible" style="display: block !important;">Our pricing structure is simple and predictable. We will charge you $50/month/server monitoring. If you have 3 services running on same server like (Nginx, MySQL, NodeJS). you will be charged $50 for all of these monitoring services.</p>
+                    <p class="transition visible" style="display: block !important;">Our pricing structure is simple and predictable. We will charge $50/month/server for monitoring and alerting. If you have 3 services running on same server like (Nginx, MySQL, NodeJS), you will be charged $50 for all 3 of your services to be monitored.</p>
                 </div>
                  <div class="title">
                     <i class="dropdown icon"></i>
                 Is there anything I need to install on my servers?
                 </div>
                 <div class="content">
-                    <p class="transition visible" style="display: block !important;">Yes, you will need to install exporters which metrics you want to monitor. Our expert will set up these requirements for you. If you have your own DevOps team, then we will work with them to get them enabled on your services.</p>
+                    <p class="transition visible" style="display: block !important;">Yes, you will need to install exporters according to the metrics you want to monitor. Our solution architect will work with you or your DevOps team to enable the monitoring and alerting service.</p>
                 </div>
             </div>
         </div>
