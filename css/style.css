@@ -20,11 +20,108 @@ main > header .ui.menu .item span{
     animation-duration: 1s;
     padding: 10px 0;
 }
+
+
 /* #home header.min-header + .hiring a img {
     max-width: 117px;
 } */
 .appicon{
     display: none;
+}
+.monitoring-banner{
+    background-color: #fff;
+    height: 700px;
+    color: #fff;
+    background-image: url(../images/screen-monitoring.png);
+    position: relative;
+    background-size: cover;
+    background-position: 0 -80px;
+    display: flex;
+    align-items: center;
+}
+.monitoring-banner::after{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: "";
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.monitoring-banner .text-banner h2{
+    font-weight: 700;
+    color: #fff;
+    font-size: 40px;
+    line-height: 90px;
+}
+.features-monitoring .column.ssec {
+    border: none;
+}
+.features-monitoring i.fa {
+    font-size: 4em;
+    color: #e77b19;
+}
+.monitoring-banner .text-banner .wrap-div a{
+    box-shadow: 0px 0px 7px #db7010;
+}
+.monitoring-banner .text-banner h2 span{
+    color: #e77b19;
+}
+.monitoring-banner .text-banner h2 + span{
+    font-size: 32px;
+}
+.monitoring-banner .text-banner {
+    z-index: 1;
+    padding: 0;
+}
+.monitoring-banner .banner-txt > div h2{
+ box-shadow: none;
+}
+.monitoring-banner .text-banner h2 b {
+    display: inline-block;
+    position: relative;
+    top: -10px;
+}
+
+  .hero-bkg-animated {
+    background: #e77b19 url('../images/modern-sec.png') repeat-y; 
+    width: 100%;
+    margin: -16px 0;
+    text-align: center;
+    height: 400px;
+    padding-top: 120px;
+    box-sizing: border-box;
+    -webkit-animation: slide 20s linear infinite;
+  }
+  
+  .hero-bkg-animated h1 {
+    font-family: sans-serif;
+  }
+  
+  @-webkit-keyframes slide {
+      from { background-position: top bottom; }
+      to { background-position: 0px -640px; }
+  }
+
+.prom-graf-sec {
+    padding: 0 20px;
+}
+
+.prom-graf-sec .wrap-div h2{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.prom-graf-sec .wrap-div h2::before {
+    background-color: #e77b19;
+    bottom: -20px;
+    content: '';
+    height: 4px;
+    width: 100px;
+    position: absolute;
+    border-radius: 10px;
 }
 .education_footer li::before {
         content: "\f101";
@@ -738,6 +835,27 @@ body{background-color:#e77b19}
 @media(max-width:767px) {
     .education_footer .ui.sixteen.wide {
         margin-top: 30px;
+    }
+    .monitoring-banner .text-banner{
+        min-width: auto;
+    }
+    .monitoring-banner .banner-txt.sixteen {
+        padding: 0!important;
+    }
+    .monitoring-banner .text-banner h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .monitoring-banner{
+        height: 600px;
+    }
+    .monitoring-banner .text-banner h2 + span {
+        font-size: 20px;
+        margin-top: 20px;
+        display: inline-block;
+    }
+    .monitoring-banner .text-banner a {
+        word-wrap: break-word;
     }
     .education_footer {
         padding: 30px 0 50px 0;
