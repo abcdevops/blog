@@ -24,6 +24,9 @@ main > header .ui.menu .item span{
 .appicon{
     display: none;
 }
+.accordion.styled .content{
+    padding-left: 2.63em!important;
+}
 .monitoring-banner{
     background-color: #fff;
     height: 700px;
@@ -903,6 +906,9 @@ body{background-color:#e77b19}
 @media(max-width:767px) {
     .education_footer .ui.sixteen.wide {
         margin-top: 30px;
+    }
+    .accordion.styled .content{
+        padding-left: 1em!important;
     }
     .section_box.home_box {
         display: none;
