@@ -111,6 +111,13 @@ description: |
                         4. We retain your metrics data for 15 days.
                     </p>
                 </div>
+                <div class="title">
+                    <i class="dropdown icon"></i>
+                   What can I monitor using your service?
+                </div>
+                <div class="content">
+                    <p class="transition visible" style="display: block !important;">We are using Prometheus to collect different metrics of your application. Grafana is helping to present these collected metrics. Prometheus has hundreds of open source exporters which can be used to monitor different component of your application. We also provide help to instrument insights of your application. Cost for custom solution is $75/hour.</p>
+                </div>
                  <div class="title">
                     <i class="dropdown icon"></i>
                     How long is the trial period?
