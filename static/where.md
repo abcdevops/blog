@@ -40,8 +40,12 @@ description: |
                                     <a href="mailto:rudy.rupak@abcdevops.com" class="no-margin-bt" style="color: #000;"><i class="envelope outline icon"></i>puneet.sethi@abcdevops.com</a>
                                     <p> <i class="mobile alternate icon"></i>+1 (415) 629-6106</p>
                 </div>
+                <div class="contact-row slack-channel">
+                     <i class="fa fa-slack"></i><h4>Our Slack Channel </h4>
+                     <a href="https://abcdops.slack.com/" target="_blank">https://abcdops.slack.com/</a>
+                </div>
                   <div class="sixteen wide computer column sixteen wide mobile columns">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3301.6006153651456!2d-118.64585688453185!3d34.156558619672516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c29e6954a9d5e1%3A0x40d64cb3bdae3844!2s23679+Calabasas+Rd+%23150%2C+Calabasas%2C+CA+91302%2C+USA!5e0!3m2!1sen!2sin!4v1458558944284" style="width: 100%; height: 375px;" frameborder="0"></iframe>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3301.6006153651456!2d-118.64585688453185!3d34.156558619672516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c29e6954a9d5e1%3A0x40d64cb3bdae3844!2s23679+Calabasas+Rd+%23150%2C+Calabasas%2C+CA+91302%2C+USA!5e0!3m2!1sen!2sin!4v1458558944284" style="width: 100%; height: 325px;" frameborder="0"></iframe>
                         </div>
             </div>
         </div>

@@ -101,38 +101,50 @@ description: |
             <div class="ui accordion styled fluid">
                 <div class="title active">
                     <i class="dropdown icon"></i>
-                What can I monitor using your service?
+                Why should I pay for your solution, I can setup my own Prometheus and Grafana?
                 </div>
                 <div class="content active">
-                    <p class="transition visible" style="display: block !important;">Since we are using <a href="https://prometheus.io" target="_blank">Prometheus</a> to collect different metrics of your application. It has hundreds of open source <a href="https://prometheus.io/docs/instrumenting/exporters" target="_blank">exporters</a> which can be used to monitor your different applications. We also create custom exporter as per your application. Development cost for custom exporter is $75/Hour.</p>
+                    <p class="transition visible" style="display: block !important;">
+                        1. We will provide hosting for your Prometheus and Grafana setup. You only need to have different exporters installed on your applications to be monitored.<br>
+                        2. We will provide you 30 min solution if anything misbehaves on your machines.<br>
+                        3. We will get you in touch with our Solution Architect who will help you to fine tune your infrastructure.<br>
+                        4. We retain your metrics data for 15 days.
+                    </p>
                 </div>
                  <div class="title">
                     <i class="dropdown icon"></i>
-                How to proceed with ABCDevOps monitoring and alerting service?
+                    How long is the trial period?
                 </div>
                 <div class="content">
-                    <p class="transition visible" style="display: block !important;">First you will register your self to avail 3 months free service. If you are satisfied, you can extend our service with simple and predictable pricing $50/month/server to keep your service activated.</p>
+                    <p class="transition visible" style="display: block !important;">The trial period is 3 months after activating your account. We will host your metrics on our resources.</p>
                 </div>
                  <div class="title">
                     <i class="dropdown icon"></i>
-                What will I get if I decide to use ABCDevOps as our monitoring service provider?
+                How does ABCDevOPs pricing model work?
                 </div>
                 <div class="content">
-                    <p class="transition visible" style="display: block !important;">Apart from monitoring and alerting service we will get you in touch with our expert Solution Architect who can help you to decide your infrastructure planning. If there is any problem with your infrastructure our expert will get back to you in 30 mins once you notified. If your problem takes more then 30 mins to solve, you will be charged $75/Hour.</p>
+                    <p class="transition visible" style="display: block !important;">Contrary to other competing products, our pricing model is quite simple. We charge $50/month/server. default retention period is 15 days.</p>
                 </div>
                  <div class="title">
                     <i class="dropdown icon"></i>
-                  What after 3 Months free service?
+                Do you charge for data storage?
                 </div>
                 <div class="content">
-                    <p class="transition visible" style="display: block !important;">Our pricing structure is simple and predictable. We will charge $50/month/server for monitoring and alerting. If you have 3 services running on same server like (Nginx, MySQL, NodeJS), you will be charged $50 for all 3 of your services to be monitored.</p>
+                    <p class="transition visible" style="display: block !important;">No, We don’t charge anything extra for data storage.</p>
                 </div>
                  <div class="title">
                     <i class="dropdown icon"></i>
-                Is there anything I need to install on my servers?
+                Do you provide custom support?
                 </div>
                 <div class="content">
-                    <p class="transition visible" style="display: block !important;">Yes, you will need to install exporters according to the metrics you want to monitor. Our solution architect will work with you or your DevOps team to enable the monitoring and alerting service.</p>
+                    <p class="transition visible" style="display: block !important;">Yes, we do. You can contact us via email <a href="mailto:support@abcdevops.com" data-action="call" class="">support@abcdevops.com</a>. We reply within 1h for support inquiries. We also have slack channel. Sign up at <a href="https://abcdops.slack.com" target="_blank">https://abcdops.slack.com</a></p>
+                </div>
+                 <div class="title">
+                    <i class="dropdown icon"></i>
+                Can I increase retention period of my data?
+                </div>
+                <div class="content">
+                    <p class="transition visible" style="display: block !important;">Yes, Be in touch with us to discuss this further. We can be reached at <a href="mailto:support@abcdevops.com" data-action="call" class="">support@abcdevops.com</a></p>
                 </div>
             </div>
         </div>
