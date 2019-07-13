@@ -1,7 +1,7 @@
 ---
 layout: simple1 
 date: 2017-10-10 10:30:33 +0530
-title: "Free 3 months monitoring and alerting on Prometheus and Grafana"
+title: "Free 3 months monitoring and alerting on hosted Prometheus and Grafana"
 id: how
 permalink: how.html
 og_image: /images/screen-monitoring.png
