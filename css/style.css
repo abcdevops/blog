@@ -24,6 +24,9 @@ main > header .ui.menu .item span{
 .appicon{
     display: none;
 }
+.accordion.styled .content{
+    padding-left: 2.67em!important;
+}
 .monitoring-banner{
     background-color: #fff;
     height: 700px;
@@ -78,7 +81,18 @@ main > header .ui.menu .item span{
     position: relative;
     top: -10px;
 }
-
+.slack-channel i {
+    color: #e77b19;
+    font-size: 20px;
+}
+.slack-channel h4 {
+    line-height: 20px;
+    padding-left: 5px;
+    display: inline-block;
+}
+.slack-channel a{
+    display: block;
+}
 /* circle graph css */
 .parrent_img {
     margin-top: 60px;
@@ -327,6 +341,7 @@ header + .hiring a img {
 #why .pagination > a {
     border-radius: 2px;
     padding:  0 10px;
+    margin-top: 10px;
 }
 #why .pagination > span {
     display: none;
@@ -903,6 +918,12 @@ body{background-color:#e77b19}
 @media(max-width:767px) {
     .education_footer .ui.sixteen.wide {
         margin-top: 30px;
+    }
+    .blog-list{
+        overflow: hidden;
+    }
+    .accordion.styled .content{
+        padding-left: 1em!important;
     }
     .section_box.home_box {
         display: none;
