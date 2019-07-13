@@ -82,12 +82,10 @@ main > header .ui.menu .item span{
     top: -10px;
 }
 .slack-channel i {
-    color: #e77b19;
-    font-size: 20px;
+    font-size: 15px;
 }
 .slack-channel h4 {
     line-height: 20px;
-    padding-left: 5px;
     display: inline-block;
 }
 .slack-channel a{
