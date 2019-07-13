@@ -1,12 +1,12 @@
 ---
 layout: simple1 
 date: 2017-10-10 10:30:33 +0530
-title: "ABCDevOps: Monitoring with Prometheus and Grafana"
+title: "Free 3 months monitoring and alerting on Prometheus and Grafana"
 id: how
 permalink: how.html
 og_image: /images/screen-monitoring.png
 description: |
-  Free 24/7 remote monitoring & alerting service for First 3 months. Monitor web services, micro services, containers, databases by using industry de-facto tools like Prometheus and Grafana.
+  Free 24/7 remote monitoring & alerting service for First 3 months. Monitor web services, micro services, containers, databases on our hosted Prometheus and Grafana. 15 days Retention period.
 ---
 <div class="monitoring-banner">
    <div class="ui grid container center aligned">
@@ -17,9 +17,6 @@ description: |
             <div class="wrap-div" style="margin-top:40px;">
                 <a href="#how-form" class="button">GET 3 MONTHS FREE TRIAL MONITORING & ALERTING SERVICE</a>
             </div>
-             <!-- <div class="wrap-div" style="margin-top:10px;">
-                <a href="#faqs" class="button">Faqs</a>
-            </div> -->
          </div>
       </div>
    </div>
