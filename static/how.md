@@ -121,7 +121,7 @@ description: |
             <div class="pricing-item">
                 <div class="pricing-head">
                     <h1>$75 / hour</h1>
-                    <h1><a href="#how-form">Custom Devops</a></h1>
+                    <h1>Custom Devops</h1>
                 </div>
                 <div style="margin-bottom: 20px; border-bottom: 1px solid #fff;"></div>
                 <div class="pricing-description">
