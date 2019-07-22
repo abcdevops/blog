@@ -94,6 +94,7 @@ main > header .ui.menu .item span{
 .pricing-head h1 {
     font-size: 2em;
     font-weight: bold;
+    color: #f08422;
 }
 .reservation-btn a.button {
     border: 2px solid #3c3c3b;
@@ -149,11 +150,19 @@ main > header .ui.menu .item span{
     margin-top: -20px;
 }
 .pricing-head h1 a {
-    color: #1a73e8;
+    border-bottom: 1px solid #f08422;
 }
 .pricing-head h1:nth-child(1) {
     font-size: 1.3em;
     font-weight: normal;
+    color: #fff;
+}
+.pricing-head h1 a:hover {
+    color: #f08422;
+    border-bottom: 1px solid #fff;
+}
+.pricing-item h1:nth-child(2) {
+    border-bottom: 2px solid #232323;
 }
 .slack-channel i {
     font-size: 15px;
