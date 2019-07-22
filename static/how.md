@@ -89,7 +89,60 @@ description: |
    </div>
 </div>
 
-<div class="prom-graf-sec" style="background-color:#f8f8f8">
+<div class="prom-graf-sec tariff" style="background-color:#f8f8f8">
+   <div class="ui container inner-content-page">
+    <div class="ui grid middle center aligned">
+        <div class="sixteen wide computer sixteen wide mobile sixteen wide tablet column">
+                <div class="wrap-div">
+                    <h2>PRICING</h2>
+                </div>
+        </div>
+        <div class="eight wide computer sixteen wide mobile column eight wide tablet ">
+            <div class="pricing-item">
+                <div class="pricing-head">
+                    <h1>$50 / server / month</h1>
+                    <h1><a href="#how-form">FREE 90 Days Trial</a></h1>
+                </div>
+                <div style="margin-bottom: 20px; border-bottom: 1px solid #fff;"></div>
+                <div class="pricing-description">
+                    <h2><i class="fa fa-check-circle"></i>Hosted <a href="https://prometheus.io" target="_blank">Prometheus</a> and <a href="https://grafana.com" target="_blank">Grafana</a></h2>
+                    <h2><i class="fa fa-check-circle"></i>15 min SLA</h2>
+                    <h2><i class="fa fa-check-circle"></i>Solution Architect access</h2>
+                    <h2><i class="fa fa-check-circle"></i>Fine tune infrastructure </h2>
+                    <h2><i class="fa fa-check-circle"></i>15 days retention of data</h2>
+                    <h2><i class="fa fa-check-circle"></i>Monitoring & Alerting</h2>
+                </div>
+                <div class="reservation-btn">
+                    <a href="where.html" class="button"><span>contact us</span></a>
+                </div>
+            </div>
+        </div> 
+         <div class="eight wide computer sixteen wide mobile column eight wide tablet ">
+            <div class="pricing-item">
+                <div class="pricing-head">
+                    <h1>$75 / hour</h1>
+                    <h1><a href="#how-form">Custom Devops</a></h1>
+                </div>
+                <div style="margin-bottom: 20px; border-bottom: 1px solid #fff;"></div>
+                <div class="pricing-description">
+                    <h2><i class="fa fa-check-circle"></i>Custom pipeline</h2>
+                    <h2><i class="fa fa-check-circle"></i>Autoscaling implementation </h2>
+                    <h2><i class="fa fa-check-circle"></i>Git flow implementation</h2>
+                    <h2><i class="fa fa-check-circle"></i>Training to your team</h2>
+                    <h2><i class="fa fa-check-circle"></i>Application instrumentation</h2>
+                    <h2><i class="fa fa-check-circle"></i>Application provisioning (Chef, Ansible, Capistrano)</h2>
+                    <h2><i class="fa fa-check-circle"></i>Infrastructure provisioning (Terraform)</h2>
+                </div>
+                <div class="reservation-btn">
+                    <a href="where.html" class="button"><span>Contact us</span></a>
+                </div>
+            </div>
+        </div> 
+    </div>
+   </div>
+</div>
+
+<div class="prom-graf-sec bg-white">
    <div class="ui container inner-content-page">
     <div class="ui grid middle center aligned">
         <div class="sixteen wide computer sixteen wide mobile sixteen wide tablet column">
@@ -97,7 +150,7 @@ description: |
                     <h2>FAQs</h2>
                 </div>
         </div>
-        <div class="sixteen wide computer sixteen wide mobile column sixteen wide tablet left aligned">
+        <div class="sixteen wide computer sixteen wide mobile column sixteen wide tablet left aligned" style="margin-top:10px;">
             <div class="ui accordion styled fluid">
                 <div class="title active">
                     <i class="dropdown icon"></i>
@@ -106,7 +159,7 @@ description: |
                 <div class="content active">
                     <p class="transition visible" style="display: block !important;">
                         1. We will provide hosting for your Prometheus and Grafana setup. You only need to have different exporters installed on your applications to be monitored.<br>
-                        2. We will provide you 30 min solution if anything misbehaves on your machines.<br>
+                        2. We will provide you 15 min SLA if anything misbehaves on your machines.<br>
                         3. We will get you in touch with our Solution Architect who will help you to fine tune your infrastructure.<br>
                         4. We retain your metrics data for 15 days.
                     </p>
@@ -161,7 +214,7 @@ description: |
 
 
 
-<div class="prom-graf-sec modern-sec bg-white">
+<div class="prom-graf-sec modern-sec" style="background-color:#f8f8f8">
    <div class="ui container inner-content-page">
     <div class="ui grid middle aligned">
         <div class="nine wide computer sixteen wide mobile sixteen wide tablet column">

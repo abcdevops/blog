@@ -66,6 +66,9 @@ main > header .ui.menu .item span{
 .monitoring-banner .text-banner h2 span{
     color: #e77b19;
 }
+.monitoring-banner .banner-txt {
+    padding-top: 0px!important;
+}
 .monitoring-banner .text-banner h2 + span{
     font-size: 32px;
 }
@@ -80,6 +83,77 @@ main > header .ui.menu .item span{
     display: inline-block;
     position: relative;
     top: -10px;
+}
+.tariff .pricing-head {
+    color: #fff;
+    overflow: hidden;
+    padding: 30px 0;
+    text-transform: uppercase;
+}
+
+.pricing-head h1 {
+    font-size: 2em;
+    font-weight: bold;
+}
+.reservation-btn a.button {
+    border: 2px solid #3c3c3b;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.reservation-btn a.button:hover {
+    color: #3c3c3b!important;
+    background: #fff;
+}
+.tariff .pricing-description {
+    margin: 10px 20px 0px;
+    font-size: 0.778em;
+    line-height: 1.667em;
+}
+.pricing-description h2 i.fa {
+    position: absolute;
+    left: 0;
+    color: #32ce81;
+}
+.tariff .pricing-description h2 {
+    padding: 10px 0 6px;
+    color: #fff;
+    position: relative;
+    text-align: left;
+    padding-left: 25px;
+    font-size: 20px;
+    border-bottom:1px solid #2f2e2e;
+}
+.tariff .reservation-btn {
+    margin-top: 20px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 20px;
+}
+.tariff .pricing-item {
+    background: #232323;
+    text-align: center;
+    padding: 0px 50px 50px 50px;
+    margin: 10px 0 50px 0;
+    transition: all 0.3s linear 0s;
+    position: relative;
+    height: 100%;
+    border-top: 5px solid #f99500;
+    box-shadow: 0px 0px 5px #888;
+    border-radius: 4px;
+}
+.tariff .inner-content-page {
+    padding-bottom: 80px;
+}
+.prom-graf-sec img {
+    margin-top: -20px;
+}
+.pricing-head h1 a {
+    color: #1a73e8;
+}
+.pricing-head h1:nth-child(1) {
+    font-size: 1.3em;
+    font-weight: normal;
 }
 .slack-channel i {
     font-size: 15px;
@@ -831,6 +905,17 @@ body{background-color:#e77b19}
         width: 100%!important;
         text-align: left;
     }
+    .pricing-head h1 {
+        font-size: 1.7em;
+    }
+
+    .tariff .pricing-item {
+        margin-top: 20px !important;
+        padding: 0px 0 50px 20px;
+    }
+    .tariff .inner-content-page {
+        padding-bottom: 60px;
+    }
     .modern-sec h2{
         display: flex!important;
     }
@@ -916,6 +1001,21 @@ body{background-color:#e77b19}
 @media(max-width:767px) {
     .education_footer .ui.sixteen.wide {
         margin-top: 30px;
+    }
+    .pricing-head h1:nth-child(1) {
+        font-size: 1em;
+    }
+    .tariff .pricing-item {
+        padding: 0px 0px 50px 0px;
+    }
+    .pricing-head h1 {
+        font-size: 1.3em;
+    }
+    .tariff .pricing-description {
+        margin: 0px 10px 0px;
+    }
+    .tariff .pricing-description h2{
+        font-size: 15px;
     }
     .blog-list{
         overflow: hidden;
