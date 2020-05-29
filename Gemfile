@@ -4,7 +4,7 @@
 source 'https://rubygems.org'
 ruby '2.3.1'
 
-gem 'rake', '12.3.2'
+gem 'rake', '12.3.3'
 gem 'jekyll', '3.1.6'
 gem 'sass', '3.4.22'
 gem 'jekyll-feed', '0.6.0'
