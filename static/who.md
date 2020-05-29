@@ -28,7 +28,7 @@ description: |
      <div class="featured-header-main">
         <h2 style="color:#000;">Get To Know Us</h2>
         <div class="ui grid">
-           <div class="one column row stackable">
+           <div class="two column row stackable">
               <!--<div class="column text-center">
                     <div class="circle">
                         <img src="images/tarun-jangra.png" class="ui image" alt="image">
@@ -41,15 +41,15 @@ description: |
                         <img src="images/puneet-sethi.png" class="ui image" alt="image">
                     </div>
                     <h3>Puneet Sethi</h3>
-                    <h6>Co-Founder & CEO</h6>
+                    <h6>Founder & CEO</h6>
               </div>
-              <!-- <div class="column text-center">
+              <div class="column text-center">
                     <div class="circle">
-                        <img src="images/rudy-rupak.png" class="ui image" alt="image">
+                        <img src="images/kuldeep-spall.jpg" class="ui image" alt="image">
                     </div>
-                    <h3>Rudy Rupak</h3>
+                    <h3>Kuldeep Spall</h3>
                     <h6>Chief Operating Officer</h6>
-              </div> -->
+              </div>
            </div>
         </div>
      </div>
