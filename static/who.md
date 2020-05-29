@@ -28,7 +28,7 @@ description: |
      <div class="featured-header-main">
         <h2 style="color:#000;">Get To Know Us</h2>
         <div class="ui grid">
-           <div class="two column row stackable">
+           <div class="one column row stackable">
               <!--<div class="column text-center">
                     <div class="circle">
                         <img src="images/tarun-jangra.png" class="ui image" alt="image">
