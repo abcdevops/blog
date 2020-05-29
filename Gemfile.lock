@@ -71,6 +71,9 @@ GEM
       addressable (~> 2.4.0)
     jekyll-watch (1.2.1)
       listen (~> 2.7)
+    jgd (1.6.5)
+      jekyll (>= 1.5.1)
+      trollop (= 2.1.2)
     jslint (1.2.0)
       json
     json (1.8.6)
@@ -169,6 +172,7 @@ DEPENDENCIES
   jekyll-sass (= 1.2.2)
   jekyll-sass-converter (= 1.5.2)
   jekyll-sitemap (= 0.11.0)
+  jgd (= 1.6.5)
   jslint
   mail (= 2.6.4)
   nokogiri (= 1.8.5)
