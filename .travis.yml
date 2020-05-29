@@ -38,7 +38,7 @@ install:
   - travis_retry sudo _travis/install_plantuml.sh
   - travis_retry sudo _travis/install_sfnt2woff.sh
   - travis_retry sudo _travis/install_tidy.sh
-  - bundle
+  - bundle install
 script:
   - set -e
 #  - bundle exec rake
