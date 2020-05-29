@@ -20,9 +20,9 @@ description: |
                 <div class="contact-row">
                     <img class="ui image logo" src="/images/logo-abc-home.png" alt="abcdevops" style="max-width: 200px; margin-bottom: 10px;">
                     <span style="width: 20px;display: inline-block;vertical-align: top;"> <i class="map marker alternate icon"></i></span>
-                    <span style="width: calc(100% - 26px);display: inline-block;" class="no-margin-bt" ><b>Sales & Marketing:</b> 23679 Calabasas Rd #150, Calabasas, 91302  California, United States</span><br/>
-                    <span style="width: calc(100% - 26px);display: inline-block;" class="no-margin-bt" ><b>Development:</b> 6596, Hargobind Marg, Near Sanjeevani Hospital, Ludhiana, 141008</span><br/>
-                                    <a href="mailto:market@abcdevops.com" class="no-margin-bt" style="color: #000;"><i class="envelope outline icon"></i>marketing@abcdevops.com</a>
+                    <span style="width: calc(100% - 26px);display: inline-block;" class="no-margin-bt" ><b>Sales & Marketing:</b> 23679 Calabasas Rd #150, Calabasas, 91302  California, United States</span><br />
+                    <a href="mailto:market@abcdevops.com" class="no-margin-bt" style="color: #000;"><i class="envelope outline icon"></i>marketing@abcdevops.com</a><br />
+                    <span style="width: calc(100% - 26px);display: inline-block;" class="no-margin-bt" ><b>Development:</b> 6596, Hargobind Marg, Near Sanjeevani Hospital, Ludhiana, 141008</span>               
                 </div>                
                 <!-- Contact rows -->
                 <div class="contact-row">
