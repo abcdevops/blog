@@ -45,6 +45,6 @@ install:
   - gnuplot --version
 script:
   - set -e
-  - bundle exec rake
+#  - bundle exec rake
   - export JEKYLL_ENV=production
   - bundle exec jgd -u git@github.com:abcdevops/blog.git --bundle
