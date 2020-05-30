@@ -19,8 +19,26 @@ main > header .ui.menu .item span{
     animation-name: min-menu;
     animation-duration: 1s;
 }
-
-
+.formsec iframe {margin-top: -11px;}
+.form-bg{
+    position: relative;
+}
+.how-form::after{
+    max-width: 670px;    
+    margin: 0 auto;
+}
+.form-bg::after{
+    position: absolute;
+    content: "";
+    background: #fff;
+    left: 33px;
+    border-top: 10px solid rgb(255, 152, 0);
+    top: 17px;
+    bottom: 27px;
+    z-index: -1;
+    right: 33px;
+    border-radius: 10px;
+}
 .appicon{
     display: none;
 }
@@ -1010,6 +1028,9 @@ body{background-color:#e77b19}
 @media(max-width:767px) {
     .education_footer .ui.sixteen.wide {
         margin-top: 30px;
+    }
+    .form-bg::after{
+        display: none;
     }
     .pricing-head h1:nth-child(1) {
         font-size: 1em;

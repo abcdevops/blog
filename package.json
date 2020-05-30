@@ -5,6 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "cssshrink": "0.0.5",
+    "gulp": "^3.9.1",
     "semantic-ui": "^2.2.13"
   },
   "scripts": {
