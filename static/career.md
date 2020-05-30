@@ -108,7 +108,7 @@ description: We are Hiring
 </div>
 <div class="formsec" id="career-form">
     <div class="ui centered grid ">
-        <div class="ten wide computer sixteen wide mobile column center aligned form-bg how-form">
+        <div class="ten wide computer sixteen wide mobile column center aligned form-bg career-form">
             <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe4UWC7cqpvylV56j4U-_slXyJuzjoYRCm2viR8U6r2XC5vNw/viewform?embedded=true" height="1437" frameborder="0" marginheight="0" marginwidth="0" style="width:100%; max-width:700px;">Loading...</iframe>
         </div>
     </div>

@@ -27,6 +27,10 @@ main > header .ui.menu .item span{
     max-width: 670px;    
     margin: 0 auto;
 }
+.career-form::after{
+    max-width: 670px;
+    margin: 0 auto;
+}
 .form-bg::after{
     position: absolute;
     content: "";
@@ -926,6 +930,13 @@ body{background-color:#e77b19}
     }
     .blog-list-box .top-title{padding:2px 0 0}  
 }
+@media(min-width:992px) and (max-width:1141px) {
+    .ui.centered .form-bg.how-form iframe {
+        height: 1476px!important;
+    }
+}
+
+
 @media(max-width:990px) {
     main > header .ui.menu .item{background-image:none!important; font-size: 16px;}
     .ui.stackable.menu .item {

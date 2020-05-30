@@ -12,7 +12,7 @@ description: |
 
 <div class="formsec">
     <div class="ui container grid m-0">
-        <div class="eight wide computer sixteen wide mobile column form-bg">
+        <div class="eight wide computer sixteen wide mobile column form-bg ">
             <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfHn6yZc9JXlc5J-MtQT6USDPfhCZgpSzLSwydPNdcbcWLjBQ/viewform?embedded=true" width="640" height="880" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
         </div>
         <div class="eight wide computer sixteen wide mobile column">
