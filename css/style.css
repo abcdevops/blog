@@ -19,8 +19,30 @@ main > header .ui.menu .item span{
     animation-name: min-menu;
     animation-duration: 1s;
 }
-
-
+.formsec iframe {margin-top: -11px;}
+.form-bg{
+    position: relative;
+}
+.how-form::after{
+    max-width: 670px;    
+    margin: 0 auto;
+}
+.career-form::after{
+    max-width: 670px;
+    margin: 0 auto;
+}
+.form-bg::after{
+    position: absolute;
+    content: "";
+    background: #fff;
+    left: 33px;
+    border-top: 10px solid rgb(255, 152, 0);
+    top: 17px;
+    bottom: 27px;
+    z-index: -1;
+    right: 33px;
+    border-radius: 10px;
+}
 .appicon{
     display: none;
 }
@@ -908,6 +930,13 @@ body{background-color:#e77b19}
     }
     .blog-list-box .top-title{padding:2px 0 0}  
 }
+@media(min-width:992px) and (max-width:1141px) {
+    .ui.centered .form-bg.how-form iframe {
+        height: 1476px!important;
+    }
+}
+
+
 @media(max-width:990px) {
     main > header .ui.menu .item{background-image:none!important; font-size: 16px;}
     .ui.stackable.menu .item {
@@ -1010,6 +1039,9 @@ body{background-color:#e77b19}
 @media(max-width:767px) {
     .education_footer .ui.sixteen.wide {
         margin-top: 30px;
+    }
+    .form-bg::after{
+        display: none;
     }
     .pricing-head h1:nth-child(1) {
         font-size: 1em;

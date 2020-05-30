@@ -29,19 +29,12 @@ description: |
         <h2 style="color:#000;">Get To Know Us</h2>
         <div class="ui grid">
            <div class="two column row stackable">
-              <!--<div class="column text-center">
-                    <div class="circle">
-                        <img src="images/tarun-jangra.png" class="ui image" alt="image">
-                    </div>
-                    <h3>Tarun Jangra</h3>
-                    <h6>Co-Founder & CTO</h6>
-              </div>-->
               <div class="column text-center">
                     <div class="circle">
                         <img src="images/puneet-sethi.png" class="ui image" alt="image">
                     </div>
                     <h3>Puneet Sethi</h3>
-                    <h6>Founder & CEO</h6>
+                    <h6>Chief Executive Officer</h6>
               </div>
               <div class="column text-center">
                     <div class="circle">
