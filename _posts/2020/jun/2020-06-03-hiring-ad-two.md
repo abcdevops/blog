@@ -7,11 +7,11 @@ height: 940
 width: 662
 og_image: /images/posts/banner2.png
 description: |
-  Elligibility: MCA, BCA, B.Tech (Computer Science)
+  Eligibility: MCA, BCA, B.Tech (Computer Science)
 tags:
 - Hiring
 - Freshers
-- Backend
+- Back-End
 - Frontend
 - Developer
 - Designer
