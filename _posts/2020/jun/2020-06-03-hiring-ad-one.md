@@ -1,6 +1,6 @@
 ---
 layout: image
-title: We are Hiring Freshers
+title: Back-End Developers Needed
 date: 2020-06-03
 image_type: image/jpg
 height: 940
@@ -12,9 +12,9 @@ tags:
 - Hiring
 - Freshers
 - Back-End
-- Frontend
-- Developer
-- Designer
+- PHP
+- Node JS
+- Python
 ---
 
 
