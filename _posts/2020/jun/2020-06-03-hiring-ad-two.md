@@ -1,6 +1,6 @@
 ---
 layout: image
-title: We are Hiring Freshers
+title: Frontend Engineers Wanted!
 date: 2020-06-03
 image_type: image/png
 height: 940
@@ -11,10 +11,12 @@ description: |
 tags:
 - Hiring
 - Freshers
-- Back-End
-- Frontend
+- Angular
+- React
 - Developer
-- Designer
+- React-native
+- Javascript
+- Vue JS
 ---
 
 
