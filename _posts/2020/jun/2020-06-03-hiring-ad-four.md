@@ -1,6 +1,6 @@
 ---
 layout: image
-title: We are Hiring Freshers
+title: Jobs for DevOps 
 date: 2020-06-03
 image_type: image/png
 height: 940
@@ -12,9 +12,12 @@ tags:
 - Hiring
 - Freshers
 - Back-End
-- Frontend
 - Developer
-- Designer
+- DevOps
+- Cloud-Computing
+- AWS
+- Azure
+- GCP
 ---
 
 
