@@ -34,9 +34,9 @@ description: |
                             <span style="width: calc(100% - 26px);display: inline-block;" class="no-margin-bt" ><b>DevFactory</b></span>
                         </p>
                         <p style="padding-left: 26px;margin-bottom: 10px;" >6596, Hargobind Marg, Near Sanjeevani Hospital, Ludhiana, 141008.</p>
-                        <p class="no-margin-bt"><i class="mobile alternate icon"></i>+91 (0161) 2230050</p>
-                        <p><a href="mailto:market@abcdevops.com" class="no-margin-bt" style="color: #000;"><i class="envelope outline icon"></i>contact@abcdevops.com</a>  </p>
-                       <iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=izap&t=&z=13&ie=UTF8&iwloc=&output=embed"  style="width: 100%; height: 245px; float:none;" frameborder="0"></iframe>
+                        <p style="padding-left: 26px;" class="no-margin-bt"><i class="mobile alternate icon"></i>+91 (0161) 2230050</p>
+                        <p  style="padding-left: 26px;"><a href="mailto:market@abcdevops.com" class="no-margin-bt" style="color: #000;"><i class="envelope outline icon"></i>contact@abcdevops.com</a>  </p>
+                       <iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=WV5F%2B95%20Ludhiana%2C%20Punjab%2C%20India&t=&z=13&ie=UTF8&iwloc=&output=embed"  style="width: 100%; height: 245px; float:none;" frameborder="0"></iframe>
                     </div> 
                 </div>                
                 <!-- Contact rows -->
