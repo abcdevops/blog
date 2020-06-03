@@ -19,28 +19,32 @@ description: |
             <div class="address-right-cont-us" style="float:left; width:100%;">
                 <div class="contact-row">
                     <img class="ui image logo" src="/images/logo-abc-home.png" alt="abcdevops" style="max-width: 200px; margin-bottom: 10px;">
-                    <div>
+                    <div style="float:left:widthL:100%; margin-bottom:15px">
                         <p class="no-margin-bt" style="border-bottom: 1px solid #878787"> 
                             <span style="width: 20px;display: inline-block;vertical-align: top;"> <i class="map marker alternate icon"></i></span>
                             <span style="width: calc(100% - 26px);display: inline-block;" class="no-margin-bt" ><b>Sales & Marketing</b></span>
                         </p>
-                        <p style="padding-left: 26px;margin-bottom: 10px;" >23679 Calabasas Rd #150, Calabasas, 91302  California, United States.</p>
+                        <p style="padding-left: 26px; margin-bottom: 0px;" >23679 Calabasas Rd #150, Calabasas, 91302  California, United States.</p>
+                        <p style="margin:10px 0 20px 20px;" ><i class="mobile alternate icon"></i>+1 (510) 315-0730</p>
+                          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3301.6006153651456!2d-118.64585688453185!3d34.156558619672516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c29e6954a9d5e1%3A0x40d64cb3bdae3844!2s23679+Calabasas+Rd+%23150%2C+Calabasas%2C+CA+91302%2C+USA!5e0!3m2!1sen!2sin!4v1458558944284" style="width: 100%; height: 245px; float:none;" frameborder="0"></iframe>
                     </div>
-                     <div>
+                     <div style="float:left:widthL:100%; margin-bottom:15px">
                         <p class="no-margin-bt" style="border-bottom: 1px solid #878787"> 
                             <span style="width: 20px;display: inline-block;vertical-align: top;"> <i class="map marker alternate icon"></i></span>
-                            <span style="width: calc(100% - 26px);display: inline-block;" class="no-margin-bt" ><b>DevFactory:</b></span>
+                            <span style="width: calc(100% - 26px);display: inline-block;" class="no-margin-bt" ><b>DevFactory</b></span>
                         </p>
                         <p style="padding-left: 26px;margin-bottom: 10px;" >6596, Hargobind Marg, Near Sanjeevani Hospital, Ludhiana, 141008.</p>
+                        <p class="no-margin-bt"><i class="mobile alternate icon"></i>+91 (0161) 2230050</p>
+                        <p><a href="mailto:market@abcdevops.com" class="no-margin-bt" style="color: #000;"><i class="envelope outline icon"></i>contact@abcdevops.com</a>  </p>
+                       <iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=izap&t=&z=13&ie=UTF8&iwloc=&output=embed"  style="width: 100%; height: 245px; float:none;" frameborder="0"></iframe>
                     </div> 
-                    <a href="mailto:market@abcdevops.com" class="no-margin-bt" style="color: #000;"><i class="envelope outline icon"></i>contact@abcdevops.com</a>        
                 </div>                
                 <!-- Contact rows -->
                 <div class="contact-row">
-                    <h5 style="margin-bottom: 0;">Tarun Jangra 
-                    <a href="https://twitter.com/jangratarun" target="_blank"><i class="ui icon small twitter"></i></a><a href="https://www.linkedin.com/in/tarunjangra" target="_blank"><i class="ui icon small linkedin"></i></a></h5>
-                                    <a href="mailto:tarun.jangra@abcdevops.com" class="no-margin-bt" style="color: #000;"><i class="envelope outline icon"></i>tarun.jangra@abcdevops.com</a>
-                                    <p> <i class="mobile alternate icon"></i>+1 (510) 315-0730</p>
+                    <h5 style="margin-bottom: 0;">Kuldeep Spall
+                    <a href="https://twitter.com/spallkuldeep" target="_blank"><i class="ui icon small twitter"></i></a><a href="https://www.linkedin.com/in/kuldeep-spall-486727a1" target="_blank"><i class="ui icon small linkedin"></i></a></h5>
+                                    <a href="mailto:tarun.jangra@abcdevops.com" class="no-margin-bt" style="color: #000;"><i class="envelope outline icon"></i>kuldeep.spall@abcdevops.com</a>
+                                    <p> <i class="mobile alternate icon"></i>+91-85917-35300</p>
                 </div>
                 <div class="contact-row">
                      <h5 style="margin-bottom: 0;">Rudy Rupak &nbsp;&nbsp;<a href="https://twitter.com/rudyrupak" target="_blank"><i class="ui icon small twitter"></i></a> <a href="https://www.linkedin.com/in/rudyrupak" target="_blank"><i class="ui icon small linkedin"></i></a></h5>
@@ -50,15 +54,12 @@ description: |
                 <div class="contact-row">
                      <h5 style="margin-bottom: 0;">Puneet Sethi &nbsp;&nbsp;<a href="https://twitter.com/puneetsethi25" target="_blank"><i class="ui icon small twitter"></i></a> <a href="https://www.linkedin.com/in/puneet-sethi-4618aaaa/" target="_blank"><i class="ui icon small linkedin"></i></a></h5>
                                     <a href="mailto:rudy.rupak@abcdevops.com" class="no-margin-bt" style="color: #000;"><i class="envelope outline icon"></i>puneet.sethi@abcdevops.com</a>
-                                    <p> <i class="mobile alternate icon"></i>+1 (415) 629-6106</p>
+                                    <p> <i class="mobile alternate icon"></i>+91-84272-26611</p>
                 </div>
-                <div class="contact-row slack-channel">
+                <div class="contact-row slack-channel" style="border:none;">
                      <h4>Our Slack Channel </h4>
                      <a href="https://abcdops.slack.com/" target="_blank"><i class="fa fa-slack"></i> https://abcdops.slack.com/</a>
                 </div>
-                  <div class="sixteen wide computer column sixteen wide mobile columns">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3301.6006153651456!2d-118.64585688453185!3d34.156558619672516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c29e6954a9d5e1%3A0x40d64cb3bdae3844!2s23679+Calabasas+Rd+%23150%2C+Calabasas%2C+CA+91302%2C+USA!5e0!3m2!1sen!2sin!4v1458558944284" style="width: 100%; height: 245px;" frameborder="0"></iframe>
-                        </div>
             </div>
         </div>
     </div>
