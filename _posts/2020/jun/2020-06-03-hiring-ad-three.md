@@ -1,6 +1,6 @@
 ---
 layout: image
-title: We are Hiring Freshers
+title: App development Jobs
 date: 2020-06-03
 image_type: image/png
 height: 940
@@ -11,10 +11,15 @@ description: |
 tags:
 - Hiring
 - Freshers
-- Back-End
+- App-Development
 - Frontend
 - Developer
-- Designer
+- Hybrid-Apps
+- Native-Apps
+- Flutter
+- React-native
+- Fusetools
+- Ionic
 ---
 
 
