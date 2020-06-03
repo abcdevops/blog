@@ -104,86 +104,104 @@
 	<path stroke='black'  d='M46.5,230.0 L46.5,222.5 M46.5,14.1 L46.5,21.6  h0.01'/>	<g transform="translate(46.5,248.0)" style="stroke:none; fill:rgb(0,0,0); font-family:monospace; font-size:8.00pt; text-anchor:middle">
 		<text>Jul/15</text>
 	</g>
-	<path stroke='black'  d='M58.2,230.0 L58.2,226.3 M58.2,14.1 L58.2,17.8 M69.9,230.0 L69.9,226.3 M69.9,14.1 L69.9,17.8 
-		M81.6,230.0 L81.6,226.3 M81.6,14.1 L81.6,17.8 M93.3,230.0 L93.3,226.3 M93.3,14.1 L93.3,17.8 
-		M105.0,230.0 L105.0,226.3 M105.0,14.1 L105.0,17.8  h0.01'/></g>
+	<path stroke='black'  d='M56.1,230.0 L56.1,226.3 M56.1,14.1 L56.1,17.8 M65.6,230.0 L65.6,226.3 M65.6,14.1 L65.6,17.8 
+		M75.2,230.0 L75.2,226.3 M75.2,14.1 L75.2,17.8 M84.8,230.0 L84.8,226.3 M84.8,14.1 L84.8,17.8 
+		M94.4,230.0 L94.4,226.3 M94.4,14.1 L94.4,17.8  h0.01'/></g>
 <g style="fill:none; color:gray; stroke:currentColor; stroke-width:1.00; stroke-linecap:butt; stroke-linejoin:miter">
-	<path stroke='rgb(190, 190, 190)' stroke-dasharray=' 2,4' class="gridline"  d='M117.1,230.0 L117.1,14.1  h0.01'/></g>
+	<path stroke='rgb(190, 190, 190)' stroke-dasharray=' 2,4' class="gridline"  d='M104.2,230.0 L104.2,14.1  h0.01'/></g>
 <g style="fill:none; color:black; stroke:currentColor; stroke-width:1.00; stroke-linecap:butt; stroke-linejoin:miter">
-	<path stroke='black'  d='M117.1,230.0 L117.1,222.5 M117.1,14.1 L117.1,21.6  h0.01'/>	<g transform="translate(117.1,248.0)" style="stroke:none; fill:rgb(0,0,0); font-family:monospace; font-size:8.00pt; text-anchor:middle">
+	<path stroke='black'  d='M104.2,230.0 L104.2,222.5 M104.2,14.1 L104.2,21.6  h0.01'/>	<g transform="translate(104.2,248.0)" style="stroke:none; fill:rgb(0,0,0); font-family:monospace; font-size:8.00pt; text-anchor:middle">
 		<text>Jan/16</text>
 	</g>
-	<path stroke='black'  d='M128.8,230.0 L128.8,226.3 M128.8,14.1 L128.8,17.8 M140.5,230.0 L140.5,226.3 M140.5,14.1 L140.5,17.8 
-		M152.2,230.0 L152.2,226.3 M152.2,14.1 L152.2,17.8 M163.9,230.0 L163.9,226.3 M163.9,14.1 L163.9,17.8 
-		M175.6,230.0 L175.6,226.3 M175.6,14.1 L175.6,17.8  h0.01'/></g>
+	<path stroke='black'  d='M113.8,230.0 L113.8,226.3 M113.8,14.1 L113.8,17.8 M123.4,230.0 L123.4,226.3 M123.4,14.1 L123.4,17.8 
+		M133.0,230.0 L133.0,226.3 M133.0,14.1 L133.0,17.8 M142.5,230.0 L142.5,226.3 M142.5,14.1 L142.5,17.8 
+		M152.1,230.0 L152.1,226.3 M152.1,14.1 L152.1,17.8  h0.01'/></g>
 <g style="fill:none; color:gray; stroke:currentColor; stroke-width:1.00; stroke-linecap:butt; stroke-linejoin:miter">
-	<path stroke='rgb(190, 190, 190)' stroke-dasharray=' 2,4' class="gridline"  d='M187.3,230.0 L187.3,14.1  h0.01'/></g>
+	<path stroke='rgb(190, 190, 190)' stroke-dasharray=' 2,4' class="gridline"  d='M161.7,230.0 L161.7,14.1  h0.01'/></g>
 <g style="fill:none; color:black; stroke:currentColor; stroke-width:1.00; stroke-linecap:butt; stroke-linejoin:miter">
-	<path stroke='black'  d='M187.3,230.0 L187.3,222.5 M187.3,14.1 L187.3,21.6  h0.01'/>	<g transform="translate(187.3,248.0)" style="stroke:none; fill:rgb(0,0,0); font-family:monospace; font-size:8.00pt; text-anchor:middle">
+	<path stroke='black'  d='M161.7,230.0 L161.7,222.5 M161.7,14.1 L161.7,21.6  h0.01'/>	<g transform="translate(161.7,248.0)" style="stroke:none; fill:rgb(0,0,0); font-family:monospace; font-size:8.00pt; text-anchor:middle">
 		<text>Jul/16</text>
 	</g>
-	<path stroke='black'  d='M199.0,230.0 L199.0,226.3 M199.0,14.1 L199.0,17.8 M210.7,230.0 L210.7,226.3 M210.7,14.1 L210.7,17.8 
-		M222.4,230.0 L222.4,226.3 M222.4,14.1 L222.4,17.8 M234.1,230.0 L234.1,226.3 M234.1,14.1 L234.1,17.8 
-		M245.8,230.0 L245.8,226.3 M245.8,14.1 L245.8,17.8  h0.01'/></g>
+	<path stroke='black'  d='M171.2,230.0 L171.2,226.3 M171.2,14.1 L171.2,17.8 M180.8,230.0 L180.8,226.3 M180.8,14.1 L180.8,17.8 
+		M190.4,230.0 L190.4,226.3 M190.4,14.1 L190.4,17.8 M200.0,230.0 L200.0,226.3 M200.0,14.1 L200.0,17.8 
+		M209.5,230.0 L209.5,226.3 M209.5,14.1 L209.5,17.8  h0.01'/></g>
 <g style="fill:none; color:gray; stroke:currentColor; stroke-width:1.00; stroke-linecap:butt; stroke-linejoin:miter">
-	<path stroke='rgb(190, 190, 190)' stroke-dasharray=' 2,4' class="gridline"  d='M257.9,230.0 L257.9,14.1  h0.01'/></g>
+	<path stroke='rgb(190, 190, 190)' stroke-dasharray=' 2,4' class="gridline"  d='M219.4,230.0 L219.4,14.1  h0.01'/></g>
 <g style="fill:none; color:black; stroke:currentColor; stroke-width:1.00; stroke-linecap:butt; stroke-linejoin:miter">
-	<path stroke='black'  d='M257.9,230.0 L257.9,222.5 M257.9,14.1 L257.9,21.6  h0.01'/>	<g transform="translate(257.9,248.0)" style="stroke:none; fill:rgb(0,0,0); font-family:monospace; font-size:8.00pt; text-anchor:middle">
+	<path stroke='black'  d='M219.4,230.0 L219.4,222.5 M219.4,14.1 L219.4,21.6  h0.01'/>	<g transform="translate(219.4,248.0)" style="stroke:none; fill:rgb(0,0,0); font-family:monospace; font-size:8.00pt; text-anchor:middle">
 		<text>Jan/17</text>
 	</g>
-	<path stroke='black'  d='M269.6,230.0 L269.6,226.3 M269.6,14.1 L269.6,17.8 M281.3,230.0 L281.3,226.3 M281.3,14.1 L281.3,17.8 
-		M293.0,230.0 L293.0,226.3 M293.0,14.1 L293.0,17.8 M304.8,230.0 L304.8,226.3 M304.8,14.1 L304.8,17.8 
-		M316.5,230.0 L316.5,226.3 M316.5,14.1 L316.5,17.8  h0.01'/></g>
+	<path stroke='black'  d='M229.0,230.0 L229.0,226.3 M229.0,14.1 L229.0,17.8 M238.6,230.0 L238.6,226.3 M238.6,14.1 L238.6,17.8 
+		M248.1,230.0 L248.1,226.3 M248.1,14.1 L248.1,17.8 M257.7,230.0 L257.7,226.3 M257.7,14.1 L257.7,17.8 
+		M267.3,230.0 L267.3,226.3 M267.3,14.1 L267.3,17.8  h0.01'/></g>
 <g style="fill:none; color:gray; stroke:currentColor; stroke-width:1.00; stroke-linecap:butt; stroke-linejoin:miter">
-	<path stroke='rgb(190, 190, 190)' stroke-dasharray=' 2,4' class="gridline"  d='M327.8,230.0 L327.8,14.1  h0.01'/></g>
+	<path stroke='rgb(190, 190, 190)' stroke-dasharray=' 2,4' class="gridline"  d='M276.5,230.0 L276.5,14.1  h0.01'/></g>
 <g style="fill:none; color:black; stroke:currentColor; stroke-width:1.00; stroke-linecap:butt; stroke-linejoin:miter">
-	<path stroke='black'  d='M327.8,230.0 L327.8,222.5 M327.8,14.1 L327.8,21.6  h0.01'/>	<g transform="translate(327.8,248.0)" style="stroke:none; fill:rgb(0,0,0); font-family:monospace; font-size:8.00pt; text-anchor:middle">
+	<path stroke='black'  d='M276.5,230.0 L276.5,222.5 M276.5,14.1 L276.5,21.6  h0.01'/>	<g transform="translate(276.5,248.0)" style="stroke:none; fill:rgb(0,0,0); font-family:monospace; font-size:8.00pt; text-anchor:middle">
 		<text>Jul/17</text>
 	</g>
-	<path stroke='black'  d='M339.5,230.0 L339.5,226.3 M339.5,14.1 L339.5,17.8 M351.2,230.0 L351.2,226.3 M351.2,14.1 L351.2,17.8 
-		M362.9,230.0 L362.9,226.3 M362.9,14.1 L362.9,17.8 M374.6,230.0 L374.6,226.3 M374.6,14.1 L374.6,17.8 
-		M386.3,230.0 L386.3,226.3 M386.3,14.1 L386.3,17.8  h0.01'/></g>
+	<path stroke='black'  d='M286.1,230.0 L286.1,226.3 M286.1,14.1 L286.1,17.8 M295.7,230.0 L295.7,226.3 M295.7,14.1 L295.7,17.8 
+		M305.3,230.0 L305.3,226.3 M305.3,14.1 L305.3,17.8 M314.8,230.0 L314.8,226.3 M314.8,14.1 L314.8,17.8 
+		M324.4,230.0 L324.4,226.3 M324.4,14.1 L324.4,17.8  h0.01'/></g>
 <g style="fill:none; color:gray; stroke:currentColor; stroke-width:1.00; stroke-linecap:butt; stroke-linejoin:miter">
-	<path stroke='rgb(190, 190, 190)' stroke-dasharray=' 2,4' class="gridline"  d='M398.4,230.0 L398.4,14.1  h0.01'/></g>
+	<path stroke='rgb(190, 190, 190)' stroke-dasharray=' 2,4' class="gridline"  d='M334.3,230.0 L334.3,14.1  h0.01'/></g>
 <g style="fill:none; color:black; stroke:currentColor; stroke-width:1.00; stroke-linecap:butt; stroke-linejoin:miter">
-	<path stroke='black'  d='M398.4,230.0 L398.4,222.5 M398.4,14.1 L398.4,21.6  h0.01'/>	<g transform="translate(398.4,248.0)" style="stroke:none; fill:rgb(0,0,0); font-family:monospace; font-size:8.00pt; text-anchor:middle">
+	<path stroke='black'  d='M334.3,230.0 L334.3,222.5 M334.3,14.1 L334.3,21.6  h0.01'/>	<g transform="translate(334.3,248.0)" style="stroke:none; fill:rgb(0,0,0); font-family:monospace; font-size:8.00pt; text-anchor:middle">
 		<text>Jan/18</text>
 	</g>
-	<path stroke='black'  d='M410.1,230.0 L410.1,226.3 M410.1,14.1 L410.1,17.8 M421.8,230.0 L421.8,226.3 M421.8,14.1 L421.8,17.8 
-		M433.5,230.0 L433.5,226.3 M433.5,14.1 L433.5,17.8 M445.2,230.0 L445.2,226.3 M445.2,14.1 L445.2,17.8 
-		M456.9,230.0 L456.9,226.3 M456.9,14.1 L456.9,17.8  h0.01'/></g>
+	<path stroke='black'  d='M343.9,230.0 L343.9,226.3 M343.9,14.1 L343.9,17.8 M353.4,230.0 L353.4,226.3 M353.4,14.1 L353.4,17.8 
+		M363.0,230.0 L363.0,226.3 M363.0,14.1 L363.0,17.8 M372.6,230.0 L372.6,226.3 M372.6,14.1 L372.6,17.8 
+		M382.2,230.0 L382.2,226.3 M382.2,14.1 L382.2,17.8  h0.01'/></g>
 <g style="fill:none; color:gray; stroke:currentColor; stroke-width:1.00; stroke-linecap:butt; stroke-linejoin:miter">
-	<path stroke='rgb(190, 190, 190)' stroke-dasharray=' 2,4' class="gridline"  d='M467.8,230.0 L467.8,14.1  h0.01'/></g>
+	<path stroke='rgb(190, 190, 190)' stroke-dasharray=' 2,4' class="gridline"  d='M391.1,230.0 L391.1,14.1  h0.01'/></g>
 <g style="fill:none; color:black; stroke:currentColor; stroke-width:1.00; stroke-linecap:butt; stroke-linejoin:miter">
-	<path stroke='black'  d='M467.8,230.0 L467.8,222.5 M467.8,14.1 L467.8,21.6  h0.01'/>	<g transform="translate(467.8,248.0)" style="stroke:none; fill:rgb(0,0,0); font-family:monospace; font-size:8.00pt; text-anchor:middle">
+	<path stroke='black'  d='M391.1,230.0 L391.1,222.5 M391.1,14.1 L391.1,21.6  h0.01'/>	<g transform="translate(391.1,248.0)" style="stroke:none; fill:rgb(0,0,0); font-family:monospace; font-size:8.00pt; text-anchor:middle">
 		<text>Jul/18</text>
 	</g>
-	<path stroke='black'  d='M479.5,230.0 L479.5,226.3 M479.5,14.1 L479.5,17.8 M491.3,230.0 L491.3,226.3 M491.3,14.1 L491.3,17.8 
-		M502.9,230.0 L502.9,226.3 M502.9,14.1 L502.9,17.8 M514.7,230.0 L514.7,226.3 M514.7,14.1 L514.7,17.8 
-		M526.4,230.0 L526.4,226.3 M526.4,14.1 L526.4,17.8  h0.01'/></g>
+	<path stroke='black'  d='M400.7,230.0 L400.7,226.3 M400.7,14.1 L400.7,17.8 M410.2,230.0 L410.2,226.3 M410.2,14.1 L410.2,17.8 
+		M419.8,230.0 L419.8,226.3 M419.8,14.1 L419.8,17.8 M429.4,230.0 L429.4,226.3 M429.4,14.1 L429.4,17.8 
+		M439.0,230.0 L439.0,226.3 M439.0,14.1 L439.0,17.8  h0.01'/></g>
 <g style="fill:none; color:gray; stroke:currentColor; stroke-width:1.00; stroke-linecap:butt; stroke-linejoin:miter">
-	<path stroke='rgb(190, 190, 190)' stroke-dasharray=' 2,4' class="gridline"  d='M538.8,230.0 L538.8,14.1  h0.01'/></g>
+	<path stroke='rgb(190, 190, 190)' stroke-dasharray=' 2,4' class="gridline"  d='M449.2,230.0 L449.2,14.1  h0.01'/></g>
 <g style="fill:none; color:black; stroke:currentColor; stroke-width:1.00; stroke-linecap:butt; stroke-linejoin:miter">
-	<path stroke='black'  d='M538.8,230.0 L538.8,222.5 M538.8,14.1 L538.8,21.6  h0.01'/>	<g transform="translate(538.8,248.0)" style="stroke:none; fill:rgb(0,0,0); font-family:monospace; font-size:8.00pt; text-anchor:middle">
+	<path stroke='black'  d='M449.2,230.0 L449.2,222.5 M449.2,14.1 L449.2,21.6  h0.01'/>	<g transform="translate(449.2,248.0)" style="stroke:none; fill:rgb(0,0,0); font-family:monospace; font-size:8.00pt; text-anchor:middle">
 		<text>Jan/19</text>
 	</g>
-	<path stroke='black'  d='M550.5,230.0 L550.5,226.3 M550.5,14.1 L550.5,17.8 M562.2,230.0 L562.2,226.3 M562.2,14.1 L562.2,17.8 
-		M573.9,230.0 L573.9,226.3 M573.9,14.1 L573.9,17.8 M585.7,230.0 L585.7,226.3 M585.7,14.1 L585.7,17.8 
-		M597.3,230.0 L597.3,226.3 M597.3,14.1 L597.3,17.8  h0.01'/></g>
+	<path stroke='black'  d='M458.7,230.0 L458.7,226.3 M458.7,14.1 L458.7,17.8 M468.3,230.0 L468.3,226.3 M468.3,14.1 L468.3,17.8 
+		M477.9,230.0 L477.9,226.3 M477.9,14.1 L477.9,17.8 M487.5,230.0 L487.5,226.3 M487.5,14.1 L487.5,17.8 
+		M497.0,230.0 L497.0,226.3 M497.0,14.1 L497.0,17.8  h0.01'/></g>
 <g style="fill:none; color:gray; stroke:currentColor; stroke-width:1.00; stroke-linecap:butt; stroke-linejoin:miter">
-	<path stroke='rgb(190, 190, 190)' stroke-dasharray=' 2,4' class="gridline"  d='M608.3,230.0 L608.3,14.1  h0.01'/></g>
+	<path stroke='rgb(190, 190, 190)' stroke-dasharray=' 2,4' class="gridline"  d='M506.0,230.0 L506.0,14.1  h0.01'/></g>
 <g style="fill:none; color:black; stroke:currentColor; stroke-width:1.00; stroke-linecap:butt; stroke-linejoin:miter">
-	<path stroke='black'  d='M608.3,230.0 L608.3,222.5 M608.3,14.1 L608.3,21.6  h0.01'/>	<g transform="translate(608.3,248.0)" style="stroke:none; fill:rgb(0,0,0); font-family:monospace; font-size:8.00pt; text-anchor:middle">
+	<path stroke='black'  d='M506.0,230.0 L506.0,222.5 M506.0,14.1 L506.0,21.6  h0.01'/>	<g transform="translate(506.0,248.0)" style="stroke:none; fill:rgb(0,0,0); font-family:monospace; font-size:8.00pt; text-anchor:middle">
 		<text>Jul/19</text>
 	</g>
-	<path stroke='black'  d='M620.0,230.0 L620.0,226.3 M620.0,14.1 L620.0,17.8 M631.7,230.0 L631.7,226.3 M631.7,14.1 L631.7,17.8 
-		M643.4,230.0 L643.4,226.3 M643.4,14.1 L643.4,17.8 M655.1,230.0 L655.1,226.3 M655.1,14.1 L655.1,17.8 
-		M666.8,230.0 L666.8,226.3 M666.8,14.1 L666.8,17.8  h0.01'/></g>
+	<path stroke='black'  d='M515.5,230.0 L515.5,226.3 M515.5,14.1 L515.5,17.8 M525.1,230.0 L525.1,226.3 M525.1,14.1 L525.1,17.8 
+		M534.7,230.0 L534.7,226.3 M534.7,14.1 L534.7,17.8 M544.3,230.0 L544.3,226.3 M544.3,14.1 L544.3,17.8 
+		M553.8,230.0 L553.8,226.3 M553.8,14.1 L553.8,17.8  h0.01'/></g>
+<g style="fill:none; color:gray; stroke:currentColor; stroke-width:1.00; stroke-linecap:butt; stroke-linejoin:miter">
+	<path stroke='rgb(190, 190, 190)' stroke-dasharray=' 2,4' class="gridline"  d='M563.7,230.0 L563.7,14.1  h0.01'/></g>
+<g style="fill:none; color:black; stroke:currentColor; stroke-width:1.00; stroke-linecap:butt; stroke-linejoin:miter">
+	<path stroke='black'  d='M563.7,230.0 L563.7,222.5 M563.7,14.1 L563.7,21.6  h0.01'/>	<g transform="translate(563.7,248.0)" style="stroke:none; fill:rgb(0,0,0); font-family:monospace; font-size:8.00pt; text-anchor:middle">
+		<text>Jan/20</text>
+	</g>
+	<path stroke='black'  d='M573.3,230.0 L573.3,226.3 M573.3,14.1 L573.3,17.8 M582.9,230.0 L582.9,226.3 M582.9,14.1 L582.9,17.8 
+		M592.4,230.0 L592.4,226.3 M592.4,14.1 L592.4,17.8 M602.0,230.0 L602.0,226.3 M602.0,14.1 L602.0,17.8 
+		M611.6,230.0 L611.6,226.3 M611.6,14.1 L611.6,17.8  h0.01'/></g>
+<g style="fill:none; color:gray; stroke:currentColor; stroke-width:1.00; stroke-linecap:butt; stroke-linejoin:miter">
+	<path stroke='rgb(190, 190, 190)' stroke-dasharray=' 2,4' class="gridline"  d='M621.2,230.0 L621.2,14.1  h0.01'/></g>
+<g style="fill:none; color:black; stroke:currentColor; stroke-width:1.00; stroke-linecap:butt; stroke-linejoin:miter">
+	<path stroke='black'  d='M621.2,230.0 L621.2,222.5 M621.2,14.1 L621.2,21.6  h0.01'/>	<g transform="translate(621.2,248.0)" style="stroke:none; fill:rgb(0,0,0); font-family:monospace; font-size:8.00pt; text-anchor:middle">
+		<text>Jul/20</text>
+	</g>
+	<path stroke='black'  d='M630.7,230.0 L630.7,226.3 M630.7,14.1 L630.7,17.8 M640.3,230.0 L640.3,226.3 M640.3,14.1 L640.3,17.8 
+		M649.9,230.0 L649.9,226.3 M649.9,14.1 L649.9,17.8 M659.4,230.0 L659.4,226.3 M659.4,14.1 L659.4,17.8 
+		M669.0,230.0 L669.0,226.3 M669.0,14.1 L669.0,17.8  h0.01'/></g>
 <g style="fill:none; color:gray; stroke:currentColor; stroke-width:1.00; stroke-linecap:butt; stroke-linejoin:miter">
 	<path stroke='rgb(190, 190, 190)' stroke-dasharray=' 2,4' class="gridline"  d='M678.9,230.0 L678.9,14.1  h0.01'/></g>
 <g style="fill:none; color:black; stroke:currentColor; stroke-width:1.00; stroke-linecap:butt; stroke-linejoin:miter">
 	<path stroke='black'  d='M678.9,230.0 L678.9,222.5 M678.9,14.1 L678.9,21.6  h0.01'/>	<g transform="translate(678.9,248.0)" style="stroke:none; fill:rgb(0,0,0); font-family:monospace; font-size:8.00pt; text-anchor:middle">
-		<text>Jan/20</text>
+		<text>Jan/21</text>
 	</g>
 	<path stroke='black'  d='M46.5,14.1 L46.5,230.0 L678.9,230.0 L678.9,14.1 L46.5,14.1 Z  h0.01'/>	<g transform="translate(14.7,122.1) rotate(270)" style="stroke:none; fill:rgb(0,0,0); font-family:monospace; font-size:10.00pt; text-anchor:middle">
 		<text>words per month</text>
@@ -192,21 +210,24 @@
 	<g id="gnuplot_plot_1" ><title>gnuplot_plot_1</title>
 <g style="fill:none; color:red; stroke:currentColor; stroke-width:1.00; stroke-linecap:butt; stroke-linejoin:miter">
 	<g style = 'stroke:none; shape-rendering:crispEdges'>
-		<polygon fill = 'rgb(129, 179,  65)' points = '112.6,230.0 121.7,230.0 121.7,161.0 112.6,161.0 '/>
+		<polygon fill = 'rgb(129, 179,  65)' points = '100.6,230.0 108.0,230.0 108.0,161.0 100.6,161.0 '/>
 	</g>
-	<path stroke='rgb(129, 179,  65)'  d='M112.6,230.0 L112.6,161.1 L121.6,161.1 L121.6,230.0 L112.6,230.0 Z  h0.01'/>	<g style = 'stroke:none; shape-rendering:crispEdges'>
-		<polygon fill = 'rgb(129, 179,  65)' points = '124.6,230.0 133.3,230.0 133.3,35.7 124.6,35.7 '/>
+	<path stroke='rgb(129, 179,  65)'  d='M100.6,230.0 L100.6,161.1 L107.9,161.1 L107.9,230.0 L100.6,230.0 Z  h0.01'/>	<g style = 'stroke:none; shape-rendering:crispEdges'>
+		<polygon fill = 'rgb(129, 179,  65)' points = '110.3,230.0 117.5,230.0 117.5,35.7 110.3,35.7 '/>
 	</g>
-	<path stroke='rgb(129, 179,  65)'  d='M124.6,230.0 L124.6,35.8 L133.2,35.8 L133.2,230.0 L124.6,230.0 Z  h0.01'/>	<g style = 'stroke:none; shape-rendering:crispEdges'>
-		<polygon fill = 'rgb(129, 179,  65)' points = '136.0,230.0 311.4,230.0 311.4,208.1 136.0,208.1 '/>
+	<path stroke='rgb(129, 179,  65)'  d='M110.3,230.0 L110.3,35.8 L117.4,35.8 L117.4,230.0 L110.3,230.0 Z  h0.01'/>	<g style = 'stroke:none; shape-rendering:crispEdges'>
+		<polygon fill = 'rgb(129, 179,  65)' points = '119.7,230.0 263.2,230.0 263.2,208.1 119.7,208.1 '/>
 	</g>
-	<path stroke='rgb(129, 179,  65)'  d='M136.0,230.0 L136.0,208.2 L311.3,208.2 L311.3,230.0 L136.0,230.0 Z  h0.01'/>	<g style = 'stroke:none; shape-rendering:crispEdges'>
-		<polygon fill = 'rgb(129, 179,  65)' points = '425.4,230.0 601.0,230.0 601.0,228.3 425.4,228.3 '/>
+	<path stroke='rgb(129, 179,  65)'  d='M119.7,230.0 L119.7,208.2 L263.1,208.2 L263.1,230.0 L119.7,230.0 Z  h0.01'/>	<g style = 'stroke:none; shape-rendering:crispEdges'>
+		<polygon fill = 'rgb(129, 179,  65)' points = '356.4,230.0 500.1,230.0 500.1,228.3 356.4,228.3 '/>
 	</g>
-	<path stroke='rgb(129, 179,  65)'  d='M425.4,230.0 L425.4,228.4 L600.9,228.4 L600.9,230.0 L425.4,230.0 Z  h0.01'/>	<g style = 'stroke:none; shape-rendering:crispEdges'>
-		<polygon fill = 'rgb(129, 179,  65)' points = '603.8,230.0 612.6,230.0 612.6,183.9 603.8,183.9 '/>
+	<path stroke='rgb(129, 179,  65)'  d='M356.4,230.0 L356.4,228.4 L500.0,228.4 L500.0,230.0 L356.4,230.0 Z  h0.01'/>	<g style = 'stroke:none; shape-rendering:crispEdges'>
+		<polygon fill = 'rgb(129, 179,  65)' points = '502.3,230.0 545.6,230.0 545.6,183.9 502.3,183.9 '/>
 	</g>
-	<path stroke='rgb(129, 179,  65)'  d='M603.8,230.0 L603.8,184.0 L612.5,184.0 L612.5,230.0 L603.8,230.0 Z  h0.01'/></g>
+	<path stroke='rgb(129, 179,  65)'  d='M502.3,230.0 L502.3,184.0 L545.5,184.0 L545.5,230.0 L502.3,230.0 Z  h0.01'/>	<g style = 'stroke:none; shape-rendering:crispEdges'>
+		<polygon fill = 'rgb(129, 179,  65)' points = '571.9,230.0 651.2,230.0 651.2,229.4 571.9,229.4 '/>
+	</g>
+	<path stroke='rgb(129, 179,  65)'  d='M571.9,230.0 L571.9,229.5 L651.1,229.5 L651.1,230.0 L571.9,230.0 Z  h0.01'/></g>
 	</g>
 <g style="fill:none; color:black; stroke:currentColor; stroke-width:1.00; stroke-linecap:butt; stroke-linejoin:miter">
 	<path stroke='black'  d='M46.5,14.1 L46.5,230.0 L678.9,230.0 L678.9,14.1 L46.5,14.1 Z  h0.01'/></g>
