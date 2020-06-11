@@ -19,6 +19,9 @@ main > header .ui.menu .item span{
     animation-name: min-menu;
     animation-duration: 1s;
 }
+.mt-20{
+ margin-top: 20px;
+}
 .formsec iframe {margin-top: -11px;}
 .form-bg{
     position: relative;
